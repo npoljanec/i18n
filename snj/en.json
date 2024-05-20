@@ -109,5 +109,6 @@
       "markAllAsRead": "Mark all as read",
       "failedToLoad": "Failed to load notifications",
       "showAll": "Show all notifications"
-    }
+    },
+    "testKey": "testtest"
 }
