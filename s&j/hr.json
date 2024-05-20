@@ -1,0 +1,101 @@
+{
+  "general": {
+    "search": "Pretraži",
+    "execute": "Pokreni",
+    "back": "natrag",
+    "delete": "Obriši",
+    "cancel": "Odustani",
+    "confirm": "Potvrdi",
+    "settings": "Postavke",
+    "actions": "Akcije",
+    "processName": "Ime procesa",
+    "createdBy": "Kreirao korisnik",
+    "modifiedBy": "Izmijenio korisnik",
+    "createdDate": "Datum kreiranja",
+    "modifiedDate": "Datum izmjene",
+    "status": "Status",
+    "nextStep": "Sljedeći korak",
+    "goBack": "Idi nazad",
+    "previousStep": "Prethodni step",
+    "finish": "Završi",
+    "skipStep": "Preskoči step",
+    "done": "Gotovo",
+    "ingredient": "Sastojak",
+    "description": "Opis"
+  },
+  "navBar": {
+    "recipes": "Recepti",
+    "processes": "Procesi",
+    "executions": "Egzekucije",
+    "humanInTheLoop": "Čovjek u petlji",
+    "users": "Korisnici",
+    "notifications": "Notifikacije"
+  },
+  "processes": {
+    "actions": {
+      "processWizard": "Čarobnjak za process",
+      "graphEditor": "uređivač grafa"
+    },
+    "createButton": "Kreiraj novi proces",
+    "deleteDescription": "Potvrdite brisanje {{processName}} procesa",
+    "executeSuccess": "Dokumenti su uspješno preneseni i egzekucija je započela.",
+    "goToExecution": "Odi na detalje egzekucije",
+    "tabs": {
+      "scheduledProcesses": "Zakazani procesi",
+      "drafts": "Nacrti"
+    },
+    "playModal": {
+      "upload": "Prenesi i pokreni",
+      "uploadDescription": "Prenesite svoje dokumente i počnite ih obrađivati. Po završetku obrade dokumenata bit ćete obaviješteni.",
+      "continuous": "Kontinuirana egzekucija",
+      "continuousDescription": "Pokrenite proces koji čeka nove dokumente prije nego što automatski pokrene daljnju obradu. Ovaj proces zahtijeva ručno zaustavljanje. Ovisno o konfiguraciji, možete odabrati obradu isključivo novih dokumenata ili svih dokumenata koji su trenutno dostupni sakupljačima. Po završetku obrade za svaki dokument bit ćete obaviješteni.",
+      "executeDescription": "Počni s obradom dokumenata od sakupljača. Ovaj način će prikupiti sve dokumente iz definiranih sakupljača. Uskladit će se s opcijom rasporeda ako je konfigurirana za trenutni proces. Nakon što je obrada svih dokumenata završena, proces će biti obavljen. Bit ćete obaviješteni kada obrada svih dokumenata bude gotova."
+    }
+  },
+  "accountDropdown": {
+    "settings": "Postavke računa",
+    "logout": "Odjava"
+  },
+  "notifications": {
+    "seeAll": "Vidi sve notifikacije",
+    "allRead": "Označi sve kao pročitano",
+    "error": "Dogodila se pogreška pri dohvatu notifikacija"
+  },
+  "confirmationModal": {
+    "title": "Confirm action",
+    "description": "Please confirm your last action."
+  },
+  "table": {
+    "noRows": "Nema redaka",
+    "rowsPerPage": "Redaka po stranici",
+    "page": "Stranica: ",
+    "of": "od",
+    "first": "Idi na prvu stranicu",
+    "last": "Idi na zadnju stranicu",
+    "next": "Idi na sljedeću stranicu",
+    "previous": "Idi na prethodnu stranicu",
+    "sort": "Sortiraj",
+    "moreThan": "više od"
+  },
+  "generalInformation": {
+    "title": "Opće informacije",
+    "fields": {
+      "name": "Ime",
+      "nameValidation": "Ime je potrebno",
+      "tags": "Polja"
+    }
+  },
+  "ingredients": {
+    "title": "Sastojci",
+    "add": "Dodaj sastojak",
+    "flowEditor": "Uređivač toka",
+    "defineProcess": "Definiraj proces",
+    "columns": {
+      "type": "Tip"
+    },
+    "modal": {
+      "title": "Obriši {{name}}",
+      "description": "Jeste li sigurni da želite obrisati {{name}} sastojak?"
+    }
+  }
+}

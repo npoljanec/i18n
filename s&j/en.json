@@ -1,0 +1,794 @@
+{
+  "general": {
+    "search": "Search",
+    "execute": "Execute",
+    "back": "Back",
+    "goBack": "Go back",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "exit": "Exit",
+    "saveChanges": "Save changes",
+    "settings": "Settings",
+    "resolve": "Resolve",
+    "kill": "Kill",
+    "stop": "Stop",
+    "roles": "Roles",
+    "actions": "Actions",
+    "timezone": "Timezone",
+    "processName": "Process name",
+    "processType": "Process type",
+    "createdBy": "Created by",
+    "modifiedBy": "Modified by",
+    "executedBy": "Executed by",
+    "createdDate": "Created date",
+    "modifiedDate": "Modified date",
+    "tags": "Tags",
+    "status": "Status",
+    "nextStep": "Next step",
+    "previousStep": "Previous step",
+    "finish": "Finish",
+    "skipStep": "Skip step",
+    "done": "Done",
+    "ingredient": "Ingredient",
+    "startedDate": "Started date",
+    "completedDate": "Completed date",
+    "documentName": "Document name",
+    "ingredientsExtracted": "Ingredients extracted",
+    "executionDuration": "Execution duration",
+    "id": "Id",
+    "numberOfDocuments": "Number of documents",
+    "showProcess": "Show process",
+    "name": "Name",
+    "lastname": "Last name",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "repeatedPassword": "Repeated password",
+    "recipeName": "Recipe name",
+    "description": "Description",
+    "tag": "Tag",
+    "graphView": "Graph view",
+    "recipeGraphView": "Recipe graph view",
+    "ingredientGraphView": "Ingredient graph view",
+    "ingredients": "Ingredients",
+    "flowEditor": "Flow Editor",
+    "submit": "Submit",
+    "save": "Save",
+    "all": "All",
+    "warning": "Warning",
+    "document": "Document",
+    "add": "Add",
+    "results": "Result(s)",
+    "integration": "Integration",
+    "requiredName": "Name is required",
+    "resetOption": "Reset option",
+    "chooseOptions": "Choose options",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "importAttributes": "Import attributes",
+    "continue": "Continue",
+    "tableName": "Table name",
+    "unnamed": "Unnamed",
+    "inputText": "Input text",
+    "create": "Create",
+    "preview": "Preview",
+    "method": "Method",
+    "edit": "Edit",
+    "run": "Run",
+    "required": "Required",
+    "addSubitem": "Add subitem",
+    "editItem": "Edit item",
+    "deleteItem": "Delete item",
+    "duplicateItem": "Duplicate item",
+    "showText": "Show text",
+    "noData": "No data",
+    "noIngredients": "No ingredients",
+    "incorrectConfiguration": "Incorrect configuration",
+    "configuration": "Configuration",
+    "configure": "Configure",
+    "format": "Format",
+    "datasetDetails": "Dataset details",
+    "value": "Value",
+    "dataset": "Dataset",
+    "rdbms": "RDBMS",
+    "rest": "REST",
+    "lookup": "Lookup",
+    "type": "Type",
+    "sortBy": "Sort by",
+    "order": "Order",
+    "schema": "Schema",
+    "connection": "Connection",
+    "table": "Table",
+    "collector": "Collector",
+    "showPreview": "Show preview",
+    "filters": "Filters",
+    "advanced": "Advanced",
+    "custom": "Custom",
+    "last": "Last",
+    "addNew": "Add new",
+    "start": "Start",
+    "end": "End",
+    "home": "Home",
+    "documentation": "Documentation",
+    "the": "the",
+    "detailsPage": "Details page",
+    "notFound": "Not found",
+    "generalInformation": "General information",
+    "deleteSpecificItem": "Delete {{name}}",
+    "deleteSpecificConfirmation": "Are you sure you want to delete {{name}}?",
+    "input": "Input",
+    "clear": "Clear",
+    "editBasicInformation": "Edit basic information",
+    "attributes": "Attributes",
+    "optional": "Optional",
+    "details": "Details",
+    "main": "Main",
+    "notUniqueName": "Name is not unique",
+    "noOptions": "Empty list",
+    "emptyData": "Empty Data",
+    "validate": "Validate",
+    "example": "Example",
+    "output": "Output",
+    "values": "Values",
+    "yes": "Yes",
+    "no": "No",
+    "mappingTable": "Mapping table",
+    "schemaName": "Schema name",
+    "regionalSetting": "Regional setting",
+    "pleaseSelect": "Please select...",
+    "other": "Other",
+    "active": "Active",
+    "licence": "Licence",
+    "read": "Read",
+    "write": "Write",
+    "genericError": "Something went wrong, please try again later!",
+    "next": "Next",
+    "skip": "Skip"
+  },
+  "navBar": {
+    "recipes": "Recipes",
+    "processes": "Processes",
+    "executions": "Executions",
+    "humanInTheLoop": "Human in the loop",
+    "users": "Users",
+    "userManagement": "User Management",
+    "notifications": "Notifications",
+    "datasetsLibrary": "Datasets library",
+    "connections": "Connections",
+    "regionalSettings": "Regional settings"
+  },
+  "processes": {
+    "actions": {
+      "processWizard": "Process wizard",
+      "graphEditor": "Graph editor"
+    },
+    "createButton": "Create new process",
+    "deleteDescription": "Please confirm that you want to delete {{processName}} process.",
+    "executeSuccess": "Documents successfully uploaded and execution started.",
+    "goToExecution": "Go to execution details",
+    "deleteTooltip": "Delete process",
+    "editTooltip": "Edit process",
+    "tabs": {
+      "scheduledProcesses": "Scheduled processes",
+      "drafts": "Drafts"
+    },
+    "playModal": {
+      "upload": "Upload and execute",
+      "uploadDescription": "Upload your documents and start processing it. You will be notified when processing of documents is finished.",
+      "continuous": "Continuous execution",
+      "continuousDescription": "Initiate a process that awaits new documents before automatically triggering further processing. This process requires manually stopping. Depending on the configuration, you can choose to process either exclusively new documents or all documents currently accessible to collectors. Notifications will be provided upon completion of processing for each document.",
+      "executeDescription": "Start processing documents from collectors. This mode will collect all documents from defined collectors. It will align with schedule option if it is configured for current process. After processing all of them is finished, process will be done. You will be notified when processing of all documents are finished."
+    },
+    "processDetails": {
+      "ongoingDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when",
+      "historyDescription": "It is a long established fact that a reader will be distracted by the readable content of a page",
+      "hitlDescription": "It is a long established fact that a reader will be distracted by the readable content of a",
+      "details": "Process details"
+    }
+  },
+  "humanInTheLoop": {
+    "killDescription": "Are you sure you want to kill {{processName}} execution?",
+    "killTitle": "Kill {{processName}} execution?"
+  },
+  "users": {
+    "management": "User management",
+    "addNewUser": "Add new user",
+    "deleteUserTooltip": "Delete user",
+    "editUserTooltip": "Edit user",
+    "reactivateUserTooltip": "Reactivate user",
+    "addNewRole": "Add new role",
+    "deleteRoleTooltip": "Delete role",
+    "editRoleTooltip": "Edit role",
+    "roleDetails": "Role details"
+  },
+  "user": {
+    "create": "Create user",
+    "enable": "Enable user",
+    "disable": "Disable user",
+    "information": "User information",
+    "settings": "User settings",
+    "dateFormat": "Date format",
+    "timeFormat": "Time format",
+    "numberFormat": "Number format"
+  },
+  "recipes": {
+    "createButton": "Create new recipe",
+    "deleteDescription": "Please confirm that you want to delete the recipe.",
+    "deleteButton": "Delete recipe",
+    "generalInfoCancel": "Are you sure you want to go back? All changes will be lost. ",
+    "saveReusableTooltip": "Save reusable recipe for ingredient",
+    "configureButton": "Configure recipe",
+    "configIngredientButton": "Configure ingredient",
+    "deleteIngredient": "Delete ingredient",
+    "chooseRecipe": "Choose recipe",
+    "dataPreparationType": "Data preparation type",
+    "editRecipe": "Edit recipe",
+    "ingredientsToCollect": "Ingredients to collect",
+    "mandatoryIngredients": "Mandatory ingredients",
+    "optionalIngredients": "Optional ingredients",
+    "filename": "Filename"
+  },
+  "accountDropdown": {
+    "settings": "Account settings",
+    "logout": "Logout"
+  },
+  "notifications": {
+    "seeAll": "See all notifications",
+    "allNotifications": "All notifications",
+    "allRead": "Mark all as read",
+    "error": "Something went wrong when grabbing notifications",
+    "noNew": "There are no new notifications",
+    "new": "New notifications",
+    "empty": "Currently there are no notifications"
+  },
+  "confirmationModal": {
+    "title": "Confirm action",
+    "description": "Please confirm your last action.",
+    "deleteTitle": "Delete {{name}}",
+    "deleteDescription": "Are you sure you want to delete {{name}}?"
+  },
+  "table": {
+    "noRows": "No rows",
+    "rowsPerPage": "Rows per page",
+    "page": "Page: ",
+    "of": "of",
+    "first": "Go to first page",
+    "last": "Go to last page",
+    "next": "Go to next page",
+    "previous": "Go to previous page",
+    "sort": "Sort",
+    "moreThan": "more than"
+  },
+  "generalInformation": {
+    "uniqueTooltip": "Process name is unique and can be used",
+    "errors": {
+      "nameNotUnique": "Name already exists"
+    }
+  },
+  "ingredients": {
+    "add": "Add ingredient",
+    "edit": "Edit ingredient",
+    "confirmChanges": "Confirm changes",
+    "uniqueName": "Name must be unique",
+    "flowEditor": "Flow editor",
+    "defineProcess": "Define process",
+    "name": "Ingredient name",
+    "dataType": "Data type",
+    "modal": {
+      "description": "Are you sure you want to delete {{name}} ingredient?"
+    },
+    "addIngredientModal": {
+      "requiredDataType": "Data type is required"
+    },
+    "createIngredientModal": {
+      "reusableRecipe": "Reusable Recipe for Ingredient",
+      "reusableRecipeDescription": "This option allows you to choose from a library of predefined recipes, providing the flexibility to adjust and configure each method in the flow as needed, ensuring optimal data extraction efficiency and accuracy. This approach lets you build upon proven steps for recognition, extraction, and transformation, offering a balance between customization and leveraging tried-and-tested techniques.",
+      "createOwnDescription": "Forge a completely new ingredient recipe by assembling a bespoke chain of methods for recognizing, extracting, and transforming data. This option empowers you to innovate and create a unique workflow, perfectly aligned with your specific data extraction goals and document characteristics.",
+      "existingSteps": "Add Existing Steps",
+      "existingStepsDescription": "Initiate your ingredient recipe by selecting a method already integrated into the document's overarching recipe. This approach allows you to build upon a foundation of established methods, choosing from any existing step—be it recognition, extraction, or transformation. By leveraging these pre-existing components, you streamline the recipe creation process, ensuring efficiency and consistency in data processing."
+    }
+  },
+  "recipeWizard": {
+    "needsValidConfig": "Needs valid config",
+    "outputNeedsToBeDefined": "Output needs to be defined",
+    "majorDecisions": {
+      "transformation": "Main transformation",
+      "recognition": "Main recognition",
+      "extraction": "Main extraction"
+    },
+    "majorSteps": {
+      "transformation": "Transformation",
+      "recognition": "Recognition",
+      "extraction": "Extraction"
+    },
+    "majorDecisionModal": {
+      "recognitionDecision": "Recognition decision",
+      "extractionDecision": "Extraction decision",
+      "createNew": "Create new with reusable {{majorDecision}}",
+      "createOwn": "Create your own (New)",
+      "addDecision": "Add decision",
+      "addDecisionDescription": "Add a strategic step designed to assess and determine the best output from various parallel steps, with configurable parameters allowing you to tailor the evaluation and selection process to your specific requirements.",
+      "recognition": {
+        "createNewDescription": "This option allows you to construct a new recognition method by leveraging pre-existing, proven components, or 'reusable ingredients'. By selecting from a library of established parameters and recognition patterns, you can assemble a method that is both reliable and tailored to your specific document analysis needs, without starting entirely from scratch.",
+        "createOwnDescription": "This option integrates a new method into the action flow, meticulously tailored for determining the precise locations of information within a document. It involves setting up detailed parameters and criteria, empowering the AI to reliably identify and retrieve the necessary data from the document."
+      },
+      "extraction": {
+        "createNewDescription": "Choose this option to build a new extraction method using established, effective elements from previous workflows. You can combine various pre-defined extraction rules and techniques, which have been validated in past applications, to create a method that efficiently targets and extracts data from identified document sections, leveraging the strength of existing solutions.",
+        "createOwnDescription": "This option integrates a new method into the action flow for extracting data from locations in a document identified by previous recognition steps or already extracted data. By configuring specific extraction parameters, the AI or designated functions efficiently retrieve essential data from these identified areas."
+      },
+      "transformation": {
+        "createNewDescription": "Option for this route when you want to develop a new data transformation method using time-tested and effective components. This approach is perfect for those looking to transform extracted data into a usable format with proven techniques.",
+        "createOwnDescription": "This option integrates a new method into the action flow, specifically designed for transforming extracted information into a format that seamlessly integrates with your system. It enables you to skillfully manipulate and enrich the extracted data, ensuring it is optimally structured for your specific usage or consumption needs."
+      }
+    },
+    "defineOutput": "Define output",
+    "addRecognition": "Add recognition",
+    "editRecognition": "Edit recognition",
+    "noDocumentWarning": "There is no active document in the recipe",
+    "addMethodModal": {
+      "selectMethod": "Select method",
+      "title": "Document Steps",
+      "createNew": "Create New with Reusable Ingredients",
+      "createNewDescription": "Incorporate an existing, proven configuration into your recipe, streamlining the process of data processing by leveraging pre-defined step types for processing data. ",
+      "createOwnDescription": "Add a custom step to your recipe, allowing you to choose a step type and configure its parameters for processing data according to your specific needs.",
+      "addStep": "Add Step",
+      "editStep": "Edit Step",
+      "noDocument": "There is no active document",
+      "requiredMethod": "Method is required"
+    }
+  },
+  "decisionConfig": {
+    "tabs": {
+      "decisionProperties": "Decision properties",
+      "conflictResolution": "Conflict resolution",
+      "expressionBased": "Expression based"
+    },
+    "included": "Included",
+    "cancelDescription": "Are you sure you want to exit decision creator, unsaved data will be lost."
+  },
+  "documentExample": {
+    "uploadDocuments": "Upload documents",
+    "acceptedDocuments": "Accepted documents",
+    "uploadedDocuments": "Uploaded documents",
+    "uploading": "Uploading...",
+    "ocr": "Start Smart Scan",
+    "availableDocuments": "Show available documents",
+    "goToPreview": "Document Preview",
+    "uploadMore": "Upload more Documents",
+    "uploaded": "Document is uploaded and ready for Smart Scan",
+    "ocrPending": "Smart Scan in progress",
+    "ocrSuccess": "Smart Scan successful",
+    "ocrError": "There was an error while Smart Scanning",
+    "accepted": "Document is accepted and ready for upload",
+    "uploadPending": "Document is uploading",
+    "uploadError": "There was an error while uploading document",
+    "showResponse": "Preview in Document",
+    "errorFetching": "There was an error with fetching at least one document, please try again later",
+    "deleteAccepted": "Remove document from upload",
+    "delete": "Delete document",
+    "editName": "Edit document name",
+    "rejectedFiles": "Some files were rejected"
+  },
+  "uploadFiles": {
+    "removeAll": "Remove All",
+    "replaceFiles": "Replace files",
+    "uploadFiles": "Drag 'n' drop some files here, or click to select files",
+    "replaceFile": "Replace file",
+    "uploadFile": "Drag 'n' drop a file here, or click to select a file",
+    "acceptedSingleFile": "1 file accepted",
+    "acceptedMultipleFiles": "{{count}} files accepted",
+    "onlyOneFile": "Provide only one file",
+    "rejectedSingleFile": "1 file rejected",
+    "rejectedMultipleFiles": "{{count}} files rejected"
+  },
+  "resolveEditor": {
+    "view": "View:",
+    "back": "Back to list",
+    "filter": "Filter attributes:",
+    "values": "Values",
+    "checkTooltip": "Please check if this value is correct or enter manually if it is empty or NULL",
+    "preview": "preview",
+    "fullScreenTooltip": "Show document in full-screen",
+    "exitFullScreenTooltip": "Exit full-screen mode",
+    "page": "Page ",
+    "hideAttribute": "Hide attribute value in document preview",
+    "showAttribute": "Show attribute value in document preview",
+    "unavailableAttribute": "Showing attribute value in document preview is unavailable ",
+    "wrongAttribute": "Attribute can not be saved or resolved due to an invalid value"
+  },
+  "genericSearchModal": {
+    "filters": { "name": "Reusable ingredient name", "methods": "Methods" },
+    "title": {
+      "ingredient": "Create new with reusable ingredient",
+      "step": "Create new with reusable step",
+      "recognition": "Create new with reusable recognition",
+      "extraction": "Create new with reusable extraction",
+      "transformation": "Create new with reusable transformation",
+      "existing": "Add existing step(s)"
+    }
+  },
+  "multiInput": {
+    "clearAll": "Clear all"
+  },
+  "login": {
+    "topText": "Welcome to Hawk-a-doc, where artificial intelligence-driven document analysis converges with user-centric design; an avantgarde platform that not only transforms complex document data into actionable insights through AI-powered recognition, extraction, and transformation tools but also standardizes this data for effortless integration into your company’s systems, enhancing both utility and user experience.",
+    "wrongCredentials": "Wrong username or password",
+    "login": "Log in",
+    "registerText": "Please proceed to fill out the account creation request form, enabling us to set up your new account and provide you with tailored login credentials for full access to Hawk-a-doc.",
+    "forgotPassword": "Forgot password?",
+    "register": "You don't have username and password?",
+    "passwordRec": {
+      "description": "If you've forgotten your password, simply enter your registered username here. We'll send you instructions on how to reset your password and regain access to your Hawk-a-doc account.",
+      "title": "Password recovery"
+    },
+    "uploadLicence": {
+      "description": "Before commencing your journey with Hawk-a-doc, please ensure to upload your license, a crucial step that activates your account and unlocks the full suite of our application's capabilities.",
+      "backToLogin": "I have username and password",
+      "backDescription": "If you already possess your Hawk-a-doc login credentials, please click here to proceed directly to the sign-in page.",
+      "upload": "Upload your Licence",
+      "replace": "Replace Licence"
+    }
+  },
+  "integrations": {
+    "modal": {
+      "cancelDescription": "Are you sure you want to exit integration creator, unsaved data will be deleted."
+    },
+    "newTarget": "New target",
+    "selectIntegrationType": "Select an integration type",
+    "saveIntegration": "Save integration",
+    "importFromConnection": "Import from connection",
+    "selection": {
+      "integrationName": "Integration name",
+      "integrationDescription": "Integration description",
+      "integrationType": "Integration type",
+      "createNewConnection": "+ Create new Connection"
+    },
+    "form": {
+      "labels": {
+        "createTable": "Create table if not exist",
+        "truncateTable": "Truncate table",
+        "batchLoad": "Commit size",
+        "fileName": "File name",
+        "fileType": "File type",
+        "writerType": "Write type",
+        "header": "Header",
+        "exportAllDocuments": "Export all document",
+        "executionIncluded": "Is executionId included in name"
+      },
+      "errors": {
+        "writerType": "Write type is required",
+        "schemaName": "Schema name is required",
+        "fileType": "File type is required",
+        "fileName": "File name is required",
+        "locations": "Locations are required",
+        "batchLoad": "Commit size is required"
+      }
+    }
+  },
+  "stepEditor": {
+    "textPreview": {
+      "previewInput": "Preview input data",
+      "input": "Input data",
+      "inputFullScreen": "Preview input data in full-screen",
+      "previewOutput": "Preview output data",
+      "output": "Output data",
+      "outputFullScreen": "Preview output data in full-screen",
+      "typesNotMatchingInput": "Input data type does not match with expected input type so there may be some unexpected method behavior",
+      "typesNotMatchingOutput": "Output data type does not match with expected output type so there may be some unexpected method behavior",
+      "typesInfo": "More information on types",
+      "typesInputTitle": "Input types information",
+      "typesOutputTitle": "Output types information",
+      "receivedType": "Received data type",
+      "expectedTypes": "Expected data types",
+      "noTypeReceived": "No data type received",
+      "typesMatch": "The received type matches with expected types",
+      "typesDoNotMatch": "The received type does not match with any expected type",
+      "defaultType": "Default type"
+    },
+    "cancelDescription": "Are you sure you want to cancel method configuration? All unsaved changes will be lost.",
+    "confirmCancel": "Exit configurator",
+    "saveReusable": "Save as reusable",
+    "saveReusableTooltip": "Save this step as reusable",
+    "methods": {
+      "questions": "Questions & answers",
+      "paragraphTransform": "Paragraph Recognition Transformers",
+      "paragraph": "Paragraph Recognition"
+    }
+  },
+  "dynamicForms": {
+    "testConnection": "Test connection",
+    "requiredConnection": "Valid connection is required to continue"
+  },
+  "notFound": {
+    "error": "Oops! Looks like you followed a bad link.",
+    "back": "Back home"
+  },
+  "datasetPreview": {
+    "searchValues": "Search Values",
+    "mapValue": "Map Value"
+  },
+  "datasetsLib": {
+    "tabs": {
+      "mapping": "Mapping",
+      "dictionary": "Dictionary"
+    },
+    "createButton": "Create new dataset",
+    "inUsage": "In use",
+    "deleteDescription": "Please confirm that you want to delete {{datasetName}} dataset.",
+    "editDataset": "Edit dataset",
+    "deleteDataset": "Delete dataset"
+  },
+  "datasetDetails": {
+    "tabs": {
+      "preview": "Dataset preview"
+    },
+    "datasetType": "Dataset type",
+    "headerIncluded": "Header included",
+    "headerHelper": "Is the first line in your text file a header?",
+    "delimiter": "Delimiter",
+    "delimiterHelper": "How are the values in your text file separated?",
+    "comma": "Comma",
+    "semicolon": "Semicolon",
+    "tab": "Tab",
+    "space": "Space",
+    "quotes": "Quotes",
+    "quotesHelper": "Are the values in your text file surrounded by quotes?",
+    "singleQuotes": "Single quotes",
+    "doubleQuotes": "Double quotes",
+    "noQuotes": "No quotes"
+  },
+  "lookupForm": {
+    "emptyTable": "Table is empty, requires at least one item to be able to preview"
+  },
+  "collectors": {
+    "alert": "You need at least 1 active collector or manual upload to continue",
+    "edit": "Edit collector",
+    "delete": "Delete collector",
+    "add": "Add collector",
+    "form": {
+      "filenameLabel": "Filename pattern filter",
+      "createdAfter": "Created after",
+      "minutesAgo": "Minutes ago",
+      "hoursAgo": "Hours ago",
+      "daysAgo": "Days ago",
+      "weeksAgo": "Weeks ago",
+      "serverType": "Server type",
+      "internalServer": "Internal server",
+      "ftpServer": "FTP/sFTP server"
+    },
+    "manualUpload": "Manual upload",
+    "deleteCollector": "Delete collector",
+    "deleteDescription": "Are you sure you want to delete this collector?",
+    "editCollector": "Edit collector",
+    "addCollector": "Add new collector",
+    "collector": "Collector",
+    "warning": "You need at least 1 active collector or manual upload to continue"
+  },
+  "forms": {
+    "locations": "Locations",
+    "recursion": "Recursion",
+    "onlyNewDocs": "Only new documents",
+    "host": "Host",
+    "port": "Port",
+    "usernameReq": "Username is required",
+    "passwordReq": "Password is required",
+    "portReq": "Port is required",
+    "portPositive": "Port must be positive number",
+    "portMax": "Port must be less than 65536",
+    "hostReq": "Host is required",
+    "numberInt": "Number has to be an integer",
+    "serverReq": "Server type is required",
+    "oneLocationReq": "At least one location is required"
+  },
+  "frame": {
+    "getCode": "Get the code"
+  },
+  "scheduler": {
+    "schedule": "Schedule",
+    "repeatSchedule": "Repeat schedule",
+    "specificTime": "Specific time and date",
+    "every": "Every",
+    "specific": "Specific",
+    "startingAt": "(s) starting at",
+    "between": "Between",
+    "and": "and",
+    "lastDay": "On the last day of the month",
+    "lastWeekday": "On the last weekday of the month",
+    "daysBeforeEnd": "day(s) before the end of the month",
+    "nearestWeekday": "Nearest weekday (Monday to Friday) to the month day",
+    "ofMonth": "of the month",
+    "onThe": "On the",
+    "onLast": "On the last"
+  },
+  "footer": {
+    "description": "When you visit or interact with our sites, services or tools, we or our authorized service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for     marketing purposes."
+  },
+  "documentsTable": {
+    "title": "Resolve all documents",
+    "confirmDescription": "This will mark all of the unchecked documents as resolved, i.e. all documents will be marked as if checked manually and approved.",
+    "list": "List of documents",
+    "autoRefresh": "Auto refresh",
+    "exportAll": "Export all documents",
+    "resolveAll": "Resolve all"
+  },
+  "executionDetails": {
+    "execution": "Execution",
+    "confirmationText": "Please confirm that you want to",
+    "createDate": "Create date",
+    "endDate": "End date",
+    "executionStatus": "Execution status",
+    "theExecution": "the {{execution}} execution",
+    "deleteTooltip": "Delete execution"
+  },
+  "homePage": {
+    "editTooltip": "Edit this screen (WIP)"
+  },
+  "lookup": {
+    "inputType": "Input type",
+    "inputDataType": "Input data type",
+    "searchType": "Search type",
+    "validationError": "Lookup data is not filled",
+    "searchAttribute": "Search attribute",
+    "searchAttributeType": "Search attribute type",
+    "searchTableRequired": "Lookup requires at least one condition record and all search attributes filled"
+  },
+  "connections": {
+    "createNew": "Create new connection",
+    "subtype": "Connection subtype"
+  },
+  "atomicGraph": {
+    "expand": "Expand all",
+    "collapse": "Collapse all",
+    "save": "Save changes",
+    "lastSaved": "Reset to last saved",
+    "automaticLayout": "Automatic layout",
+    "fitScreen": "Fit screen",
+    "cycleRouter": "Cycle router"
+  },
+  "dataTypes": {
+    "suggestedValues": "Suggested values",
+    "originalValue": "Original value",
+    "tableParseError": "Error on table data parsing"
+  },
+  "regionalSettings": {
+    "createNew": "Create new Regional Settings",
+    "addressExample": "Preview address example",
+    "enterValues": "Enter values (one per line)",
+    "selectLanguage": "Select Language",
+    "selectTimeZone": "Select Time Zone",
+    "defaultSeparator": "Default Separator",
+    "selectAddress": "Select Address Format",
+    "numberFormats": "Number Formats",
+    "addNew": "Add new regional settings",
+    "invalidFormats": "Invalid formats",
+    "dateTimeFormats": "Date Time formats",
+    "createNewFrom": "Create new from {{clonedName}}"
+  },
+  "codeEditor": {
+    "line": "Line {{lineNumber}}",
+    "lines": "Lines {{startLineNumber}}-{{endLineNumber}}",
+    "expression": "Expression",
+    "fields": "Fields",
+    "functions": "Functions",
+    "operations": "Operations",
+    "editType": "Edit type",
+    "enterFullScreen": "Open Code editor in full-screen",
+    "closeFullScreen": "Close full-screen",
+    "parameters": "Parameters",
+    "outputType": "Output type"
+  },
+  "licences": {
+    "licenceManagement": "Licence management",
+    "company": "Company",
+    "organization": "Organization",
+    "administrator": "Administrator",
+    "developer": "Developer",
+    "operations": "Operations",
+    "resolver": "Resolver",
+    "endDate": "End date",
+    "licenceNumber": "Licence number"
+  },
+  "repeatPasswordsForm": {
+    "passwordStrength": "Password strength",
+    "passwordsDoNotMatch": "Passwords do not match!",
+    "passwordsMatch": "Passwords match!",
+    "activateAccount": "Activate account",
+    "resetPassword": "Reset password",
+    "weak": "weak",
+    "okay": "okay",
+    "good": "good",
+    "strong": "strong"
+  },
+  "userTutorial": {
+    "start": "Screen guide",
+    "restart": "Restart guide",
+    "graph-controlButtons": "This button group contains controls for managing the display and layout of the graph. It includes buttons for expanding the graph, collapsing it, saving the graph, and navigating to the last saved state.",
+    "graph-layoutButtons": "This button group provides options for adjusting the layout of the graph. It includes buttons for enabling automatic layout, fitting the graph to the screen, and configuring the cycle router layout.",
+    "processDetails": {
+      "table": "This is where you have access to a comprehensive list of all the executions of this process. This information will allow you to understand the progress of this process better and help you make informed decisions. You can switch between the lists of current executions (ongoing executions), past executions (execution history) and executions that are waiting to be resolved (human-in-the-loop)",
+      "processWizard": "Navigate to a page where you can configure the current process you are working on. This feature allows you to customize and adjust settings specific to your current task, ensuring a tailored and efficient workflow.",
+      "graphEditor": "Discover the power of visualizing your process with our graph representation. With this tool, you'll have a clear and concise overview of all the steps involved. Say goodbye to confusion and hello to efficiency. Click the button to see more",
+      "executeButton": "Initialize the execution of the current process. Once clicked, the application will begin performing the operations of the process you've set up, automating your workflow. Click the button to see more",
+      "playModal": "Here is where you can execute the process. Based on the definition of the process you can either upload and process documents, continuously await new documents or start processing documents from predefined collectors. "
+    },
+    "recipeDetails": {
+      "ingredientType": "Data type of the ingredient.",
+      "ingredientName": "Name of the ingredient.",
+      "editRecipe": "Modify all the general information of the selected recipe like name, description and other information.",
+      "configureRecipe": "Configure the ingredients in the selected recipe. This feature allows for comprehensive customization and updating of your data extraction and processing parameters, ensuring your recipe accurately reflects the specific data needs of your process.",
+      "graphView": "Open an interactive window that visually displays all the 'ingredients', their data flows, and various interactions. This graphical representation helps you to easily understand and manage the relationships and processes between different data elements, enhancing your ability to oversee and optimize the entire data extraction and processing workflow."
+    },
+    "newIngredientRecipe": {
+      "dataType": "This dropdown menu allows you to select the final data type for each ingredient. Options include string, integer, decimal, timestamp, among others. Choosing the correct data type is crucial for ensuring that the ingredient is processed and integrated correctly, aligning with your data structure and analysis requirements."
+    },
+    "recipeWizard": {
+      "graphView": "Open an interactive window that visually displays the ingredients flow trough the whole recipe. This graphical representation helps you to easily understand and manage the flow of the ingredient and the way it is handled. Click on the button to find out more.",
+      "stepperHeader": "These three labels represent the sequential steps in the data processing flow: Recognition, Extraction, and Transformation. Each click on the label opens a detailed editor for that phase in the data processing workflow, ensuring a comprehensive and efficient handling of the document's information.",
+      "recognition": "Initialize the 'Recognition' phase, where you can select from different types of data recognition methods to identify specific elements in the document. This step is crucial as it determines how the system will interpret and locate the relevant data within your document, laying the foundation for accurate data extraction.",
+      "extraction": "After 'Recognition', the 'Extraction' step comes into play. Here, you define the methods for extracting the crucial information from the recognized data. This process is about retrieving the specific data elements or values that are important for your workflow.",
+      "transformation": "This final step is where the extracted data undergoes transformation. It involves modifying, formatting, or processing the data into a usable format or structure. This could include converting data types, restructuring data layouts, or applying specific rules for data handling.",
+      "defineOutput": "Precisely filter and select the specific elements you want as the final output of the step. By clicking this button, you can refine and choose exactly which data points or information from the current step should be included in the input of the next step or as the final result.",
+      "defineOutputTabs": "In the Decision Properties tab, customize data filtering to refine your inputs, selecting only the relevant elements for processing. Enable specific options like tables or paragraphs to tailor the filtering process. You can also toggle switches to enable or disable outputs, ensuring only desired elements are included in the final result. In the Conflict Resolution tab, you can prioritize outputs by using a simple drag-and-drop interface. This feature allows you to easily rearrange outputs based on their importance or relevance, ensuring that the most critical outputs receive the highest priority.",
+      "configure": "Before continuing make sure to configure the next step input by filtering and confirming the expected output of the current step, ensuring precise identification of the relevant data.",
+      "addSubitem": "Incorporate a method into the current step of your data process. Depending on whether you're in the recognition, extraction, or transformation phase, this button allows you to add a specific processing technique tailored to that stage. It enhances the flexibility and depth of each step, enabling more detailed and customized handling of the data.",
+      "addDecisionModal": "Explore the Document steps modal to enhance your data processing capabilities. Choose between incorporating reusable configurations, creating custom steps to match your specific needs, or adding strategic decisions for precise outcome selection."
+    },
+    "integrations": {
+      "integrationType": "Select the type of destination where the processed information will be integrated. Choose from options like a database, file system, Google Drive, and more. This selection ensures that your data is directed to the appropriate storage or management system, aligning with your organizational and workflow needs.",
+      "connections": "Select or create a connection based on your chosen integration type. This feature provides options for establishing a link with various systems or services.",
+      "importFromConnection": "Choose the integration destination directly from your established database connection. It allows you to specify the exact schema, table, and columns you want to access."
+    },
+    "newRecipe": {
+      "regionalSettings": "Select the regional setting for the documents you are executing. This setting ensures that all processes and document formats align with the specific regional standards and requirements, such as date formats, number formats, currency, and address formats.",
+      "newIngredient": "Include a new ingredient into your recipe. Each ingredient represents a specific data element that needs to be extracted and potentially processed. This feature allows for the customization of data extraction, ensuring that you capture all relevant details from your documents as required.",
+      "ingredientGraphView": "Open an interactive window that visually displays the ingredients flow trough the whole recipe. This graphical representation helps you to easily understand and manage the flow of the ingredient and the way it is handled.",
+      "save": "Preserve the current configuration of your ingredient flow. This action ensures that all changes made to the data extraction pathways and settings are securely stored, maintaining the integrity of your workflow and allowing for future retrieval or modification.",
+      "edit": "Modify basic information about an ingredient, such as its name and description, as well as functional details like data type. This feature provides flexibility to adjust and refine each ingredient's characteristics, ensuring they align accurately with your data processing requirements.",
+      "configure": "Set up the entire data flow for a specific ingredient. This feature allows you to define how this piece of data is processed, including its path through various stages of extraction, transformation, and integration. Tailor each ingredient's journey to suit your unique workflow requirements, ensuring optimal data handling and accuracy.",
+      "delete": "Remove the selected ingredient from your recipe. This action permanently deletes the ingredient and its associated data flow, simplifying your workflow by eliminating unnecessary or redundant elements. Use this feature carefully to maintain the integrity of your data process.",
+      "graphView": "Open an interactive window that visually displays all the 'ingredients', their data flows, and various interactions. This graphical representation helps you to easily understand and manage the relationships and processes between different data elements, enhancing your ability to oversee and optimize the entire data extraction and processing workflow.",
+      "upload": "After dragging documents to the upload area or selecting them through the file selection interface, clicking this button to initiates the upload of your documents to the system.",
+      "smartScan": "Begin the extraction of information from your uploaded file. This feature initiates an intelligent scanning process, which automatically identifies and extracts the data from the document"
+    },
+    "regionalDataSettings": {
+      "language": "This dropdown menu enables you to choose the language in which the documents are written. By selecting the appropriate language, the system can accurately recognize and process the text within the documents. This feature ensures that the data extraction and processing are tailored to the specific linguistic nuances of your documents, enhancing the overall accuracy and effectiveness of the system.",
+      "timeZone": "Use the 'Select Time Zone' dropdown menu to specify the time zone applicable to the dates and times in your documents. This setting ensures that all time-related data is accurately interpreted and processed according to the correct geographical time zone. It's essential for maintaining the integrity of time-sensitive information and for proper synchronization of time-based data across different regions.",
+      "separator": "In the 'Default Separator' input field, you can specify the character or symbol used to separate items in a list when converting them into a string. For instance, if you choose a comma, items in a list will be separated by commas in the string format. This feature is particularly useful for customizing how list data is presented and ensures consistency in data formatting, especially when preparing data for reports, exports, or further processing.",
+      "address": "The 'Select Address Format' dropdown menu allows you to choose the desired format for addresses extracted from your documents. Options may include various international standards or specific country formats. This feature ensures that addresses are consistently formatted and structured according to your specific requirements, aiding in data uniformity and making it easier to integrate this information into other systems or databases.",
+      "dateTime": "The 'Date Time Formats Editor' is a versatile tool where you can add and manage multiple formats for dates and times. This flexibility allows the system to recognize and process a variety of date and time formats present in your documents. Additionally, the priority of these formats is determined by their order in the list – the system will first attempt to match the top format in your list, moving down the list until a compatible format is found. This prioritization ensures that the most likely or preferred formats are considered first, enhancing the accuracy of date and time recognition in your data processing.",
+      "number": "In the 'Number Formats Input', you can specify how decimal numbers are represented in your documents. This includes defining the characters used for decimal and thousand separators, which can vary between regions (e.g., a comma as a thousand separator and a dot as a decimal point, or vice versa). Accurately setting these formats ensures that the system correctly interprets and processes numerical values, particularly crucial for financial or quantitative data, maintaining data consistency and precision."
+    },
+    "stepEditor": {
+      "type": "Displays the data type of the input. This label provides crucial information about the nature of the data (such as string, integer, decimal, timestamp, etc.), helping you to understand the format and structure of the input.",
+      "documents": "This cluster of buttons enables you to seamlessly switch between different processed documents. By using these buttons, you can review and compare the inputs and results of the same method across multiple documents. This feature is particularly useful for quality control and ensuring consistency in data processing, as it allows for a thorough examination of how each document is handled within the system.",
+      "preview": "Let’s you view the output generated by the current method, based on the provided input. This feature offers a real-time glimpse of the results, allowing you to assess and verify the effectiveness of the processing method applied. It's an essential tool for ensuring accuracy and making any necessary adjustments before finalizing the data process."
+    },
+    "processWizard": {
+      "generalInfo": "This page is designed for you to input the general information about the process you're working on. Here, you can enter key details such as process name, description and additional information from which you will differentiate your process.",
+      "regionalSettings": "Select the regional setting for the documents you are executing. This setting ensures that all processes and document formats align with the specific regional standards and requirements, such as date formats, number formats, currency, and address formats.",
+      "recipes": "Select the 'recipe' for the documents, defining the specific information to be extracted and processed accurately.",
+      "dataPreparationType": "Select the type of data preparation required for your process. This selection tailors the data processing to meet the specific needs of your task, ensuring optimal organization and accuracy of the data before further use.",
+      "manualUpload": "Always available collector which allows you to upload documents for the execution of the process.",
+      "newCollector": "Set up a new 'Collector'. The Collector is a tool designed to gather specific documents from a specified source.",
+      "hitl": "Configure the 'Human in the Loop' feature. You can enable it to involve human oversight in the process, disable it for full automation, or set specific conditions under which documents will be forwarded for human review. This feature allows for flexibility in balancing automation with human expertise, ensuring accuracy and efficiency in handling documents.",
+      "integration": "Add an integration point where the extracted and processed information will be stored upon completion. This feature allows you to designate a specific storage solution, ensuring that all your data is organized and stored securely and efficiently in your chosen location.",
+      "schedule": "On this page, you can enable and define the exact timing for the automatic execution of your process. Set specific dates and times to automate your workflow, ensuring that the process runs seamlessly at the most convenient intervals for your needs."
+    },
+    "executionDetails": {
+      "showProcess": "The 'Show process' action navigates to the corresponding process associated with the current execution.",
+      "stopExecution": "The 'Stop execution' action halts the ongoing execution process, allowing current operations within the execution flow to complete before terminating further processing. It provides a controlled pause, enabling the execution to conclude its current tasks.",
+      "killExecution": "The 'Kill execution' action forcefully terminates the ongoing execution process, instantly halting all operations within the execution flow. It abruptly ends the execution, disregarding any ongoing tasks or processes, providing an immediate cessation of all activities.",
+      "resolveAll": "The 'Resolve All' button is designed to resolve all the documents listed in your document queue at once. By clicking this button, you initiate the resolution of any pending actions or processes for each document in the list.",
+      "documents": "Each document name in the list is clickable and serves as a direct link to the 'Document Ingredients Resolver'. By clicking on a document name, you will be taken to a detailed page where you can review and assess the processed data for that specific document. This feature allows you to check the accuracy of the data extraction and processing, and provides the option to edit the data if necessary. It's an essential tool for ensuring the quality and correctness of the processed information.",
+      "export": "This button allows you to download the resolvable information from the system in a specific format. By clicking this button, you can choose the desired file format (such as CSV, Excel, JSON, etc.) and save the processed data onto your device. This feature is useful for further analysis, reporting, or integration with other systems, providing a convenient way to utilize the processed data outside of the application."
+    },
+    "resolver": {
+      "filterAttributes": "When activated, enables a focused view by displaying only those attributes that are missing or have issues. This selective filtering is crucial for quickly identifying and addressing data problems, streamlining the process of troubleshooting and ensuring the integrity and completeness of your data.",
+      "showAttribute": "Click on the 'Eye' icon to trace the origin of a specific piece of information within the document. This feature reveals the exact location in the document where the data was extracted from, providing valuable context and aiding in the verification of data accuracy. It's an essential tool for understanding the source of each data element and ensuring the reliability of the extraction process.",
+      "save": "Securely store the input for a specific attribute. This action ensures that the entered value or modification for that attribute is preserved, even when you navigate away from the current task. When you return to resolving the same document, you will find the attribute's value as you left it, providing continuity and efficiency in your data management process.",
+      "resolve": "Finalize and lock in the value of a specific attribute. Once this button is clicked, the attribute's value is saved as the definitive entry and cannot be altered further. This feature marks the attribute as resolved, ensuring that its value remains consistent and unchangeable in the final dataset. Use this button to confirm that the attribute is accurately captured and ready for final processing or integration.",
+      "export": "This button allows you to download the resolvable information from the system in a specific format. By clicking this button, you can choose the desired file format (such as CSV, Excel, JSON, etc.) and save the processed data onto your device. This feature is useful for further analysis, reporting, or integration with other systems, providing a convenient way to utilize the processed data outside of the application."
+    }
+  }
+}
