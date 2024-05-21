@@ -1,0 +1,115 @@
+{
+    "general": {
+        "cancel": "Odustani",
+        "confirm": "Potvrdi",
+        "finish": "Završi",
+        "playlists": "Popisi pjesama",
+        "soon": "Uskoro",
+        "size": "{{size}} MB",
+        "minSecFormat": "{{min}} min {{sec}} sec",
+        "themeSwitch": "Prebaci temu",
+        "save": "Spremi",
+        "edit": "Uredi",
+        "selectAll": "Odaberi sve",
+        "delete": "Izbriši",
+        "noData": "Nema podataka",
+        "actions": "Radnje"
+    },
+    "navigation": {
+        "production": "Produkcija",
+        "learning": "Učenje",
+        "aiGenerate": "AI Generiranje",
+        "navigation": "Navigacija"
+    },
+    "users": {
+        "tiers": {
+            "free": "Besplatni korisnik"
+        },
+        "hero": {
+            "title": "Naslov heroja"
+        }
+    },
+    "uploadWizard": {
+        "selectChannels": "Odaberi kanale za razdvajanje",
+        "nextStep": "Sljedeći korak",
+        "previousStep": "Prethodni korak",
+        "spaceRequired": "Potrebni prostor",
+        "tokenRequired": "Potrebni tokeni",
+        "available": "dostupno",
+        "modalTitle": "Odustani od prijenosa",
+        "modalText": "Jeste li sigurni da želite odustati od prijenosa?"
+    },
+    "stems": {
+        "vocals": "Vokali",
+        "guitar": "Gitara",
+        "electricGuitar": "Električna gitara",
+        "keyboards": "Klavijature",
+        "drums": "Bubnjevi",
+        "sax": "Saksofon",
+        "trumpet": "Truba"
+    },
+    "notFound": {
+        "title": "Ovaj određeni Stem ili Jam nije pronađen"
+    },
+    "dropzone": {
+        "addSingle": "Dodaj novo",
+        "replaceSingle": "Zamijeni novim",
+        "addMultiple": "Dodaj novo",
+        "addMoreMultiple": "Dodaj još",
+        "replaceMultiple": "Zamijeni novim",
+        "description": "Lorem ipsum",
+        "linkUpload": "ili prenesi s linka",
+        "removeFile": "Ukloni datoteku",
+        "editFileName": "Uredi naziv datoteke"
+    },
+    "login": {
+        "login": "Prijava",
+        "logIn": "Prijavi se",
+        "email": "E-mail",
+        "password": "Lozinka",
+        "includesNumber": "Sadrži broj",
+        "includesLowercase": "Sadrži malo slovo",
+        "includesUppercase": "Sadrži veliko slovo",
+        "passwordLengthRequirement": "Sadrži najmanje 6 znakova",
+        "invalidEmail": "Neispravan e-mail",
+        "invalidPassword": "Snaga lozinke mora biti 100%",
+        "register": "Ako nemate račun, registrirajte se",
+        "loginError": "Nešto je pošlo po zlu, e-mail ili lozinka mogu biti netočni"
+    },
+    "playlist": {
+        "createNew": "Kreiraj novi popis pjesama",
+        "edit": "Uredi popis pjesama",
+        "delete": "Izbriši popis pjesama",
+        "name": "Naziv popisa pjesama",
+        "chooseColor": "Odaberi boju popisa pjesama",
+        "chooseIcon": "Odaberi ikonu popisa pjesama"
+    },
+    "audioProject": {
+        "search": "Pretraži audio projekte",
+        "edit": "Uredi audio projekt",
+        "delete": "Izbriši audio projekt",
+        "export": "Izvezi audio projekt",
+        "includeInPlaylist": "Uključi u popis pjesama",
+        "numberStem": "{{numberStem}} stema",
+        "bpm": "{{bpm}} bpm",
+        "info": "Informacije o audio projektu",
+        "numberOfItems": "Prikazano {{shown}} od {{total}} stavki",
+        "initialLoadingText": "Učitavanje audio projekata"
+    },
+    "confirmationModal": {
+        "title": "Potvrdi radnju",
+        "description": "Molimo potvrdite svoju radnju.",
+        "deleteItem": "Izbriši {{item}}",
+        "confirmDeleteItem": "Potvrdite da želite izbrisati {{item}}."
+    },
+    "notification": {
+        "title": "Obavijesti",
+        "noNotifications": "Nema obavijesti",
+        "markAllAsRead": "Označi sve kao pročitano",
+        "failedToLoad": "Neuspješno učitavanje obavijesti",
+        "showAll": "Prikaži sve obavijesti"
+    },
+    "test": {
+        "ana.test": "blaaaaaaaaaaaa"
+    }
+}
