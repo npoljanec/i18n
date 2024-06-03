@@ -17,9 +17,9 @@
         "actions":"Actions",
         "open":"Open",
         "goBack":"Go back",
-	"stemWithCount_one": "{{count}} stem",
+		"stemWithCount_one": "{{count}} stem",
         "stemWithCount_other": "{{count}} stems",
-	"token": "Token",
+		"token": "Token",
         "animatedLogo": "Animated logo"
     },
     "navigation": {
