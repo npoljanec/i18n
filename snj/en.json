@@ -1,5 +1,5 @@
 {
-    "general": {
+   "general": {
         "cancel": "Cancel",
         "confirm": "Confirm",
         "finish": "Finish",
@@ -9,11 +9,14 @@
         "minSecFormat":"{{min}} min {{sec}} sec",
         "themeSwitch": "Theme switch",
         "save":"Save",
+        "languageSelector":"Select language",
         "edit":"Edit",
         "selectAll":"Select all",
         "delete":"Delete",
         "noData":"No data",
-        "actions":"Actions"
+        "actions":"Actions",
+        "open":"Open",
+        "goBack":"Go back"
     },
     "navigation": {
         "production": "Production",
@@ -72,17 +75,33 @@
         "includesUppercase":"Includes uppercase letter",
         "passwordLengthRequirement": "Includes at least 6 characters",
         "invalidEmail": "Invalid email",
-        "invalidPassword": "Password strength must be 100%",
         "register":"If you don't have an account, please register",
-        "loginError":"Something went wrong, email or password may be incorrect"
+        "registerTitle":"You don't have an account?",
+        "loginError":"Something went wrong, email or password may be incorrect",
+        "registerButton":"Register here",
+        "forgotPassword":"Forgot password?"
+    },
+    "passwordRecovery":{
+        "recoverPassword":"Recover password"
+    },
+    "resetPassword":{
+        "newPassword":"New password",
+        "confirmNewPassword":"Confirm new password",
+        "resetPassword":"Reset password",
+        "passwordsDoNotMatch":"Passwords do not match",
+        "invalidPassword": "Your password isn't strong enough!"
+
     },
     "playlist": {
         "createNew": "Create new playlist",
         "edit":"Edit playlist",
         "delete":"Delete playlist",
         "name":"Playlist name",
-        "chooseColor":"Choose playlist color",
-        "chooseIcon":"Choose playlist icon"
+        "chooseColor":"Color",
+        "chooseIcon":"Icon",
+        "type":"Playlist type",
+        "personal":"Personal",
+        "shared":"Shared"
     },
     "audioProject": {
         "search":"Search audio projects",
@@ -109,9 +128,6 @@
       "markAllAsRead": "Mark all as read",
       "failedToLoad": "Failed to load notifications",
       "showAll": "Show all notifications"
-    },
-    "test":{
-        "ana.test":"blaaaaaaaaaaaa"
     },
     "dataItem": {
 		"musicalNotes": {
