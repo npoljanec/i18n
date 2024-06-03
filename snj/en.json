@@ -221,7 +221,7 @@
 		}
 	},
     "instrument": {
-		"vocals": {
+		"vocal": {
 			"lead": {
 				"name": "Lead vocal",
 				"description": ""
