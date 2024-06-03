@@ -16,7 +16,11 @@
         "noData":"No data",
         "actions":"Actions",
         "open":"Open",
-        "goBack":"Go back"
+        "goBack":"Go back",
+	"stemWithCount_one": "{{count}} stem",
+        "stemWithCount_other": "{{count}} stems",
+	"token": "Token",
+        "animatedLogo": "Animated logo"
     },
     "navigation": {
         "production": "Production",
@@ -32,24 +36,20 @@
             "title": "hero Title"
         }
     },
+    
     "uploadWizard": {
-        "selectChannels"  : "Select separation channels",
+        "selectChannels"  : "Select separation stems",
         "nextStep": "Next step",
         "previousStep": "Previous step",
         "spaceRequired": "Space required",
         "tokenRequired": "Tokens required",
         "available": "available",
         "modalTitle": "Cancel upload",
-        "modalText": "Are you sure you want to cancel upload?"
-    },
-    "stems": {
-        "vocals": "Vocals",
-        "guitar": "Guitar",
-        "electricGuitar": "Electric Guitar",
-        "keyboards": "Keyboards",
-        "drums": "Drums",
-        "sax": "Sax",
-        "trumpet": "Trumpet"
+        "modalText": "Are you sure you want to cancel upload?",
+        "separation": "Separation",
+        "subtraction": "Subtraction",
+        "separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
+        "allInstruments": "All {{instrumentName}} in one stem"
     },
     "notFound" : {
         "title": "This specific Stem or Jam is nowhere to be found"
