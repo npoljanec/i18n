@@ -112,5 +112,786 @@
     },
     "test":{
         "ana.test":"blaaaaaaaaaaaa"
-    }
+    },
+    "dataItem": {
+		"musicalNotes": {
+			"name": "Musical notes",
+			"description": ""
+		},
+		"tabs": {
+			"name": "Tabs",
+			"description": ""
+		},
+		"lyrics": {
+			"name": "Lyrics",
+			"description": ""
+		},
+		"midi": {
+			"name": "Midi",
+			"description": ""
+		}
+	},
+    	"instrumentGroup": {
+		"vocals": {
+			"name": "Vocals",
+			"description": ""
+		},
+		"bass": {
+			"name": "Bass",
+			"description": ""
+		},
+		"drums": {
+			"name": "Drums",
+			"description": ""
+		},
+		"guitars": {
+			"name": "Guitars",
+			"description": ""
+		},
+		"winds": {
+			"name": "Winds",
+			"description": ""
+		},
+		"strings": {
+			"name": "Strings",
+			"description": ""
+		},
+		"accordion": {
+			"name": "Accordion",
+			"description": ""
+		},
+		"metronome": {
+			"name": "Metronome",
+			"description": ""
+		},
+		"synths": {
+			"name": "Synths",
+			"description": ""
+		},
+		"keys": {
+			"name": "Keys",
+			"description": ""
+		}
+	},
+    	"instrument": {
+		"vocals": {
+			"lead": {
+				"name": "Lead vocal",
+				"description": ""
+			},
+			"back": {
+				"name": "Back vocal",
+				"description": ""
+			}
+		},
+		"piano": {
+			"electric": {
+				"name": "Electric piano",
+				"description": ""
+			},
+			"grand": {
+				"name": "Grand piano",
+				"description": ""
+			}
+		},
+		"organ": {
+			"electric": {
+				"name": "Electric organ",
+				"description": ""
+			},
+			"classic": {
+				"name": "Organ",
+				"description": ""
+			}
+		},
+		"bass": {
+			"guitar": {
+				"name": "Bass guitar",
+				"description": ""
+			},
+			"synthesizer": {
+				"name": "Synthesizer",
+				"description": ""
+			},
+			"contrabass": {
+				"name": "Contrabass",
+				"description": ""
+			}
+		},
+		"drums": {
+			"cymbal": {
+				"name": "Cymbal",
+				"description": ""
+			},
+			"drumMachine": {
+				"name": "Drum machine",
+				"description": ""
+			},
+			"drumKit": {
+				"name": "Acoustic full drumkit",
+				"description": ""
+			},
+			"hiHat": {
+				"name": "Hi Hat",
+				"description": ""
+			},
+			"kickDrum": {
+				"name": "Kick drum",
+				"description": ""
+			},
+			"overheads": {
+				"name": "Overheads",
+				"description": ""
+			},
+			"snareDrum": {
+				"name": "Snare drum",
+				"description": ""
+			},
+			"toms": {
+				"name": "Toms",
+				"description": ""
+			}
+		},
+		"guitar": {
+			"electric": {
+				"name": "Electric guitar",
+				"description": ""
+			},
+			"electricDistorted": {
+				"name": "Electric distorted guitar",
+				"description": ""
+			},
+			"acoustic": {
+				"name": "Acoustic guitar",
+				"description": ""
+			}
+		},
+		"wind": {
+			"trumpet": {
+				"name": "Trumpet",
+				"description": ""
+			},
+			"trombone": {
+				"name": "Trombone",
+				"description": ""
+			},
+			"saxophone": {
+				"name": "Saxophone",
+				"description": ""
+			},
+			"clarinet": {
+				"name": "Clarinet",
+				"description": ""
+			},
+			"flute": {
+				"name": "Flute",
+				"description": ""
+			}
+		},
+		"string": {
+			"viola": {
+				"name": "Viola",
+				"description": ""
+			},
+			"violin": {
+				"name": "Violin",
+				"description": ""
+			},
+			"cello": {
+				"name": "Cello",
+				"description": ""
+			}
+		},
+		"synth": {
+			"lead": {
+				"name": "Synth lead",
+				"description": ""
+			},
+			"pad": {
+				"name": "Synth pad",
+				"description": ""
+			}
+		}
+	},
+    	"audioFormat": {
+		"mp3": {
+			"name": "MP3",
+			"description": ""
+		},
+		"wav": {
+			"name": "Wav",
+			"description": ""
+		},
+		"flac": {
+			"name": "Flac",
+			"description": ""
+		},
+		"numPy": {
+			"name": "NumPy",
+			"description": ""
+		},
+		"m4a": {
+			"m4a": "M4A",
+			"description": ""
+		}
+	},
+    	"audioItemType": {
+		"original": {
+			"name": "Original",
+			"description": ""
+		},
+		"stem": {
+			"name": "Stem",
+			"description": ""
+		},
+		"mix": {
+			"name": "Mix",
+			"description": ""
+		},
+		"other": {
+			"name": "Other",
+			"description": ""
+		}
+	},
+    	"playlistType": {
+		"personal": {
+			"name": "Personal playlist",
+			"description": ""
+		},
+		"shared": {
+			"name": "Shared playlist",
+			"description": ""
+		}
+	},
+    "subscriptionPlan": {
+		"free": {
+			"name": "Free plan",
+			"description": ""
+		},
+		"advance": {
+			"name": "Advance plan",
+			"description": ""
+		},
+		"pro": {
+			"name": "Pro plan",
+			"description": ""
+		}
+	},
+    	"actionGroup": {
+		"export": {
+			"name": "Export",
+			"description": ""
+		},
+		"separation": {
+			"name": "Separation",
+			"description": ""
+		},
+		"isolation": {
+			"name": "Isolation",
+			"description": ""
+		},
+		"transcription": {
+			"midi": {
+				"name": "Transcription to midi",
+				"description": ""
+			},
+			"data": {
+				"name": "Transcription to data",
+				"description": ""
+			}
+		}
+	},
+    	"actionVersion": {
+		"separation": {
+			"basic": {
+				"name": "Basic version for separation",
+				"description": ""
+			},
+			"advance": {
+				"name": "Advance version for separation",
+				"description": ""
+			}
+		},
+		"isolation": {
+			"basic": {
+				"name": "Basic version for isolation",
+				"description": ""
+			},
+			"advance": {
+				"name": "Advance version for isolation",
+				"description": ""
+			}
+		},
+		"transcription": {
+			"midi": {
+				"basic": {
+					"name": "Basic midi transcription",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance midi transcription",
+					"description": ""
+				}
+			},
+			"data": {
+				"basic": {
+					"name": "Basic data transcription",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance data transcription",
+					"description": ""
+				}
+			}
+		}
+	},
+    	"subscriptionAction": {
+		"separation": {
+			"vocals": {
+				"basic": {
+					"name": "Basic version to vocal separation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to vocal separation",
+					"description": ""
+				}
+			},
+			"keys": {
+				"basic": {
+					"name": "Basic version to keys separation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to keys separation",
+					"description": ""
+				}
+			},
+			"bass": {
+				"basic": {
+					"name": "Basic version to bass separation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to bass separation",
+					"description": ""
+				}
+			},
+			"drums": {
+				"basic": {
+					"name": "Basic version to drums separation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to drums separation",
+					"description": ""
+				}
+			},
+			"trumpet": {
+				"basic": {
+					"name": "Basic version to trumpet separation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to trumpet separation",
+					"description": ""
+				}
+			},
+			"saxophone": {
+				"basic": {
+					"name": "Basic version to saxophone separation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to saxophone separation",
+					"description": ""
+				}
+			},
+			"guitar": {
+				"electric": {
+					"basic": {
+						"name": "Basic version to electric guitar separation",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version to electric guitar separation",
+						"description": ""
+					}
+				},
+				"acoustic": {
+					"basic": {
+						"name": "Basic version to acoustic guitar separation",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version to acousticguitar separation",
+						"description": ""
+					}
+				}
+			}
+		},
+		"isolation": {
+			"vocals": {
+				"basic": {
+					"name": "Basic version to vocal isolation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to vocal isolation",
+					"description": ""
+				}
+			},
+			"keys": {
+				"basic": {
+					"name": "Basic version to keys isolation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to keys isolation",
+					"description": ""
+				}
+			},
+			"bass": {
+				"basic": {
+					"name": "Basic version to bass isolation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to bass isolation",
+					"description": ""
+				}
+			},
+			"drums": {
+				"basic": {
+					"name": "Basic version to drums isolation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to drums isolation",
+					"description": ""
+				}
+			},
+			"trumpet": {
+				"basic": {
+					"name": "Basic version to trumpet isolation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to trumpet isolation",
+					"description": ""
+				}
+			},
+			"saxophone": {
+				"basic": {
+					"name": "Basic version to saxophone isolation",
+					"description": ""
+				},
+				"advance": {
+					"name": "Advance version to saxophone isolation",
+					"description": ""
+				}
+			},
+			"guitar": {
+				"electric": {
+					"basic": {
+						"name": "Basic version to electric guitar isolation",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version to electric guitar isolation",
+						"description": ""
+					}
+				},
+				"acoustic": {
+					"basic": {
+						"name": "Basic version to acoustic guitar isolation",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version to acoustic guitar isolation",
+						"description": ""
+					}
+				}
+			}
+		},
+		"transcription": {
+			"vocals": {
+				"midi": {
+					"basic": {
+						"name": "Basic version midi transcription for vocal",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version midi transcription for vocal",
+						"description": ""
+					}
+				},
+				"data": {
+					"lyrics": {
+						"basic": {
+							"name": "Basic version lyrics transcription for vocal",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version lyrics transcription for vocal",
+							"description": ""
+						}
+					},
+					"notes": {
+						"basic": {
+							"name": "Basic version notes transcription for vocal",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version notes transcription for vocal",
+							"description": ""
+						}
+					}
+				}
+			},
+			"keys": {
+				"midi": {
+					"basic": {
+						"name": "Basic version midi transcription for keys",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version midi transcription for keys",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Basic version notes transcription for keys",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version notes transcription for keys",
+							"description": ""
+						}
+					}
+				}
+			},
+			"bass": {
+				"midi": {
+					"basic": {
+						"name": "Basic version midi transcription for bass",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version midi transcription for bass",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Basic version notes transcription for bass",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version notes transcription for bass",
+							"description": ""
+						}
+					},
+					"tabs": {
+						"basic": {
+							"name": "Basic version tabs  transcription for bass",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version tabs transcription for bass",
+							"description": ""
+						}
+					}
+				}
+			},
+			"drums": {
+				"midi": {
+					"basic": {
+						"name": "Basic version midi transcription for drums",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version midi transcription for drums",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Basic version notes transcription for drums",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version notes transcription for drums",
+							"description": ""
+						}
+					}
+				}
+			},
+			"trumpet": {
+				"midi": {
+					"basic": {
+						"name": "Basic version midi transcription for trumpet",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version midi transcription for trumpet",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Basic version notes transcription for trumpet",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version notes transcription for trumpet",
+							"description": ""
+						}
+					}
+				}
+			},
+			"saxophone": {
+				"midi": {
+					"basic": {
+						"name": "Basic version midi transcription for saxophone",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version midi transcription for saxophone",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Basic version notes transcription for saxophone",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version notes transcription for saxophone",
+							"description": ""
+						}
+					}
+				}
+			},
+			"guitar": {
+				"acoustic": {
+					"midi": {
+						"basic": {
+							"name": "Basic version midi transcription for acoustic guitar",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version midi transcription for acoustic guitar",
+							"description": ""
+						}
+					},
+					"data": {
+						"notes": {
+							"basic": {
+								"name": "Basic version notes transcription for acoustic guitar",
+								"description": ""
+							},
+							"advance": {
+								"name": "Advance version notes transcription for acoustic guitar",
+								"description": ""
+							}
+						},
+						"tabs": {
+							"basic": {
+								"name": "Basic version tabs  transcription for acoustic guitar",
+								"description": ""
+							},
+							"advance": {
+								"name": "Advance version tabs transcription for acoustic guitar",
+								"description": ""
+							}
+						}
+					}
+				}
+			},
+			"electric": {
+				"midi": {
+					"basic": {
+						"name": "Basic version midi transcription for electric guitar",
+						"description": ""
+					},
+					"advance": {
+						"name": "Advance version midi transcription for electric guitar",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Basic version notes transcription electric guitar",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version notes transcription for electric guitar",
+							"description": ""
+						}
+					},
+					"tabs": {
+						"basic": {
+							"name": "Basic version tabs  transcription for electric guitar",
+							"description": ""
+						},
+						"advance": {
+							"name": "Advance version tabs transcription for electric guitar",
+							"description": ""
+						}
+					}
+				}
+			}
+		},
+		"export": {
+			"midi": {
+				"name": "Export midi",
+				"description": ""
+			},
+			"data": {
+				"notes": {
+					"name": "Export notes",
+					"description": ""
+				},
+				"tabs": {
+					"name": "Export tabs",
+					"description": ""
+				},
+				"lyrics": {
+					"name": "Export lyrics",
+					"description": ""
+				}
+			},
+			"format": {
+				"mp3": {
+					"name": "Export in mp3 format",
+					"description": ""
+				},
+				"wav": {
+					"name": "Export in wav format",
+					"description": ""
+				},
+				"flac": {
+					"name": "Export in flac format",
+					"description": ""
+				},
+				"m4a": {
+					"name": "Export in m4a format",
+					"description": ""
+				},
+				"numpy": {
+					"name": "Export in numPy format",
+					"description": ""
+				}
+			}
+		}
+	}
+    
 }
