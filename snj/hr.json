@@ -1,19 +1,22 @@
 {
-    "general": {
+   "general": {
         "cancel": "Odustani",
         "confirm": "Potvrdi",
         "finish": "Završi",
         "playlists": "Popisi pjesama",
         "soon": "Uskoro",
-        "size": "{{size}} MB",
-        "minSecFormat": "{{min}} min {{sec}} sec",
-        "themeSwitch": "Prebaci temu",
-        "save": "Spremi",
-        "edit": "Uredi",
-        "selectAll": "Odaberi sve",
-        "delete": "Izbriši",
-        "noData": "Nema podataka",
-        "actions": "Radnje"
+        "size":"{{size}} MB",
+        "minSecFormat":"{{min}} min {{sec}} sek",
+        "themeSwitch": "Promjena teme",
+        "save":"Spremi",
+        "languageSelector":"Odaberi jezik",
+        "edit":"Uredi",
+        "selectAll":"Odaberi sve",
+        "delete":"Izbriši",
+        "noData":"Nema podataka",
+        "actions":"Radnje",
+        "open":"Otvori",
+        "goBack":"Vrati se"
     },
     "navigation": {
         "production": "Produkcija",
@@ -30,14 +33,14 @@
         }
     },
     "uploadWizard": {
-        "selectChannels": "Odaberi kanale za razdvajanje",
+        "selectChannels"  : "Odaberi kanale za razdvajanje",
         "nextStep": "Sljedeći korak",
         "previousStep": "Prethodni korak",
         "spaceRequired": "Potrebni prostor",
         "tokenRequired": "Potrebni tokeni",
         "available": "dostupno",
-        "modalTitle": "Odustani od prijenosa",
-        "modalText": "Jeste li sigurni da želite odustati od prijenosa?"
+        "modalTitle": "Odustani od učitavanja",
+        "modalText": "Jeste li sigurni da želite odustati od učitavanja?"
     },
     "stems": {
         "vocals": "Vokali",
@@ -48,68 +51,294 @@
         "sax": "Saksofon",
         "trumpet": "Truba"
     },
-    "notFound": {
-        "title": "Ovaj određeni Stem ili Jam nije pronađen"
+    "notFound" : {
+        "title": "Ovaj specifični stem ili jam nije pronađen"
     },
     "dropzone": {
         "addSingle": "Dodaj novo",
-        "replaceSingle": "Zamijeni novim",
+        "replaceSingle": "Zamijeni s novim",
         "addMultiple": "Dodaj novo",
-        "addMoreMultiple": "Dodaj još",
-        "replaceMultiple": "Zamijeni novim",
-        "description": "Lorem ipsum",
-        "linkUpload": "ili prenesi s linka",
-        "removeFile": "Ukloni datoteku",
-        "editFileName": "Uredi naziv datoteke"
+        "addMoreMultiple": "Dodaj više",
+        "replaceMultiple": "Zamijeni s novim",
+        "description":"Lorem ipsum",
+        "linkUpload": "ili učitaj s poveznice",
+        "removeFile":"Ukloni datoteku",
+        "editFileName":"Uredi naziv datoteke"
     },
     "login": {
-        "login": "Prijava",
-        "logIn": "Prijavi se",
-        "email": "E-mail",
-        "password": "Lozinka",
-        "includesNumber": "Sadrži broj",
-        "includesLowercase": "Sadrži malo slovo",
-        "includesUppercase": "Sadrži veliko slovo",
+        "login":"Prijava",
+        "logIn":"Prijavi se",
+        "email":"E-mail",
+        "password":"Lozinka",
+        "includesNumber":"Sadrži broj",
+        "includesLowercase":"Sadrži malo slovo",
+        "includesUppercase":"Sadrži veliko slovo",
         "passwordLengthRequirement": "Sadrži najmanje 6 znakova",
-        "invalidEmail": "Neispravan e-mail",
-        "invalidPassword": "Snaga lozinke mora biti 100%",
-        "register": "Ako nemate račun, registrirajte se",
-        "loginError": "Nešto je pošlo po zlu, e-mail ili lozinka mogu biti netočni"
+        "invalidEmail": "Nevažeći email",
+        "register":"Ako nemate račun, registrirajte se",
+        "registerTitle":"Nemate račun?",
+        "loginError":"Nešto je pošlo po zlu, email ili lozinka mogu biti netočni",
+        "registerButton":"Registrirajte se ovdje",
+        "forgotPassword":"Zaboravljena lozinka?"
+    },
+    "passwordRecovery":{
+        "recoverPassword":"Obnovi lozinku"
+    },
+    "resetPassword":{
+        "newPassword":"Nova lozinka",
+        "confirmNewPassword":"Potvrdi novu lozinku",
+        "resetPassword":"Obnovi lozinku",
+        "passwordsDoNotMatch":"Lozinke se ne podudaraju",
+        "invalidPassword": "Vaša lozinka nije dovoljno jaka!"
     },
     "playlist": {
         "createNew": "Kreiraj novi popis pjesama",
-        "edit": "Uredi popis pjesama",
-        "delete": "Izbriši popis pjesama",
-        "name": "Naziv popisa pjesama",
-        "chooseColor": "Odaberi boju popisa pjesama",
-        "chooseIcon": "Odaberi ikonu popisa pjesama"
+        "edit":"Uredi popis pjesama",
+        "delete":"Izbriši popis pjesama",
+        "name":"Naziv popisa pjesama",
+        "chooseColor":"Boja",
+        "chooseIcon":"Ikona",
+        "type":"Tip popisa pjesama",
+        "personal":"Osobno",
+        "shared":"Zajedničko"
     },
     "audioProject": {
-        "search": "Pretraži audio projekte",
-        "edit": "Uredi audio projekt",
-        "delete": "Izbriši audio projekt",
-        "export": "Izvezi audio projekt",
-        "includeInPlaylist": "Uključi u popis pjesama",
-        "numberStem": "{{numberStem}} stema",
-        "bpm": "{{bpm}} bpm",
+        "search":"Pretraži audio projekte",
+        "edit":"Uredi audio projekt",
+        "delete":"Izbriši audio projekt",
+        "export":"Izvezi audio projekt",
+        "includeInPlaylist":"Uključi u popis pjesama",
+        "numberStem": "{{numberStem}} stemova",
+        "bpm":"{{bpm}} bpm",
         "info": "Informacije o audio projektu",
-        "numberOfItems": "Prikazano {{shown}} od {{total}} stavki",
-        "initialLoadingText": "Učitavanje audio projekata"
+        "numberOfItems":"Prikazano {{shown}} od {{total}} stavki",
+        "initialLoadingText":"Učitavanje audio projekata"
     },
     "confirmationModal": {
         "title": "Potvrdi radnju",
-        "description": "Molimo potvrdite svoju radnju.",
+        "description":"Molimo potvrdite svoju radnju.",
         "deleteItem": "Izbriši {{item}}",
-        "confirmDeleteItem": "Potvrdite da želite izbrisati {{item}}."
+        "confirmDeleteItem":"Potvrdite da želite izbrisati {{item}}."
     },
     "notification": {
-        "title": "Obavijesti",
-        "noNotifications": "Nema obavijesti",
-        "markAllAsRead": "Označi sve kao pročitano",
-        "failedToLoad": "Neuspješno učitavanje obavijesti",
-        "showAll": "Prikaži sve obavijesti"
+      "title": "Obavijesti",
+      "noNotifications": "Nema obavijesti",
+      "markAllAsRead": "Označi sve kao pročitano",
+      "failedToLoad": "Učitavanje obavijesti nije uspjelo",
+      "showAll": "Prikaži sve obavijesti"
     },
-    "test": {
-        "ana.test": "blaaaaaaaaaaaa"
-    }
+    "dataItem": {
+		"musicalNotes": {
+			"name": "Glazbene note",
+			"description": ""
+		},
+		"tabs": {
+			"name": "Tabovi",
+			"description": ""
+		},
+		"lyrics": {
+			"name": "Stihovi",
+			"description": ""
+		},
+		"midi": {
+			"name": "Midi",
+			"description": ""
+		}
+	},
+    	"instrumentGroup": {
+		"vocals": {
+			"name": "Vokali",
+			"description": ""
+		},
+		"bass": {
+			"name": "Bas",
+			"description": ""
+		},
+		"drums": {
+			"name": "Bubnjevi",
+			"description": ""
+		},
+		"guitars": {
+			"name": "Gitare",
+			"description": ""
+		},
+		"winds": {
+			"name": "Puhački instrumenti",
+			"description": ""
+		},
+		"strings": {
+			"name": "Žičani instrumenti",
+			"description": ""
+		},
+		"accordion": {
+			"name": "Harmonika",
+			"description": ""
+		},
+		"metronome": {
+			"name": "Metronom",
+			"description": ""
+		},
+		"synths": {
+			"name": "Sinteza",
+			"description": ""
+		},
+		"keys": {
+			"name": "Klavijature",
+			"description": ""
+		}
+	},
+    	"instrument": {
+		"vocals": {
+			"lead": {
+				"name": "Glavni vokal",
+				"description": ""
+			},
+			"back": {
+				"name": "Prateći vokal",
+				"description": ""
+			}
+		},
+		"piano": {
+			"electric": {
+				"name": "Električni klavir",
+				"description": ""
+			},
+			"grand": {
+				"name": "Koncertni klavir",
+				"description": ""
+			}
+		},
+		"organ": {
+			"electric": {
+				"name": "Električne orgulje",
+				"description": ""
+			},
+			"classic": {
+				"name": "Orgulje",
+				"description": ""
+			}
+		},
+		"bass": {
+			"guitar": {
+				"name": "Bas gitara",
+				"description": ""
+			},
+			"synthesizer": {
+				"name": "Sintetizator",
+				"description": ""
+			},
+			"contrabass": {
+				"name": "Kontrabas",
+				"description": ""
+			}
+		},
+		"drums": {
+			"cymbal": {
+				"name": "Činela",
+				"description": ""
+			},
+			"drumMachine": {
+				"name": "Ritam mašina",
+				"description": ""
+			},
+			"drumKit": {
+				"name": "Akustični set bubnjeva",
+				"description": ""
+			},
+			"hiHat": {
+				"name": "Hi Hat",
+				"description": ""
+			},
+			"kickDrum": {
+				"name": "Bas bubanj",
+				"description": ""
+			},
+			"overheads": {
+				"name": "Overheads",
+				"description": ""
+			},
+			"snareDrum": {
+				"name": "Mali bubanj",
+				"description": ""
+			},
+			"tomDrum": {
+				"name": "Tom tom bubanj",
+				"description": ""
+			}
+		},
+		"guitar": {
+			"classic": {
+				"name": "Klasična gitara",
+				"description": ""
+			},
+			"electric": {
+				"name": "Električna gitara",
+				"description": ""
+			},
+			"acoustic": {
+				"name": "Akustična gitara",
+				"description": ""
+			}
+		},
+		"wind": {
+			"sax": {
+				"name": "Saksofon",
+				"description": ""
+			},
+			"trumpet": {
+				"name": "Truba",
+				"description": ""
+			}
+		},
+		"string": {
+			"violin": {
+				"name": "Violina",
+				"description": ""
+			},
+			"cello": {
+				"name": "Violončelo",
+				"description": ""
+			}
+		},
+		"accordion": {
+			"accordion": {
+				"name": "Harmonika",
+				"description": ""
+			}
+		},
+		"metronome": {
+			"metronome": {
+				"name": "Metronom",
+				"description": ""
+			}
+		},
+		"synthesizer": {
+			"bass": {
+				"name": "Bas sint",
+				"description": ""
+			},
+			"lead": {
+				"name": "Lead sint",
+				"description": ""
+			},
+			"pad": {
+				"name": "Pad sint",
+				"description": ""
+			},
+			"pluck": {
+				"name": "Pluck sint",
+				"description": ""
+			}
+		},
+		"keyboard": {
+			"electricPiano": {
+				"name": "Električni klavir",
+				"description": ""
+			},
+			"grandPiano": {
+				"name": "Koncertni klavir",
+				"description": ""
+			}
+		}
+	}
 }
