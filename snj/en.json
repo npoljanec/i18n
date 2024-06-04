@@ -17,9 +17,10 @@
         "actions":"Actions",
         "open":"Open",
         "goBack":"Go back",
-		"stemWithCount_one": "{{count}} stem",
+        "numberOfItems":"Showing {{shown}} of {{total}} items",
+	"stemWithCount_one": "{{count}} stem",
         "stemWithCount_other": "{{count}} stems",
-		"token": "Token",
+	"token": "Token",
         "animatedLogo": "Animated logo"
     },
 	"exception": {
@@ -143,7 +144,6 @@
         "numberStem": "{{numberStem}} stems",
         "bpm":"{{bpm}} bpm",
         "info": "Audio project info",
-        "numberOfItems":"Showing {{shown}} of {{total}} items",
         "initialLoadingText":"Loading audio projects"
 
     },
@@ -158,7 +158,8 @@
       "noNotifications": "No notifications",
       "markAllAsRead": "Mark all as read",
       "failedToLoad": "Failed to load notifications",
-      "showAll": "Show all notifications"
+	"showAll": "Show all notifications",
+      "initialLoadingText":"Loading notifications"
     },
     "dataItem": {
 		"musicalNotes": {
