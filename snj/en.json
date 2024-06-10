@@ -38,7 +38,10 @@
 			"invalid": "The token is invalid. Please provide a valid token."
 		},
 		"authentication.error": "An authentication error occurred. Please check your credentials and try again.",
-		"error.registering.new.user": "An error occurred while registering the new user. Please try again.",
+		"error":  {
+			"unexpected": "An error occurred. Please try again.",
+			"registering.new.user": "An error occurred while registering the new user. Please try again."
+		},
 		"service.unavailable": "Service unavailable. Please try again later.",
 		"upload.audio.project.forbidden": "You do not have permission to upload an audio project.",
 		"wrong.api.path": "The API path is incorrect. Please check the endpoint and try again.",

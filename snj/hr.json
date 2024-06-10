@@ -16,8 +16,46 @@
         "noData":"Nema podataka",
         "actions":"Radnje",
         "open":"Otvori",
-        "goBack":"Vrati se"
+        "goBack":"Vrati se",
+		"numberOfItems":"Prikazano {{shown}} od {{total}} stavki",
+		"stemWithCount_one": "{{count}} stem",
+		"stemWithCount_other": "{{count}} stem-ova",
+		"token": "Token",
+		"animatedLogo": "Animirani logo"
     },
+	"exception": {
+		"field.required.notNull": "{{field}} je obavezan i ne može biti null. Molimo unesite ispravnu vrijednost.",
+		"field.required.notBlank": "{{field}} je obavezan i ne može biti prazn. Molimo unesite ispravnu vrijednost.",
+		"entity.not.found": "{{field}} nije pronađen. Molimo provjerite unesenu vrijednost.",
+		"exist": {
+			"username": "Korisnik s korisničkim imenom {{field}} već postoji. Molimo unesite novo korisničko ime.",
+			"email": "Korisnik s emailom {{field}} već postoji. Molimo unesite novi email."
+		},
+		"bad.credentials": "Neispravni kredencijali. Molimo provjerite svoje korisničko ime i lozinku i pokušajte ponovo.",
+		"token": {
+			"required": "Nedostaje zaglavlje autorizacije. Molimo uključite valjani token.",
+			"expired": "Token je istekao. Molimo prijavite se ponovo za nastavak.",
+			"malformed": "Token je nepravilno oblikovan. Molimo unesite valjani token.",
+			"invalid": "Token je nevažeći. Molimo unesite valjani token."
+		},
+		"authentication.error": "Došlo je do greške u autentifikaciji. Molimo provjerite svoje kredencijale i pokušajte ponovo.",
+		"error":  {
+			"unexpected": "Došlo je do greške. Molimo pokušajte ponovo.",
+			"registering.new.user": "Došlo je do greške prilikom registracije novog korisnika. Molimo pokušajte ponovo."
+		},
+		"service.unavailable": "Usluga nije dostupna. Molimo pokušajte kasnije.",
+		"upload.audio.project.forbidden": "Nemate dozvolu za prijenos audio projekta.",
+		"wrong.api.path": "API putanja je netočna. Molimo provjerite krajnju točku i pokušajte ponovo.",
+		"file.size.not.match": "Veličina audio datoteke ne odgovara očekivanoj veličini.",
+		"parsing.json.error": "Došlo je do greške prilikom parsiranja JSON podataka. Molimo provjerite format i pokušajte ponovo.",
+		"unsupported.action.type": "Tip radnje koji ste pokušali nije podržan.",
+		"field.required.notFalse": "Ovo polje je obavezno i ne može biti false.",
+		"request.param.required": "{{field}} parametar je obavezan. Molimo unesite valjanu vrijednost.",
+		"playlist.privileges.denied": "{{field}} nema dovoljna prava za pristup ovom popisu pjesama.",
+		"list.can.not.empty": "{{field}} ne može biti prazan popis.",
+		"free.space.not.enough": "Nedovoljno slobodnog prostora. Molimo oslobodite dio prostora i pokušajte ponovo.",
+		"no.privileges": "{{field}} nema potrebne privilegije za ovu radnju."
+	},
     "navigation": {
         "production": "Produkcija",
         "learning": "Učenje",
