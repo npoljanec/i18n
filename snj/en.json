@@ -17,7 +17,6 @@
         "actions":"Actions",
         "open":"Open",
         "goBack":"Go back",
-        "numberOfItems":"Showing {{shown}} of {{total}} items",
 	"stemWithCount_one": "{{count}} stem",
         "stemWithCount_other": "{{count}} stems",
 	"token": "Token",
@@ -144,8 +143,8 @@
         "numberStem": "{{numberStem}} stems",
         "bpm":"{{bpm}} bpm",
         "info": "Audio project info",
+        "numberOfItems":"Showing {{shown}} of {{total}} items",
         "initialLoadingText":"Loading audio projects"
-
     },
     "confirmationModal": {
         "title": "Confirm action",
