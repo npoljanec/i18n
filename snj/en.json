@@ -164,6 +164,14 @@
 	"showAll": "Show all notifications",
       "initialLoadingText":"Loading notifications"
     },
+ 	"exportComponent": {
+        "choose": "Choose sound format",
+        "exportSelected": "Export selected",
+        "formatError": "You need to select a format",
+				"exportAllTooltip": "Export all items (lyrics, tabs, notes, sounds)",
+				"itemWithCount_one": "Selected {{count}} item",
+        "itemWithCount_other": "Selected {{count}} items"
+		},
     "dataItem": {
 		"musicalNotes": {
 			"name": "Musical notes",
