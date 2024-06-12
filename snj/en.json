@@ -20,7 +20,8 @@
 	"stemWithCount_one": "{{count}} stem",
         "stemWithCount_other": "{{count}} stems",
 	"token": "Token",
-        "animatedLogo": "Animated logo"
+        "animatedLogo": "Animated logo",
+	"unknownError": "An unknown error occurred",
     },
 	"exception": {
 		"field.required.notNull": "{{field}} is required and cannot be null. Please provide a valid value.",
