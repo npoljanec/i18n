@@ -21,7 +21,9 @@
 		"stemWithCount_other": "{{count}} stems",
 		"token": "Token",
 		"animatedLogo": "Animated logo",
-		"unknownError": "An unknown error occurred"
+		"unknownError": "An unknown error occurred",
+		"export": "Export",
+		"exportAll": "Export all"
 	},
 	"exception": {
 		"field.required.notNull": "{{field}} is required and cannot be null. Please provide a valid value.",
