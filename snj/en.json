@@ -1,28 +1,28 @@
 {
-   "general": {
-        "cancel": "Cancel",
-        "confirm": "Confirm",
-        "finish": "Finish",
-        "playlists": "Playlists",
-        "soon": "Soon",
-        "size":"{{size}} MB",
-        "minSecFormat":"{{min}} min {{sec}} sec",
-        "themeSwitch": "Theme switch",
-        "save":"Save",
-        "languageSelector":"Select language",
-        "edit":"Edit",
-        "selectAll":"Select all",
-        "delete":"Delete",
-        "noData":"No data",
-        "actions":"Actions",
-        "open":"Open",
-        "goBack":"Go back",
-	"stemWithCount_one": "{{count}} stem",
-        "stemWithCount_other": "{{count}} stems",
-	"token": "Token",
-        "animatedLogo": "Animated logo",
-	"unknownError": "An unknown error occurred"
-    },
+	"general": {
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"finish": "Finish",
+		"playlists": "Playlists",
+		"soon": "Soon",
+		"size": "{{size}} MB",
+		"minSecFormat": "{{min}} min {{sec}} sec",
+		"themeSwitch": "Theme switch",
+		"save": "Save",
+		"languageSelector": "Select language",
+		"edit": "Edit",
+		"selectAll": "Select all",
+		"delete": "Delete",
+		"noData": "No data",
+		"actions": "Actions",
+		"open": "Open",
+		"goBack": "Go back",
+		"stemWithCount_one": "{{count}} stem",
+		"stemWithCount_other": "{{count}} stems",
+		"token": "Token",
+		"animatedLogo": "Animated logo",
+		"unknownError": "An unknown error occurred"
+	},
 	"exception": {
 		"field.required.notNull": "{{field}} is required and cannot be null. Please provide a valid value.",
 		"field.required.notBlank": "{{field}} is required and cannot be blank. Please provide a valid value.",
@@ -39,7 +39,7 @@
 			"invalid": "The token is invalid. Please provide a valid token."
 		},
 		"authentication.error": "An authentication error occurred. Please check your credentials and try again.",
-		"error":  {
+		"error": {
 			"unexpected": "An error occurred. Please try again.",
 			"registering.new.user": "An error occurred while registering the new user. Please try again."
 		},
@@ -56,125 +56,122 @@
 		"free.space.not.enough": "Low free space. Please free up some space and try again.",
 		"no.privileges": "{{field}} does not have privileges needed for this action."
 	},
-    "navigation": {
-        "production": "Production",
-        "learning": "Learning",
-        "aiGenerate": "AI Generate",
-        "navigation": "Navigation"
-    },
-    "users": {
-        "tiers": {
-            "free": "Free user"
-        },
-        "hero": {
-            "title": "hero Title"
-        }
-    },
-    
-    "uploadWizard": {
-        "selectChannels"  : "Select separation stems",
-        "nextStep": "Next step",
-        "previousStep": "Previous step",
-        "spaceRequired": "Space required",
-        "tokenRequired": "Tokens required",
-        "available": "available",
-        "modalTitle": "Cancel upload",
-        "modalText": "Are you sure you want to cancel upload?",
-        "separation": "Separation",
-        "subtraction": "Subtraction",
-        "separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
-        "allInstruments": "All {{instrumentName}} in one stem"
-    },
-    "notFound" : {
-        "title": "This specific Stem or Jam is nowhere to be found"
-    },
-    "dropzone": {
-        "addSingle": "Add new",
-        "replaceSingle": "Replace with new",
-        "addMultiple": "Add new",
-        "addMoreMultiple": "Add more",
-        "replaceMultiple": "Replace with new",
-        "description":"Lorem ipsum",
-        "linkUpload": "or upload from link",
-        "removeFile":"Remove file",
-        "editFileName":"Edit file name"
-    },
-    "login": {
-        "login":"Login",
-        "logIn":"Log in",
-        "email":"E-mail",
-        "password":"Password",
-        "includesNumber":"Includes number",
-        "includesLowercase":"Includes lowercase letter",
-        "includesUppercase":"Includes uppercase letter",
-        "passwordLengthRequirement": "Includes at least 6 characters",
-        "invalidEmail": "Invalid email",
-        "register":"If you don't have an account, please register",
-        "registerTitle":"You don't have an account?",
-        "loginError":"Something went wrong, email or password may be incorrect",
-        "registerButton":"Register here",
-        "forgotPassword":"Forgot password?"
-    },
-    "passwordRecovery":{
-        "recoverPassword":"Recover password"
-    },
-    "resetPassword":{
-        "newPassword":"New password",
-        "confirmNewPassword":"Confirm new password",
-        "resetPassword":"Reset password",
-        "passwordsDoNotMatch":"Passwords do not match",
-        "invalidPassword": "Your password isn't strong enough!"
-
-    },
-	
-    "playlist": {
-        "createNew": "Create new playlist",
-        "edit":"Edit playlist",
-        "delete":"Delete playlist",
-        "name":"Playlist name",
-        "chooseColor":"Color",
-        "chooseIcon":"Icon",
-        "type":"Playlist type",
-        "personal":"Personal",
-        "shared":"Shared"
-    },
-    "audioProject": {
-        "search":"Search audio projects",
-        "edit":"Edit audio project",
-        "delete":"Delete audio project",
-        "export":"Export audio project",
-        "includeInPlaylist":"Include in playlist",
-        "numberStem": "{{numberStem}} stems",
-        "bpm":"{{bpm}} bpm",
-        "info": "Audio project info",
-        "numberOfItems":"Showing {{shown}} of {{total}} items",
-        "initialLoadingText":"Loading audio projects"
-    },
-    "confirmationModal": {
-        "title": "Confirm action",
-        "description":"Please confirm your action.",
-        "deleteItem": "Delete {{item}}",
-        "confirmDeleteItem":"Confirm that you want to delete {{item}}."
-    },
-    "notification": {
-      "title": "Notifications",
-      "noNotifications": "No notifications",
-      "markAllAsRead": "Mark all as read",
-      "failedToLoad": "Failed to load notifications",
-	"showAll": "Show all notifications",
-      "initialLoadingText":"Loading notifications"
-    },
- 	"exportComponent": {
-        "choose": "Choose sound format",
-        "exportSelected": "Export selected",
-        "formatError": "You need to select a format",
-				"exportAllTooltip": "Export all items (lyrics, tabs, notes, sounds)",
-				"itemWithCount_one": "Selected {{count}} item",
-        "itemWithCount_other": "Selected {{count}} items"
+	"navigation": {
+		"production": "Production",
+		"learning": "Learning",
+		"aiGenerate": "AI Generate",
+		"navigation": "Navigation"
+	},
+	"users": {
+		"tiers": {
+			"free": "Free user"
 		},
-    "dataItem": {
+		"hero": {
+			"title": "hero Title"
+		}
+	},
+	"uploadWizard": {
+		"selectChannels": "Select separation stems",
+		"nextStep": "Next step",
+		"previousStep": "Previous step",
+		"spaceRequired": "Space required",
+		"tokenRequired": "Tokens required",
+		"available": "available",
+		"modalTitle": "Cancel upload",
+		"modalText": "Are you sure you want to cancel upload?",
+		"separation": "Separation",
+		"subtraction": "Subtraction",
+		"separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
+		"allInstruments": "All {{instrumentName}} in one stem"
+	},
+	"notFound": {
+		"title": "This specific Stem or Jam is nowhere to be found"
+	},
+	"dropzone": {
+		"addSingle": "Add new",
+		"replaceSingle": "Replace with new",
+		"addMultiple": "Add new",
+		"addMoreMultiple": "Add more",
+		"replaceMultiple": "Replace with new",
+		"description": "Lorem ipsum",
+		"linkUpload": "or upload from link",
+		"removeFile": "Remove file",
+		"editFileName": "Edit file name"
+	},
+	"login": {
+		"login": "Login",
+		"logIn": "Log in",
+		"email": "E-mail",
+		"password": "Password",
+		"includesNumber": "Includes number",
+		"includesLowercase": "Includes lowercase letter",
+		"includesUppercase": "Includes uppercase letter",
+		"passwordLengthRequirement": "Includes at least 6 characters",
+		"invalidEmail": "Invalid email",
+		"register": "If you don't have an account, please register",
+		"registerTitle": "You don't have an account?",
+		"loginError": "Something went wrong, email or password may be incorrect",
+		"registerButton": "Register here",
+		"forgotPassword": "Forgot password?"
+	},
+	"passwordRecovery": {
+		"recoverPassword": "Recover password"
+	},
+	"resetPassword": {
+		"newPassword": "New password",
+		"confirmNewPassword": "Confirm new password",
+		"resetPassword": "Reset password",
+		"passwordsDoNotMatch": "Passwords do not match",
+		"invalidPassword": "Your password isn't strong enough!"
+	},
+	"playlist": {
+		"createNew": "Create new playlist",
+		"edit": "Edit playlist",
+		"delete": "Delete playlist",
+		"name": "Playlist name",
+		"chooseColor": "Color",
+		"chooseIcon": "Icon",
+		"type": "Playlist type",
+		"personal": "Personal",
+		"shared": "Shared"
+	},
+	"audioProject": {
+		"search": "Search audio projects",
+		"edit": "Edit audio project",
+		"delete": "Delete audio project",
+		"export": "Export audio project",
+		"includeInPlaylist": "Include in playlist",
+		"numberStem": "{{numberStem}} stems",
+		"bpm": "{{bpm}} bpm",
+		"info": "Audio project info",
+		"numberOfItems": "Showing {{shown}} of {{total}} items",
+		"initialLoadingText": "Loading audio projects"
+	},
+	"confirmationModal": {
+		"title": "Confirm action",
+		"description": "Please confirm your action.",
+		"deleteItem": "Delete {{item}}",
+		"confirmDeleteItem": "Confirm that you want to delete {{item}}."
+	},
+	"notification": {
+		"title": "Notifications",
+		"noNotifications": "No notifications",
+		"markAllAsRead": "Mark all as read",
+		"failedToLoad": "Failed to load notifications",
+		"showAll": "Show all notifications",
+		"initialLoadingText": "Loading notifications"
+	},
+	"exportComponent": {
+		"choose": "Choose sound format",
+		"exportSelected": "Export selected",
+		"formatError": "You need to select a format",
+		"exportAllTooltip": "Export all items (lyrics, tabs, notes, sounds)",
+		"itemWithCount_one": "Selected {{count}} item",
+		"itemWithCount_other": "Selected {{count}} items"
+	},
+	"dataItem": {
 		"musicalNotes": {
-			"name": "Musical notes",
+			"name": "Notes",
 			"description": ""
 		},
 		"tabs": {
@@ -188,9 +185,13 @@
 		"midi": {
 			"name": "Midi",
 			"description": ""
+		},
+		"format": {
+			"name": "Audio",
+			"description": ""
 		}
 	},
-    "instrumentGroup": {
+	"instrumentGroup": {
 		"vocals": {
 			"name": "Vocals",
 			"description": ""
@@ -232,7 +233,7 @@
 			"description": ""
 		}
 	},
-    "instrument": {
+	"instrument": {
 		"vocal": {
 			"lead": {
 				"name": "Lead vocal",
@@ -372,7 +373,7 @@
 			}
 		}
 	},
-    "audioFormat": {
+	"audioFormat": {
 		"mp3": {
 			"name": "MP3",
 			"description": ""
@@ -394,7 +395,7 @@
 			"description": ""
 		}
 	},
-    "audioItemType": {
+	"audioItemType": {
 		"original": {
 			"name": "Original",
 			"description": ""
@@ -412,7 +413,7 @@
 			"description": ""
 		}
 	},
-    "playlistType": {
+	"playlistType": {
 		"personal": {
 			"name": "Personal playlist",
 			"description": ""
@@ -422,7 +423,7 @@
 			"description": ""
 		}
 	},
-    "subscriptionPlan": {
+	"subscriptionPlan": {
 		"free": {
 			"name": "Free plan",
 			"description": ""
@@ -436,7 +437,7 @@
 			"description": ""
 		}
 	},
-    	"actionGroup": {
+	"actionGroup": {
 		"export": {
 			"name": "Export",
 			"description": ""
@@ -460,7 +461,7 @@
 			}
 		}
 	},
-    	"actionVersion": {
+	"actionVersion": {
 		"separation": {
 			"basic": {
 				"name": "Basic",
@@ -504,7 +505,7 @@
 			}
 		}
 	},
-    	"subscriptionAction": {
+	"subscriptionAction": {
 		"separation": {
 			"vocals": {
 				"basic": {
@@ -952,5 +953,4 @@
 			}
 		}
 	}
-    
 }
