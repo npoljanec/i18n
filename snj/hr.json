@@ -54,7 +54,8 @@
 		"playlist.privileges.denied": "{{field}} nema dovoljna prava za pristup ovom popisu pjesama.",
 		"list.can.not.empty": "{{field}} ne može biti prazan popis.",
 		"free.space.not.enough": "Nedovoljno slobodnog prostora. Molimo oslobodite dio prostora i pokušajte ponovo.",
-		"no.privileges": "{{field}} nema potrebne privilegije za ovu radnju."
+		"no.privileges": "{{field}} nema potrebne privilegije za ovu radnju.",
+		"unsupported.type": "Tip {{field}} nije podržan."
 	},
     "navigation": {
         "production": "Produkcija",

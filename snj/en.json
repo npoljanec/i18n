@@ -56,7 +56,8 @@
 		"playlist.privileges.denied": "{{field}} does not have sufficient privileges to access this playlist.",
 		"list.can.not.empty": "{{field}} cannot be an empty list.",
 		"free.space.not.enough": "Low free space. Please free up some space and try again.",
-		"no.privileges": "{{field}} does not have privileges needed for this action."
+		"no.privileges": "{{field}} does not have privileges needed for this action.",
+		"unsupported.type": "Type {{field}} is not supported."
 	},
 	"navigation": {
 		"production": "Production",
