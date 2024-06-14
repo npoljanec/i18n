@@ -21,6 +21,26 @@
 		"stemWithCount_other": "{{count}} stems",
 		"token": "Token",
 		"animatedLogo": "Animated logo",
+		"numberOfItems": "Showing {{shown}} of {{total}} items",
+		"noContent": "No content",
+		"noLabel": "No label",
+		"logIn": "Log in",
+		"invalidEmail": "Invalid e-mail",
+		"invalidPassword": "Your password isn't strong enough",
+		"passwordsDoNotMatch": "Passwords do not match",
+		"nameAndSurname": "Name and surname",
+		"username": "Username",
+		"fieldOfInterest": "Field of interest",
+		"yearOfBirth": "Year of birth",
+		"email": "E-mail",
+		"password": "Password",
+		"repeatPassword": "Repeat password",
+		"repeatedPassword": "Repeated password",
+		"includesNumber": "Includes number",
+		"includesLowercase": "Includes lowercase letter",
+		"includesUppercase": "Includes uppercase letter",
+		"passwordLengthRequirement": "Includes at least 6 characters",
+		"register": "Register",
 		"unknownError": "An unknown error occurred",
 		"export": "Export",
 		"exportAll": "Export all"
@@ -954,6 +974,31 @@
 					"description": ""
 				}
 			}
+		}
+	},
+	"register": {
+		"accountExists": "Already have an account?",
+		"registerWith": "Register with",
+		"googleRegistration": "Google",
+		"facebookRegistration": "Facebook",
+		"appleRegistration": "Apple ID",
+		"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		"registerWithEmail": "Register with e-mail"
+	},
+	"createAccount": {
+		"goBackTitle": "Are you sure you want to go back?",
+		"unsavedChanges": "All unsaved changes will be lost.",
+		"basicInfo": "Basic info",
+		"securityInfo": "Security info",
+		"validations": {
+			"nameRequired": "Name and surname is required",
+			"usernameRequired": "Username is required",
+			"emailRequired": "E-mail is required",
+			"yearOfBirthRequired": "Year of birth is required",
+			"invalidYearOfBirthFormat": "Invalid format",
+			"invalidYearOfBirth": "Invalid year of birth",
+			"passwordRequired": "Password is required",
+			"repeatedPasswordRequired": "Repeated password is required"
 		}
 	}
 }
