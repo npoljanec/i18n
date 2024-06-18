@@ -42,6 +42,7 @@
 		"passwordLengthRequirement": "Includes at least 6 characters",
 		"register": "Register",
 		"unknownError": "An unknown error occurred",
+		"forbidden": "Forbidden",
 		"export": "Export",
 		"exportAll": "Export all"
 	},
