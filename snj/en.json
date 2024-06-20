@@ -61,7 +61,10 @@
 			"malformed": "The token is malformed. Please provide a valid token.",
 			"invalid": "The token is invalid. Please provide a valid token."
 		},
-		"authentication.error": "An authentication error occurred. Please check your credentials and try again.",
+		"authentication": {
+			"error": "An authentication error occurred. Please check your credentials and try again.",
+			"email.not.verified": "Your email is not verified. Please verify your email and try again."
+		},
 		"error": {
 			"unexpected": "An error occurred. Please try again.",
 			"registering.new.user": "An error occurred while registering the new user. Please try again."

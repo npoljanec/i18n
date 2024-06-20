@@ -38,7 +38,10 @@
 			"malformed": "Token je nepravilno oblikovan. Molimo unesite valjani token.",
 			"invalid": "Token je nevažeći. Molimo unesite valjani token."
 		},
-		"authentication.error": "Došlo je do greške u autentifikaciji. Molimo provjerite svoje kredencijale i pokušajte ponovo.",
+		"authentication": {
+			"error": "Došlo je do greške u autentifikaciji. Molimo provjerite svoje kredencijale i pokušajte ponovo.",
+			"email.not.verified": "Vaša e-mail adresa nije potvrđena. Molimo potvrdite svoju e-mail adresu i pokušajte ponovno."
+		},
 		"error":  {
 			"unexpected": "Došlo je do greške. Molimo pokušajte ponovo.",
 			"registering.new.user": "Došlo je do greške prilikom registracije novog korisnika. Molimo pokušajte ponovo."
