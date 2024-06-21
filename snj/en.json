@@ -62,6 +62,7 @@
 			"invalid": "The token is invalid. Please provide a valid token."
 		},
 		"authentication": {
+			"unauthorized": "You are not authorized to perform this action.",
 			"error": "An authentication error occurred. Please check your credentials and try again.",
 			"email.not.verified": "Your email is not verified. Please verify your email and try again."
 		},
