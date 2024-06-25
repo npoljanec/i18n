@@ -32,6 +32,7 @@
 			"email": "Korisnik s emailom {{field}} već postoji. Molimo unesite novi email."
 		},
 		"bad.credentials": "Neispravni kredencijali. Molimo provjerite svoje korisničko ime i lozinku i pokušajte ponovo.",
+		"invalid.password": "Netočna zaporka. Provjerite svoju lozinku i pokušajte ponovo.",
 		"token": {
 			"required": "Nedostaje zaglavlje autorizacije. Molimo uključite valjani token.",
 			"expired": "Token je istekao. Molimo prijavite se ponovo za nastavak.",

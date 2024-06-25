@@ -55,6 +55,7 @@
 			"email": "User with email {{field}} already exists. Please provide a new email."
 		},
 		"bad.credentials": "Invalid credentials. Please check your username and password and try again.",
+		"invalid.password": "Invalid password. Please check your password and try again.",
 		"token": {
 			"required": "The authorization header is missing. Please include a valid token.",
 			"expired": "The token has expired. Please log in again to continue.",
