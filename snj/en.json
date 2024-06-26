@@ -84,7 +84,6 @@
 		"free.space.not.enough": "Low free space. Please free up some space and try again.",
 		"no.privileges": "{{field}} does not have privileges needed for this action.",
 		"unsupported.type": "Type {{field}} is not supported.",
-		"repository.notAvailable": "Repository is not available. Please try again later.",
 		"repository.notShared": "Repository is not shared with you. Please check the repository name and try again."
 	},
 	"navigation": {

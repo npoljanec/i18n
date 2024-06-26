@@ -61,7 +61,6 @@
 		"free.space.not.enough": "Nedovoljno slobodnog prostora. Molimo oslobodite dio prostora i pokušajte ponovo.",
 		"no.privileges": "{{field}} nema potrebne privilegije za ovu radnju.",
 		"unsupported.type": "Tip {{field}} nije podržan.",
-		"repository.notAvailable": "Repozitorij nije dostupan. Molimo pokušajte ponovno kasnije.",
 		"repository.notShared": "Repozitorij vam nije podijeljen. Molimo provjerite ime repozitorija i pokušajte ponovno."
 	},
     "navigation": {
