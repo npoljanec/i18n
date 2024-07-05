@@ -990,7 +990,8 @@
 		"facebookRegistration": "Facebook",
 		"appleRegistration": "Apple ID",
 		"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		"registerWithEmail": "Register with e-mail"
+		"registerWithEmail": "Register with e-mail",
+		"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
 	},
 	"createAccount": {
 		"goBackTitle": "Are you sure you want to go back?",
