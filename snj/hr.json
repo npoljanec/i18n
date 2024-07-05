@@ -385,5 +385,31 @@
 				"description": ""
 			}
 		}
-	}
+	},
+	 "register": {
+  "accountExists": "Već imate račun?",
+  "registerWith": "Registrirajte se putem",
+  "googleRegistration": "Google",
+  "facebookRegistration": "Facebook",
+  "appleRegistration": "Apple ID",
+  "loginDescription": "Lorem Ipsum je jednostavno lažni tekst koji se koristi u tiskarskoj i slovosložačkoj industriji. Lorem Ipsum postao je standardni lažni tekst još od 1500-ih.",
+  "registerWithEmail": "Registrirajte se e-poštom",
+  "termsAndConditions": "Nastavljanjem prihvaćate naše <0>Uvjete korištenja</0> i <1>Pravila privatnosti</1>."
+},
+"createAccount": {
+  "goBackTitle": "Jeste li sigurni da se želite vratiti na prethodnu stranicu?",
+  "unsavedChanges": "Sve nespremljene promjene bit će izgubljene.",
+  "basicInfo": "Osnovne informacije",
+  "securityInfo": "Sigurnosne informacije",
+  "validations": {
+      "nameRequired": "Ime i prezime su obavezni",
+      "usernameRequired": "Korisničko ime je obavezno",
+      "emailRequired": "E-pošta je obavezna",
+      "yearOfBirthRequired": "Godina rođenja je obavezna",
+      "invalidYearOfBirthFormat": "Neispravan format",
+      "invalidYearOfBirth": "Neispravna godina rođenja",
+      "passwordRequired": "Lozinka je obavezna",
+      "repeatedPasswordRequired": "Ponovljena lozinka je obavezna"
+    }
+  }
 }
