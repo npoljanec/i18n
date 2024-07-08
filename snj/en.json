@@ -1006,7 +1006,9 @@
 			"invalidYearOfBirthFormat": "Invalid format",
 			"invalidYearOfBirth": "Invalid year of birth",
 			"passwordRequired": "Password is required",
-			"repeatedPasswordRequired": "Repeated password is required"
+			"repeatedPasswordRequired": "Repeated password is required",
+			"emailTaken":"E-mail already taken",
+			"usernameTaken":"Username is already taken"
 		}
 	}
 }
