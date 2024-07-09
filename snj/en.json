@@ -44,7 +44,8 @@
 		"unknownError": "An unknown error occurred",
 		"forbidden": "Forbidden",
 		"export": "Export",
-		"exportAll": "Export all"
+		"exportAll": "Export all",
+		"view": "View"
 	},
 	"exception": {
 		"field.required.notNull": "{{field}} is required and cannot be null. Please provide a valid value.",
