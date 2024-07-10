@@ -124,7 +124,8 @@
         "registerTitle":"Nemate račun?",
         "loginError":"Nešto je pošlo po zlu, email ili lozinka mogu biti netočni",
         "registerButton":"Registrirajte se ovdje",
-        "forgotPassword":"Zaboravljena lozinka?"
+        "forgotPassword":"Zaboravljena lozinka?",
+	"orSignInWith":"Ili prijava putem"
     },
     "passwordRecovery":{
         "recoverPassword":"Obnovi lozinku"
