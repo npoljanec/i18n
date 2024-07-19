@@ -128,7 +128,8 @@
 		"description": "Lorem ipsum",
 		"linkUpload": "or upload from link",
 		"removeFile": "Remove file",
-		"editFileName": "Edit file name"
+		"editFileName": "Edit file name",
+		"captureNotSupported":"Directly captured videos from your camera are not supported. Please select files from your file explorer or gallery instead."
 	},
 	"login": {
 		"login": "Login",
