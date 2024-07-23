@@ -12,6 +12,7 @@
 		"languageSelector": "Select language",
 		"edit": "Edit",
 		"selectAll": "Select all",
+		"deselectAll": "Deselect all",
 		"delete": "Delete",
 		"noData": "No data",
 		"actions": "Actions",
