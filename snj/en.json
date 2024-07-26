@@ -996,17 +996,18 @@
 		"userSettings": "Your settings",
 		"logout": "Log Out",
 		"repository": "Your Repository",
-		"subscription": "Your Subscription",
-		"register": {
-			"accountExists": "Already have an account?",
-			"registerWith": "Register with",
-			"googleRegistration": "Google",
-			"facebookRegistration": "Facebook",
-			"appleRegistration": "Apple ID",
-			"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-			"registerWithEmail": "Register with e-mail",
-			"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
-		}
+		"subscription": "Your Subscription"
+	},
+"register": {
+	"accountExists": "Already have an account?",
+	"registerWith": "Register with",
+	"googleRegistration": "Google",
+	"facebookRegistration": "Facebook",
+	"appleRegistration": "Apple ID",
+	"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+	"registerWithEmail": "Register with e-mail",
+	"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
+		
 	},
 	"createAccount": {
 		"goBackTitle": "Are you sure you want to go back?",
@@ -1046,5 +1047,32 @@
 		"defaultLanguageRequired":"Default language is required",
 		"connection":"connection",
 		"connected":"connected"
-	}
+	},
+  "stemEditor":{
+    "sections":{
+      "title": "Sections",
+      "addNew": "Add new section",
+      "edit": "Edit section {{section}}",
+      "delete": "Delete section {{section}}",
+      "form":{
+        "name": "Section name",
+        "namePlaceholder": "Enter section name",
+        "description": "Section description",
+        "descriptionPlaceholder": "Enter section description",
+        "startTime" : "Start time",
+        "endTime" : "End time",
+        "min": "min",
+        "sec": "sec",
+        "color": "Section color",
+        "errors":{
+          "startGtEnd": "Start time must be less than end time",
+          "startSecondsTooLong": "Start seconds must be less than 60",
+          "endSecondsTooLong": "End seconds must be less than 60",
+          "startTimeRequired": "Start time is required",
+          "endTimeRequired": "End time is required"
+        }
+      }
+    }
+  }
 }
+
