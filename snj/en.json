@@ -42,6 +42,10 @@
 		"includesUppercase": "Includes uppercase letter",
 		"passwordLengthRequirement": "Includes at least 6 characters",
 		"register": "Register",
+		"tryAgain": "Try again",
+		"tokens": "Tokens",
+		"freeSpace": "Free space",
+		"workSpace": "Workspace",
 		"unknownError": "An unknown error occurred",
 		"error": "Error",
 		"forbidden": "Forbidden",
@@ -988,15 +992,21 @@
 			}
 		}
 	},
-	"register": {
-		"accountExists": "Already have an account?",
-		"registerWith": "Register with",
-		"googleRegistration": "Google",
-		"facebookRegistration": "Facebook",
-		"appleRegistration": "Apple ID",
-		"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		"registerWithEmail": "Register with e-mail",
-		"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
+"userDropdown": {
+		"userSettings": "Your settings",
+		"logout": "Log Out",
+		"repository": "Your Repository",
+		"subscription": "Your Subscription",
+		"register": {
+			"accountExists": "Already have an account?",
+			"registerWith": "Register with",
+			"googleRegistration": "Google",
+			"facebookRegistration": "Facebook",
+			"appleRegistration": "Apple ID",
+			"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+			"registerWithEmail": "Register with e-mail",
+			"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
+		}
 	},
 	"createAccount": {
 		"goBackTitle": "Are you sure you want to go back?",
@@ -1012,8 +1022,29 @@
 			"invalidYearOfBirth": "Invalid year of birth",
 			"passwordRequired": "Password is required",
 			"repeatedPasswordRequired": "Repeated password is required",
-			"emailTaken":"E-mail already taken",
-			"usernameTaken":"Username is already taken"
+			"emailTaken": "E-mail already taken",
+			"usernameTaken": "Username is already taken"
 		}
+	},
+	"userSettings":{
+		"userSettings":"User settings",
+		"changeProfilePicture":"Change profile picture",
+		"changePassword":"Change password",
+		"oldPassword":"Old password",
+		"newPassword":"New password",
+		"repeatNewPassword":"Repeat new password",
+		"socialMediaConnections":"Social Media Connections",
+		"storage":"Storage",
+		"saveSettings":"Save settings",
+		"deleteAccount":"Delete account",
+		"newPasswordRequired":"New password is required",
+		"newRepeatedPasswordRequired":"New repeated password is required",
+		"passwordRequired":"Password is required",
+		"oldPasswordRequired":"Old password is required",
+		"defaultLanguage":"Default language",
+		"deleteProfilePicture":"Delete profile picture",
+		"defaultLanguageRequired":"Default language is required",
+		"connection":"connection",
+		"connected":"connected"
 	}
 }
