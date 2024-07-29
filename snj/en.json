@@ -11,6 +11,7 @@
 		"save": "Save",
 		"languageSelector": "Select language",
 		"edit": "Edit",
+		"add": "Add",
 		"selectAll": "Select all",
 		"deselectAll": "Deselect all",
 		"delete": "Delete",
@@ -1065,6 +1066,7 @@
         "sec": "sec",
         "color": "Section color",
         "errors":{
+	  "nameRequired": "Section name is required",
           "startGtEnd": "Start time must be less than end time",
           "startSecondsTooLong": "Start seconds must be less than 60",
           "endSecondsTooLong": "End seconds must be less than 60",
