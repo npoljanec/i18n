@@ -54,46 +54,114 @@
 		"exportAll": "Export all",
 		"view": "View"
 	},
-	"exception": {
-		"field.required.notNull": "{{field}} is required and cannot be null. Please provide a valid value.",
-		"field.required.notBlank": "{{field}} is required and cannot be blank. Please provide a valid value.",
-		"entity.not.found": "{{field}} not found. Please check the entered value.",
-		"exist": {
-			"username": "User with username {{field}} already exists. Please provide a new username.",
-			"email": "User with email {{field}} already exists. Please provide a new email."
-		},
-		"bad.credentials": "Invalid credentials. Please check your username and password and try again.",
-		"invalid.password": "Invalid password. Please check your password and try again.",
-		"token": {
-			"required": "The authorization header is missing. Please include a valid token.",
-			"expired": "The token has expired. Please log in again to continue.",
-			"malformed": "The token is malformed. Please provide a valid token.",
-			"invalid": "The token is invalid. Please provide a valid token."
-		},
+		"exception": {
 		"authentication": {
-			"unauthorized": "You are not authorized to perform this action.",
-			"error": "An authentication error occurred. Please check your credentials and try again.",
-			"email.not.verified": "Your email is not verified. Please verify your email and try again."
+			"unauthorized": "An authentication error occurred. Please check your credentials and try again.",
+			"badCredentials": "Invalid credentials. Please check your username and password and try again.",
+			"password": {
+				"invalid": "Invalid password. Please check your password and try again."
+			},
+			"token":
+			{
+				"expired": "The token has expired. Please log in again to continue.",
+				"malformed": "The token is malformed. Please provide a valid token.",
+				"invalid": "The token is invalid. Please provide a valid token.",
+				"required": "The authorization header is missing. Please include a valid token."
+			},
+			"email": 
+			{
+				"notVerified": "Your email is not verified. Please verify your email and try again."
+			}
+		},
+		"authorization": {
+			"denied": {
+				"repository": "You are not the owner of this workspace. Please reach out to the workspace owner for any changes or permissions.",
+				"playlist": "{{field1}} does not have sufficient privileges to access this playlist.",
+				"general": "You are not having the necessary privileges for this action."
+			}
+		},
+		"validation": {
+			"field": {
+				"required": {
+					"notNull": "{{field1}} is required and cannot be null.",
+					"notBlank": "{{field1}} is required and cannot be blank.",
+					"notEmpty": "{{field1}} is required and cannot be empty."
+				}
+			},
+			"requestParam": {
+				"required": "{{field1}} parameter is required.",
+				"invalidSort": "Sort parameter is not valid."
+			},
+			"entity": {
+				"notFound": "{{field1}} not found."
+			},
+			"section": {
+				"endBeforeStart": "The end time of the section cannot be before the start time.",
+				"endExceedsDuration": "The end time of the section exceeds the allowed duration."
+			}
+		},
+		"file": {
+			"avatar": {
+				"size": {
+					"exceedsLimit": "The uploaded file exceeds the maximum size limit of 1MB. Please select a smaller file."
+				},
+				"type": {
+					"invalid": "The file format is not supported. Please upload a JPG, JPEG, or PNG file."
+				},
+				"processing": {
+					"error": "An error occurred while processing the file. Please try again later."
+				},
+				"notUploaded": "User does not have uploaded avatar."
+			}
+		},
+		"user": {
+			"email": {
+				"exists": "A user with the email {{field1}} already exists."
+			},
+			"username": {
+				"exists": "A user with the username {{field1}} already exists."
+			},
+			"workspace": {
+				"cannotLeave": "You cannot leave your own workspace.",
+				"notFound": "The user was not found in the workspace.",
+				"alreadyMember": "An account with the email {{field1}} is already part of this workspace.",
+				"deleted": "The user who added you is a deleted account.",
+				"notShared": "Workspace is not shared with you. Please check the workspace name and try again."
+			},
+			"agreement": {
+				"notAccepted": "User need to accept agreement for application."
+			}
+		},
+		"action": {
+			"unsupportedType": "The attempted action type is not supported.",
+			"merge": {
+				"failed": "The merge of audio items failed. Please try again later."
+			}
+		},
+		"subscription": {
+			"storage": {
+				"insufficient": "Your storage limit has been reached. Please free up some space or upgrade your plan to continue."
+			},
+			"token": {
+				"insufficient": "You do not have enough tokens to perform this action. Please add more tokens or upgrade your plan."
+			}
+		},
+		"resource": {
+			"audioProject": {
+				"notFound": "The audio project is not available in the current repository."
+			}
 		},
 		"error": {
-			"unexpected": "An error occurred. Please try again.",
-			"registering.new.user": "An error occurred while registering the new user. Please try again."
+			"unexpected": "An unexpected error occurred. Please try again later."
 		},
-		"service.unavailable": "Service unavailable. Please try again later.",
-		"upload.audio.project.forbidden": "You do not have permission to upload an audio project.",
-		"wrong.api.path": "The API path is incorrect. Please check the endpoint and try again.",
-		"file.size.not.match": "The audio file size does not match the expected size.",
-		"parsing.json.error": "An error occurred while parsing the JSON data. Please check the format and try again.",
-		"unsupported.action.type": "The action type you have attempted is not supported.",
-		"field.required.notFalse": "This field is required and cannot be false.",
-		"request.param.required": "{{field}} parameter is required. Please provide a valid value.",
-		"playlist.privileges.denied": "{{field}} does not have sufficient privileges to access this playlist.",
-		"list.can.not.empty": "{{field}} cannot be an empty list.",
-		"free.space.not.enough": "Low free space. Please free up some space and try again.",
-		"no.privileges": "{{field}} does not have privileges needed for this action.",
-		"unsupported.type": "Type {{field}} is not supported.",
-		"repository.notShared": "Repository is not shared with you. Please check the repository name and try again."
-	},
+		"nutcracker": {
+			"internalServerError": "Internal server error - Nutcracker service.",
+			"badRequest": "Bad request - Nutcracker service.",
+			"notFound": "Not found - Nutcracker service.",
+			"unprocessableEntity": "Unprocessable entity - Nutcracker service."
+		}
+	}
+	,
 	"navigation": {
 		"production": "Production",
 		"learning": "Learning",
