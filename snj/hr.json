@@ -1,28 +1,59 @@
 {
-   "general": {
-        "cancel": "Odustani",
-        "confirm": "Potvrdi",
-        "finish": "Završi",
-        "playlists": "Popisi pjesama",
-        "soon": "Uskoro",
-        "size":"{{size}} MB",
-        "minSecFormat":"{{min}} min {{sec}} sek",
-        "themeSwitch": "Promjena teme",
-        "save":"Spremi",
-        "languageSelector":"Odaberi jezik",
-        "edit":"Uredi",
-        "selectAll":"Odaberi sve",
-        "delete":"Izbriši",
-        "noData":"Nema podataka",
-        "actions":"Radnje",
-        "open":"Otvori",
-        "goBack":"Vrati se",
-		"numberOfItems":"Prikazano {{shown}} od {{total}} stavki",
+	"general": {
+		"cancel": "Odustani",
+		"confirm": "Potvrdi",
+		"finish": "Završi",
+		"playlists": "Popisi pjesama",
+		"soon": "Uskoro",
+		"size": "{{size}} MB",
+		"minSecFormat": "{{min}} min {{sec}} sek",
+		"themeSwitch": "Promjena teme",
+		"save": "Spremi",
+		"languageSelector": "Odaberi jezik",
+		"edit": "Uredi",
+		"add": "Dodaj",
+		"selectAll": "Odaberi sve",
+		"deselectAll": "Poništi odabir",
+		"delete": "Izbriši",
+		"noData": "Nema podataka",
+		"actions": "Radnje",
+		"open": "Otvori",
+		"goBack": "Vrati se",
 		"stemWithCount_one": "{{count}} stem",
 		"stemWithCount_other": "{{count}} stem-ova",
 		"token": "Token",
-		"animatedLogo": "Animirani logo"
-    },
+		"animatedLogo": "Animirani logo",
+		"numberOfItems": "Prikazano {{shown}} od {{total}} stavki",
+		"noContent": "Nema sadržaja",
+		"noLabel": "Nema oznake",
+		"logIn": "Prijavi se",
+		"invalidEmail": "Neispravna e-mail adresa",
+		"invalidPassword": "Vaša lozinka nije dovoljno jaka",
+		"passwordsDoNotMatch": "Lozinke se ne podudaraju",
+		"nameAndSurname": "Ime i prezime",
+		"username": "Korisničko ime",
+		"fieldOfInterest": "Područje interesa",
+		"yearOfBirth": "Godina rođenja",
+		"email": "E-mail",
+		"password": "Lozinka",
+		"repeatPassword": "Ponovite lozinku",
+		"repeatedPassword": "Ponovljena lozinka",
+		"includesNumber": "Sadrži broj",
+		"includesLowercase": "Sadrži malo slovo",
+		"includesUppercase": "Sadrži veliko slovo",
+		"passwordLengthRequirement": "Sadrži najmanje 6 znakova",
+		"register": "Registriraj se",
+		"tryAgain": "Pokušajte ponovno",
+		"tokens": "Tokeni",
+		"freeSpace": "Slobodan prostor",
+		"workSpace": "Radni prostor",
+		"unknownError": "Došlo je do nepoznate greške",
+		"error": "Greška",
+		"forbidden": "Zabranjeno",
+		"export": "Izvezi",
+		"exportAll": "Izvezi sve",
+		"view": "Pregled"
+	},
 	"exception": {
 		"authentication": {
 			"unauthorized": "Došlo je do greške u autentifikaciji. Molimo provjerite svoje vjerodajnice i pokušajte ponovno.",
@@ -126,8 +157,30 @@
 			"badRequest": "Neispravan zahtjev - Nutcracker usluga.",
 			"notFound": "Nije pronađeno - Nutcracker usluga.",
 			"unprocessableEntity": "Neobradiv entitet - Nutcracker usluga."
+		},
+		"payment": {
+			"customer": {
+				"creation": {
+					"failed": "Kreiranje platnog klijenta nije uspjelo."
+				}
+			},
+			"subscription": {
+				"creation": {
+					"failed": "Kreiranje pretplate nije uspjelo."
+				},
+				"update": {
+					"failed": "Ažuriranje pretplate nije uspjelo."
+				},
+				"cancellation": {
+					"failed": "Otkazivanje pretplate nije uspjelo."
+				},
+				"creation.or.update": {
+					"failed": "Kreiranje ili ažuriranje pretplate nije uspjelo."
+				}
+			}
 		}
-	},
+	}
+	,
     "navigation": {
         "production": "Produkcija",
         "learning": "Učenje",
@@ -254,9 +307,13 @@
 		"midi": {
 			"name": "Midi",
 			"description": ""
+		},
+		"format": {
+			"name": "Audio",
+			"description": ""
 		}
 	},
-    	"instrumentGroup": {
+	"instrumentGroup": {
 		"vocals": {
 			"name": "Vokali",
 			"description": ""
@@ -402,6 +459,10 @@
 			}
 		},
 		"string": {
+			"viola": {
+				"name": "Viola",
+				"description": ""
+			},
 			"violin": {
 				"name": "Violina",
 				"description": ""
@@ -453,29 +514,29 @@
 		}
 	},
 	 "register": {
-  "accountExists": "Već imate račun?",
-  "registerWith": "Registrirajte se putem",
-  "googleRegistration": "Google",
-  "facebookRegistration": "Facebook",
-  "appleRegistration": "Apple ID",
-  "loginDescription": "Lorem Ipsum je jednostavno lažni tekst koji se koristi u tiskarskoj i slovosložačkoj industriji. Lorem Ipsum postao je standardni lažni tekst još od 1500-ih.",
-  "registerWithEmail": "Registrirajte se e-poštom",
-  "termsAndConditions": "Nastavljanjem prihvaćate naše <0>Uvjete korištenja</0> i <1>Pravila privatnosti</1>."
-},
-"createAccount": {
-  "goBackTitle": "Jeste li sigurni da se želite vratiti na prethodnu stranicu?",
-  "unsavedChanges": "Sve nespremljene promjene bit će izgubljene.",
-  "basicInfo": "Osnovne informacije",
-  "securityInfo": "Sigurnosne informacije",
-  "validations": {
-      "nameRequired": "Ime i prezime su obavezni",
-      "usernameRequired": "Korisničko ime je obavezno",
-      "emailRequired": "E-pošta je obavezna",
-      "yearOfBirthRequired": "Godina rođenja je obavezna",
-      "invalidYearOfBirthFormat": "Neispravan format",
-      "invalidYearOfBirth": "Neispravna godina rođenja",
-      "passwordRequired": "Lozinka je obavezna",
-      "repeatedPasswordRequired": "Ponovljena lozinka je obavezna"
-    }
-  }
+		"accountExists": "Već imate račun?",
+		"registerWith": "Registrirajte se putem",
+		"googleRegistration": "Google",
+		"facebookRegistration": "Facebook",
+		"appleRegistration": "Apple ID",
+		"loginDescription": "Lorem Ipsum je jednostavno lažni tekst koji se koristi u tiskarskoj i slovosložačkoj industriji. Lorem Ipsum postao je standardni lažni tekst još od 1500-ih.",
+		"registerWithEmail": "Registrirajte se e-poštom",
+		"termsAndConditions": "Nastavljanjem prihvaćate naše <0>Uvjete korištenja</0> i <1>Pravila privatnosti</1>."
+	},
+	"createAccount": {
+		"goBackTitle": "Jeste li sigurni da se želite vratiti na prethodnu stranicu?",
+		"unsavedChanges": "Sve nespremljene promjene bit će izgubljene.",
+		"basicInfo": "Osnovne informacije",
+		"securityInfo": "Sigurnosne informacije",
+		"validations": {
+			"nameRequired": "Ime i prezime su obavezni",
+			"usernameRequired": "Korisničko ime je obavezno",
+			"emailRequired": "E-pošta je obavezna",
+			"yearOfBirthRequired": "Godina rođenja je obavezna",
+			"invalidYearOfBirthFormat": "Neispravan format",
+			"invalidYearOfBirth": "Neispravna godina rođenja",
+			"passwordRequired": "Lozinka je obavezna",
+			"repeatedPasswordRequired": "Ponovljena lozinka je obavezna"
+		}
+	}
 }

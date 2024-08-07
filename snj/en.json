@@ -54,22 +54,20 @@
 		"exportAll": "Export all",
 		"view": "View"
 	},
-		"exception": {
+	"exception": {
 		"authentication": {
 			"unauthorized": "An authentication error occurred. Please check your credentials and try again.",
 			"badCredentials": "Invalid credentials. Please check your username and password and try again.",
 			"password": {
 				"invalid": "Invalid password. Please check your password and try again."
 			},
-			"token":
-			{
+			"token": {
 				"expired": "The token has expired. Please log in again to continue.",
 				"malformed": "The token is malformed. Please provide a valid token.",
 				"invalid": "The token is invalid. Please provide a valid token.",
 				"required": "The authorization header is missing. Please include a valid token."
 			},
-			"email": 
-			{
+			"email": {
 				"notVerified": "Your email is not verified. Please verify your email and try again."
 			}
 		},
@@ -159,6 +157,27 @@
 			"badRequest": "Bad request - Nutcracker service.",
 			"notFound": "Not found - Nutcracker service.",
 			"unprocessableEntity": "Unprocessable entity - Nutcracker service."
+		},
+		"payment": {
+			"customer": {
+				"creation": {
+					"failed": "Payment customer creation failed."
+				}
+			},
+			"subscription": {
+				"creation": {
+					"failed": "Payment subscription creation failed."
+				},
+				"update": {
+					"failed": "Payment subscription update failed."
+				},
+				"cancellation": {
+					"failed": "Payment subscription cancellation failed."
+				},
+				"creation.or.update": {
+					"failed": "Payment subscription creation or update failed."
+				}
+			}
 		}
 	}
 	,
@@ -435,6 +454,10 @@
 			}
 		},
 		"wind": {
+			"sax": {
+				"name": "Sax",
+				"description": ""
+			},
 			"trumpet": {
 				"name": "Trumpet",
 				"description": ""
@@ -1061,22 +1084,21 @@
 			}
 		}
 	},
-"userDropdown": {
+	"userDropdown": {
 		"userSettings": "Your settings",
 		"logout": "Log Out",
 		"repository": "Your Repository",
 		"subscription": "Your Subscription"
 	},
-"register": {
-	"accountExists": "Already have an account?",
-	"registerWith": "Register with",
-	"googleRegistration": "Google",
-	"facebookRegistration": "Facebook",
-	"appleRegistration": "Apple ID",
-	"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-	"registerWithEmail": "Register with e-mail",
-	"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
-		
+	"register": {
+		"accountExists": "Already have an account?",
+		"registerWith": "Register with",
+		"googleRegistration": "Google",
+		"facebookRegistration": "Facebook",
+		"appleRegistration": "Apple ID",
+		"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		"registerWithEmail": "Register with e-mail",
+		"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
 	},
 	"createAccount": {
 		"goBackTitle": "Are you sure you want to go back?",
@@ -1117,32 +1139,32 @@
 		"connection":"connection",
 		"connected":"connected"
 	},
-  "stemEditor":{
-    "sections":{
-      "title": "Sections",
-      "addNew": "Add new section",
-      "edit": "Edit section {{section}}",
-      "delete": "Delete section {{section}}",
-      "form":{
-        "name": "Section name",
-        "namePlaceholder": "Enter section name",
-        "description": "Section description",
-        "descriptionPlaceholder": "Enter section description",
-        "startTime" : "Start time",
-        "endTime" : "End time",
-        "min": "min",
-        "sec": "sec",
-        "color": "Section color",
-        "errors":{
-	  "nameRequired": "Section name is required",
-          "startGtEnd": "Start time must be less than end time",
-          "startSecondsTooLong": "Start seconds must be less than 60",
-          "endSecondsTooLong": "End seconds must be less than 60",
-          "startTimeRequired": "Start time is required",
-          "endTimeRequired": "End time is required"
-        }
-      }
-    }
-  }
+  	"stemEditor":{
+		"sections":{
+			"title": "Sections",
+			"addNew": "Add new section",
+			"edit": "Edit section {{section}}",
+			"delete": "Delete section {{section}}",
+			"form":{
+				"name": "Section name",
+				"namePlaceholder": "Enter section name",
+				"description": "Section description",
+				"descriptionPlaceholder": "Enter section description",
+				"startTime" : "Start time",
+				"endTime" : "End time",
+				"min": "min",
+				"sec": "sec",
+				"color": "Section color",
+				"errors":{
+				"nameRequired": "Section name is required",
+					"startGtEnd": "Start time must be less than end time",
+					"startSecondsTooLong": "Start seconds must be less than 60",
+					"endSecondsTooLong": "End seconds must be less than 60",
+					"startTimeRequired": "Start time is required",
+					"endTimeRequired": "End time is required"
+				}
+			}
+		}
+  	}
 }
 
