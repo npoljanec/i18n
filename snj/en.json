@@ -176,6 +176,11 @@
 				},
 				"creation.or.update": {
 					"failed": "Payment subscription creation or update failed."
+				},
+				"item": {
+					"addition": {
+						"failed": "Payment subscription item addition failed."
+					}
 				}
 			}
 		}
