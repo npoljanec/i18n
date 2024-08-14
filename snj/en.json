@@ -78,6 +78,19 @@
 				"general": "You are not having the necessary privileges for this action."
 			}
 		},
+		"oauth2": {
+			"invalid": {
+				"state": "Invalid state. Please check the state and try again.",
+				"client": "Invalid client. Please check the client and try again.",
+				"responseType": "Invalid response type. Please check the response type and try again.",
+				"scope": "Invalid scope. Please check the scope and try again.",
+				"request": "Invalid OAuth2 request. Please check your request parameters and try again.",
+				"redirectUri": "Invalid redirectUri. Please check your request parameters and try again.",
+				"token": "The token is invalid. Please provide a valid token.",
+				"grantType": "Invalid grant type. Please check the grant type and try again.",
+				"codeVerifier": "Invalid code verifier. Please check the code verifier and try again."
+			}
+		},
 		"validation": {
 			"field": {
 				"required": {

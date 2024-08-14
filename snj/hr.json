@@ -78,6 +78,19 @@
 				"general": "Nemate potrebne privilegije za ovu akciju."
 			}
 		},
+		"oauth2": {
+			"invalid": {
+				"state": "Nevažeći state parametar. Provjerite state i pokušajte ponovno.",
+				"client": "Nevažeći klijent. Provjerite klijenta i pokušajte ponovno.",
+				"responseType": "Nevažeći tip odgovora. Provjerite tip odgovora i pokušajte ponovno.",
+				"scope": "Nevažeći scope parametar. Provjerite scope i pokušajte ponovno.",
+				"request": "Nevažeći OAuth2 zahtjev. Provjerite parametre zahtjeva i pokušajte ponovno.",
+				"redirectUri": "Nevažeći redirectUri. Provjerite parametre zahtjeva i pokušajte ponovno.",
+				"token": "Token je nevažeći. Molimo dostavite važeći token.",
+				"grantType": "Nevažeći tip odobrenja. Provjerite tip odobrenja i pokušajte ponovno.",
+				"codeVerifier": "Nevažeći verifikator koda. Provjerite verifikator koda i pokušajte ponovno."
+			}
+		},
 		"validation": {
 			"field": {
 				"required": {
