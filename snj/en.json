@@ -1162,6 +1162,10 @@
 		"connected":"connected"
 	},
   	"stemEditor":{
+		"mute":"Mute",
+		"solo":"Solo",
+		"changeColor":"Change color",
+		"changeIcon":"Change icon",
 		"sections":{
 			"title": "Sections",
 			"addNew": "Add new section",
