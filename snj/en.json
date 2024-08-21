@@ -160,6 +160,10 @@
 		"resource": {
 			"audioProject": {
 				"notFound": "The audio project is not available in the current repository."
+			},
+			"audioItem" : 
+			{
+				"notFound": "Audio item is not available in the current audio project"
 			}
 		},
 		"error": {
