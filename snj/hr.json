@@ -210,7 +210,7 @@
             "free": "Besplatni korisnik"
         },
         "hero": {
-            "title": "Naslov heroja"
+            "title": "Naslov"
         }
     },
     "uploadWizard": {
@@ -556,5 +556,48 @@
 			"passwordRequired": "Lozinka je obavezna",
 			"repeatedPasswordRequired": "Ponovljena lozinka je obavezna"
 		}
-	}
+	},
+	"stemEditor":{
+	    "mute":"Isključi zvuk",
+	    "solo":"Solo",
+	    "changeColor":"Promijeni boju",
+	    "changeIcon":"Promijeni ikonu",
+	    "sections":{
+		      "title": "Sekcije",
+		      "addNew": "Dodaj novu sekciju",
+		      "edit": "Uredi sekciju {{section}}",
+		      "delete": "Izbriši sekciju {{section}}",
+		      "form":{
+			        "name": "Naziv sekcije",
+			        "namePlaceholder": "Unesite naziv sekcije",
+			        "description": "Opis sekcije",
+			        "descriptionPlaceholder": "Unesite opis sekcije",
+			        "startTime" : "Vrijeme početka",
+			        "endTime" : "Vrijeme završetka",
+			        "min": "min",
+			        "sec": "sek",
+			        "color": "Boja sekcije",
+			        "namePrefill": "Sekcija {{number}}",
+			        "autocomplete": {
+				          "intro": "Uvod",
+				          "verse": "Strofa",
+				          "preChorus": "Predrefren",
+				          "chorus": "Refren",
+				          "bridge": "Bridge",
+				          "solo": "Solo",
+				          "outro": "Završetak",
+				          "hook": "Hook"
+				        },
+			        "errors":{
+			          "nameRequired": "Naziv sekcije je obavezan",
+			          "nameDuplicate": "Naziv sekcije mora biti jedinstven",
+			          "startGtEnd": "Vrijeme početka mora biti manje od vremena završetka",
+			          "startSecondsTooLong": "Sekunde početka moraju biti manje od 60",
+			          "endSecondsTooLong": "Sekunde završetka moraju biti manje od 60",
+			          "startTimeRequired": "Vrijeme početka je obavezno",
+			          "endTimeRequired": "Vrijeme završetka je obavezno"
+			        }
+	      		}
+	    	}
+ 	 }
 }
