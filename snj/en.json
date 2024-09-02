@@ -294,7 +294,8 @@
 		"bpm": "{{bpm}} bpm",
 		"info": "Audio project info",
 		"numberOfItems": "Showing {{shown}} of {{total}} items",
-		"initialLoadingText": "Loading audio projects"
+		"initialLoadingText": "Loading audio projects",
+		"noChannels": "There are no channels in this audio project"
 	},
 	"confirmationModal": {
 		"title": "Confirm action",
