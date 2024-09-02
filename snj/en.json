@@ -1182,6 +1182,17 @@
 				"min": "min",
 				"sec": "sec",
 				"color": "Section color",
+				"namePrefill": "Section {{number}}",
+				"autocomplete": {
+				  "intro": "Intro",
+				  "verse": "Verse",
+				  "preChorus": "Pre-chorus",
+				  "chorus": "Chorus",
+				  "bridge": "Bridge",
+				  "solo": "Solo",
+				  "outro": "Outro",
+				  "hook": "Hook"
+				},
 				"errors":{
 				"nameRequired": "Section name is required",
 					"startGtEnd": "Start time must be less than end time",
