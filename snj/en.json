@@ -1199,7 +1199,8 @@
 					"startSecondsTooLong": "Start seconds must be less than 60",
 					"endSecondsTooLong": "End seconds must be less than 60",
 					"startTimeRequired": "Start time is required",
-					"endTimeRequired": "End time is required"
+					"endTimeRequired": "End time is required",
+					"nameDuplicate": "Section name must be unique"
 				}
 			}
 		}
