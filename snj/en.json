@@ -1,4 +1,4 @@
-{
+f{
 	"general": {
 		"cancel": "Cancel",
 		"confirm": "Confirm",
@@ -547,6 +547,25 @@
 		"m4a": {
 			"m4a": "M4A",
 			"description": ""
+		}
+	},
+	"audioItem": {
+		"option": {
+			"clone": {
+				"name": "Clone"
+			},
+			"separate": {
+				"name": "Separate"
+			},
+			"delete": {
+				"name": "Delete"
+			},
+			"amplifier": {
+				"name": "Amplifier"
+			},
+			"effect": {
+				"name": "Effect"
+			}
 		}
 	},
 	"audioItemType": {
