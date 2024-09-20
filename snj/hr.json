@@ -309,6 +309,25 @@
       "failedToLoad": "Učitavanje obavijesti nije uspjelo",
       "showAll": "Prikaži sve obavijesti"
     },
+	"audioItem": {
+		"option": {
+			"clone": {
+				"name": "Kloniraj"
+			},
+			"separate": {
+				"name": "Odvoji"
+			},
+			"delete": {
+				"name": "Obriši"
+			},
+			"amplifier": {
+				"name": "Pojačalo"
+			},
+			"effect": {
+				"name": "Efekt"
+			}
+		}
+	},
     "dataItem": {
 		"musicalNotes": {
 			"name": "Glazbene note",
