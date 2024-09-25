@@ -1223,6 +1223,25 @@
 				}
 			}
 		}
-  	}
+  	},
+	"effect":{
+		"unit":{
+			"hertz": {
+				"name": "Hz"
+			},
+			"seconds": {
+				"name": "s"
+			},
+			"milliseconds": {
+				"name": "ms"
+			},
+			"decibel": {
+				"name": "dB"
+			},
+			"ratio": {
+				"name": ":1"
+			}
+		}
+	}
 }
 
