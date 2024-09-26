@@ -1225,6 +1225,32 @@
 		}
   	},
 	"effect":{
+		"control":{
+			"cutoff_frequency_hz": "Cutoff frequency",
+			"room_size": "Room size",
+			"damping": "Damping",
+			"wet_level": "Wet level",
+			"dry_level": "Dry level",
+			"width": "Width",
+			"freeze_mode": "Freeze mode",
+			"delay_seconds": "Delay",
+			"feedback": "Feedback",
+			"mix": "Mix",
+			"threshold_db": "Threshold",
+			"ratio": "Ratio",
+			"attack_ms": "Attack",
+			"release_ms": "Release",
+			"cutoff_frequency_hz_lowpass": "Cutoff frequency lowpass",
+			"cutoff_frequency_hz_highpass": "Cutoff frequency highpass",
+			"rate_hz": "Rate",
+			"depth": "Depth",
+			"centre_delay_ms": "Centre delay",
+			"centre_frequency_hz": "Centre frequency",
+			"cutoff_frequency_hz_highshelf": "Cutoff frequency",
+			"cutoff_frequency_hz_lowshelf": "Cutoff frequency",
+			"gain_db": "Gain",
+			"q": "Q"
+		},
 		"unit":{
 			"hertz": {
 				"name": "Hz"
