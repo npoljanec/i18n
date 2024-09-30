@@ -1188,6 +1188,10 @@
 		"changeIcon":"Change icon",
 		"sections":{
 			"title": "Sections",
+			"openDrawer": "Open sections",
+			"closeDrawer": "Close sections",
+			"noSections": "To add sections, click the button below",
+			"clearPreview": "Clear preview",
 			"addNew": "Add new section",
 			"edit": "Edit section {{section}}",
 			"delete": "Delete section {{section}}",
