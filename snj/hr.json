@@ -309,6 +309,20 @@
       "failedToLoad": "Učitavanje obavijesti nije uspjelo",
       "showAll": "Prikaži sve obavijesti"
     },
+	"actionVersion": {
+		"tiny": {
+			"name": "Minimalan",
+			"description": ""
+		},
+		"small": {
+			"name": "Osnovni",
+			"description": ""
+		},
+		"large": {
+			"name": "Napredni",
+			"description": ""
+		}
+	},
 	"audioItem": {
 		"option": {
 			"clone": {
