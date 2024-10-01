@@ -636,15 +636,15 @@
 	},
 	"actionVersion": {
 		"tiny": {
-			"name": "Tiny",
+			"name": "Minimal",
 			"description": ""
 		},
 		"small": {
-			"name": "Small",
+			"name": "Basic",
 			"description": ""
 		},
 		"large": {
-			"name": "Large",
+			"name": "Advanced",
 			"description": ""
 		}
 	},
