@@ -379,8 +379,8 @@
 			"name": "Synths",
 			"description": ""
 		},
-		"keys": {
-			"name": "Keys",
+		"piano": {
+			"name": "Piano",
 			"description": ""
 		}
 	},
