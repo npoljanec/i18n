@@ -635,47 +635,17 @@
 		}
 	},
 	"actionVersion": {
-		"separation": {
-			"basic": {
-				"name": "Basic",
-				"description": ""
-			},
-			"advance": {
-				"name": "Advance",
-				"description": ""
-			}
+		"tiny": {
+			"name": "Tiny",
+			"description": ""
 		},
-		"isolation": {
-			"basic": {
-				"name": "Basic",
-				"description": ""
-			},
-			"advance": {
-				"name": "Advance",
-				"description": ""
-			}
+		"small": {
+			"name": "Small",
+			"description": ""
 		},
-		"transcription": {
-			"midi": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"data": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			}
+		"large": {
+			"name": "Large",
+			"description": ""
 		}
 	},
 	"subscriptionAction": {
