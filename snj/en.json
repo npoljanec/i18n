@@ -30,7 +30,8 @@
 		"invalidEmail": "Invalid e-mail",
 		"invalidPassword": "Your password isn't strong enough",
 		"passwordsDoNotMatch": "Passwords do not match",
-		"nameAndSurname": "Name and surname",
+		"name": "Name",
+		"surname": "Last name",
 		"username": "Username",
 		"fieldOfInterest": "Field of interest",
 		"yearOfBirth": "Year of birth",
@@ -1118,7 +1119,8 @@
 		"basicInfo": "Basic info",
 		"securityInfo": "Security info",
 		"validations": {
-			"nameRequired": "Name and surname is required",
+			"nameRequired": "Name is required",
+			"surnameRequired": "Surname is required",h
 			"usernameRequired": "Username is required",
 			"emailRequired": "E-mail is required",
 			"yearOfBirthRequired": "Year of birth is required",
