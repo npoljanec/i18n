@@ -1201,8 +1201,108 @@
 			}
 		}
   	},
-	"effect":{
-		"control":{
+	"effect": {
+		"simple": {
+			"lowpass": {
+				"name": "Lowpass",
+				"description": "A low-pass filter is a filter that passes signals with a frequency lower than a certain cutoff frequency and attenuates signals with frequencies higher than the cutoff frequency."
+			},
+			"highpass": {
+				"name": "Highpass",
+				"description": "A high-pass filter is a filter that passes signals with a frequency higher than a certain cutoff frequency and attenuates signals with frequencies lower than the cutoff frequency."
+			},
+			"reverb": {
+				"name": "Reverb",
+				"description": "Reverb is the persistence of sound after the sound is produced. A reverberation, or reverb, is created when a sound or signal is reflected causing a large number of reflections to build up and then decay as the sound is absorbed by the surfaces of objects in the space – which could include furniture, people, and air."
+			},
+			"delay": {
+				"name": "Delay",
+				"description": "Delay is an audio effect which records an input signal to an audio storage medium, and then plays it back after a period of time. The delayed signal may either be played back multiple times, or played back into the recording again, to create the sound of a repeating, decaying echo."
+			},
+			"compressor": {
+				"name": "Compressor",
+				"description": "A compressor is an audio signal processing unit that reduces the dynamic range of an audio signal. This is done by bringing down the level of the loudest parts of the signal while leaving the quieter parts untouched."
+			},
+			"bandpass": {
+				"name": "Bandpass",
+				"description": "A band-pass filter is a device that passes frequencies within a certain range and rejects (attenuates) frequencies outside that range."
+			},
+			"chorus": {
+				"name": "Chorus",
+				"description": "Chorus is an audio effect that takes a single audio input and mixes it with one or more delayed, pitch-modulated copies of the original signal. The pitch of the added voices is typically modulated by an LFO."
+			},
+			"phaser": {
+				"name": "Phaser",
+				"description": "A phaser is an electronic sound processor used to filter a signal by creating a series of peaks and troughs in the frequency spectrum."
+			},
+			"highShelfFilter": {
+				"name": "Highshelf filter",
+				"description": "A high-shelf filter is a filter that passes signals with a frequency higher than a certain cutoff frequency and attenuates signals with frequencies lower than the cutoff frequency."
+			},
+			"lowShelfFilter": {
+				"name": "Lowshelf filter",
+				"description": "A low-shelf filter is a filter that passes signals with a frequency lower than a certain cutoff frequency and attenuates signals with frequencies higher than the cutoff frequency."
+			},
+			"peakFilter": {
+				"name": "Peak filter",
+				"description": "A peak filter is a filter that passes signals with a frequency higher or lower than a certain cutoff frequency and attenuates signals with frequencies around the cutoff frequency."
+			}
+		},
+		"complex": {
+			"distantSource": {
+				"name": "Distant source",
+				"description": "Distant source effect is a sound effect that makes the sound source appear to be further away from the listener."
+			},
+			"distantSourceEnhancedReverb": {
+				"name": "Distant source enhanced reverb",
+				"description": "Distant source enhanced reverb effect is a sound effect that makes the sound source appear to be further away from the listener with enhanced reverb."
+			},
+			"closeSource": {
+				"name": "Close source",
+				"description": "Close source effect is a sound effect that makes the sound source appear to be closer to the listener."
+			},
+			"distantAlteredSource": {
+				"name": "Distant altered source",
+				"description": "Distant altered source effect is a sound effect that makes the sound source appear to be further away from the listener with altered sound."
+			},
+			"stereoSpread": {
+				"name": "Stereo spread",
+				"description": "Stereo spread effect is a sound effect that makes the sound source appear to be wider."
+			},
+			"enhancedStereoSpread": {
+				"name": "Enhanced stereo spread",
+				"description": "Enhanced stereo spread effect is a sound effect that makes the sound source appear to be wider with enhanced sound."
+			},
+			"expansiveStereoSpread": {
+				"name": "Expansive stereo spread",
+				"description": "Expansive stereo spread effect is a sound effect that makes the sound source appear to be wider with expansive sound."
+			},
+			"brightSpread": {
+				"name": "Bright spread",
+				"description": "Bright spread effect is a sound effect that makes the sound source appear to be wider with bright sound."
+			},
+			"brightReverbSpread": {
+				"name": "Bright reverb spread",
+				"description": "Bright reverb spread effect is a sound effect that makes the sound source appear to be wider with bright sound and reverb."
+			},
+			"phasedBrightness": {
+				"name": "Phased brightness",
+				"description": "Phased brightness effect is a sound effect that makes the sound source appear to be brighter with phased sound."
+			},
+			"echoedPhasedBrightness": {
+				"name": "Echoed phased brightness",
+				"description": "Echoed phased brightness effect is a sound effect that makes the sound source appear to be brighter with echoed phased sound."
+			},
+			"dynamicPhasedEcho": {
+				"name": "Dynamic phased echo",
+				"description": "Dynamic phased echo effect is a sound effect that makes the sound source appear to be brighter with dynamic phased echo."
+			},
+			"distantSourceAlternate": {
+				"name": "Distant source alternate",
+				"description": "Distant source alternate v1 effect is a sound effect that makes the sound source appear to be further away from the listener with alternate sound."
+			}
+		},
+		"control": {
 			"cutoff_frequency_hz": "Cutoff frequency",
 			"room_size": "Room size",
 			"damping": "Damping",
@@ -1228,7 +1328,7 @@
 			"gain_db": "Gain",
 			"q": "Q"
 		},
-		"unit":{
+		"unit": {
 			"hertz": {
 				"name": "Hz"
 			},
@@ -1245,6 +1345,6 @@
 				"name": ":1"
 			}
 		}
-	}
+	},
 }
 
