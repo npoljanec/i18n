@@ -1344,6 +1344,15 @@
 			"ratio": {
 				"name": ":1"
 			}
+		},
+		"effectStates": {
+			"loading": "Loading effect...",
+			"error": "There was an issue getting effect. Please try again.",
+			"noEffect": "No effect data available.",
+			"noSimple": "No parameters available for this simple effect.",
+			"noComplex": "No parameters available for this complex effect.",
+			"applying": "Applying Effects...",
+			"apply": "Apply Effects"
 		}
 	}
 }
