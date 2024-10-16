@@ -231,7 +231,9 @@
 		"separation": "Separation",
 		"subtraction": "Subtraction",
 		"separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
-		"allInstruments": "All {{instrumentName}} in one stem"
+		"allInstruments": "All {{instrumentName}} in one stem",
+		"expandAll": "Expand all",
+		"collapseAll": "Collapse all"
 	},
 	"notFound": {
 		"title": "This specific Stem or Jam is nowhere to be found"
