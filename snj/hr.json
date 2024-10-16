@@ -198,8 +198,28 @@
 				}
 			}
 		}
-	}
-	,
+	},
+	"notification": {
+		"separation": {
+			"done": "{{field1}} je uspješno odvojio {{field2}}.",
+			"error": "Odvajanje nije uspjelo. Pokušajte ponovo."
+		},
+		"transcription": {
+			"done": "{{field1}} je uspješno generirao novi podatkovni element.",
+			"error": "Transkripcija nije uspjela. Pokušajte ponovo."
+		},
+		"export": {
+			"done": "Izvoz je uspješno završen. Sada možete preuzeti svoje podatke.",
+			"failed": "Izvoz nije uspio. Pokušajte ponovo ili provjerite svoju mrežnu vezu."
+		},
+		"workspace": {
+			"share": "Dodani ste u novi repozitorij. Provjerite i surađujte.",
+			"expand": "Vaš kapacitet pohrane je proširen. Uživajte u dodatnom prostoru!",
+			"capacity": {
+				"low": "Kapacitet vaše pohrane ili tokena je pri kraju. Nadogradite ili upravljajte resursima."
+			}
+		}
+	},
     "navigation": {
         "production": "Produkcija",
         "learning": "Učenje",
