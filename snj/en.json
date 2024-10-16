@@ -205,6 +205,27 @@
 		}
 	}
 	,
+	"notification": {
+		"separation": {
+			"done": "{{field1}} has successfully separated {{field2}}.",
+			"error": "Separation failed. Please try again."
+		},
+		"transcription": {
+			"done": "{{field1}} has successfully generated a new data item.",
+			"error": "Transcription failed. Please retry."
+		},
+		"export": {
+			"done": "Export completed successfully. You can download your data now.",
+			"failed": "Export failed. Please try again or check your network connection."
+		},
+		"workspace": {
+			"share": "You've been added to a new repository. Check it out to collaborate.",
+			"expand": "Your storage capacity has been expanded. Enjoy the extra space!",
+			"capacity": {
+				"low": "Your storage or token capacity is running low. Please upgrade or manage your resources"
+			}
+		}
+	},
 	"navigation": {
 		"production": "Production",
 		"learning": "Learning",
