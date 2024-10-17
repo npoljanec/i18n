@@ -323,7 +323,7 @@
         "deleteItem": "Izbriši {{item}}",
         "confirmDeleteItem":"Potvrdite da želite izbrisati {{item}}."
     },
-    "notification": {
+    "notifications": {
       "title": "Obavijesti",
       "noNotifications": "Nema obavijesti",
       "markAllAsRead": "Označi sve kao pročitano",
