@@ -328,7 +328,7 @@
 		"deleteItem": "Delete {{item}}",
 		"confirmDeleteItem": "Confirm that you want to delete {{item}}."
 	},
-	"notification": {
+	"notifications": {
 		"title": "Notifications",
 		"noNotifications": "No notifications",
 		"markAllAsRead": "Mark all as read",
