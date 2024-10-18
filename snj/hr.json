@@ -55,6 +55,9 @@
 		"exportAll": "Izvezi sve",
 		"view": "Pregled"
 	},
+		"accountActivation": {
+		"activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti."
+	},
 	"exception": {
 		"authentication": {
 			"unauthorized": "Došlo je do greške u autentifikaciji. Molimo provjerite svoje vjerodajnice i pokušajte ponovno.",
