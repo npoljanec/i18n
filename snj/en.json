@@ -1225,6 +1225,38 @@
 					"nameDuplicate": "Section name must be unique"
 				}
 			}
+		},
+		"actionNotification": {
+			"generate-metronome": {
+				"title": "Generating metronome",
+				"success": "Metronome generated",
+				"error": "Metronome generation failed"
+			},
+			"action-merged": {
+				"title": "Merging",
+				"success": "Merge successful",
+				"error": "Merge failed"
+			},
+			"export-done": {
+				"title": "Exporting",
+				"success": "Export successful",
+				"error": "Export failed"
+			},
+			"effects-apply": {
+				"title": "Applying effect",
+				"success": "Effect applied",
+				"error": "Effect failed"
+			},
+			"clone": {
+				"title": "Cloning",
+				"success": "Clone successful",
+				"error": "Clone failed"
+			},
+			"action-separation": {
+				"title": "Separating",
+				"success": "Separation successful",
+				"error": "Separation failed"
+			}
 		}
   	},
 	"effect": {
