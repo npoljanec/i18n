@@ -1125,10 +1125,10 @@
 		}
 	},
 	"userDropdown": {
-		"userSettings": "Your settings",
+		"userSettings": "My settings",
 		"logout": "Log Out",
-		"repository": "Your Repository",
-		"subscription": "Your Subscription"
+		"repository": "My repository",
+		"subscription": "My subscription"
 	},
 	"register": {
 		"accountExists": "Already have an account?",
