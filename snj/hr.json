@@ -15,7 +15,7 @@
 		"selectAll": "Odaberi sve",
 		"deselectAll": "Poništi odabir",
 		"delete": "Izbriši",
-		"noData": "Nema podataka",
+		"noData": "Trenutno nema podataka",
 		"actions": "Radnje",
 		"open": "Otvori",
 		"goBack": "Vrati se",
@@ -225,7 +225,7 @@
 	},
     "navigation": {
         "studio": "Studio",
-        "practice": "Proba",
+        "practice": "Vježbanje",
         "aiGenerate": "AI Generiranje",
         "navigation": "Navigacija"
     },
