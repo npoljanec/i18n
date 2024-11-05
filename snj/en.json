@@ -128,6 +128,12 @@
 					"error": "An error occurred while processing the file. Please try again later."
 				},
 				"notUploaded": "User does not have uploaded avatar."
+			},
+			"audio": 
+			{
+			   "size": {
+					"exceedsLimit": "The uploaded file exceeds the maximum size limit of 100MB. Please select a smaller file."
+				}	
 			}
 		},
 		"user": {
