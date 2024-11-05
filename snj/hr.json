@@ -224,8 +224,8 @@
 		}
 	},
     "navigation": {
-        "production": "Produkcija",
-        "learning": "Učenje",
+        "studio": "Studio",
+        "practice": "Proba",
         "aiGenerate": "AI Generiranje",
         "navigation": "Navigacija"
     },
