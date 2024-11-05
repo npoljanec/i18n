@@ -230,8 +230,8 @@
 		}
 	},
 	"navigation": {
-		"production": "Production",
-		"learning": "Learning",
+		"studio": "Studio",
+		"practice": "Practice",
 		"aiGenerate": "AI Generate",
 		"navigation": "Navigation"
 	},
