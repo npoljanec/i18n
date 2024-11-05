@@ -127,6 +127,12 @@
 					"error": "Došlo je do greške prilikom obrade datoteke. Molimo pokušajte ponovno kasnije."
 				},
 				"notUploaded": "Korisnik nema prenesen avatar."
+			},
+			"audio": 
+			{
+			  "size": {
+					"exceedsLimit": "Prenesena datoteka prelazi maksimalnu dopuštenu veličinu od 100MB. Molimo odaberite manju datoteku."
+				}	
 			}
 		},
 		"user": {
