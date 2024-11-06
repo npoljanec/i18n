@@ -206,7 +206,32 @@
 					}
 				}
 			}
-		}
+		},
+
+		"class": {
+		"account": "Korisnički račun",
+		"amplifier": "Pojačalo",
+		"appUser": "Korisnik",
+		"audioItem": "Audio stavka",
+		"audioItemGroup": "Grupa audio stavki",
+		"audioFormat": "Audio format",
+		"audioProject": "Audio projekt",
+		"musicalEffectSimple": "Jednostavan muzički efekt",
+		"notificationKey": "Ključ obavijesti",
+		"playlist": "Popis pjesama",
+		"playlistType": "Tip popisa pjesama",
+		"repository": "Radni prostor",
+		"section": "Sekcija ",
+		"storageUsage": "Iskorištenost pohrane",
+		"subscription": "Pretplata",
+		"subscriptionActions": "Pretplatna akcija",
+		"subscriptionActionsGroup": "Grupa pretplatnih akcija",
+		"subscriptionExtension": "Ekstenzija pretplate",
+		"subscriptionPlan": "Plan pretplate",
+		"subscriptionUsage": "Iskorištenost pretplat",
+		"tokenTransactions": "Transakcija tokena",
+		"userGroup": "Grupa korisnika"
+	}
 	},
 	"notification": {
 		"separation": {
