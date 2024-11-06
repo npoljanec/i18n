@@ -211,7 +211,31 @@
 					}
 				}
 			}
-		}
+		},
+		"class": {
+		"account": "Account",
+		"amplifier": "Amplifier",
+		"appUser": "App user",
+		"audioItem": "Audio item",
+		"audioItemGroup": "Audio item group",
+		"audioFormat": "Audio format",
+		"audioProject": "Audio project",
+		"musicalEffectSimple": "Musical effect simple",
+		"notificationKey": "Notification key",
+		"playlist": "Playlist",
+		"playlistType": "Playlist type",
+		"repository": "Repository",
+		"section": "Section",
+		"storageUsage": "Storage usage",
+		"subscription": "Subscription",
+		"subscriptionActions": "Subscription actions",
+		"subscriptionActionsGroup": "Subscription actions group",
+		"subscriptionExtension": "Subscription extension",
+		"subscriptionPlan": "Subscription plan",
+		"subscriptionUsage": "Subscription usage",
+		"tokenTransactions": "Token transactions",
+		"userGroup": "User group"
+	}
 	}
 	,
 	"notification": {
