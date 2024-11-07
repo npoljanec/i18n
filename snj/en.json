@@ -1442,6 +1442,60 @@
 			"applying": "Applying Effects...",
 			"apply": "Apply Effects"
 		}
+	},
+	"channelOptions": {
+		"clone": "Clone",
+		"separate": "Separate",
+		"amplifiers": "Amplifiers",
+		"effects": "Effects",
+		"focus": "Focus",
+		"error": "There was an issue getting options. Please try again."
+	},
+	"modes": {
+		"merge": "Merge",
+		"group": "Group",
+		"reorder": "Reorder",
+		"placeholder": "Choose action",
+		"mergeItems": "Merge items"
+	},
+	"playControl": {
+		"microphoneUnavailable": "Microphone unavailable",
+		"microphoneUnavailableMessage": "We couldn't access your microphone. Please check your device settings to ensure the microphone is connected and that this application has the necessary permissions. If you've recently allowed microphone access, please refresh the page to try again. If the issue persists, try using a different browser.",
+		"microphone": "Microphone",
+		"selectMicrophone": "Select microphone",
+		"chooseMicrophone": "Choose microphone",
+		"unknownMicrophone": "Unknown microphone",
+		"recordButton": "Starting a new recording will overwrite the existing one."
+	},
+	"groups": {
+		"title": "Groups",
+		"addNew": "Add new group",
+		"noGroups": "No groups",
+		"chooseGroup": "Choose group",
+		"delete": "Delete group",
+		"editIcon": "Edit icon",
+		"editName": "Edit group name",
+		"error": "There was an error fetching groups.",
+		"noGroup": "No group",
+		"chooseGroupForEdit": "Choose group you want to edit."
+	},
+	"repository":{
+		"joinDate":"Joining date",
+		"tokensSpent":"Token spent",
+		"sharedRepositoriesTitle": "List of repositories shared with you",
+		"sharedRepositoriesError": "There was an error fetching repositories, please try again.",
+		"userGroup":"User group",
+		"userGroupDescription":"Manage other users that have access to your workspace and audio projects",
+		"searchUsers":"Search users",
+		"addUser":"Add user",
+		"leaveRepositoryTitle": "Leave {{item}}",
+		"leaveRepositoryDescription": "Confirm that you want to leave {{item}}.",
+		"removeFromRepositoryTitle": "Remove {{item}} from your repository",
+		"removeFromRepositoryDescription": "Confirm that you want to remove {{item}} from your repository.",
+		"leave":"Leave",
+		"remove":"Remove",
+		"addUserTitle":"Add user to your repository",
+		"addUserDescription":"Enter the email of the user you wish to add to your repository."
 	}
 }
 
