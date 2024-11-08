@@ -1215,6 +1215,7 @@
 		"solo":"Solo",
 		"changeColor":"Change color",
 		"changeIcon":"Change icon",
+		"loading": "Loading audio project",
 		"sections":{
 			"title": "Sections",
 			"openDrawer": "Open sections",
