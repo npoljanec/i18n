@@ -59,6 +59,12 @@
 	"accountActivation": {
 		"activateSuccess": "Your account is activated. You can now login."
 	},
+	"user": {
+		"group": {
+			"invited": "An invitation has been sent to {{field1}} to join your workspace.",
+			"added": "User email {{field1}} has been successfully added to your workspace."
+		}
+	},
 	"exception": {
 		"authentication": {
 			"unauthorized": "An authentication error occurred. Please check your credentials and try again.",
