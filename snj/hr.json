@@ -55,6 +55,12 @@
 		"exportAll": "Izvezi sve",
 		"view": "Pregled"
 	},
+	"user": {
+		"group": {
+			"invited": "Pozivnica je poslana {{field1}} da se pridruži vašem radnom prostoru.",
+			"added": "Korisnik s emailom {{field1}} uspješno je dodan u vaš radni prostor."
+		}
+	},
 		"accountActivation": {
 		"activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti."
 	},
