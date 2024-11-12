@@ -57,7 +57,11 @@
 		"view": "View"
 	},
 	"accountActivation": {
-		"activateSuccess": "Your account is activated. You can now login."
+		"activateSuccess": "Your account is activated. You can now login.",
+		"activateError": "An error occurred while activating your account. Please try again.",
+		"alreadyActivated": "Your account is already activated. You can proceed to login.",
+		"activationResent": "Activation email has been resent. Please check your email.",
+		"requestNewActivationEmail": "Request new activation email"
 	},
 	"user": {
 		"group": {
