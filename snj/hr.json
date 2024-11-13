@@ -625,6 +625,28 @@
 			}
 		}
 	},
+	"subscriptionPlan": {
+		"free": {
+			"name": "Besplatno",
+			"description": ""
+		},
+		"freePlus": {
+			"name": "Besplatno plus",
+			"description": ""
+		},
+		"advance": {
+			"name": "Napredno",
+			"description": ""
+		},
+		"pro": {
+			"name": "Pro",
+			"description": ""
+		},
+		"premium": {
+			"name": "Premium",
+			"description": ""
+		}
+	},
 	"actionGroup": {
 		"export": {
 			"name": "Izvoz",
