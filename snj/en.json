@@ -687,19 +687,17 @@
 			"name": "Separation",
 			"description": ""
 		},
-		"isolation": {
-			"name": "Isolation",
+		"detection": {
+			"name": "Detection",
 			"description": ""
 		},
 		"transcription": {
-			"midi": {
-				"name": "Transcription to midi",
-				"description": ""
-			},
-			"data": {
-				"name": "Transcription to data",
-				"description": ""
-			}
+			"name": "Transcription",
+			"description": ""
+		},
+		"general": {
+			"name": "General",
+			"description": ""
 		}
 	},
 	"actionVersion": {
