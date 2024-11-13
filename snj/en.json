@@ -666,15 +666,23 @@
 	},
 	"subscriptionPlan": {
 		"free": {
-			"name": "Free plan",
+			"name": "Free",
+			"description": ""
+		},
+		"freePlus": {
+			"name": "Free plus",
 			"description": ""
 		},
 		"advance": {
-			"name": "Advance plan",
+			"name": "Advance",
 			"description": ""
 		},
 		"pro": {
-			"name": "Pro plan",
+			"name": "Pro",
+			"description": ""
+		},
+		"premium": {
+			"name": "Premium",
 			"description": ""
 		}
 	},
