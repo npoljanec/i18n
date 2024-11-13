@@ -625,6 +625,29 @@
 			}
 		}
 	},
+	"actionGroup": {
+		"export": {
+			"name": "Izvoz",
+			"description": ""
+		},
+		"separation": {
+			"name": "Separation",
+			"description": ""
+		},
+		"detection": {
+			"name": "Detekcija",
+			"description": ""
+		},
+		"transcription": {
+			"name": "Transkripcija",
+			"description": ""
+		},
+		"general": {
+			"name": "Opće",
+			"description": ""
+		}
+	},
+
 	 "register": {
 		"accountExists": "Već imate račun?",
 		"registerWith": "Registrirajte se putem",
