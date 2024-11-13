@@ -167,7 +167,9 @@
 		"action": {
 			"unsupportedType": "The attempted action type is not supported.",
 			"merge": {
-				"failed": "The merge of audio items failed. Please try again later."
+				"failed": "The merge of audio items failed. Please try again later.",
+				"invalidItems": "The merge failed, audio items are not valid.",
+				"invalidNumber":"Cannot merge one audio item"
 			}
 		},
 		"subscription": {
