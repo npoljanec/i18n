@@ -162,7 +162,9 @@
 		"action": {
 			"unsupportedType": "Pokušani tip akcije nije podržan.",
 			"merge": {
-				"failed": "Spajanje audio stavki nije uspjelo. Molimo pokušajte ponovno kasnije."
+				  "failed": "Spajanje audio stavki nije uspjelo. Molimo pokušajte ponovno kasnije.",
+                                   "invalidItems": "Spajanje nije uspjelo, audio stavke nisu valjane.",
+                                    "invalidNumber": "Nije moguće spojiti jednu audio stavku"
 			}
 		},
 		"subscription": {
