@@ -61,6 +61,8 @@
 		"activateError": "An error occurred while activating your account. Please try again.",
 		"alreadyActivated": "Your account is already activated. You can proceed to login.",
 		"activationResent": "Activation email has been resent. Please check your email.",
+		"activateAccountRequestError": "An error occurred while activating your account. Please try again.",
+		"accountNotActivatedLink": "Your account is not activated. Please check your email for the activation link.",
 		"requestNewActivationEmail": "Request new activation email"
 	},
 	"user": {
