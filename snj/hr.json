@@ -111,7 +111,8 @@
 			},
 			"requestParam": {
 				"required": "{{field1}} parametar je obavezan.",
-				"invalidSort": "Sort parametar nije valjan."
+				"invalidSort": "Sort parametar nije valjan.",
+				 "invalid": "Nevažeća vrijednost varijable"
 			},
 			"entity": {
 				"notFound": "{{field1}} nije pronađen."
