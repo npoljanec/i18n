@@ -337,14 +337,18 @@
 		"orSignInWith": "Or sign in with"
 	},
 	"passwordRecovery": {
-		"recoverPassword": "Recover password"
+		"recoverPassword": "Recover password",
+		"forgotPasswordSuccess": "An email has been sent with instructions on how to reset your password.",
+		"forgotPasswordError": "An error occurred. Please try again"
 	},
 	"resetPassword": {
 		"newPassword": "New password",
 		"confirmNewPassword": "Confirm new password",
 		"resetPassword": "Reset password",
 		"passwordsDoNotMatch": "Passwords do not match",
-		"invalidPassword": "Your password isn't strong enough!"
+		"invalidPassword": "Your password isn't strong enough!",
+		"resetPasswordSuccess": "Your password has been reset successfully. Please login with your new password.",
+		"resetPasswordError": "An error occurred while resetting your password. Please try again."
 	},
 	"playlist": {
 		"createNew": "Create new playlist",
