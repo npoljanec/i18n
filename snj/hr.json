@@ -66,39 +66,39 @@
 	},
 	"exception": {
 		"authentication": {
-			"unauthorized": "Došlo je do greške u autentifikaciji. Molimo provjerite svoje vjerodajnice i pokušajte ponovno.",
-			"badCredentials": "Neispravne vjerodajnice. Molimo provjerite svoje korisničko ime i lozinku i pokušajte ponovno.",
+			"unauthorized": "Došlo je do problema s autentifikacijom. Provjerite svoje vjerodajnice i pokušajte ponovo.",
+			"badCredentials": "Pruženi podaci za prijavu nisu ispravni. Provjerite svoje korisničko ime i lozinku, a zatim pokušajte ponovo.",
 			"password": {
-				"invalid": "Neispravna lozinka. Molimo provjerite svoju lozinku i pokušajte ponovno."
+				"invalid": "Lozinka nije ispravna. Provjerite i ispravite svoju lozinku."
 			},
 			"token": {
-				"expired": "Token je istekao. Molimo prijavite se ponovno kako biste nastavili.",
-				"malformed": "Token je neispravan. Molimo dostavite važeći token.",
-				"invalid": "Token je nevažeći. Molimo dostavite važeći token.",
-				"required": "Nedostaje zaglavlje autorizacije. Molimo uključite važeći token."
+				"expired": "Token je istekao. Ponovno se prijavite kako biste nastavili.",
+				"malformed": "Format tokena je neispravan. Provjerite ispravan format tokena.",
+				"invalid": "Pruženi token nije važeći. Pružite važeći token.",
+				"required": "Nedostaje autorizacijski zaglavlje. Uključite važeći token."
 			},
 			"email": {
-				"notVerified": "Vaš email nije verificiran. Molimo verificirajte svoj email i pokušajte ponovno."
+				"notVerified": "Vaš email još nije verificiran. Molimo vas da ga verificirate prije nastavka."
 			}
 		},
 		"authorization": {
 			"denied": {
-				"repository": "Niste vlasnik ovog radnog prostora. Molimo kontaktirajte vlasnika radnog prostora za bilo kakve promjene ili dozvole.",
-				"playlist": "{{field1}} nema dovoljno privilegija za pristup ovoj playlisti.",
-				"general": "Nemate potrebne privilegije za ovu akciju."
+				"repository": "Niste vlasnik ovog radnog prostora. Molimo kontaktirajte vlasnika za potrebne promjene ili dozvole.",
+				"playlist": "{{field1}} nema dovoljne privilegije za pristup ovoj playlisti.",
+				"general": "Nemate potrebne privilegije za izvršenje ove akcije."
 			}
 		},
 		"oauth2": {
 			"invalid": {
-				"state": "Nevažeći state parametar. Provjerite state i pokušajte ponovno.",
-				"client": "Nevažeći klijent. Provjerite klijenta i pokušajte ponovno.",
-				"responseType": "Nevažeći tip odgovora. Provjerite tip odgovora i pokušajte ponovno.",
-				"scope": "Nevažeći scope parametar. Provjerite scope i pokušajte ponovno.",
-				"request": "Nevažeći OAuth2 zahtjev. Provjerite parametre zahtjeva i pokušajte ponovno.",
-				"redirectUri": "Nevažeći redirectUri. Provjerite parametre zahtjeva i pokušajte ponovno.",
-				"token": "Token je nevažeći. Molimo dostavite važeći token.",
-				"grantType": "Nevažeći tip odobrenja. Provjerite tip odobrenja i pokušajte ponovno.",
-				"codeVerifier": "Nevažeći verifikator koda. Provjerite verifikator koda i pokušajte ponovno."
+				"state": "Pruženo stanje je neispravno. Provjerite i pokušajte ponovo.",
+				"client": "Pruženi klijent je neispravan. Provjerite klijent i pokušajte ponovo.",
+				"responseType": "Pruženi tip odgovora je neispravan. Provjerite tip odgovora i pokušajte ponovo.",
+				"scope": "Pruženi opseg je neispravan. Provjerite opseg i pokušajte ponovo.",
+				"request": "OAuth2 zahtjev je neispravan. Provjerite parametre zahtjeva i pokušajte ponovo.",
+				"redirectUri": "Pruženi URL za preusmjeravanje je neispravan. Provjerite i pokušajte ponovo.",
+				"token": "Token je neispravan. Pružite važeći token.",
+				"grantType": "Pruženi tip odobrenja je neispravan. Provjerite tip odobrenja i pokušajte ponovo.",
+				"codeVerifier": "Verifikator koda je neispravan. Provjerite i pokušajte ponovo."
 			}
 		},
 		"validation": {
@@ -110,138 +110,181 @@
 				}
 			},
 			"requestParam": {
-				"required": "{{field1}} parametar je obavezan.",
-				"invalidSort": "Sort parametar nije valjan.",
-				 "invalid": "Nevažeća vrijednost varijable"
+				"required": "Parametar {{field1}} nedostaje i potreban je za obradu vašeg zahtjeva.",
+				"invalidSort": "Pruženi parametar za sortiranje je neispravan. Molimo koristite ispravan način sortiranja.",
+				"invalid": "Pružena vrijednost za putnu varijablu je neispravna. Provjerite i pokušajte ponovo."
 			},
 			"entity": {
-				"notFound": "{{field1}} nije pronađen."
+				"notFound": "Zahtjevana {{field1}} nije pronađena. Provjerite i pokušajte ponovo."
 			},
 			"section": {
-				"endBeforeStart": "Vrijeme završetka sekcije ne može biti prije vremena početka.",
-				"endExceedsDuration": "Vrijeme završetka sekcije prelazi dopušteno trajanje."
-			}
+				"endBeforeStart": "Krajnje vrijeme sekcije ne može biti prije početnog vremena. Molimo ispravite.",
+				"endExceedsDuration": "Krajnje vrijeme sekcije premašuje dozvoljenu maksimalnu duljinu. Molimo pregledajte i ispravite."
+			},
+			"systemInternal": {
+				"invalid": "Neispravni interni parametri sustava."
+			},
+			"orders": {
+				"invalid": "Redoslijed audio stavki u zahtjevu je neispravan. Provjerite i ispravite redoslijed."
+			},
+			"email": "Pružena email adresa nije ispravna. Provjerite je li ispravno formatirana."
 		},
 		"file": {
 			"avatar": {
 				"size": {
-					"exceedsLimit": "Prenesena datoteka prelazi maksimalnu dopuštenu veličinu od 1MB. Molimo odaberite manju datoteku."
+					"exceedsLimit": "Pružena datoteka premašuje ograničenje veličine od 1 MB. Odaberite manju datoteku."
 				},
 				"type": {
-					"invalid": "Format datoteke nije podržan. Molimo prenesite JPG, JPEG ili PNG datoteku."
+					"invalid": "Format datoteke nije podržan. Molimo učitajte JPG, JPEG ili PNG datoteku."
 				},
 				"processing": {
-					"error": "Došlo je do greške prilikom obrade datoteke. Molimo pokušajte ponovno kasnije."
-				},
-				"notUploaded": "Korisnik nema prenesen avatar."
+					"error": "Došlo je do pogreške prilikom obrade datoteke. Pokušajte ponovo kasnije."
+				}
 			},
-			"audio": 
-			{
-			  "size": {
-					"exceedsLimit": "Prenesena datoteka prelazi maksimalnu dopuštenu veličinu od 100MB. Molimo odaberite manju datoteku."
-				}	
+			"audio": {
+				"size": {
+					"exceedsLimit": "Pružena audio datoteka premašuje ograničenje od 100 MB. Odaberite manju datoteku."
+				}
 			}
 		},
 		"user": {
 			"email": {
-				"exists": "Korisnik s email adresom {{field1}} već postoji."
+				"exists": "Email {{field1}} je već registriran. Prijavite se ili koristite drugačiju email adresu."
 			},
 			"username": {
-				"exists": "Korisnik s korisničkim imenom {{field1}} već postoji."
+				"exists": "Korisničko ime {{field1}} je već zauzeto. Odaberite drugo korisničko ime."
 			},
 			"workspace": {
-				"cannotLeave": "Ne možete napustiti svoj vlastiti radni prostor.",
-				"notFound": "Korisnik nije pronađen u radnom prostoru.",
-				"alreadyMember": "Račun s email adresom {{field1}} već je dio ovog radnog prostora.",
-				"deleted": "Korisnik koji vas je dodao je izbrisan račun.",
-				"notShared": "Radni prostor nije podijeljen s vama. Molimo provjerite naziv radnog prostora i pokušajte ponovno."
+				"cannotLeave": "Kao vlasnik ovog radnog prostora, ne možete ga napustiti.",
+				"notFound": "Ovaj korisnik nije pronađen u radnom prostoru. Provjerite podatke i pokušajte ponovo.",
+				"alreadyMember": "Email {{field1}} je već član ovog radnog prostora. Nema potrebe za ponovnim dodavanjem!",
+				"deleted": "Račun korisnika koji vas je dodao je izbrisan.",
+				"notShared": "Ovaj radni prostor još nije podijeljen s vama."
 			},
 			"agreement": {
-				"notAccepted": "Korisnik mora prihvatiti ugovor za aplikaciju."
+				"notAccepted": "Morate prihvatiti uvjete korištenja kako biste nastavili koristiti aplikaciju."
 			}
 		},
 		"action": {
-			"unsupportedType": "Pokušani tip akcije nije podržan.",
+			"unsupportedType": "Vrsta akcije koju pokušavate izvršiti nije podržana. Provjerite i pokušajte ponovo.",
 			"merge": {
-				  "failed": "Spajanje audio stavki nije uspjelo. Molimo pokušajte ponovno kasnije.",
-                                   "invalidItems": "Spajanje nije uspjelo, audio stavke nisu valjane.",
-                                    "invalidNumber": "Nije moguće spojiti jednu audio stavku"
+				"failed": "Došlo je do pogreške prilikom spajanja audio stavki. Pokušajte ponovo kasnije.",
+				"invalidItems": "Odabrane audio stavke nisu ispravne za spajanje. Provjerite i odaberite ispravne stavke.",
+				"invalidNumber": "Morate odabrati više od jedne audio stavke za spajanje."
+			},
+			"original": {
+				"clone": {
+					"failed": "Kloniranje originalnih audio stavki nije dopušteno."
+				},
+				"delete": {
+					"failed": "Originalne audio stavke ne mogu se izbrisati."
+				}
+			}
+		},
+		"amplifier": {
+			"unsupported": "Zatraženi pojačavač ne može se primijeniti na ovu audio stavku.",
+			"notFound": "Zatraženi pojačavač nije dostupan. Odaberite podržani pojačavač."
+		},
+		"effect": {
+			"validation": {
+				"outOfRange": "Pružena vrijednost za ovaj parametar je izvan dopuštenog raspona. Provjerite i prilagodite."
+			},
+			"parameter": {
+				"required": "Parametar {{field1}} je obavezan za efekt {{field2}}. Molimo pružite ga."
+			},
+			"or": {
+				"param": "Ne možete istovremeno poslati efekte i parametre. Jedan od njih mora biti null."
+			},
+			"unsupported": "Ovaj efekt ne može se primijeniti na odabranu audio stavku.",
+			"unsupported": {
+				"numericType": "Pružena numerička vrsta nije podržana za ovaj efekt."
+			},
+			"complex": {
+				"invalidCount": "Broj jednostavnih efekata u složenom efektu je neispravan.",
+				"invalidOrder": "Redoslijed jednostavnih efekata u složenom efektu je neispravan."
+			},
+			"invalid": {
+				"formField": "Polja obrasca za ovaj efekt su neispravna. Provjerite ih.",
+				"type": "Vrsta efekta nije ispravna. Provjerite vrstu efekta i pokušajte ponovo."
 			}
 		},
 		"subscription": {
-			"storage": {
-				"insufficient": "Dosegli ste ograničenje pohrane. Molimo oslobodite prostor ili nadogradite svoj plan kako biste nastavili."
+			"failed": "Neuspješan pokušaj plaćanja pretplate. Provjerite svoje podatke i pokušajte ponovo."
+		}
+	},
+	"resource": {
+		"audioProject": {
+			"notFound": "Audio projekt nije dostupan u trenutnom repozitoriju."
+		},
+		"audioItem": {
+			"notFound": "Audio stavka nije dostupna u trenutnom audio projektu"
+		}
+	},
+	"error": {
+		"unexpected": "Došlo je do neočekivane pogreške. Pokušajte ponovo kasnije."
+	},
+	"nutcracker": {
+		"internalServerError": "Ups! Došlo je do pogreške u Nutcrackeru.",
+		"badRequest": "Čini se da postoji problem s zahtjevom poslanim Nutcrackeru.",
+		"notFound": "Zatraženi resurs nije pronađen u Nutcrackeru.",
+		"unprocessableEntity": "Nutcracker usluga nije mogla obraditi zahtjev"
+	},
+	"auth": {
+		"intervalServerError": "Ups! Došlo je do pogreške u usluzi za autentifikaciju. Pokušajte ponovo kasnije.",
+		"badRequest": "Čini se da postoji problem s vašim zahtjevom prema usluzi za autentifikaciju.",
+		"notFound": "Entitet koji tražite nije pronađen u usluzi za autentifikaciju."
+	},
+	"payment": {
+		"customer": {
+			"creation": {
+				"failed": "Kreiranje kupca za plačanje nije uspjelo."
+			}
+		},
+		"subscription": {
+			"creation": {
+				"failed": "Kreiranje pretplate za plačanje nije uspjelo."
 			},
-			"token": {
-				"insufficient": "Nemate dovoljno tokena za izvršenje ove akcije. Molimo dodajte više tokena ili nadogradite svoj plan."
-			}
-		},
-		"resource": {
-			"audioProject": {
-				"notFound": "Audio projekt nije dostupan u trenutnom repozitoriju."
-			}
-		},
-		"error": {
-			"unexpected": "Došlo je do neočekivane greške. Molimo pokušajte ponovno kasnije."
-		},
-		"nutcracker": {
-			"internalServerError": "Interna greška servera - Nutcracker usluga.",
-			"badRequest": "Neispravan zahtjev - Nutcracker usluga.",
-			"notFound": "Nije pronađeno - Nutcracker usluga.",
-			"unprocessableEntity": "Neobradiv entitet - Nutcracker usluga."
-		},
-		"payment": {
-			"customer": {
-				"creation": {
-					"failed": "Kreiranje platnog klijenta nije uspjelo."
-				}
+			"update": {
+				"failed": "Ažuriranje pretplate za plačanje nije uspjelo."
 			},
-			"subscription": {
-				"creation": {
-					"failed": "Kreiranje pretplate nije uspjelo."
-				},
-				"update": {
-					"failed": "Ažuriranje pretplate nije uspjelo."
-				},
-				"cancellation": {
-					"failed": "Otkazivanje pretplate nije uspjelo."
-				},
-				"creation.or.update": {
-					"failed": "Kreiranje ili ažuriranje pretplate nije uspjelo."
-				},
-				"item": {
-					"addition": {
-						"failed": "Dodavanje stavke pretplate nije uspjelo."
-					}
+			"cancellation": {
+				"failed": "Otkazivanje pretplate za plačanje nije uspjelo."
+			},
+			"creation.or.update": {
+				"failed": "Kreiranje ili ažuriranje pretplate za plačanje nije uspjelo."
+			},
+			"item": {
+				"addition": {
+					"failed": "Dodavanje stavke pretplate za plačanje nije uspjelo."
 				}
 			}
-		},
-
-		"class": {
-		"account": "Korisnički račun",
-		"amplifier": "Pojačalo",
+		}
+	},
+	"class": {
+		"account": "Račun",
+		"amplifier": "Pojačavač",
 		"appUser": "Korisnik",
 		"audioItem": "Audio stavka",
 		"audioItemGroup": "Grupa audio stavki",
 		"audioFormat": "Audio format",
 		"audioProject": "Audio projekt",
-		"musicalEffectSimple": "Jednostavan muzički efekt",
+		"musicalEffectSimple": "Jednostavan glazbeni efekt",
 		"notificationKey": "Ključ obavijesti",
-		"playlist": "Popis pjesama",
-		"playlistType": "Tip popisa pjesama",
-		"repository": "Radni prostor",
-		"section": "Sekcija ",
-		"storageUsage": "Iskorištenost pohrane",
+		"playlist": "Playlist",
+		"playlistType": "Vrsta playliste",
+		"repository": "Repozitorij",
+		"section": "Sekcija",
+		"storageUsage": "Korištenje pohrane",
 		"subscription": "Pretplata",
-		"subscriptionActions": "Pretplatna akcija",
-		"subscriptionActionsGroup": "Grupa pretplatnih akcija",
-		"subscriptionExtension": "Ekstenzija pretplate",
+		"subscriptionActions": "Akcije pretplate",
+		"subscriptionActionsGroup": "Grupa akcija pretplate",
+		"subscriptionExtension": "Produžetak pretplate",
 		"subscriptionPlan": "Plan pretplate",
-		"subscriptionUsage": "Iskorištenost pretplat",
-		"tokenTransactions": "Transakcija tokena",
-		"userGroup": "Grupa korisnika"
+		"subscriptionUsage": "Korištenje pretplate",
+		"tokenTransactions": "Transakcije tokena",
+		"userGroup": "Korisnička grupa"
 	}
-	},
+	,
 	"notification": {
 		"separation": {
 			"done": "{{field1}} je uspješno odvojio {{field2}}.",
