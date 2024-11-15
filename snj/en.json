@@ -118,7 +118,8 @@
 			},
 			"requestParam": {
 				"required": "{{field1}} parameter is required.",
-				"invalidSort": "Sort parameter is not valid."
+				"invalidSort": "Sort parameter is not valid.",
+				"invalid": " Invalid path variable value."
 			},
 			"entity": {
 				"notFound": "{{field1}} not found."
