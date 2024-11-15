@@ -117,17 +117,24 @@
 				}
 			},
 			"requestParam": {
-				"required": "{{field1}} parameter is required.",
-				"invalidSort": "Sort parameter is not valid.",
-				"invalid": " Invalid path variable value."
+				"required": "The {{field1}} parameter is missing and is required to process your request.",
+				"invalidSort": "The provided sort parameter is invalid. Please use a valid sorting option.",
+				"invalid": "The provided path variable value is invalid. Ensure it matches the expected format."
 			},
 			"entity": {
-				"notFound": "{{field1}} not found."
+				"notFound": "The requested {{field1}} could not be found. Please verify the input and try again."
 			},
 			"section": {
-				"endBeforeStart": "The end time of the section cannot be before the start time.",
-				"endExceedsDuration": "The end time of the section exceeds the allowed duration."
-			}
+				"endBeforeStart": "The section's end time cannot be earlier than its start time. Please adjust the timings.",
+				"endExceedsDuration": "The section's end time exceeds the maximum allowed duration. Please review and update it."
+			},
+			"systemInternal": {
+				"invalid": "Invalid system internal parameters."
+			},
+			"orders": {
+				"invalid": "The order of the audio items in the request is invalid. Please verify and adjust the sequence."
+			},
+			"email": "Invalid email. Please provide valid email address."
 		},
 		"file": {
 			"avatar": {
@@ -139,40 +146,73 @@
 				},
 				"processing": {
 					"error": "An error occurred while processing the file. Please try again later."
-				},
-				"notUploaded": "User does not have uploaded avatar."
+				}
 			},
-			"audio": 
-			{
-			   "size": {
+			"audio": {
+				"size": {
 					"exceedsLimit": "The uploaded file exceeds the maximum size limit of 100MB. Please select a smaller file."
-				}	
+				}
 			}
 		},
 		"user": {
 			"email": {
-				"exists": "A user with the email {{field1}} already exists."
+				"exists": "It looks like the email {{field1}} is already in use. Try logging in or use a different email."
 			},
 			"username": {
-				"exists": "A user with the username {{field1}} already exists."
+				"exists": "Oops! The username {{field1}} is already taken. How about trying another one?"
 			},
 			"workspace": {
-				"cannotLeave": "You cannot leave your own workspace.",
-				"notFound": "The user was not found in the workspace.",
-				"alreadyMember": "An account with the email {{field1}} is already part of this workspace.",
-				"deleted": "The user who added you is a deleted account.",
-				"notShared": "Workspace is not shared with you. Please check the workspace name and try again."
+				"cannotLeave": "You’re the owner of this workspace, so you can’t leave it.",
+				"notFound": "We couldn’t find this user in the workspace. Double-check the details and give it another go.",
+				"alreadyMember": "The email {{field1}} is already part of this workspace. No need to add it again!",
+				"deleted": "The account of the person who added you has been deleted.",
+				"notShared": "This workspace isn’t shared with you yet"
 			},
 			"agreement": {
-				"notAccepted": "User need to accept agreement for application."
+				"notAccepted": "You need to accept the agreement to continue using the application."
 			}
 		},
 		"action": {
-			"unsupportedType": "The attempted action type is not supported.",
+			"unsupportedType": "The action type you're trying to perform isn't supported. Please check and try again.",
 			"merge": {
-				"failed": "The merge of audio items failed. Please try again later.",
-				"invalidItems": "The merge failed, audio items are not valid.",
-				"invalidNumber":"Cannot merge one audio item"
+				"failed": "Something went wrong while merging the audio items. Please try again later.",
+				"invalidItems": "The selected audio items are not valid for merging. Please check and select the correct items",
+				"invalidNumber": "You need to select more than one audio item to merge."
+			},
+			"original": {
+				"clone": {
+					"failed": "Cloning of original audio items is not allowed."
+				},
+				"delete": {
+					"failed": "Original audio items cannot be deleted."
+				}
+			}
+		},
+		"amplifier": {
+			"unsupported": "Requested amplifier cannot be applied to this audio item.",
+			"notFound": "Requested amplifier is not available. Please try to apply some of the supported amplifiers."
+		},
+		"effect": {
+			"validation": {
+				"outOfRange": "The value provided is out of range for this parameter. Please check and try again."
+			},
+			"parameter": {
+				"required": "The parameter {{field1}} is required for the effect {{field2}}. Please provide it."
+			},
+			"or": {
+				"param": "You can't send both effects and parameters at the same time. One of them must be left null"
+			},
+			"unsupported": "This musical effect cannot be applied to the selected audio item.",
+			"unsupported": {
+				"numericType": "The numeric type is not supported for this effect"
+			},
+			"complex": {
+				"invalidCount": "Invalid number of simple effect in complex effect",
+				"invalidOrder": "Invalid order of simple effect in complex effect"
+			},
+			"invalid": {
+				"formField": "The form files for this effect are invalid. Please check them.",
+				"type": "The parameter {{field1}} should be a string for the effect {{field2}}. Please review the input."
 			}
 		},
 		"subscription": {
@@ -181,14 +221,14 @@
 			},
 			"token": {
 				"insufficient": "You do not have enough tokens to perform this action. Please add more tokens or upgrade your plan."
-			}
+			},
+			"plan": "Invalid code for subscription plan."
 		},
 		"resource": {
 			"audioProject": {
 				"notFound": "The audio project is not available in the current repository."
 			},
-			"audioItem" : 
-			{
+			"audioItem": {
 				"notFound": "Audio item is not available in the current audio project"
 			}
 		},
@@ -196,10 +236,15 @@
 			"unexpected": "An unexpected error occurred. Please try again later."
 		},
 		"nutcracker": {
-			"internalServerError": "Internal server error - Nutcracker service.",
-			"badRequest": "Bad request - Nutcracker service.",
-			"notFound": "Not found - Nutcracker service.",
-			"unprocessableEntity": "Unprocessable entity - Nutcracker service."
+			"internalServerError": "Oops! Something went wrong with the Nutcracker.",
+			"badRequest": "There seems to be an issue with the request sent to the Nutcracker.",
+			"notFound": "The requested resource could not be found in the Nutcracker.",
+			"unprocessableEntity": "The Nutcracker service could not process the request"
+		},
+		"auth": {
+			"intervalServerError": "Oops! Something went wrong with the authentication service. Please try again later.",
+			"badRequest": "There seems to be an issue with your request to the authentication service.",
+			"notFound": "The entity you’re looking for could not be found in the authentication service."
 		},
 		"payment": {
 			"customer": {
@@ -228,31 +273,30 @@
 			}
 		},
 		"class": {
-		"account": "Account",
-		"amplifier": "Amplifier",
-		"appUser": "App user",
-		"audioItem": "Audio item",
-		"audioItemGroup": "Audio item group",
-		"audioFormat": "Audio format",
-		"audioProject": "Audio project",
-		"musicalEffectSimple": "Musical effect simple",
-		"notificationKey": "Notification key",
-		"playlist": "Playlist",
-		"playlistType": "Playlist type",
-		"repository": "Repository",
-		"section": "Section",
-		"storageUsage": "Storage usage",
-		"subscription": "Subscription",
-		"subscriptionActions": "Subscription actions",
-		"subscriptionActionsGroup": "Subscription actions group",
-		"subscriptionExtension": "Subscription extension",
-		"subscriptionPlan": "Subscription plan",
-		"subscriptionUsage": "Subscription usage",
-		"tokenTransactions": "Token transactions",
-		"userGroup": "User group"
-	}
-	}
-	,
+			"account": "Account",
+			"amplifier": "Amplifier",
+			"appUser": "User",
+			"audioItem": "Audio item",
+			"audioItemGroup": "Audio item group",
+			"audioFormat": "Audio format",
+			"audioProject": "Audio project",
+			"musicalEffectSimple": "Musical effect simple",
+			"notificationKey": "Notification key",
+			"playlist": "Playlist",
+			"playlistType": "Playlist type",
+			"repository": "Repository",
+			"section": "Section",
+			"storageUsage": "Storage usage",
+			"subscription": "Subscription",
+			"subscriptionActions": "Subscription actions",
+			"subscriptionActionsGroup": "Subscription actions group",
+			"subscriptionExtension": "Subscription extension",
+			"subscriptionPlan": "Subscription plan",
+			"subscriptionUsage": "Subscription usage",
+			"tokenTransactions": "Token transactions",
+			"userGroup": "User group"
+		}
+	},
 	"notification": {
 		"separation": {
 			"done": "{{field1}} has successfully separated {{field2}}.",
