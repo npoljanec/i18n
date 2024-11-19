@@ -32,7 +32,7 @@
 		"invalidPassword": "Your password isn't strong enough",
 		"passwordsDoNotMatch": "Passwords do not match",
 		"name": "Name",
-		"surname": "Last name",
+		"lastname": "Last name",
 		"username": "Username",
 		"fieldOfInterest": "Field of interest",
 		"yearOfBirth": "Year of birth",
@@ -54,7 +54,15 @@
 		"forbidden": "Forbidden",
 		"export": "Export",
 		"exportAll": "Export all",
-		"view": "View"
+		"view": "View",
+		"effects": "Effects",
+		"stillProcessing": "Audio item is still being processed",
+		"recording": "Recording",
+		"close": "Close",
+		"details": "Details",
+		"status": "Status",
+		"action": "Action",
+		"downloadExport":"Download manually"
 	},
 	"accountActivation": {
 		"activateSuccess": "Your account is activated. You can now login.",
