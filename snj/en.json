@@ -1289,7 +1289,7 @@
 			"title": "Sections",
 			"openDrawer": "Open sections",
 			"closeDrawer": "Close sections",
-			"noSections": "To add sections, click the button below",
+			"noSections": "To add sections, click 'Add new section'",
 			"clearPreview": "Clear preview",
 			"addNew": "Add new section",
 			"edit": "Edit section {{section}}",
