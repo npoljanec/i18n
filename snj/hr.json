@@ -224,7 +224,13 @@
 			}
 		},
 		"subscription": {
-			"failed": "Neuspješan pokušaj plaćanja pretplate. Provjerite svoje podatke i pokušajte ponovo."
+			"storage": {
+				"insufficient": "Dosegli ste svoj limit za pohranu. Oslobodite malo prostora ili nadogradite svoj plan kako biste nastavili."
+			},
+			"token": {
+				"insufficient": "Nemate dovoljno tokena za izvršenje ove radnje. Dodajte više tokena ili nadogradite svoj plan."
+			},
+			"plan": "Neispravan kod za plan pretplate."
 		}
 	},
 	"resource": {
