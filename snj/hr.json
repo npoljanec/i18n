@@ -79,9 +79,6 @@
 			"added": "Korisnik s emailom {{field1}} uspješno je dodan u vaš radni prostor."
 		}
 	},
-		"accountActivation": {
-		"activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti."
-	},
 	"exception": {
 		"authentication": {
 			"unauthorized": "Došlo je do problema s autentifikacijom. Provjerite svoje vjerodajnice i pokušajte ponovo.",
