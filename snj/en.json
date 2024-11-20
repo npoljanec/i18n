@@ -381,13 +381,6 @@
     },
     "login": {
         "login": "Login",
-        "logIn": "Log in",
-        "email": "E-mail",
-        "password": "Password",
-        "includesNumber": "Includes number",
-        "includesLowercase": "Includes lowercase letter",
-        "includesUppercase": "Includes uppercase letter",
-        "passwordLengthRequirement": "Includes at least 6 characters",
         "invalidEmail": "Invalid email",
         "register": "If you don't have an account, please register",
         "registerTitle": "You don't have an account?",
@@ -405,7 +398,6 @@
         "newPassword": "New password",
         "confirmNewPassword": "Confirm new password",
         "resetPassword": "Reset password",
-        "passwordsDoNotMatch": "Passwords do not match",
         "invalidPassword": "Your password isn't strong enough!",
         "resetPasswordSuccess": "Your password has been reset successfully. Please login with your new password.",
         "resetPasswordError": "An error occurred while resetting your password. Please try again."
@@ -1444,7 +1436,6 @@
             "clone": "Clone",
             "separate": "Separate",
             "amplifiers": "Amplifiers",
-            "effects": "Effects",
             "focus": "Focus",
             "error": "There was an issue getting options. Please try again."
         },
@@ -1702,7 +1693,6 @@
         "musicalEffects": "Musical effects",
         "amplifiers": "Amplifiers",
         "instruments": "Instruments",
-        "export": "Export",
         "generate": "Generate"
     }
 }
