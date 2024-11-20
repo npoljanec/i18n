@@ -448,7 +448,8 @@
 		"markAllAsRead": "Mark all as read",
 		"failedToLoad": "Failed to load notifications",
 		"showAll": "Show all notifications",
-		"initialLoadingText": "Loading notifications"
+		"initialLoadingText": "Loading notifications",
+		"loadingMore": "Loading notifications"
 	},
 	"exportComponent": {
 		"choose": "Choose sound format",
