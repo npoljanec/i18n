@@ -1,332 +1,330 @@
 {
-	"general": {
-		"cancel": "Odustani",
-		"confirm": "Potvrdi",
-		"finish": "Završi",
-		"playlists": "Popisi pjesama",
-		"soon": "Uskoro",
-		"size": "{{size}} MB",
-		"minSecFormat": "{{min}} min {{sec}} sek",
-		"themeSwitch": "Promjena teme",
-		"save": "Spremi",
-		"languageSelector": "Odaberi jezik",
-		"edit": "Uredi",
-		"editName": "Uredi ime",
-		"add": "Dodaj",
-		"selectAll": "Odaberi sve",
-		"deselectAll": "Poništi odabir",
-		"delete": "Izbriši",
-		"noData": "Ovdje još nema podataka",
-		"actions": "Radnje",
-		"open": "Otvori",
-		"goBack": "Vrati se",
-		"stemWithCount_one": "{{count}} kanal",
-		"stemWithCount_other": "{{count}} kanala",
-		"token": "Token",
-		"animatedLogo": "Animirani logotip",
-		"numberOfItems": "Prikazano {{shown}} od {{total}} stavki",
-		"noContent": "Nema sadržaja",
-		"noLabel": "Bez oznake",
-		"logIn": "Prijavi se",
-		"invalidEmail": "Neispravan e-mail",
-		"invalidPassword": "Vaša lozinka nije dovoljno jaka",
-		"passwordsDoNotMatch": "Lozinke se ne podudaraju",
-		"name": "Ime",
-		"lastname": "Prezime",
-		"username": "Korisničko ime",
-		"fieldOfInterest": "Područje interesa",
-		"yearOfBirth": "Godina rođenja",
-		"email": "E-mail",
-		"password": "Lozinka",
-		"repeatPassword": "Ponovite lozinku",
-		"repeatedPassword": "Ponovljena lozinka",
-		"includesNumber": "Sadrži broj",
-		"includesLowercase": "Sadrži malo slovo",
-		"includesUppercase": "Sadrži veliko slovo",
-		"passwordLengthRequirement": "Sadrži najmanje 6 znakova",
-		"register": "Registriraj se",
-		"tryAgain": "Pokušaj ponovno",
-		"tokens": "Tokeni",
-		"freeSpace": "Slobodan prostor",
-		"workSpace": "Radni prostor",
-		"unknownError": "Dogodila se nepoznata greška",
-		"error": "Greška",
-		"forbidden": "Zabranjeno",
-		"export": "Izvezi",
-		"exportAll": "Izvezi sve",
-		"view": "Prikaži",
-		"effects": "Efekti",
-		"stillProcessing": "Audio stavka se još obrađuje",
-		"recording": "Snimanje",
-		"close": "Zatvori",
-		"details": "Detalji",
-		"status": "Status",
-		"action": "Radnja",
-		"downloadExport": "Preuzmi ručno"
-	},
-	"accountActivation": {
-		"activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti.",
-		"activateError": "Došlo je do greške prilikom aktivacije vašeg računa. Molimo pokušajte ponovno.",
-		"alreadyActivated": "Vaš račun je već aktiviran. Možete nastaviti s prijavom.",
-		"activationResent": "E-mail za aktivaciju je ponovno poslan. Molimo provjerite svoj e-mail.",
-		"activateAccountRequestError": "Došlo je do greške prilikom aktivacije vašeg računa. Molimo pokušajte ponovno.",
-		"accountNotActivatedLink": "Vaš račun nije aktiviran. Molimo provjerite svoj e-mail za poveznicu za aktivaciju.",
-		"requestNewActivationEmail": "Zatraži novi e-mail za aktivaciju"
-	},
-	"user": {
-		"group": {
-			"invited": "Pozivnica je poslana {{field1}} da se pridruži vašem radnom prostoru.",
-			"added": "Korisnik s emailom {{field1}} uspješno je dodan u vaš radni prostor."
-		}
-	},
-	"exception": {
-		"authentication": {
-			"unauthorized": "Došlo je do problema s autentifikacijom. Provjerite svoje vjerodajnice i pokušajte ponovo.",
-			"badCredentials": "Pruženi podaci za prijavu nisu ispravni. Provjerite svoje korisničko ime i lozinku, a zatim pokušajte ponovo.",
-			"password": {
-				"invalid": "Lozinka nije ispravna. Provjerite i ispravite svoju lozinku."
-			},
-			"token": {
-				"expired": "Token je istekao. Ponovno se prijavite kako biste nastavili.",
-				"malformed": "Format tokena je neispravan. Provjerite ispravan format tokena.",
-				"invalid": "Pruženi token nije važeći. Pružite važeći token.",
-				"required": "Nedostaje autorizacijski zaglavlje. Uključite važeći token."
-			},
-			"email": {
-				"notVerified": "Vaš email još nije verificiran. Molimo vas da ga verificirate prije nastavka."
-			}
-		},
-		"authorization": {
-			"denied": {
-				"repository": "Niste vlasnik ovog radnog prostora. Molimo kontaktirajte vlasnika za potrebne promjene ili dozvole.",
-				"playlist": "{{field1}} nema dovoljne privilegije za pristup ovoj playlisti.",
-				"general": "Nemate potrebne privilegije za izvršenje ove akcije."
-			}
-		},
-		"oauth2": {
-			"invalid": {
-				"state": "Pruženo stanje je neispravno. Provjerite i pokušajte ponovo.",
-				"client": "Pruženi klijent je neispravan. Provjerite klijent i pokušajte ponovo.",
-				"responseType": "Pruženi tip odgovora je neispravan. Provjerite tip odgovora i pokušajte ponovo.",
-				"scope": "Pruženi opseg je neispravan. Provjerite opseg i pokušajte ponovo.",
-				"request": "OAuth2 zahtjev je neispravan. Provjerite parametre zahtjeva i pokušajte ponovo.",
-				"redirectUri": "Pruženi URL za preusmjeravanje je neispravan. Provjerite i pokušajte ponovo.",
-				"token": "Token je neispravan. Pružite važeći token.",
-				"grantType": "Pruženi tip odobrenja je neispravan. Provjerite tip odobrenja i pokušajte ponovo.",
-				"codeVerifier": "Verifikator koda je neispravan. Provjerite i pokušajte ponovo."
-			}
-		},
-		"validation": {
-			"field": {
-				"required": {
-					"notNull": "{{field1}} je obavezno i ne može biti null.",
-					"notBlank": "{{field1}} je obavezno i ne može biti prazno.",
-					"notEmpty": "{{field1}} je obavezno i ne može biti prazno."
-				}
-			},
-			"requestParam": {
-				"required": "Parametar {{field1}} nedostaje i potreban je za obradu vašeg zahtjeva.",
-				"invalidSort": "Pruženi parametar za sortiranje je neispravan. Molimo koristite ispravan način sortiranja.",
-				"invalid": "Pružena vrijednost za putnu varijablu je neispravna. Provjerite i pokušajte ponovo."
-			},
-			"entity": {
-				"notFound": "Zahtjevana {{field1}} nije pronađena. Provjerite i pokušajte ponovo."
-			},
-			"section": {
-				"endBeforeStart": "Krajnje vrijeme sekcije ne može biti prije početnog vremena. Molimo ispravite.",
-				"endExceedsDuration": "Krajnje vrijeme sekcije premašuje dozvoljenu maksimalnu duljinu. Molimo pregledajte i ispravite."
-			},
-			"systemInternal": {
-				"invalid": "Neispravni interni parametri sustava."
-			},
-			"orders": {
-				"invalid": "Redoslijed audio stavki u zahtjevu je neispravan. Provjerite i ispravite redoslijed."
-			},
-			"email": "Pružena email adresa nije ispravna. Provjerite je li ispravno formatirana."
-		},
-		"file": {
-			"avatar": {
-				"size": {
-					"exceedsLimit": "Pružena datoteka premašuje ograničenje veličine od 1 MB. Odaberite manju datoteku."
-				},
-				"type": {
-					"invalid": "Format datoteke nije podržan. Molimo učitajte JPG, JPEG ili PNG datoteku."
-				},
-				"processing": {
-					"error": "Došlo je do pogreške prilikom obrade datoteke. Pokušajte ponovo kasnije."
-				}
-			},
-			"audio": {
-				"size": {
-					"exceedsLimit": "Pružena audio datoteka premašuje ograničenje od 100 MB. Odaberite manju datoteku."
-				}
-			}
-		},
-		"user": {
-			"email": {
-				"exists": "Email {{field1}} je već registriran. Prijavite se ili koristite drugačiju email adresu."
-			},
-			"username": {
-				"exists": "Korisničko ime {{field1}} je već zauzeto. Odaberite drugo korisničko ime."
-			},
-			"workspace": {
-				"cannotLeave": "Kao vlasnik ovog radnog prostora, ne možete ga napustiti.",
-				"notFound": "Ovaj korisnik nije pronađen u radnom prostoru. Provjerite podatke i pokušajte ponovo.",
-				"alreadyMember": "Email {{field1}} je već član ovog radnog prostora. Nema potrebe za ponovnim dodavanjem!",
-				"deleted": "Račun korisnika koji vas je dodao je izbrisan.",
-				"notShared": "Ovaj radni prostor još nije podijeljen s vama."
-			},
-			"agreement": {
-				"notAccepted": "Morate prihvatiti uvjete korištenja kako biste nastavili koristiti aplikaciju."
-			}
-		},
-		"action": {
-			"unsupportedType": "Vrsta akcije koju pokušavate izvršiti nije podržana. Provjerite i pokušajte ponovo.",
-			"merge": {
-				"failed": "Došlo je do pogreške prilikom spajanja audio stavki. Pokušajte ponovo kasnije.",
-				"invalidItems": "Odabrane audio stavke nisu ispravne za spajanje. Provjerite i odaberite ispravne stavke.",
-				"invalidNumber": "Morate odabrati više od jedne audio stavke za spajanje."
-			},
-			"original": {
-				"clone": {
-					"failed": "Kloniranje originalnih audio stavki nije dopušteno."
-				},
-				"delete": {
-					"failed": "Originalne audio stavke ne mogu se izbrisati."
-				}
-			}
-		},
-		"amplifier": {
-			"unsupported": "Zatraženi pojačavač ne može se primijeniti na ovu audio stavku.",
-			"notFound": "Zatraženi pojačavač nije dostupan. Odaberite podržani pojačavač."
-		},
-		"effect": {
-			"validation": {
-				"outOfRange": "Pružena vrijednost za ovaj parametar je izvan dopuštenog raspona. Provjerite i prilagodite."
-			},
-			"parameter": {
-				"required": "Parametar {{field1}} je obavezan za efekt {{field2}}. Molimo pružite ga."
-			},
-			"or": {
-				"param": "Ne možete istovremeno poslati efekte i parametre. Jedan od njih mora biti null."
-			},
-			"unsupported": "Ovaj efekt ne može se primijeniti na odabranu audio stavku.",
-			"unsupported": {
-				"numericType": "Pružena numerička vrsta nije podržana za ovaj efekt."
-			},
-			"complex": {
-				"invalidCount": "Broj jednostavnih efekata u složenom efektu je neispravan.",
-				"invalidOrder": "Redoslijed jednostavnih efekata u složenom efektu je neispravan."
-			},
-			"invalid": {
-				"formField": "Polja obrasca za ovaj efekt su neispravna. Provjerite ih.",
-				"type": "Vrsta efekta nije ispravna. Provjerite vrstu efekta i pokušajte ponovo."
-			}
-		},
-		"subscription": {
-			"storage": {
-				"insufficient": "Dosegli ste svoj limit za pohranu. Oslobodite malo prostora ili nadogradite svoj plan kako biste nastavili."
-			},
-			"token": {
-				"insufficient": "Nemate dovoljno tokena za izvršenje ove radnje. Dodajte više tokena ili nadogradite svoj plan."
-			},
-			"plan": "Neispravan kod za plan pretplate."
-		}
-	},
-	"resource": {
-		"audioProject": {
-			"notFound": "Audio projekt nije dostupan u trenutnom repozitoriju."
-		},
-		"audioItem": {
-			"notFound": "Audio stavka nije dostupna u trenutnom audio projektu"
-		}
-	},
-	"error": {
-		"unexpected": "Došlo je do neočekivane pogreške. Pokušajte ponovo kasnije."
-	},
-	"nutcracker": {
-		"internalServerError": "Ups! Došlo je do pogreške u Nutcrackeru.",
-		"badRequest": "Čini se da postoji problem s zahtjevom poslanim Nutcrackeru.",
-		"notFound": "Zatraženi resurs nije pronađen u Nutcrackeru.",
-		"unprocessableEntity": "Nutcracker usluga nije mogla obraditi zahtjev"
-	},
-	"auth": {
-		"intervalServerError": "Ups! Došlo je do pogreške u usluzi za autentifikaciju. Pokušajte ponovo kasnije.",
-		"badRequest": "Čini se da postoji problem s vašim zahtjevom prema usluzi za autentifikaciju.",
-		"notFound": "Entitet koji tražite nije pronađen u usluzi za autentifikaciju."
-	},
-	"payment": {
-		"customer": {
-			"creation": {
-				"failed": "Kreiranje kupca za plačanje nije uspjelo."
-			}
-		},
-		"subscription": {
-			"creation": {
-				"failed": "Kreiranje pretplate za plačanje nije uspjelo."
-			},
-			"update": {
-				"failed": "Ažuriranje pretplate za plačanje nije uspjelo."
-			},
-			"cancellation": {
-				"failed": "Otkazivanje pretplate za plačanje nije uspjelo."
-			},
-			"creation.or.update": {
-				"failed": "Kreiranje ili ažuriranje pretplate za plačanje nije uspjelo."
-			},
-			"item": {
-				"addition": {
-					"failed": "Dodavanje stavke pretplate za plačanje nije uspjelo."
-				}
-			}
-		}
-	},
-	"class": {
-		"account": "Račun",
-		"amplifier": "Pojačavač",
-		"appUser": "Korisnik",
-		"audioItem": "Audio stavka",
-		"audioItemGroup": "Grupa audio stavki",
-		"audioFormat": "Audio format",
-		"audioProject": "Audio projekt",
-		"musicalEffectSimple": "Jednostavan glazbeni efekt",
-		"notificationKey": "Ključ obavijesti",
-		"playlist": "Playlist",
-		"playlistType": "Vrsta playliste",
-		"repository": "Repozitorij",
-		"section": "Sekcija",
-		"storageUsage": "Korištenje pohrane",
-		"subscription": "Pretplata",
-		"subscriptionActions": "Akcije pretplate",
-		"subscriptionActionsGroup": "Grupa akcija pretplate",
-		"subscriptionExtension": "Produžetak pretplate",
-		"subscriptionPlan": "Plan pretplate",
-		"subscriptionUsage": "Korištenje pretplate",
-		"tokenTransactions": "Transakcije tokena",
-		"userGroup": "Korisnička grupa"
-	}
-	,
-	"notification": {
-		"separation": {
-			"done": "{{field1}} je uspješno odvojio {{field2}}.",
-			"error": "Odvajanje nije uspjelo. Pokušajte ponovo."
-		},
-		"transcription": {
-			"done": "{{field1}} je uspješno generirao novi podatkovni element.",
-			"error": "Transkripcija nije uspjela. Pokušajte ponovo."
-		},
-		"export": {
-			"done": "Izvoz je uspješno završen. Sada možete preuzeti svoje podatke.",
-			"failed": "Izvoz nije uspio. Pokušajte ponovo ili provjerite svoju mrežnu vezu."
-		},
-		"workspace": {
-			"share": "Dodani ste u novi repozitorij. Provjerite i surađujte.",
-			"expand": "Vaš kapacitet pohrane je proširen. Uživajte u dodatnom prostoru!",
-			"capacity": {
-				"low": "Kapacitet vaše pohrane ili tokena je pri kraju. Nadogradite ili upravljajte resursima."
-			}
-		}
-	},
+    "general": {
+        "cancel": "Odustani",
+        "confirm": "Potvrdi",
+        "finish": "Završi",
+        "playlists": "Popisi pjesama",
+        "soon": "Uskoro",
+        "size": "{{size}} MB",
+        "minSecFormat": "{{min}} min {{sec}} sek",
+        "themeSwitch": "Promjena teme",
+        "save": "Spremi",
+        "languageSelector": "Odaberi jezik",
+        "edit": "Uredi",
+        "editName": "Uredi ime",
+        "add": "Dodaj",
+        "selectAll": "Odaberi sve",
+        "deselectAll": "Poništi odabir",
+        "delete": "Izbriši",
+        "noData": "Ovdje još nema podataka",
+        "actions": "Radnje",
+        "open": "Otvori",
+        "goBack": "Vrati se",
+        "stemWithCount_one": "{{count}} kanal",
+        "stemWithCount_other": "{{count}} kanala",
+        "token": "Token",
+        "animatedLogo": "Animirani logotip",
+        "numberOfItems": "Prikazano {{shown}} od {{total}} stavki",
+        "noContent": "Nema sadržaja",
+        "noLabel": "Bez oznake",
+        "logIn": "Prijavi se",
+        "invalidEmail": "Neispravan e-mail",
+        "invalidPassword": "Vaša lozinka nije dovoljno jaka",
+        "passwordsDoNotMatch": "Lozinke se ne podudaraju",
+        "name": "Ime",
+        "lastname": "Prezime",
+        "username": "Korisničko ime",
+        "fieldOfInterest": "Područje interesa",
+        "yearOfBirth": "Godina rođenja",
+        "email": "E-mail",
+        "password": "Lozinka",
+        "repeatPassword": "Ponovite lozinku",
+        "repeatedPassword": "Ponovljena lozinka",
+        "includesNumber": "Sadrži broj",
+        "includesLowercase": "Sadrži malo slovo",
+        "includesUppercase": "Sadrži veliko slovo",
+        "passwordLengthRequirement": "Sadrži najmanje 6 znakova",
+        "register": "Registriraj se",
+        "tryAgain": "Pokušaj ponovno",
+        "tokens": "Tokeni",
+        "freeSpace": "Slobodan prostor",
+        "workSpace": "Radni prostor",
+        "unknownError": "Dogodila se nepoznata greška",
+        "error": "Greška",
+        "forbidden": "Zabranjeno",
+        "export": "Izvezi",
+        "exportAll": "Izvezi sve",
+        "view": "Prikaži",
+        "effects": "Efekti",
+        "stillProcessing": "Audio stavka se još obrađuje",
+        "recording": "Snimanje",
+        "close": "Zatvori",
+        "details": "Detalji",
+        "status": "Status",
+        "action": "Radnja",
+        "downloadExport": "Preuzmi ručno"
+    },
+    "accountActivation": {
+        "activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti.",
+        "activateError": "Došlo je do greške prilikom aktivacije vašeg računa. Molimo pokušajte ponovno.",
+        "alreadyActivated": "Vaš račun je već aktiviran. Možete nastaviti s prijavom.",
+        "activationResent": "E-mail za aktivaciju je ponovno poslan. Molimo provjerite svoj e-mail.",
+        "activateAccountRequestError": "Došlo je do greške prilikom aktivacije vašeg računa. Molimo pokušajte ponovno.",
+        "accountNotActivatedLink": "Vaš račun nije aktiviran. Molimo provjerite svoj e-mail za poveznicu za aktivaciju.",
+        "requestNewActivationEmail": "Zatraži novi e-mail za aktivaciju"
+    },
+    "user": {
+        "group": {
+            "invited": "Pozivnica je poslana {{field1}} da se pridruži vašem radnom prostoru.",
+            "added": "Korisnik s emailom {{field1}} uspješno je dodan u vaš radni prostor."
+        }
+    },
+    "exception": {
+        "authentication": {
+            "unauthorized": "Došlo je do problema s autentifikacijom. Provjerite svoje vjerodajnice i pokušajte ponovo.",
+            "badCredentials": "Pruženi podaci za prijavu nisu ispravni. Provjerite svoje korisničko ime i lozinku, a zatim pokušajte ponovo.",
+            "password": {
+                "invalid": "Lozinka nije ispravna. Provjerite i ispravite svoju lozinku."
+            },
+            "token": {
+                "expired": "Token je istekao. Ponovno se prijavite kako biste nastavili.",
+                "malformed": "Format tokena je neispravan. Provjerite ispravan format tokena.",
+                "invalid": "Pruženi token nije važeći. Pružite važeći token.",
+                "required": "Nedostaje autorizacijski zaglavlje. Uključite važeći token."
+            },
+            "email": {
+                "notVerified": "Vaš email još nije verificiran. Molimo vas da ga verificirate prije nastavka."
+            }
+        },
+        "authorization": {
+            "denied": {
+                "repository": "Niste vlasnik ovog radnog prostora. Molimo kontaktirajte vlasnika za potrebne promjene ili dozvole.",
+                "playlist": "{{field1}} nema dovoljne privilegije za pristup ovoj playlisti.",
+                "general": "Nemate potrebne privilegije za izvršenje ove akcije."
+            }
+        },
+        "oauth2": {
+            "invalid": {
+                "state": "Pruženo stanje je neispravno. Provjerite i pokušajte ponovo.",
+                "client": "Pruženi klijent je neispravan. Provjerite klijent i pokušajte ponovo.",
+                "responseType": "Pruženi tip odgovora je neispravan. Provjerite tip odgovora i pokušajte ponovo.",
+                "scope": "Pruženi opseg je neispravan. Provjerite opseg i pokušajte ponovo.",
+                "request": "OAuth2 zahtjev je neispravan. Provjerite parametre zahtjeva i pokušajte ponovo.",
+                "redirectUri": "Pruženi URL za preusmjeravanje je neispravan. Provjerite i pokušajte ponovo.",
+                "token": "Token je neispravan. Pružite važeći token.",
+                "grantType": "Pruženi tip odobrenja je neispravan. Provjerite tip odobrenja i pokušajte ponovo.",
+                "codeVerifier": "Verifikator koda je neispravan. Provjerite i pokušajte ponovo."
+            }
+        },
+        "validation": {
+            "field": {
+                "required": {
+                    "notNull": "{{field1}} je obavezno i ne može biti null.",
+                    "notBlank": "{{field1}} je obavezno i ne može biti prazno.",
+                    "notEmpty": "{{field1}} je obavezno i ne može biti prazno."
+                }
+            },
+            "requestParam": {
+                "required": "Parametar {{field1}} nedostaje i potreban je za obradu vašeg zahtjeva.",
+                "invalidSort": "Pruženi parametar za sortiranje je neispravan. Molimo koristite ispravan način sortiranja.",
+                "invalid": "Pružena vrijednost za putnu varijablu je neispravna. Provjerite i pokušajte ponovo."
+            },
+            "entity": {
+                "notFound": "Zahtjevana {{field1}} nije pronađena. Provjerite i pokušajte ponovo."
+            },
+            "section": {
+                "endBeforeStart": "Krajnje vrijeme sekcije ne može biti prije početnog vremena. Molimo ispravite.",
+                "endExceedsDuration": "Krajnje vrijeme sekcije premašuje dozvoljenu maksimalnu duljinu. Molimo pregledajte i ispravite."
+            },
+            "systemInternal": {
+                "invalid": "Neispravni interni parametri sustava."
+            },
+            "orders": {
+                "invalid": "Redoslijed audio stavki u zahtjevu je neispravan. Provjerite i ispravite redoslijed."
+            },
+            "email": "Pružena email adresa nije ispravna. Provjerite je li ispravno formatirana."
+        },
+        "file": {
+            "avatar": {
+                "size": {
+                    "exceedsLimit": "Pružena datoteka premašuje ograničenje veličine od 1 MB. Odaberite manju datoteku."
+                },
+                "type": {
+                    "invalid": "Format datoteke nije podržan. Molimo učitajte JPG, JPEG ili PNG datoteku."
+                },
+                "processing": {
+                    "error": "Došlo je do pogreške prilikom obrade datoteke. Pokušajte ponovo kasnije."
+                }
+            },
+            "audio": {
+                "size": {
+                    "exceedsLimit": "Pružena audio datoteka premašuje ograničenje od 100 MB. Odaberite manju datoteku."
+                }
+            }
+        },
+        "user": {
+            "email": {
+                "exists": "Email {{field1}} je već registriran. Prijavite se ili koristite drugačiju email adresu."
+            },
+            "username": {
+                "exists": "Korisničko ime {{field1}} je već zauzeto. Odaberite drugo korisničko ime."
+            },
+            "workspace": {
+                "cannotLeave": "Kao vlasnik ovog radnog prostora, ne možete ga napustiti.",
+                "notFound": "Ovaj korisnik nije pronađen u radnom prostoru. Provjerite podatke i pokušajte ponovo.",
+                "alreadyMember": "Email {{field1}} je već član ovog radnog prostora. Nema potrebe za ponovnim dodavanjem!",
+                "deleted": "Račun korisnika koji vas je dodao je izbrisan.",
+                "notShared": "Ovaj radni prostor još nije podijeljen s vama."
+            },
+            "agreement": {
+                "notAccepted": "Morate prihvatiti uvjete korištenja kako biste nastavili koristiti aplikaciju."
+            }
+        },
+        "action": {
+            "unsupportedType": "Vrsta akcije koju pokušavate izvršiti nije podržana. Provjerite i pokušajte ponovo.",
+            "merge": {
+                "failed": "Došlo je do pogreške prilikom spajanja audio stavki. Pokušajte ponovo kasnije.",
+                "invalidItems": "Odabrane audio stavke nisu ispravne za spajanje. Provjerite i odaberite ispravne stavke.",
+                "invalidNumber": "Morate odabrati više od jedne audio stavke za spajanje."
+            },
+            "original": {
+                "clone": {
+                    "failed": "Kloniranje originalnih audio stavki nije dopušteno."
+                },
+                "delete": {
+                    "failed": "Originalne audio stavke ne mogu se izbrisati."
+                }
+            }
+        },
+        "amplifier": {
+            "unsupported": "Zatraženi pojačavač ne može se primijeniti na ovu audio stavku.",
+            "notFound": "Zatraženi pojačavač nije dostupan. Odaberite podržani pojačavač."
+        },
+        "effect": {
+            "validation": {
+                "outOfRange": "Pružena vrijednost za ovaj parametar je izvan dopuštenog raspona. Provjerite i prilagodite."
+            },
+            "parameter": {
+                "required": "Parametar {{field1}} je obavezan za efekt {{field2}}. Molimo pružite ga."
+            },
+            "or": {
+                "param": "Ne možete istovremeno poslati efekte i parametre. Jedan od njih mora biti null."
+            },
+            "unsupported": {
+                "numericType": "Pružena numerička vrsta nije podržana za ovaj efekt."
+            },
+            "complex": {
+                "invalidCount": "Broj jednostavnih efekata u složenom efektu je neispravan.",
+                "invalidOrder": "Redoslijed jednostavnih efekata u složenom efektu je neispravan."
+            },
+            "invalid": {
+                "formField": "Polja obrasca za ovaj efekt su neispravna. Provjerite ih.",
+                "type": "Vrsta efekta nije ispravna. Provjerite vrstu efekta i pokušajte ponovo."
+            }
+        },
+        "subscription": {
+            "storage": {
+                "insufficient": "Dosegli ste svoj limit za pohranu. Oslobodite malo prostora ili nadogradite svoj plan kako biste nastavili."
+            },
+            "token": {
+                "insufficient": "Nemate dovoljno tokena za izvršenje ove radnje. Dodajte više tokena ili nadogradite svoj plan."
+            },
+            "plan": "Neispravan kod za plan pretplate."
+        }
+    },
+    "resource": {
+        "audioProject": {
+            "notFound": "Audio projekt nije dostupan u trenutnom repozitoriju."
+        },
+        "audioItem": {
+            "notFound": "Audio stavka nije dostupna u trenutnom audio projektu"
+        }
+    },
+    "error": {
+        "unexpected": "Došlo je do neočekivane pogreške. Pokušajte ponovo kasnije."
+    },
+    "nutcracker": {
+        "internalServerError": "Ups! Došlo je do pogreške u Nutcrackeru.",
+        "badRequest": "Čini se da postoji problem s zahtjevom poslanim Nutcrackeru.",
+        "notFound": "Zatraženi resurs nije pronađen u Nutcrackeru.",
+        "unprocessableEntity": "Nutcracker usluga nije mogla obraditi zahtjev"
+    },
+    "auth": {
+        "intervalServerError": "Ups! Došlo je do pogreške u usluzi za autentifikaciju. Pokušajte ponovo kasnije.",
+        "badRequest": "Čini se da postoji problem s vašim zahtjevom prema usluzi za autentifikaciju.",
+        "notFound": "Entitet koji tražite nije pronađen u usluzi za autentifikaciju."
+    },
+    "payment": {
+        "customer": {
+            "creation": {
+                "failed": "Kreiranje kupca za plačanje nije uspjelo."
+            }
+        },
+        "subscription": {
+            "creation": {
+                "failed": "Kreiranje pretplate za plačanje nije uspjelo."
+            },
+            "update": {
+                "failed": "Ažuriranje pretplate za plačanje nije uspjelo."
+            },
+            "cancellation": {
+                "failed": "Otkazivanje pretplate za plačanje nije uspjelo."
+            },
+            "creation.or.update": {
+                "failed": "Kreiranje ili ažuriranje pretplate za plačanje nije uspjelo."
+            },
+            "item": {
+                "addition": {
+                    "failed": "Dodavanje stavke pretplate za plačanje nije uspjelo."
+                }
+            }
+        }
+    },
+    "class": {
+        "account": "Račun",
+        "amplifier": "Pojačavač",
+        "appUser": "Korisnik",
+        "audioItem": "Audio stavka",
+        "audioItemGroup": "Grupa audio stavki",
+        "audioFormat": "Audio format",
+        "audioProject": "Audio projekt",
+        "musicalEffectSimple": "Jednostavan glazbeni efekt",
+        "notificationKey": "Ključ obavijesti",
+        "playlist": "Playlist",
+        "playlistType": "Vrsta playliste",
+        "repository": "Repozitorij",
+        "section": "Sekcija",
+        "storageUsage": "Korištenje pohrane",
+        "subscription": "Pretplata",
+        "subscriptionActions": "Akcije pretplate",
+        "subscriptionActionsGroup": "Grupa akcija pretplate",
+        "subscriptionExtension": "Produžetak pretplate",
+        "subscriptionPlan": "Plan pretplate",
+        "subscriptionUsage": "Korištenje pretplate",
+        "tokenTransactions": "Transakcije tokena",
+        "userGroup": "Korisnička grupa"
+    },
+    "notification": {
+        "separation": {
+            "done": "{{field1}} je uspješno odvojio {{field2}}.",
+            "error": "Odvajanje nije uspjelo. Pokušajte ponovo."
+        },
+        "transcription": {
+            "done": "{{field1}} je uspješno generirao novi podatkovni element.",
+            "error": "Transkripcija nije uspjela. Pokušajte ponovo."
+        },
+        "export": {
+            "done": "Izvoz je uspješno završen. Sada možete preuzeti svoje podatke.",
+            "failed": "Izvoz nije uspio. Pokušajte ponovo ili provjerite svoju mrežnu vezu."
+        },
+        "workspace": {
+            "share": "Dodani ste u novi repozitorij. Provjerite i surađujte.",
+            "expand": "Vaš kapacitet pohrane je proširen. Uživajte u dodatnom prostoru!",
+            "capacity": {
+                "low": "Kapacitet vaše pohrane ili tokena je pri kraju. Nadogradite ili upravljajte resursima."
+            }
+        }
+    },
     "navigation": {
         "studio": "Studio",
         "practice": "Vježbanje",
@@ -341,21 +339,21 @@
             "title": "Naslov"
         }
     },
-   "uploadWizard": {
-	"selectChannels": "Odaberite stemove za separaciju",
-	"nextStep": "Sljedeći korak",
-	"previousStep": "Prethodni korak",
-	"spaceRequired": "Potreban prostor",
-	"tokenRequired": "Potrebni tokeni",
-	"available": "dostupno",
-	"modalTitle": "Otkaži prijenos",
-	"modalText": "Jeste li sigurni da želite otkazati prijenos?",
-	"separation": "Separacija",
-	"subtraction": "Oduzimanje",
-	"separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
-	"allInstruments": "Svi {{instrumentName}} u jednom stemu",
-	"expandAll": "Proširi sve",
-	"collapseAll": "Sakrij sve"
+    "uploadWizard": {
+        "selectChannels": "Odaberite stemove za separaciju",
+        "nextStep": "Sljedeći korak",
+        "previousStep": "Prethodni korak",
+        "spaceRequired": "Potreban prostor",
+        "tokenRequired": "Potrebni tokeni",
+        "available": "dostupno",
+        "modalTitle": "Otkaži prijenos",
+        "modalText": "Jeste li sigurni da želite otkazati prijenos?",
+        "separation": "Separacija",
+        "subtraction": "Oduzimanje",
+        "separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
+        "allInstruments": "Svi {{instrumentName}} u jednom stemu",
+        "expandAll": "Proširi sve",
+        "collapseAll": "Sakrij sve"
     },
     "stems": {
         "vocals": "Vokali",
@@ -366,1278 +364,1268 @@
         "sax": "Saksofon",
         "trumpet": "Truba"
     },
-    "notFound" : {
+    "notFound": {
         "title": "Ovaj specifični stem ili jam nije pronađen"
     },
-   "dropzone": {
-	"addSingle": "Dodaj novo",
-	"replaceSingle": "Zamijeni novim",
-	"addMultiple": "Dodaj novo",
-	"addMoreMultiple": "Dodaj još",
-	"replaceMultiple": "Zamijeni novim",
-	"description": "Lorem ipsum",
-	"linkUpload": "ili prenesi s poveznice",
-	"removeFile": "Ukloni datoteku",
-	"editFileName": "Uredi naziv datoteke",
-	"captureNotSupported": "Videozapisi snimljeni izravno kamerom nisu podržani. Molimo odaberite datoteke iz vašeg preglednika datoteka ili galerije."
-   },
+    "dropzone": {
+        "addSingle": "Dodaj novo",
+        "replaceSingle": "Zamijeni novim",
+        "addMultiple": "Dodaj novo",
+        "addMoreMultiple": "Dodaj još",
+        "replaceMultiple": "Zamijeni novim",
+        "description": "Lorem ipsum",
+        "linkUpload": "ili prenesi s poveznice",
+        "removeFile": "Ukloni datoteku",
+        "editFileName": "Uredi naziv datoteke",
+        "captureNotSupported": "Videozapisi snimljeni izravno kamerom nisu podržani. Molimo odaberite datoteke iz vašeg preglednika datoteka ili galerije."
+    },
     "login": {
-        "login":"Prijava",
-        "logIn":"Prijavi se",
-        "email":"E-mail",
-        "password":"Lozinka",
-        "includesNumber":"Sadrži broj",
-        "includesLowercase":"Sadrži malo slovo",
-        "includesUppercase":"Sadrži veliko slovo",
+        "login": "Prijava",
+        "logIn": "Prijavi se",
+        "email": "E-mail",
+        "password": "Lozinka",
+        "includesNumber": "Sadrži broj",
+        "includesLowercase": "Sadrži malo slovo",
+        "includesUppercase": "Sadrži veliko slovo",
         "passwordLengthRequirement": "Sadrži najmanje 6 znakova",
         "invalidEmail": "Nevažeći email",
-        "register":"Ako nemate račun, registrirajte se",
-        "registerTitle":"Nemate račun?",
-        "loginError":"Nešto je pošlo po zlu, email ili lozinka mogu biti netočni",
-        "registerButton":"Registrirajte se ovdje",
-        "forgotPassword":"Zaboravljena lozinka?",
-	"orSignInWith":"Ili prijava putem"
+        "register": "Ako nemate račun, registrirajte se",
+        "registerTitle": "Nemate račun?",
+        "loginError": "Nešto je pošlo po zlu, email ili lozinka mogu biti netočni",
+        "registerButton": "Registrirajte se ovdje",
+        "forgotPassword": "Zaboravljena lozinka?",
+        "orSignInWith": "Ili prijava putem"
     },
-   "passwordRecovery": {
-	"recoverPassword": "Obnovi lozinku",
-	"forgotPasswordSuccess": "Poslan je e-mail s uputama za ponovno postavljanje lozinke.",
-	"forgotPasswordError": "Došlo je do pogreške. Molimo pokušajte ponovno."
- },
-   "resetPassword": {
-	"newPassword": "Nova lozinka",
-	"confirmNewPassword": "Potvrdite novu lozinku",
-	"resetPassword": "Resetiraj lozinku",
-	"passwordsDoNotMatch": "Lozinke se ne podudaraju",
-	"invalidPassword": "Vaša lozinka nije dovoljno jaka!",
-	"resetPasswordSuccess": "Vaša lozinka je uspješno resetirana. Molimo prijavite se s novom lozinkom.",
-	"resetPasswordError": "Došlo je do pogreške prilikom resetiranja lozinke. Molimo pokušajte ponovno."
-},
+    "passwordRecovery": {
+        "recoverPassword": "Obnovi lozinku",
+        "forgotPasswordSuccess": "Poslan je e-mail s uputama za ponovno postavljanje lozinke.",
+        "forgotPasswordError": "Došlo je do pogreške. Molimo pokušajte ponovno."
+    },
+    "resetPassword": {
+        "newPassword": "Nova lozinka",
+        "confirmNewPassword": "Potvrdite novu lozinku",
+        "resetPassword": "Resetiraj lozinku",
+        "passwordsDoNotMatch": "Lozinke se ne podudaraju",
+        "invalidPassword": "Vaša lozinka nije dovoljno jaka!",
+        "resetPasswordSuccess": "Vaša lozinka je uspješno resetirana. Molimo prijavite se s novom lozinkom.",
+        "resetPasswordError": "Došlo je do pogreške prilikom resetiranja lozinke. Molimo pokušajte ponovno."
+    },
     "playlist": {
-      "createNew": "Kreiraj novu playlistu",
-	"edit": "Uredi playlistu",
-	"delete": "Izbriši playlistu",
-	"name": "Naziv playliste",
-	"chooseColor": "Boja",
-	"chooseIcon": "Ikona",
-	"type": "Tip playliste",
-	"personal": "Osobna",
-	"shared": "Dijeljena",
-	"editName": "Uredi naziv playliste"
+        "createNew": "Kreiraj novu playlistu",
+        "edit": "Uredi playlistu",
+        "delete": "Izbriši playlistu",
+        "name": "Naziv playliste",
+        "chooseColor": "Boja",
+        "chooseIcon": "Ikona",
+        "type": "Tip playliste",
+        "personal": "Osobna",
+        "shared": "Dijeljena",
+        "editName": "Uredi naziv playliste"
     },
     "audioProject": {
-        "search":"Pretraži audio projekte",
-        "edit":"Uredi audio projekt",
-        "delete":"Izbriši audio projekt",
-        "export":"Izvezi audio projekt",
-        "includeInPlaylist":"Uključi u popis pjesama",
+        "search": "Pretraži audio projekte",
+        "edit": "Uredi audio projekt",
+        "delete": "Izbriši audio projekt",
+        "export": "Izvezi audio projekt",
+        "includeInPlaylist": "Uključi u popis pjesama",
         "numberStem": "{{numberStem}} stemova",
-        "bpm":"{{bpm}} bpm",
+        "bpm": "{{bpm}} bpm",
         "info": "Informacije o audio projektu",
-        "numberOfItems":"Prikazano {{shown}} od {{total}} stavki",
-        "initialLoadingText":"Učitavanje audio projekata",
-	"noChannels": "Nema kanala u ovom audio projektu"
+        "numberOfItems": "Prikazano {{shown}} od {{total}} stavki",
+        "initialLoadingText": "Učitavanje audio projekata",
+        "noChannels": "Nema kanala u ovom audio projektu"
     },
     "confirmationModal": {
         "title": "Potvrdi radnju",
-        "description":"Molimo potvrdite svoju radnju.",
+        "description": "Molimo potvrdite svoju radnju.",
         "deleteItem": "Izbriši {{item}}",
-        "confirmDeleteItem":"Potvrdite da želite izbrisati {{item}}."
+        "confirmDeleteItem": "Potvrdite da želite izbrisati {{item}}."
     },
     "notifications": {
         "title": "Obavijesti",
-	"noNotifications": "Nema obavijesti",
-	"markAllAsRead": "Označi sve kao pročitano",
-	"failedToLoad": "Nije uspjelo učitavanje obavijesti",
-	"showAll": "Prikaži sve obavijesti",
-	"initialLoadingText": "Učitavanje obavijesti",
-	"loadingMore": "Učitavanje obavijesti"
-
+        "noNotifications": "Nema obavijesti",
+        "markAllAsRead": "Označi sve kao pročitano",
+        "failedToLoad": "Nije uspjelo učitavanje obavijesti",
+        "showAll": "Prikaži sve obavijesti",
+        "initialLoadingText": "Učitavanje obavijesti",
+        "loadingMore": "Učitavanje obavijesti"
     },
-	"exportComponent": {
-		"choose": "Odaberi format zvuka",
-		"exportSelected": "Izvezi odabrano",
-		"formatError": "Morate odabrati format",
-		"exportAllTooltip": "Izvezi sve stavke (tekstove, tabove, bilješke, zvukove)",
-		"itemWithCount_one": "Odabrana {{count}} stavka",
-		"itemWithCount_other": "Odabrano {{count}} stavki",
-		"exportError": "Ova datoteka je već preuzeta. Provjerite mapu za preuzimanja ili ponovno izvezite.",
-		"exportErrorExpired": "Link za preuzimanje je istekao, molimo ponovno izvezite."
-	},
-	 "dataItem": {
-		"musicalNotes": {
-			"name": "Glazbene note",
-			"description": ""
-		},
-		"tabs": {
-			"name": "Tabovi",
-			"description": ""
-		},
-		"lyrics": {
-			"name": "Stihovi",
-			"description": ""
-		},
-		"midi": {
-			"name": "Midi",
-			"description": ""
-		},
-		"format": {
-			"name": "Audio",
-			"description": ""
-		}
-	},
-	"instrumentGroup": {
-		"vocals": {
-			"name": "Vokali",
-			"description": ""
-		},
-		"bass": {
-			"name": "Bas",
-			"description": ""
-		},
-		"drums": {
-			"name": "Bubnjevi",
-			"description": ""
-		},
-		"guitars": {
-			"name": "Gitare",
-			"description": ""
-		},
-		"winds": {
-			"name": "Puhački instrumenti",
-			"description": ""
-		},
-		"strings": {
-			"name": "Žičani instrumenti",
-			"description": ""
-		},
-		"accordion": {
-			"name": "Harmonika",
-			"description": ""
-		},
-		"metronome": {
-			"name": "Metronom",
-			"description": ""
-		},
-		"synths": {
-			"name": "Sinteza",
-			"description": ""
-		},
-		"piano": {
-			"name": "Klavijature",
-			"description": ""
-		}
-	},
-	"instrument": {
-		"vocals": {
-			"lead": {
-				"name": "Glavni vokal",
-				"description": ""
-			},
-			"back": {
-				"name": "Prateći vokal",
-				"description": ""
-			}
-		},
-		"piano": {
-			"electric": {
-				"name": "Električni klavir",
-				"description": ""
-			},
-			"grand": {
-				"name": "Koncertni klavir",
-				"description": ""
-			}
-		},
-		"organ": {
-			"electric": {
-				"name": "Električne orgulje",
-				"description": ""
-			},
-			"classic": {
-				"name": "Orgulje",
-				"description": ""
-			}
-		},
-		"bass": {
-			"guitar": {
-				"name": "Bas gitara",
-				"description": ""
-			},
-			"synthesizer": {
-				"name": "Sintetizator",
-				"description": ""
-			},
-			"contrabass": {
-				"name": "Kontrabas",
-				"description": ""
-			}
-		},
-		"drums": {
-			"cymbal": {
-				"name": "Činela",
-				"description": ""
-			},
-			"drumMachine": {
-				"name": "Ritam mašina",
-				"description": ""
-			},
-			"drumKit": {
-				"name": "Akustični set bubnjeva",
-				"description": ""
-			},
-			"hiHat": {
-				"name": "Hi Hat",
-				"description": ""
-			},
-			"kickDrum": {
-				"name": "Bas bubanj",
-				"description": ""
-			},
-			"overheads": {
-				"name": "Overheads",
-				"description": ""
-			},
-			"snareDrum": {
-				"name": "Mali bubanj",
-				"description": ""
-			},
-			"tomDrum": {
-				"name": "Tom tom bubanj",
-				"description": ""
-			}
-		},
-		"guitar": {
-			"classic": {
-				"name": "Klasična gitara",
-				"description": ""
-			},
-			"electric": {
-				"name": "Električna gitara",
-				"description": ""
-			},
-			"acoustic": {
-				"name": "Akustična gitara",
-				"description": ""
-			}
-		},
-		"wind": {
-			"sax": {
-				"name": "Saksofon",
-				"description": ""
-			},
-			"trumpet": {
-				"name": "Truba",
-				"description": ""
-			}
-		},
-		"string": {
-			"viola": {
-				"name": "Viola",
-				"description": ""
-			},
-			"violin": {
-				"name": "Violina",
-				"description": ""
-			},
-			"cello": {
-				"name": "Violončelo",
-				"description": ""
-			}
-		},
-		"accordion": {
-			"accordion": {
-				"name": "Harmonika",
-				"description": ""
-			}
-		},
-		"metronome": {
-			"metronome": {
-				"name": "Metronom",
-				"description": ""
-			}
-		},
-		"synthesizer": {
-			"bass": {
-				"name": "Bas sint",
-				"description": ""
-			},
-			"lead": {
-				"name": "Lead sint",
-				"description": ""
-			},
-			"pad": {
-				"name": "Pad sint",
-				"description": ""
-			},
-			"pluck": {
-				"name": "Pluck sint",
-				"description": ""
-			}
-		},
-		"keyboard": {
-			"electricPiano": {
-				"name": "Električni klavir",
-				"description": ""
-			},
-			"grandPiano": {
-				"name": "Koncertni klavir",
-				"description": ""
-			}
-		}
-	},
-
-	"audioFormat": {
-		"mp3": {
-			"name": "MP3",
-			"description": ""
-		},
-		"wav": {
-			"name": "Wav",
-			"description": ""
-		},
-		"flac": {
-			"name": "Flac",
-			"description": ""
-		},
-		"numPy": {
-			"name": "NumPy",
-			"description": ""
-		},
-		"m4a": {
-			"m4a": "M4A",
-			"description": ""
-		}
-	},
-	"audioItem": {
-		"option": {
-			"clone": {
-				"name": "Kloniraj"
-			},
-			"separate": {
-				"name": "Odvoji"
-			},
-			"delete": {
-				"name": "Obriši"
-			},
-			"amplifier": {
-				"name": "Pojačalo"
-			},
-			"effect": {
-				"name": "Efekt"
-			}
-		}
-	},
-	"audioItemType": {
-		"original": {
-			"name": "Original",
-			"description": ""
-		},
-		"stem": {
-			"name": "Stem",
-			"description": ""
-		},
-		"mix": {
-			"name": "Miks",
-			"description": ""
-		},
-		"other": {
-			"name": "Ostalo",
-			"description": ""
-		}
-	},
-	
-	"playlistType": {
-		"personal": {
-			"name": "Osobni popis pjesama",
-			"description": ""
-		},
-		"shared": {
-			"name": "Zajednički popis pjesama",
-			"description": ""
-			}
-	},
-
-	"subscriptionPlan": {
-		"free": {
-			"name": "Besplatno",
-			"description": ""
-		},
-		"freePlus": {
-			"name": "Besplatno plus",
-			"description": ""
-		},
-		"advance": {
-			"name": "Napredno",
-			"description": ""
-		},
-		"pro": {
-			"name": "Pro",
-			"description": ""
-		},
-		"premium": {
-			"name": "Premium",
-			"description": ""
-		}
-	},
-
-	"actionGroup": {
-		"export": {
-			"name": "Izvoz",
-			"description": ""
-		},
-		"separation": {
-			"name": "Separation",
-			"description": ""
-		},
-		"detection": {
-			"name": "Detekcija",
-			"description": ""
-		},
-		"transcription": {
-			"name": "Transkripcija",
-			"description": ""
-		},
-		"general": {
-			"name": "Opće",
-			"description": ""
-		}
-	},
-
-	"actionVersion": {
-		"tiny": {
-			"name": "Minimalan",
-			"description": ""
-		},
-		"small": {
-			"name": "Osnovni",
-			"description": ""
-		},
-		"large": {
-			"name": "Napredni",
-			"description": ""
-		}
-	},
-	
-    	"subscriptionAction": {
-		"separation": {
-			"vocals": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"keys": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"bass": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"drums": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"trumpet": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"saxophone": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"guitar": {
-				"electric": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"acoustic": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				}
-			}
-		},
-		"isolation": {
-			"vocals": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"keys": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"bass": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"drums": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"trumpet": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"saxophone": {
-				"basic": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"advance": {
-					"name": "Napredno",
-					"description": ""
-				}
-			},
-			"guitar": {
-				"electric": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"acoustic": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				}
-			}
-		},
-		"transcription": {
-			"vocals": {
-				"midi": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"data": {
-					"lyrics": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					},
-					"notes": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					}
-				}
-			},
-			"keys": {
-				"midi": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					}
-				}
-			},
-			"bass": {
-				"midi": {
-					"name": "Osnovno",
-					"description": ""
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					},
-					"tabs": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					}
-				}
-			},
-			"drums": {
-				"midi": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					}
-				}
-			},
-			"trumpet": {
-				"midi": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					}
-				}
-			},
-			"saxophone": {
-				"midi": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					}
-				}
-			},
-			"guitar": {
-				"acoustic": {
-					"midi": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					},
-					"data": {
-						"notes": {
-							"basic": {
-								"name": "Osnovno",
-								"description": ""
-							},
-							"advance": {
-								"name": "Napredno",
-								"description": ""
-							}
-						},
-						"tabs": {
-							"basic": {
-								"name": "Osnovno",
-								"description": ""
-							},
-							"advance": {
-								"name": "Napredno",
-								"description": ""
-							}
-						}
-					}
-				}
-			},
-			"electric": {
-				"midi": {
-					"basic": {
-						"name": "Osnovno",
-						"description": ""
-					},
-					"advance": {
-						"name": "Napredno",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					},
-					"tabs": {
-						"basic": {
-							"name": "Osnovno",
-							"description": ""
-						},
-						"advance": {
-							"name": "Napredno",
-							"description": ""
-						}
-					}
-				}
-			}
-		}
-	},
-	"userDropdown": {
-		"userSettings": "Moje postavke",
-		"logout": "Odjava",
-		"repository": "Moj repozitorij",
-		"subscription": "Moja pretplata"
-	},
-	 "register": {
-		"accountExists": "Već imate račun?",
-		"registerWith": "Registrirajte se putem",
-		"googleRegistration": "Google",
-		"facebookRegistration": "Facebook",
-		"appleRegistration": "Apple ID",
-		"loginDescription": "Lorem Ipsum je jednostavno lažni tekst koji se koristi u tiskarskoj i slovosložačkoj industriji. Lorem Ipsum postao je standardni lažni tekst još od 1500-ih.",
-		"registerWithEmail": "Registrirajte se e-poštom",
-		"termsAndConditions": "Nastavljanjem prihvaćate naše <0>Uvjete korištenja</0> i <1>Pravila privatnosti</1>."
-	},
-	"createAccount": {
-		"goBackTitle": "Jeste li sigurni da se želite vratiti?",
-		"unsavedChanges": "Sve nespremljene promjene bit će izgubljene.",
-		"basicInfo": "Osnovne informacije",
-		"securityInfo": "Sigurnosne informacije",
-		"validations": {
-			"nameRequired": "Ime je obavezno",
-			"lastNameRequired": "Prezime je obavezno",
-			"usernameRequired": "Korisničko ime je obavezno",
-			"emailRequired": "E-mail je obavezan",
-			"yearOfBirthRequired": "Godina rođenja je obavezna",
-			"invalidYearOfBirthFormat": "Nevažeći format",
-			"invalidYearOfBirth": "Nevažeća godina rođenja",
-			"passwordRequired": "Lozinka je obavezna",
-			"repeatedPasswordRequired": "Ponovljena lozinka je obavezna",
-			"emailTaken": "E-mail je već zauzet",
-			"usernameTaken": "Korisničko ime je već zauzeto"
-		}
-	},
-	"userSettings": {
-		"userSettings": "Postavke korisnika",
-		"changeProfilePicture": "Promijeni profilnu sliku",
-		"changePassword": "Promijeni lozinku",
-		"oldPassword": "Stara lozinka",
-		"newPassword": "Nova lozinka",
-		"repeatNewPassword": "Ponovi novu lozinku",
-		"socialMediaConnections": "Povezivanje s društvenim mrežama",
-		"storage": "Pohrana",
-		"saveSettings": "Spremi postavke",
-		"deleteAccount": "Izbriši račun",
-		"deleteAccountDescription": "Jeste li sigurni da želite izbrisati svoj račun? Ova radnja je nepovratna, a svi vaši podaci bit će trajno izbrisani, osim zapisa povezanih s plaćenim pretplatama.",
-		"newPasswordRequired": "Nova lozinka je obavezna",
-		"newRepeatedPasswordRequired": "Ponovljena nova lozinka je obavezna",
-		"passwordRequired": "Lozinka je obavezna",
-		"oldPasswordRequired": "Stara lozinka je obavezna",
-		"defaultLanguage": "Zadani jezik",
-		"deleteProfilePicture": "Izbriši profilnu sliku",
-		"defaultLanguageRequired": "Zadani jezik je obavezan",
-		"connection": "povezivanje",
-		"connected": "povezano"
-	},
-	
-  "stemEditor": {
-	    "mute": "Utišaj",
-	    "solo": "Solo",
-	    "changeColor": "Promijeni boju",
-	    "changeIcon": "Promijeni ikonu",
-	    "loading": "Učitavanje audio projekta",
-	    "collapse": "Skupi kanale",
-	    "show": "Prikaži kanale",
-	    "errorAudio": "Došlo je do problema pri učitavanju stem audia, pokušajte ponovo.",
-	    "generateMetronome": "Generiraj metronom",
-	    "moreOptions": "Više opcija",
-	    "volume": "Volumen",
-	    "record": "Snimi",
-	    "unsavedRecordingTitle": "Jeste li sigurni da želite napustiti?",
-	    "unsavedRecordingDescription": "Imate nespremljenu snimku. Ako sada napustite, snimka će biti izgubljena. Molimo vas da je spremite ako je želite zadržati.",
-	    "editAudioProject": "Uredi audio projekt",
-	    "loop": "Petlja",
-	    "stop": "Stop",
-	    "sections": {
-		      "title": "Sekcije",
-		      "openDrawer": "Otvori sekcije",
-		      "closeDrawer": "Zatvori sekcije",
-		      "noSections": "Da biste dodali sekcije, kliknite 'Dodaj novu sekciju'",
-		      "clearPreview": "Obriši pregled",
-		      "addNew": "Dodaj novu sekciju",
-		      "edit": "Uredi sekciju {{section}}",
-		      "delete": "Izbriši sekciju {{section}}",
-		      "open": "Otvori sekcije",
-		      "form": {
-		        "name": "Naziv sekcije",
-		        "namePlaceholder": "Unesite naziv sekcije",
-		        "description": "Opis sekcije",
-		        "descriptionPlaceholder": "Unesite opis sekcije",
-		        "startTime": "Početno vrijeme",
-		        "endTime": "Krajnje vrijeme",
-		        "min": "min",
-		        "sec": "sec",
-		        "color": "Boja sekcije",
-		        "namePrefill": "Sekcija {{number}}",
-		        "autocomplete": {
-		          "intro": "Intro",
-		          "verse": "Stih",
-		          "preChorus": "Pred-refren",
-		          "chorus": "Refren",
-		          "bridge": "Most",
-		          "solo": "Solo",
-		          "outro": "Outro",
-		          "hook": "Hook"
-	        },
-	        "errors": {
-		          "nameRequired": "Naziv sekcije je obavezan",
-		          "startGtEnd": "Početno vrijeme mora biti manje od krajnjeg vremena",
-		          "startSecondsTooLong": "Početni sekundi moraju biti manji od 60",
-		          "endSecondsTooLong": "Krajnji sekundi moraju biti manji od 60",
-		          "startTimeRequired": "Početno vrijeme je obavezno",
-		          "endTimeRequired": "Krajnje vrijeme je obavezno",
-		          "nameDuplicate": "Naziv sekcije mora biti jedinstven"
-	        }
-	      }
-	    },
-	    "actionNotification": {
-	      "generate-metronome": {
-	        "title": "Generiranje metronoma",
-	        "success": "Metronom generiran",
-	        "error": "Generiranje metronoma nije uspjelo"
-	      },
-	      "action-merged": {
-	        "title": "Spajanje",
-	        "success": "Spajanje uspješno",
-	        "error": "Spajanje nije uspjelo"
-	      },
-	      "export-done": {
-	        "title": "Izvoz",
-	        "success": "Izvoz uspješan",
-	        "error": "Izvoz nije uspio"
-	      },
-	      "effects-apply": {
-	        "title": "Primjena efekta",
-	        "success": "Efekt primijenjen",
-	        "error": "Primjena efekta nije uspjela"
-	      },
-	      "clone": {
-	        "title": "Kloniranje",
-	        "success": "Kloniranje uspješno",
-	        "error": "Kloniranje nije uspjelo"
-	      },
-	      "action-separation": {
-	        "title": "Razdvajanje",
-	        "success": "Razdvajanje uspješno",
-	        "error": "Razdvajanje nije uspjelo"
-	      },
-	      "upload-record": {
-	        "title": "Učitavanje snimke",
-	        "success": "Snimka učitana",
-	        "error": "Učitavanje snimke nije uspjelo"
-	      }
-	    },
-	    "channelOptions": {
-	      "clone": "Kloniraj",
-	      "separate": "Razdvoji",
-	      "amplifiers": "Pojačala",
-	      "effects": "Efekti",
-	      "focus": "Fokus",
-	      "error": "Došlo je do problema pri dohvaćanju opcija. Pokušajte ponovo."
-	    },
-	    "modes": {
-		      "merge": "Spoji",
-		      "group": "Grupa",
-		      "reorder": "Ponovno poredaj",
-		      "placeholder": "Odaberi akciju",
-		      "mergeItems": "Spoji stavke",
-		      "mergeItemsError": "Kanali tipa metronom i drugi ne mogu se spojiti"
-	    },
-	    "playControl": {
-		      "microphoneUnavailable": "Mikrofon nedostupan",
-		      "microphoneUnavailableMessage": "Nismo mogli pristupiti vašem mikrofonu. Provjerite postavke uređaja kako biste osigurali da je mikrofon povezan i da ova aplikacija ima potrebne dozvole. Ako ste nedavno dopustili pristup mikrofonu, osvježite stranicu da biste pokušali ponovo. Ako problem i dalje postoji, pokušajte koristiti drugi preglednik.",
-		      "microphone": "Mikrofon",
-		      "selectMicrophone": "Odaberite mikrofon",
-		      "chooseMicrophone": "Odaberite mikrofon",
-		      "unknownMicrophone": "Nepoznat mikrofon",
-		      "recordButton": "Pokretanje nove snimke će prebrisati postojeću."
-	    },
-	    "groups": {
-		      "title": "Grupe",
-		      "addNew": "Dodaj novu grupu",
-		      "noGroups": "Nema grupa",
-		      "chooseGroup": "Odaberite grupu",
-		      "delete": "Izbriši grupu",
-		      "editIcon": "Uredi ikonu",
-		      "editName": "Uredi naziv grupe",
-		      "error": "Došlo je do pogreške pri dohvaćanju grupa.",
-		      "noGroup": "Nema grupe",
-		      "chooseGroupForEdit": "Odaberite grupu koju želite urediti."
-	    }
-	  },
-	"effect": {
-	"simple": {
-		"name": "Jednostavni",
-		"lowpass": {
-			"name": "Lowpass",
-			"description": "Low-pass filtrat dopušta prolazak frekvencija ispod određenog cutoff frekvencijskog praga dok smanjuje više frekvencije, dajući zvukovima glatkiji, prigušeniji kvalitet."
-		},
-		"highpass": {
-			"name": "Highpass",
-			"description": "High-pass filtrat dopušta prolazak frekvencija iznad određenog cutoff frekvencijskog praga dok smanjuje niže frekvencije, dodajući jasnoću višim tonovima."
-		},
-		"reverb": {
-			"name": "Reverb",
-			"description": "Reverb simulira učinak odjeka zvuka u zatvorenom prostoru, stvarajući dojam ambijenta i dubine dok zvuk postupno izblijedi."
-		},
-		"delay": {
-			"name": "Delay",
-			"description": "Delay snima ulazni zvuk i reproducira ga nakon određenog vremena, stvarajući efekt odjeka koji se može ponoviti za ritmički ili prostorni efekt."
-		},
-		"compressor": {
-			"name": "Kompressor",
-			"description": "Kompressor smanjuje volumen glasnijih zvukova i pojačava tiše, balansirajući ukupnu dinamiku zvuka."
-		},
-		"bandpass": {
-			"name": "Bandpass",
-			"description": "Band-pass filtrat dopušta prolazak frekvencija unutar određenog raspona i smanjuje druge, naglašavajući određene frekvencijske opsege."
-		},
-		"chorus": {
-			"name": "Chorus",
-			"description": "Chorus stvara efekt više glasova ili instrumenata miješajući izvorni zvuk s kašnjenim, pitch-moduliranim kopijama."
-		},
-		"phaser": {
-			"name": "Phaser",
-			"description": "Phaser pomiče faze zvuka, stvarajući talasaste vrhove i udubljenja u frekvencijskom spektru za vrtložni efekt."
-		},
-		"highShelfFilter": {
-			"name": "Highshelf filtrat",
-			"description": "High-shelf filtrat pojačava ili smanjuje frekvencije iznad određenog cutoff praga, posvjetljujući ili ublažujući visoke frekvencije."
-		},
-		"lowShelfFilter": {
-			"name": "Lowshelf filtrat",
-			"description": "Low-shelf filtrat pojačava ili smanjuje frekvencije ispod određenog cutoff praga, dodajući dubinu ili jasnoću niskim frekvencijama."
-		},
-		"peakFilter": {
-			"name": "Peak filtrat",
-			"description": "Peak filtrat pojačava ili smanjuje uski opseg frekvencija oko središnje frekvencije, omogućujući ciljana podešavanja."
-		}
-	},
-	"complex": {
-		"name": "Složeni",
-		"distantSource": {
-			"name": "Daleki izvor",
-			"description": "Ovaj efekt simulira izvor zvuka koji je smješten daleko od slušatelja, rezultirajući mekšim, manje izravnim zvukom."
-		},
-		"distantSourceEnhancedReverb": {
-			"name": "Daleki izvor s pojačanim reverberacijama",
-			"description": "Daleki izvor efekt s pojačanim reverberacijama stvara odjekujući, uranjajući zvučni ambijent koji zvuči udaljenije."
-		},
-		"closeSource": {
-			"name": "Blizak izvor",
-			"description": "Blizak izvor efekt simulira izvor zvuka koji je smješten blizu slušatelja, pružajući izravniji, intimniji zvuk."
-		},
-		"distantAlteredSource": {
-			"name": "Daleki modificirani izvor",
-			"description": "Ovaj efekt smješta zvuk dalje s suptilnim promjenama, stvarajući jedinstveni daleki i modificirani ton."
-		},
-		"stereoSpread": {
-			"name": "Stereo širenje",
-			"description": "Stereo širenje proširuje percipiranu stereo sliku, dajući zvukovima širu prostornu prisutnost."
-		},
-		"enhancedStereoSpread": {
-			"name": "Pojačano stereo širenje",
-			"description": "Proširena verzija stereo širenja, pružajući širu zvučnu scenu s većom dubinom i odvojenosti."
-		},
-		"expansiveStereoSpread": {
-			"name": "Ekspansivno stereo širenje",
-			"description": "Imersivniji stereo širenje efekt koji pruža dramatičan osjećaj prostora i širine u zvuku."
-		},
-		"brightSpread": {
-			"name": "Svijetlo širenje",
-			"description": "Bright spread poboljšava više frekvencije dok širi stereo sliku za oštar, prostoran zvuk."
-		},
-		"brightReverbSpread": {
-			"name": "Svijetlo reverberacijsko širenje",
-			"description": "Svijetlo širenje efekt s reverberacijom, dajući zvuku živahni, prostorni karakter s sjajnim odjecima."
-		},
-		"phasedBrightness": {
-			"name": "Phased svjetlost",
-			"description": "Phased brightness uvodi faznu modulaciju za talasasti, svijetli efekt, dodajući pokret i složenost zvuku."
-		},
-		"echoedPhasedBrightness": {
-			"name": "Echoed phased brightness",
-			"description": "Ovaj efekt kombinira odjeke s phased brightness, stvarajući slojevite, svjetlucave ponavljanja u zvuku."
-		},
-		"dynamicPhasedEcho": {
-			"name": "Dinamični phased echo",
-			"description": "Phased echo efekt s dinamičkom modulacijom, stvarajući zvuk koji se pomiče i razvija tijekom vremena."
-		},
-		"distantSourceAlternate": {
-			"name": "Alternativni daleki izvor",
-			"description": "Alternativni daleki izvor efekt, stvarajući osjećaj udaljenosti s jedinstvenim timbrama i tonalnim varijacijama."
-		}
-	},
-	"control": {
-		"cutoff_frequency_hz": "Cutoff frekvencija",
-		"room_size": "Veličina sobe",
-		"damping": "Damping",
-		"wet_level": "Wet level",
-		"dry_level": "Dry level",
-		"width": "Širina",
-		"freeze_mode": "Freeze mode",
-		"delay_seconds": "Delay",
-		"feedback": "Feedback",
-		"mix": "Mix",
-		"threshold_db": "Threshold",
-		"ratio": "Ratio",
-		"attack_ms": "Attack",
-		"release_ms": "Release",
-		"cutoff_frequency_hz_lowpass": "Cutoff frekvencija lowpass",
-		"cutoff_frequency_hz_highpass": "Cutoff frekvencija highpass",
-		"rate_hz": "Rate",
-		"depth": "Dubina",
-		"centre_delay_ms": "Centre delay",
-		"centre_frequency_hz": "Centre frequency",
-		"cutoff_frequency_hz_highshelf": "Cutoff frekvencija",
-		"cutoff_frequency_hz_lowshelf": "Cutoff frekvencija",
-		"gain_db": "Gain",
-		"q": "Q"
-	},
-	"unit": {
-		"hertz": {
-			"name": "Hz"
-		},
-		"seconds": {
-			"name": "s"
-		},
-		"milliseconds": {
-			"name": "ms"
-		},
-		"decibel": {
-			"name": "dB"
-		},
-		"ratio": {
-			"name": ":1"
-		}
-	},
-	"effectStates": {
-		"loading": "Učitavanje efekta...",
-		"error": "Došlo je do problema pri preuzimanju efekta. Pokušajte ponovo.",
-		"noEffect": "Nema podataka o efektu.",
-		"noSimple": "Nema parametara dostupnih za ovaj jednostavni efekt.",
-		"noComplex": "Nema parametara dostupnih za ovaj složeni efekt.",
-		"applying": "Primjena efekta...",
-		"apply": "Primijeni efekte"
-	}
-},
-	"amplifier": {
-		"name": "Pojačala",
-		"marshall": {
-			"1959hw": {
-				"bass": {
-					"name": "Marshall 1959HW Bass",
-					"description": "Marshall 1959HW Bass je pojačalo za bas gitaru poznato po svom toplom i udarnom zvuku. Idealno je za basiste koji žele klasičan rock zvuk."
-				}
-			}
-		},
-		"fender": {
-			"twinverb": {
-				"vibrato": {
-					"bright": {
-						"name": "Fender Twin Reverb Vibrato Bright",
-						"description": "Ovo je varijanta Fender Twin Reverb pojačala koja ima bright switch i vibrato efekt. Poznato je po svom čistom i svijetlom zvuku, što ga čini popularnim među gitaristima koji sviraju čisti ili country zvuk."
-					}
-				}
-			}
-		},
-		"dc": {
-			"krankenstein": {
-				"name": "Dimebag Darrell Krankenstein",
-				"description": "Dimebag Darrell Krankenstein je pojačalo sa potpisom koje je dizajnirano za pokojnog Dimebaga Darrella iz Pantere. Poznato je po svom visokogainskom zvuku i agresivnoj tonalnosti, što ga čini popularnim izborom među metal gitaristima."
-			}
-		}
-	},
-	"repository": {
-		"joinDate": "Datum pridruživanja",
-		"tokensSpent": "Utrošeni tokeni",
-		"sharedRepositoriesTitle": "Popis repozitorija podijeljenih s vama",
-		"sharedRepositoriesError": "Došlo je do pogreške prilikom dohvaćanja repozitorija, pokušajte ponovo.",
-		"userGroup": "Korisnička grupa",
-		"userGroupDescription": "Upravljajte drugim korisnicima koji imaju pristup vašem radnom prostoru i audio projektima",
-		"searchUsers": "Pretraži korisnike",
-		"addUser": "Dodaj korisnika",
-		"leaveRepositoryTitle": "Napusti {{item}}",
-		"leaveRepositoryDescription": "Potvrdite da želite napustiti {{item}}.",
-		"removeFromRepositoryTitle": "Ukloni {{item}} iz vašeg repozitorija",
-		"removeFromRepositoryDescription": "Potvrdite da želite ukloniti {{item}} iz vašeg repozitorija.",
-		"leave": "Napusti",
-		"remove": "Ukloni",
-		"addUserTitle": "Dodaj korisnika u svoj repozitorij",
-		"addUserDescription": "Unesite email korisnika kojeg želite dodati u svoj repozitorij.",
-		"details": {
-			"actionType": "Vrsta akcije",
-			"tokenHistory": "Povijest transakcija tokena",
-			"actionsLog": "Dnevnik akcija",
-			"repositoryDetails": "Detalji repozitorija",
-			"tokenSpend": "Potrošeni tokeni",
-			"transactionTime": "Vrijeme transakcije"
-		}
-	},
-	"subscriptions": {
-		"title": "Pretplate",
-		"description": "Odaberite plan pretplate i dodatne pakete koji odgovaraju vašim potrebama.",
-		"annualPlan": "Godišnji plan",
-		"monthlyPlan": "Mjesečni plan",
-		"month": "mjesec",
-		"numberOfTokens": "Broj tokena",
-		"storage": "Pohrana (GB)",
-		"changePlan": "Promijeni plan",
-		"currentPlan": "Trenutni plan",
-		"features": "Značajke",
-		"sharedWorkspace": "Zajednički radni prostor",
-		"musicalEffects": "Glazbeni efekti",
-		"amplifiers": "Pojačala",
-		"instruments": "Instrumenti",
-		"export": "Izvoz",
-		"generate": "Generiraj"
-	}
-	
-
+    "exportComponent": {
+        "choose": "Odaberi format zvuka",
+        "exportSelected": "Izvezi odabrano",
+        "formatError": "Morate odabrati format",
+        "exportAllTooltip": "Izvezi sve stavke (tekstove, tabove, bilješke, zvukove)",
+        "itemWithCount_one": "Odabrana {{count}} stavka",
+        "itemWithCount_other": "Odabrano {{count}} stavki",
+        "exportError": "Ova datoteka je već preuzeta. Provjerite mapu za preuzimanja ili ponovno izvezite.",
+        "exportErrorExpired": "Link za preuzimanje je istekao, molimo ponovno izvezite."
+    },
+    "dataItem": {
+        "musicalNotes": {
+            "name": "Glazbene note",
+            "description": ""
+        },
+        "tabs": {
+            "name": "Tabovi",
+            "description": ""
+        },
+        "lyrics": {
+            "name": "Stihovi",
+            "description": ""
+        },
+        "midi": {
+            "name": "Midi",
+            "description": ""
+        },
+        "format": {
+            "name": "Audio",
+            "description": ""
+        }
+    },
+    "instrumentGroup": {
+        "vocals": {
+            "name": "Vokali",
+            "description": ""
+        },
+        "bass": {
+            "name": "Bas",
+            "description": ""
+        },
+        "drums": {
+            "name": "Bubnjevi",
+            "description": ""
+        },
+        "guitars": {
+            "name": "Gitare",
+            "description": ""
+        },
+        "winds": {
+            "name": "Puhački instrumenti",
+            "description": ""
+        },
+        "strings": {
+            "name": "Žičani instrumenti",
+            "description": ""
+        },
+        "accordion": {
+            "name": "Harmonika",
+            "description": ""
+        },
+        "metronome": {
+            "name": "Metronom",
+            "description": ""
+        },
+        "synths": {
+            "name": "Sinteza",
+            "description": ""
+        },
+        "piano": {
+            "name": "Klavijature",
+            "description": ""
+        }
+    },
+    "instrument": {
+        "vocals": {
+            "lead": {
+                "name": "Glavni vokal",
+                "description": ""
+            },
+            "back": {
+                "name": "Prateći vokal",
+                "description": ""
+            }
+        },
+        "piano": {
+            "electric": {
+                "name": "Električni klavir",
+                "description": ""
+            },
+            "grand": {
+                "name": "Koncertni klavir",
+                "description": ""
+            }
+        },
+        "organ": {
+            "electric": {
+                "name": "Električne orgulje",
+                "description": ""
+            },
+            "classic": {
+                "name": "Orgulje",
+                "description": ""
+            }
+        },
+        "bass": {
+            "guitar": {
+                "name": "Bas gitara",
+                "description": ""
+            },
+            "synthesizer": {
+                "name": "Sintetizator",
+                "description": ""
+            },
+            "contrabass": {
+                "name": "Kontrabas",
+                "description": ""
+            }
+        },
+        "drums": {
+            "cymbal": {
+                "name": "Činela",
+                "description": ""
+            },
+            "drumMachine": {
+                "name": "Ritam mašina",
+                "description": ""
+            },
+            "drumKit": {
+                "name": "Akustični set bubnjeva",
+                "description": ""
+            },
+            "hiHat": {
+                "name": "Hi Hat",
+                "description": ""
+            },
+            "kickDrum": {
+                "name": "Bas bubanj",
+                "description": ""
+            },
+            "overheads": {
+                "name": "Overheads",
+                "description": ""
+            },
+            "snareDrum": {
+                "name": "Mali bubanj",
+                "description": ""
+            },
+            "tomDrum": {
+                "name": "Tom tom bubanj",
+                "description": ""
+            }
+        },
+        "guitar": {
+            "classic": {
+                "name": "Klasična gitara",
+                "description": ""
+            },
+            "electric": {
+                "name": "Električna gitara",
+                "description": ""
+            },
+            "acoustic": {
+                "name": "Akustična gitara",
+                "description": ""
+            }
+        },
+        "wind": {
+            "sax": {
+                "name": "Saksofon",
+                "description": ""
+            },
+            "trumpet": {
+                "name": "Truba",
+                "description": ""
+            }
+        },
+        "string": {
+            "viola": {
+                "name": "Viola",
+                "description": ""
+            },
+            "violin": {
+                "name": "Violina",
+                "description": ""
+            },
+            "cello": {
+                "name": "Violončelo",
+                "description": ""
+            }
+        },
+        "accordion": {
+            "accordion": {
+                "name": "Harmonika",
+                "description": ""
+            }
+        },
+        "metronome": {
+            "metronome": {
+                "name": "Metronom",
+                "description": ""
+            }
+        },
+        "synthesizer": {
+            "bass": {
+                "name": "Bas sint",
+                "description": ""
+            },
+            "lead": {
+                "name": "Lead sint",
+                "description": ""
+            },
+            "pad": {
+                "name": "Pad sint",
+                "description": ""
+            },
+            "pluck": {
+                "name": "Pluck sint",
+                "description": ""
+            }
+        },
+        "keyboard": {
+            "electricPiano": {
+                "name": "Električni klavir",
+                "description": ""
+            },
+            "grandPiano": {
+                "name": "Koncertni klavir",
+                "description": ""
+            }
+        }
+    },
+    "audioFormat": {
+        "mp3": {
+            "name": "MP3",
+            "description": ""
+        },
+        "wav": {
+            "name": "Wav",
+            "description": ""
+        },
+        "flac": {
+            "name": "Flac",
+            "description": ""
+        },
+        "numPy": {
+            "name": "NumPy",
+            "description": ""
+        },
+        "m4a": {
+            "m4a": "M4A",
+            "description": ""
+        }
+    },
+    "audioItem": {
+        "option": {
+            "clone": {
+                "name": "Kloniraj"
+            },
+            "separate": {
+                "name": "Odvoji"
+            },
+            "delete": {
+                "name": "Obriši"
+            },
+            "amplifier": {
+                "name": "Pojačalo"
+            },
+            "effect": {
+                "name": "Efekt"
+            }
+        }
+    },
+    "audioItemType": {
+        "original": {
+            "name": "Original",
+            "description": ""
+        },
+        "stem": {
+            "name": "Stem",
+            "description": ""
+        },
+        "mix": {
+            "name": "Miks",
+            "description": ""
+        },
+        "other": {
+            "name": "Ostalo",
+            "description": ""
+        }
+    },
+    "playlistType": {
+        "personal": {
+            "name": "Osobni popis pjesama",
+            "description": ""
+        },
+        "shared": {
+            "name": "Zajednički popis pjesama",
+            "description": ""
+        }
+    },
+    "subscriptionPlan": {
+        "free": {
+            "name": "Besplatno",
+            "description": ""
+        },
+        "freePlus": {
+            "name": "Besplatno plus",
+            "description": ""
+        },
+        "advance": {
+            "name": "Napredno",
+            "description": ""
+        },
+        "pro": {
+            "name": "Pro",
+            "description": ""
+        },
+        "premium": {
+            "name": "Premium",
+            "description": ""
+        }
+    },
+    "actionGroup": {
+        "export": {
+            "name": "Izvoz",
+            "description": ""
+        },
+        "separation": {
+            "name": "Separation",
+            "description": ""
+        },
+        "detection": {
+            "name": "Detekcija",
+            "description": ""
+        },
+        "transcription": {
+            "name": "Transkripcija",
+            "description": ""
+        },
+        "general": {
+            "name": "Opće",
+            "description": ""
+        }
+    },
+    "actionVersion": {
+        "tiny": {
+            "name": "Minimalan",
+            "description": ""
+        },
+        "small": {
+            "name": "Osnovni",
+            "description": ""
+        },
+        "large": {
+            "name": "Napredni",
+            "description": ""
+        }
+    },
+    "subscriptionAction": {
+        "separation": {
+            "vocals": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "keys": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "bass": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "drums": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "trumpet": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "saxophone": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "guitar": {
+                "electric": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "acoustic": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "isolation": {
+            "vocals": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "keys": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "bass": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "drums": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "trumpet": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "saxophone": {
+                "basic": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Napredno",
+                    "description": ""
+                }
+            },
+            "guitar": {
+                "electric": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "acoustic": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "transcription": {
+            "vocals": {
+                "midi": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "lyrics": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    },
+                    "notes": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "keys": {
+                "midi": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "bass": {
+                "midi": {
+                    "name": "Osnovno",
+                    "description": ""
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    },
+                    "tabs": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "drums": {
+                "midi": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "trumpet": {
+                "midi": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "saxophone": {
+                "midi": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "guitar": {
+                "acoustic": {
+                    "midi": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    },
+                    "data": {
+                        "notes": {
+                            "basic": {
+                                "name": "Osnovno",
+                                "description": ""
+                            },
+                            "advance": {
+                                "name": "Napredno",
+                                "description": ""
+                            }
+                        },
+                        "tabs": {
+                            "basic": {
+                                "name": "Osnovno",
+                                "description": ""
+                            },
+                            "advance": {
+                                "name": "Napredno",
+                                "description": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "electric": {
+                "midi": {
+                    "basic": {
+                        "name": "Osnovno",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Napredno",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    },
+                    "tabs": {
+                        "basic": {
+                            "name": "Osnovno",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Napredno",
+                            "description": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "userDropdown": {
+        "userSettings": "Moje postavke",
+        "logout": "Odjava",
+        "repository": "Moj repozitorij",
+        "subscription": "Moja pretplata"
+    },
+    "register": {
+        "accountExists": "Već imate račun?",
+        "registerWith": "Registrirajte se putem",
+        "googleRegistration": "Google",
+        "facebookRegistration": "Facebook",
+        "appleRegistration": "Apple ID",
+        "loginDescription": "Lorem Ipsum je jednostavno lažni tekst koji se koristi u tiskarskoj i slovosložačkoj industriji. Lorem Ipsum postao je standardni lažni tekst još od 1500-ih.",
+        "registerWithEmail": "Registrirajte se e-poštom",
+        "termsAndConditions": "Nastavljanjem prihvaćate naše <0>Uvjete korištenja</0> i <1>Pravila privatnosti</1>."
+    },
+    "createAccount": {
+        "goBackTitle": "Jeste li sigurni da se želite vratiti?",
+        "unsavedChanges": "Sve nespremljene promjene bit će izgubljene.",
+        "basicInfo": "Osnovne informacije",
+        "securityInfo": "Sigurnosne informacije",
+        "validations": {
+            "nameRequired": "Ime je obavezno",
+            "lastNameRequired": "Prezime je obavezno",
+            "usernameRequired": "Korisničko ime je obavezno",
+            "emailRequired": "E-mail je obavezan",
+            "yearOfBirthRequired": "Godina rođenja je obavezna",
+            "invalidYearOfBirthFormat": "Nevažeći format",
+            "invalidYearOfBirth": "Nevažeća godina rođenja",
+            "passwordRequired": "Lozinka je obavezna",
+            "repeatedPasswordRequired": "Ponovljena lozinka je obavezna",
+            "emailTaken": "E-mail je već zauzet",
+            "usernameTaken": "Korisničko ime je već zauzeto"
+        }
+    },
+    "userSettings": {
+        "userSettings": "Postavke korisnika",
+        "changeProfilePicture": "Promijeni profilnu sliku",
+        "changePassword": "Promijeni lozinku",
+        "oldPassword": "Stara lozinka",
+        "newPassword": "Nova lozinka",
+        "repeatNewPassword": "Ponovi novu lozinku",
+        "socialMediaConnections": "Povezivanje s društvenim mrežama",
+        "storage": "Pohrana",
+        "saveSettings": "Spremi postavke",
+        "deleteAccount": "Izbriši račun",
+        "deleteAccountDescription": "Jeste li sigurni da želite izbrisati svoj račun? Ova radnja je nepovratna, a svi vaši podaci bit će trajno izbrisani, osim zapisa povezanih s plaćenim pretplatama.",
+        "newPasswordRequired": "Nova lozinka je obavezna",
+        "newRepeatedPasswordRequired": "Ponovljena nova lozinka je obavezna",
+        "passwordRequired": "Lozinka je obavezna",
+        "oldPasswordRequired": "Stara lozinka je obavezna",
+        "defaultLanguage": "Zadani jezik",
+        "deleteProfilePicture": "Izbriši profilnu sliku",
+        "defaultLanguageRequired": "Zadani jezik je obavezan",
+        "connection": "povezivanje",
+        "connected": "povezano"
+    },
+    "stemEditor": {
+        "mute": "Utišaj",
+        "solo": "Solo",
+        "changeColor": "Promijeni boju",
+        "changeIcon": "Promijeni ikonu",
+        "loading": "Učitavanje audio projekta",
+        "collapse": "Skupi kanale",
+        "show": "Prikaži kanale",
+        "errorAudio": "Došlo je do problema pri učitavanju stem audia, pokušajte ponovo.",
+        "generateMetronome": "Generiraj metronom",
+        "moreOptions": "Više opcija",
+        "volume": "Volumen",
+        "record": "Snimi",
+        "unsavedRecordingTitle": "Jeste li sigurni da želite napustiti?",
+        "unsavedRecordingDescription": "Imate nespremljenu snimku. Ako sada napustite, snimka će biti izgubljena. Molimo vas da je spremite ako je želite zadržati.",
+        "editAudioProject": "Uredi audio projekt",
+        "loop": "Petlja",
+        "stop": "Stop",
+        "sections": {
+            "title": "Sekcije",
+            "openDrawer": "Otvori sekcije",
+            "closeDrawer": "Zatvori sekcije",
+            "noSections": "Da biste dodali sekcije, kliknite 'Dodaj novu sekciju'",
+            "clearPreview": "Obriši pregled",
+            "addNew": "Dodaj novu sekciju",
+            "edit": "Uredi sekciju {{section}}",
+            "delete": "Izbriši sekciju {{section}}",
+            "open": "Otvori sekcije",
+            "form": {
+                "name": "Naziv sekcije",
+                "namePlaceholder": "Unesite naziv sekcije",
+                "description": "Opis sekcije",
+                "descriptionPlaceholder": "Unesite opis sekcije",
+                "startTime": "Početno vrijeme",
+                "endTime": "Krajnje vrijeme",
+                "min": "min",
+                "sec": "sec",
+                "color": "Boja sekcije",
+                "namePrefill": "Sekcija {{number}}",
+                "autocomplete": {
+                    "intro": "Intro",
+                    "verse": "Stih",
+                    "preChorus": "Pred-refren",
+                    "chorus": "Refren",
+                    "bridge": "Most",
+                    "solo": "Solo",
+                    "outro": "Outro",
+                    "hook": "Hook"
+                },
+                "errors": {
+                    "nameRequired": "Naziv sekcije je obavezan",
+                    "startGtEnd": "Početno vrijeme mora biti manje od krajnjeg vremena",
+                    "startSecondsTooLong": "Početni sekundi moraju biti manji od 60",
+                    "endSecondsTooLong": "Krajnji sekundi moraju biti manji od 60",
+                    "startTimeRequired": "Početno vrijeme je obavezno",
+                    "endTimeRequired": "Krajnje vrijeme je obavezno",
+                    "nameDuplicate": "Naziv sekcije mora biti jedinstven"
+                }
+            }
+        },
+        "actionNotification": {
+            "generate-metronome": {
+                "title": "Generiranje metronoma",
+                "success": "Metronom generiran",
+                "error": "Generiranje metronoma nije uspjelo"
+            },
+            "action-merged": {
+                "title": "Spajanje",
+                "success": "Spajanje uspješno",
+                "error": "Spajanje nije uspjelo"
+            },
+            "export-done": {
+                "title": "Izvoz",
+                "success": "Izvoz uspješan",
+                "error": "Izvoz nije uspio"
+            },
+            "effects-apply": {
+                "title": "Primjena efekta",
+                "success": "Efekt primijenjen",
+                "error": "Primjena efekta nije uspjela"
+            },
+            "clone": {
+                "title": "Kloniranje",
+                "success": "Kloniranje uspješno",
+                "error": "Kloniranje nije uspjelo"
+            },
+            "action-separation": {
+                "title": "Razdvajanje",
+                "success": "Razdvajanje uspješno",
+                "error": "Razdvajanje nije uspjelo"
+            },
+            "upload-record": {
+                "title": "Učitavanje snimke",
+                "success": "Snimka učitana",
+                "error": "Učitavanje snimke nije uspjelo"
+            }
+        },
+        "channelOptions": {
+            "clone": "Kloniraj",
+            "separate": "Razdvoji",
+            "amplifiers": "Pojačala",
+            "effects": "Efekti",
+            "focus": "Fokus",
+            "error": "Došlo je do problema pri dohvaćanju opcija. Pokušajte ponovo."
+        },
+        "modes": {
+            "merge": "Spoji",
+            "group": "Grupa",
+            "reorder": "Ponovno poredaj",
+            "placeholder": "Odaberi akciju",
+            "mergeItems": "Spoji stavke",
+            "mergeItemsError": "Kanali tipa metronom i drugi ne mogu se spojiti"
+        },
+        "playControl": {
+            "microphoneUnavailable": "Mikrofon nedostupan",
+            "microphoneUnavailableMessage": "Nismo mogli pristupiti vašem mikrofonu. Provjerite postavke uređaja kako biste osigurali da je mikrofon povezan i da ova aplikacija ima potrebne dozvole. Ako ste nedavno dopustili pristup mikrofonu, osvježite stranicu da biste pokušali ponovo. Ako problem i dalje postoji, pokušajte koristiti drugi preglednik.",
+            "microphone": "Mikrofon",
+            "selectMicrophone": "Odaberite mikrofon",
+            "chooseMicrophone": "Odaberite mikrofon",
+            "unknownMicrophone": "Nepoznat mikrofon",
+            "recordButton": "Pokretanje nove snimke će prebrisati postojeću."
+        },
+        "groups": {
+            "title": "Grupe",
+            "addNew": "Dodaj novu grupu",
+            "noGroups": "Nema grupa",
+            "chooseGroup": "Odaberite grupu",
+            "delete": "Izbriši grupu",
+            "editIcon": "Uredi ikonu",
+            "editName": "Uredi naziv grupe",
+            "error": "Došlo je do pogreške pri dohvaćanju grupa.",
+            "noGroup": "Nema grupe",
+            "chooseGroupForEdit": "Odaberite grupu koju želite urediti."
+        }
+    },
+    "effect": {
+        "simple": {
+            "name": "Jednostavni",
+            "lowpass": {
+                "name": "Lowpass",
+                "description": "Low-pass filtrat dopušta prolazak frekvencija ispod određenog cutoff frekvencijskog praga dok smanjuje više frekvencije, dajući zvukovima glatkiji, prigušeniji kvalitet."
+            },
+            "highpass": {
+                "name": "Highpass",
+                "description": "High-pass filtrat dopušta prolazak frekvencija iznad određenog cutoff frekvencijskog praga dok smanjuje niže frekvencije, dodajući jasnoću višim tonovima."
+            },
+            "reverb": {
+                "name": "Reverb",
+                "description": "Reverb simulira učinak odjeka zvuka u zatvorenom prostoru, stvarajući dojam ambijenta i dubine dok zvuk postupno izblijedi."
+            },
+            "delay": {
+                "name": "Delay",
+                "description": "Delay snima ulazni zvuk i reproducira ga nakon određenog vremena, stvarajući efekt odjeka koji se može ponoviti za ritmički ili prostorni efekt."
+            },
+            "compressor": {
+                "name": "Kompressor",
+                "description": "Kompressor smanjuje volumen glasnijih zvukova i pojačava tiše, balansirajući ukupnu dinamiku zvuka."
+            },
+            "bandpass": {
+                "name": "Bandpass",
+                "description": "Band-pass filtrat dopušta prolazak frekvencija unutar određenog raspona i smanjuje druge, naglašavajući određene frekvencijske opsege."
+            },
+            "chorus": {
+                "name": "Chorus",
+                "description": "Chorus stvara efekt više glasova ili instrumenata miješajući izvorni zvuk s kašnjenim, pitch-moduliranim kopijama."
+            },
+            "phaser": {
+                "name": "Phaser",
+                "description": "Phaser pomiče faze zvuka, stvarajući talasaste vrhove i udubljenja u frekvencijskom spektru za vrtložni efekt."
+            },
+            "highShelfFilter": {
+                "name": "Highshelf filtrat",
+                "description": "High-shelf filtrat pojačava ili smanjuje frekvencije iznad određenog cutoff praga, posvjetljujući ili ublažujući visoke frekvencije."
+            },
+            "lowShelfFilter": {
+                "name": "Lowshelf filtrat",
+                "description": "Low-shelf filtrat pojačava ili smanjuje frekvencije ispod određenog cutoff praga, dodajući dubinu ili jasnoću niskim frekvencijama."
+            },
+            "peakFilter": {
+                "name": "Peak filtrat",
+                "description": "Peak filtrat pojačava ili smanjuje uski opseg frekvencija oko središnje frekvencije, omogućujući ciljana podešavanja."
+            }
+        },
+        "complex": {
+            "name": "Složeni",
+            "distantSource": {
+                "name": "Daleki izvor",
+                "description": "Ovaj efekt simulira izvor zvuka koji je smješten daleko od slušatelja, rezultirajući mekšim, manje izravnim zvukom."
+            },
+            "distantSourceEnhancedReverb": {
+                "name": "Daleki izvor s pojačanim reverberacijama",
+                "description": "Daleki izvor efekt s pojačanim reverberacijama stvara odjekujući, uranjajući zvučni ambijent koji zvuči udaljenije."
+            },
+            "closeSource": {
+                "name": "Blizak izvor",
+                "description": "Blizak izvor efekt simulira izvor zvuka koji je smješten blizu slušatelja, pružajući izravniji, intimniji zvuk."
+            },
+            "distantAlteredSource": {
+                "name": "Daleki modificirani izvor",
+                "description": "Ovaj efekt smješta zvuk dalje s suptilnim promjenama, stvarajući jedinstveni daleki i modificirani ton."
+            },
+            "stereoSpread": {
+                "name": "Stereo širenje",
+                "description": "Stereo širenje proširuje percipiranu stereo sliku, dajući zvukovima širu prostornu prisutnost."
+            },
+            "enhancedStereoSpread": {
+                "name": "Pojačano stereo širenje",
+                "description": "Proširena verzija stereo širenja, pružajući širu zvučnu scenu s većom dubinom i odvojenosti."
+            },
+            "expansiveStereoSpread": {
+                "name": "Ekspansivno stereo širenje",
+                "description": "Imersivniji stereo širenje efekt koji pruža dramatičan osjećaj prostora i širine u zvuku."
+            },
+            "brightSpread": {
+                "name": "Svijetlo širenje",
+                "description": "Bright spread poboljšava više frekvencije dok širi stereo sliku za oštar, prostoran zvuk."
+            },
+            "brightReverbSpread": {
+                "name": "Svijetlo reverberacijsko širenje",
+                "description": "Svijetlo širenje efekt s reverberacijom, dajući zvuku živahni, prostorni karakter s sjajnim odjecima."
+            },
+            "phasedBrightness": {
+                "name": "Phased svjetlost",
+                "description": "Phased brightness uvodi faznu modulaciju za talasasti, svijetli efekt, dodajući pokret i složenost zvuku."
+            },
+            "echoedPhasedBrightness": {
+                "name": "Echoed phased brightness",
+                "description": "Ovaj efekt kombinira odjeke s phased brightness, stvarajući slojevite, svjetlucave ponavljanja u zvuku."
+            },
+            "dynamicPhasedEcho": {
+                "name": "Dinamični phased echo",
+                "description": "Phased echo efekt s dinamičkom modulacijom, stvarajući zvuk koji se pomiče i razvija tijekom vremena."
+            },
+            "distantSourceAlternate": {
+                "name": "Alternativni daleki izvor",
+                "description": "Alternativni daleki izvor efekt, stvarajući osjećaj udaljenosti s jedinstvenim timbrama i tonalnim varijacijama."
+            }
+        },
+        "control": {
+            "cutoff_frequency_hz": "Cutoff frekvencija",
+            "room_size": "Veličina sobe",
+            "damping": "Damping",
+            "wet_level": "Wet level",
+            "dry_level": "Dry level",
+            "width": "Širina",
+            "freeze_mode": "Freeze mode",
+            "delay_seconds": "Delay",
+            "feedback": "Feedback",
+            "mix": "Mix",
+            "threshold_db": "Threshold",
+            "ratio": "Ratio",
+            "attack_ms": "Attack",
+            "release_ms": "Release",
+            "cutoff_frequency_hz_lowpass": "Cutoff frekvencija lowpass",
+            "cutoff_frequency_hz_highpass": "Cutoff frekvencija highpass",
+            "rate_hz": "Rate",
+            "depth": "Dubina",
+            "centre_delay_ms": "Centre delay",
+            "centre_frequency_hz": "Centre frequency",
+            "cutoff_frequency_hz_highshelf": "Cutoff frekvencija",
+            "cutoff_frequency_hz_lowshelf": "Cutoff frekvencija",
+            "gain_db": "Gain",
+            "q": "Q"
+        },
+        "unit": {
+            "hertz": {
+                "name": "Hz"
+            },
+            "seconds": {
+                "name": "s"
+            },
+            "milliseconds": {
+                "name": "ms"
+            },
+            "decibel": {
+                "name": "dB"
+            },
+            "ratio": {
+                "name": ":1"
+            }
+        },
+        "effectStates": {
+            "loading": "Učitavanje efekta...",
+            "error": "Došlo je do problema pri preuzimanju efekta. Pokušajte ponovo.",
+            "noEffect": "Nema podataka o efektu.",
+            "noSimple": "Nema parametara dostupnih za ovaj jednostavni efekt.",
+            "noComplex": "Nema parametara dostupnih za ovaj složeni efekt.",
+            "applying": "Primjena efekta...",
+            "apply": "Primijeni efekte"
+        }
+    },
+    "amplifier": {
+        "name": "Pojačala",
+        "marshall": {
+            "1959hw": {
+                "bass": {
+                    "name": "Marshall 1959HW Bass",
+                    "description": "Marshall 1959HW Bass je pojačalo za bas gitaru poznato po svom toplom i udarnom zvuku. Idealno je za basiste koji žele klasičan rock zvuk."
+                }
+            }
+        },
+        "fender": {
+            "twinverb": {
+                "vibrato": {
+                    "bright": {
+                        "name": "Fender Twin Reverb Vibrato Bright",
+                        "description": "Ovo je varijanta Fender Twin Reverb pojačala koja ima bright switch i vibrato efekt. Poznato je po svom čistom i svijetlom zvuku, što ga čini popularnim među gitaristima koji sviraju čisti ili country zvuk."
+                    }
+                }
+            }
+        },
+        "dc": {
+            "krankenstein": {
+                "name": "Dimebag Darrell Krankenstein",
+                "description": "Dimebag Darrell Krankenstein je pojačalo sa potpisom koje je dizajnirano za pokojnog Dimebaga Darrella iz Pantere. Poznato je po svom visokogainskom zvuku i agresivnoj tonalnosti, što ga čini popularnim izborom među metal gitaristima."
+            }
+        }
+    },
+    "repository": {
+        "joinDate": "Datum pridruživanja",
+        "tokensSpent": "Utrošeni tokeni",
+        "sharedRepositoriesTitle": "Popis repozitorija podijeljenih s vama",
+        "sharedRepositoriesError": "Došlo je do pogreške prilikom dohvaćanja repozitorija, pokušajte ponovo.",
+        "userGroup": "Korisnička grupa",
+        "userGroupDescription": "Upravljajte drugim korisnicima koji imaju pristup vašem radnom prostoru i audio projektima",
+        "searchUsers": "Pretraži korisnike",
+        "addUser": "Dodaj korisnika",
+        "leaveRepositoryTitle": "Napusti {{item}}",
+        "leaveRepositoryDescription": "Potvrdite da želite napustiti {{item}}.",
+        "removeFromRepositoryTitle": "Ukloni {{item}} iz vašeg repozitorija",
+        "removeFromRepositoryDescription": "Potvrdite da želite ukloniti {{item}} iz vašeg repozitorija.",
+        "leave": "Napusti",
+        "remove": "Ukloni",
+        "addUserTitle": "Dodaj korisnika u svoj repozitorij",
+        "addUserDescription": "Unesite email korisnika kojeg želite dodati u svoj repozitorij.",
+        "details": {
+            "actionType": "Vrsta akcije",
+            "tokenHistory": "Povijest transakcija tokena",
+            "actionsLog": "Dnevnik akcija",
+            "repositoryDetails": "Detalji repozitorija",
+            "tokenSpend": "Potrošeni tokeni",
+            "transactionTime": "Vrijeme transakcije"
+        }
+    },
+    "subscriptions": {
+        "title": "Pretplate",
+        "description": "Odaberite plan pretplate i dodatne pakete koji odgovaraju vašim potrebama.",
+        "annualPlan": "Godišnji plan",
+        "monthlyPlan": "Mjesečni plan",
+        "month": "mjesec",
+        "numberOfTokens": "Broj tokena",
+        "storage": "Pohrana (GB)",
+        "changePlan": "Promijeni plan",
+        "currentPlan": "Trenutni plan",
+        "features": "Značajke",
+        "sharedWorkspace": "Zajednički radni prostor",
+        "musicalEffects": "Glazbeni efekti",
+        "amplifiers": "Pojačala",
+        "instruments": "Instrumenti",
+        "export": "Izvoz",
+        "generate": "Generiraj"
+    }
 }
