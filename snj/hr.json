@@ -1253,6 +1253,28 @@
 			"usernameTaken": "Korisničko ime je već zauzeto"
 		}
 	},
+	"userSettings": {
+		"userSettings": "Postavke korisnika",
+		"changeProfilePicture": "Promijeni profilnu sliku",
+		"changePassword": "Promijeni lozinku",
+		"oldPassword": "Stara lozinka",
+		"newPassword": "Nova lozinka",
+		"repeatNewPassword": "Ponovi novu lozinku",
+		"socialMediaConnections": "Povezivanje s društvenim mrežama",
+		"storage": "Pohrana",
+		"saveSettings": "Spremi postavke",
+		"deleteAccount": "Izbriši račun",
+		"deleteAccountDescription": "Jeste li sigurni da želite izbrisati svoj račun? Ova radnja je nepovratna, a svi vaši podaci bit će trajno izbrisani, osim zapisa povezanih s plaćenim pretplatama.",
+		"newPasswordRequired": "Nova lozinka je obavezna",
+		"newRepeatedPasswordRequired": "Ponovljena nova lozinka je obavezna",
+		"passwordRequired": "Lozinka je obavezna",
+		"oldPasswordRequired": "Stara lozinka je obavezna",
+		"defaultLanguage": "Zadani jezik",
+		"deleteProfilePicture": "Izbriši profilnu sliku",
+		"defaultLanguageRequired": "Zadani jezik je obavezan",
+		"connection": "povezivanje",
+		"connected": "povezano"
+	},
 	"stemEditor":{
 	    "mute":"Isključi zvuk",
 	    "solo":"Solo",
