@@ -398,9 +398,11 @@
         "forgotPassword":"Zaboravljena lozinka?",
 	"orSignInWith":"Ili prijava putem"
     },
-    "passwordRecovery":{
-        "recoverPassword":"Obnovi lozinku"
-    },
+   "passwordRecovery": {
+	"recoverPassword": "Obnovi lozinku",
+	"forgotPasswordSuccess": "Poslan je e-mail s uputama za ponovno postavljanje lozinke.",
+	"forgotPasswordError": "Došlo je do pogreške. Molimo pokušajte ponovno."
+ },
     "resetPassword":{
         "newPassword":"Nova lozinka",
         "confirmNewPassword":"Potvrdi novu lozinku",
