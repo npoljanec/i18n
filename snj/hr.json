@@ -413,15 +413,16 @@
 	"resetPasswordError": "Došlo je do pogreške prilikom resetiranja lozinke. Molimo pokušajte ponovno."
 },
     "playlist": {
-        "createNew": "Kreiraj novi popis pjesama",
-        "edit":"Uredi popis pjesama",
-        "delete":"Izbriši popis pjesama",
-        "name":"Naziv popisa pjesama",
-        "chooseColor":"Boja",
-        "chooseIcon":"Ikona",
-        "type":"Tip popisa pjesama",
-        "personal":"Osobno",
-        "shared":"Zajedničko"
+      "createNew": "Kreiraj novu playlistu",
+	"edit": "Uredi playlistu",
+	"delete": "Izbriši playlistu",
+	"name": "Naziv playliste",
+	"chooseColor": "Boja",
+	"chooseIcon": "Ikona",
+	"type": "Tip playliste",
+	"personal": "Osobna",
+	"shared": "Dijeljena",
+	"editName": "Uredi naziv playliste"
     },
     "audioProject": {
         "search":"Pretraži audio projekte",
