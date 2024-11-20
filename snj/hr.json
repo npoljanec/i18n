@@ -686,19 +686,25 @@
 		}
 	},
 
-
-	
-	"actionVersion": {
-		"tiny": {
-			"name": "Minimalan",
+	"audioFormat": {
+		"mp3": {
+			"name": "MP3",
 			"description": ""
 		},
-		"small": {
-			"name": "Osnovni",
+		"wav": {
+			"name": "Wav",
 			"description": ""
 		},
-		"large": {
-			"name": "Napredni",
+		"flac": {
+			"name": "Flac",
+			"description": ""
+		},
+		"numPy": {
+			"name": "NumPy",
+			"description": ""
+		},
+		"m4a": {
+			"m4a": "M4A",
 			"description": ""
 		}
 	},
@@ -721,6 +727,23 @@
 			}
 		}
 	},
+
+	
+	"actionVersion": {
+		"tiny": {
+			"name": "Minimalan",
+			"description": ""
+		},
+		"small": {
+			"name": "Osnovni",
+			"description": ""
+		},
+		"large": {
+			"name": "Napredni",
+			"description": ""
+		}
+	},
+	
     	
 	"subscriptionPlan": {
 		"free": {
