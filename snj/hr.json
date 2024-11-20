@@ -485,40 +485,6 @@
 			"description": ""
 		}
 	},
-	"actionVersion": {
-		"tiny": {
-			"name": "Minimalan",
-			"description": ""
-		},
-		"small": {
-			"name": "Osnovni",
-			"description": ""
-		},
-		"large": {
-			"name": "Napredni",
-			"description": ""
-		}
-	},
-	"audioItem": {
-		"option": {
-			"clone": {
-				"name": "Kloniraj"
-			},
-			"separate": {
-				"name": "Odvoji"
-			},
-			"delete": {
-				"name": "Obriši"
-			},
-			"amplifier": {
-				"name": "Pojačalo"
-			},
-			"effect": {
-				"name": "Efekt"
-			}
-		}
-	},
-   
 	"instrumentGroup": {
 		"vocals": {
 			"name": "Vokali",
@@ -561,7 +527,7 @@
 			"description": ""
 		}
 	},
-    	"instrument": {
+	"instrument": {
 		"vocals": {
 			"lead": {
 				"name": "Glavni vokal",
@@ -719,6 +685,43 @@
 			}
 		}
 	},
+
+
+	
+	"actionVersion": {
+		"tiny": {
+			"name": "Minimalan",
+			"description": ""
+		},
+		"small": {
+			"name": "Osnovni",
+			"description": ""
+		},
+		"large": {
+			"name": "Napredni",
+			"description": ""
+		}
+	},
+	"audioItem": {
+		"option": {
+			"clone": {
+				"name": "Kloniraj"
+			},
+			"separate": {
+				"name": "Odvoji"
+			},
+			"delete": {
+				"name": "Obriši"
+			},
+			"amplifier": {
+				"name": "Pojačalo"
+			},
+			"effect": {
+				"name": "Efekt"
+			}
+		}
+	},
+    	
 	"subscriptionPlan": {
 		"free": {
 			"name": "Besplatno",
