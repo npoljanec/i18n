@@ -1218,7 +1218,12 @@
 			}
 		}
 	},
-
+	"userDropdown": {
+		"userSettings": "Moje postavke",
+		"logout": "Odjava",
+		"repository": "Moj repozitorij",
+		"subscription": "Moja pretplata"
+	},
 	 "register": {
 		"accountExists": "Već imate račun?",
 		"registerWith": "Registrirajte se putem",
