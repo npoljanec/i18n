@@ -1413,7 +1413,7 @@
 	  },
 	"effect": {
 	"simple": {
-		"name": "Jednostavno",
+		"name": "Jednostavni",
 		"lowpass": {
 			"name": "Lowpass",
 			"description": "Low-pass filtrat dopušta prolazak frekvencija ispod određenog cutoff frekvencijskog praga dok smanjuje više frekvencije, dajući zvukovima glatkiji, prigušeniji kvalitet."
@@ -1460,7 +1460,7 @@
 		}
 	},
 	"complex": {
-		"name": "Složeno",
+		"name": "Složeni",
 		"distantSource": {
 			"name": "Daleki izvor",
 			"description": "Ovaj efekt simulira izvor zvuka koji je smješten daleko od slušatelja, rezultirajući mekšim, manje izravnim zvukom."
