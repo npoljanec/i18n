@@ -1275,48 +1275,142 @@
 		"connection": "povezivanje",
 		"connected": "povezano"
 	},
-	"stemEditor":{
-	    "mute":"Isključi zvuk",
-	    "solo":"Solo",
-	    "changeColor":"Promijeni boju",
-	    "changeIcon":"Promijeni ikonu",
-		"loading": "Učitavanje audio projekta",
-	    "sections":{
+	{
+  "stemEditor": {
+	    "mute": "Utišaj",
+	    "solo": "Solo",
+	    "changeColor": "Promijeni boju",
+	    "changeIcon": "Promijeni ikonu",
+	    "loading": "Učitavanje audio projekta",
+	    "collapse": "Skupi kanale",
+	    "show": "Prikaži kanale",
+	    "errorAudio": "Došlo je do problema pri učitavanju stem audia, pokušajte ponovo.",
+	    "generateMetronome": "Generiraj metronom",
+	    "moreOptions": "Više opcija",
+	    "volume": "Volumen",
+	    "record": "Snimi",
+	    "unsavedRecordingTitle": "Jeste li sigurni da želite napustiti?",
+	    "unsavedRecordingDescription": "Imate nespremljenu snimku. Ako sada napustite, snimka će biti izgubljena. Molimo vas da je spremite ako je želite zadržati.",
+	    "editAudioProject": "Uredi audio projekt",
+	    "loop": "Petlja",
+	    "stop": "Stop",
+	    "sections": {
 		      "title": "Sekcije",
+		      "openDrawer": "Otvori sekcije",
+		      "closeDrawer": "Zatvori sekcije",
+		      "noSections": "Da biste dodali sekcije, kliknite 'Dodaj novu sekciju'",
+		      "clearPreview": "Obriši pregled",
 		      "addNew": "Dodaj novu sekciju",
 		      "edit": "Uredi sekciju {{section}}",
 		      "delete": "Izbriši sekciju {{section}}",
-		      "form":{
-			        "name": "Naziv sekcije",
-			        "namePlaceholder": "Unesite naziv sekcije",
-			        "description": "Opis sekcije",
-			        "descriptionPlaceholder": "Unesite opis sekcije",
-			        "startTime" : "Vrijeme početka",
-			        "endTime" : "Vrijeme završetka",
-			        "min": "min",
-			        "sec": "sek",
-			        "color": "Boja sekcije",
-			        "namePrefill": "Sekcija {{number}}",
-			        "autocomplete": {
-				          "intro": "Uvod",
-				          "verse": "Strofa",
-				          "preChorus": "Predrefren",
-				          "chorus": "Refren",
-				          "bridge": "Bridge",
-				          "solo": "Solo",
-				          "outro": "Završetak",
-				          "hook": "Hook"
-				        },
-			        "errors":{
-			          "nameRequired": "Naziv sekcije je obavezan",
-			          "nameDuplicate": "Naziv sekcije mora biti jedinstven",
-			          "startGtEnd": "Vrijeme početka mora biti manje od vremena završetka",
-			          "startSecondsTooLong": "Sekunde početka moraju biti manje od 60",
-			          "endSecondsTooLong": "Sekunde završetka moraju biti manje od 60",
-			          "startTimeRequired": "Vrijeme početka je obavezno",
-			          "endTimeRequired": "Vrijeme završetka je obavezno"
-			        }
-	      		}
-	    	}
- 	 }
+		      "open": "Otvori sekcije",
+		      "form": {
+		        "name": "Naziv sekcije",
+		        "namePlaceholder": "Unesite naziv sekcije",
+		        "description": "Opis sekcije",
+		        "descriptionPlaceholder": "Unesite opis sekcije",
+		        "startTime": "Početno vrijeme",
+		        "endTime": "Krajnje vrijeme",
+		        "min": "min",
+		        "sec": "sec",
+		        "color": "Boja sekcije",
+		        "namePrefill": "Sekcija {{number}}",
+		        "autocomplete": {
+		          "intro": "Intro",
+		          "verse": "Stih",
+		          "preChorus": "Pred-refren",
+		          "chorus": "Refren",
+		          "bridge": "Most",
+		          "solo": "Solo",
+		          "outro": "Outro",
+		          "hook": "Hook"
+	        },
+	        "errors": {
+		          "nameRequired": "Naziv sekcije je obavezan",
+		          "startGtEnd": "Početno vrijeme mora biti manje od krajnjeg vremena",
+		          "startSecondsTooLong": "Početni sekundi moraju biti manji od 60",
+		          "endSecondsTooLong": "Krajnji sekundi moraju biti manji od 60",
+		          "startTimeRequired": "Početno vrijeme je obavezno",
+		          "endTimeRequired": "Krajnje vrijeme je obavezno",
+		          "nameDuplicate": "Naziv sekcije mora biti jedinstven"
+	        }
+	      }
+	    },
+	    "actionNotification": {
+	      "generate-metronome": {
+	        "title": "Generiranje metronoma",
+	        "success": "Metronom generiran",
+	        "error": "Generiranje metronoma nije uspjelo"
+	      },
+	      "action-merged": {
+	        "title": "Spajanje",
+	        "success": "Spajanje uspješno",
+	        "error": "Spajanje nije uspjelo"
+	      },
+	      "export-done": {
+	        "title": "Izvoz",
+	        "success": "Izvoz uspješan",
+	        "error": "Izvoz nije uspio"
+	      },
+	      "effects-apply": {
+	        "title": "Primjena efekta",
+	        "success": "Efekt primijenjen",
+	        "error": "Primjena efekta nije uspjela"
+	      },
+	      "clone": {
+	        "title": "Kloniranje",
+	        "success": "Kloniranje uspješno",
+	        "error": "Kloniranje nije uspjelo"
+	      },
+	      "action-separation": {
+	        "title": "Razdvajanje",
+	        "success": "Razdvajanje uspješno",
+	        "error": "Razdvajanje nije uspjelo"
+	      },
+	      "upload-record": {
+	        "title": "Učitavanje snimke",
+	        "success": "Snimka učitana",
+	        "error": "Učitavanje snimke nije uspjelo"
+	      }
+	    },
+	    "channelOptions": {
+	      "clone": "Kloniraj",
+	      "separate": "Razdvoji",
+	      "amplifiers": "Pojačala",
+	      "effects": "Efekti",
+	      "focus": "Fokus",
+	      "error": "Došlo je do problema pri dohvaćanju opcija. Pokušajte ponovo."
+	    },
+	    "modes": {
+		      "merge": "Spoji",
+		      "group": "Grupa",
+		      "reorder": "Ponovno poredaj",
+		      "placeholder": "Odaberi akciju",
+		      "mergeItems": "Spoji stavke",
+		      "mergeItemsError": "Kanali tipa metronom i drugi ne mogu se spojiti"
+	    },
+	    "playControl": {
+		      "microphoneUnavailable": "Mikrofon nedostupan",
+		      "microphoneUnavailableMessage": "Nismo mogli pristupiti vašem mikrofonu. Provjerite postavke uređaja kako biste osigurali da je mikrofon povezan i da ova aplikacija ima potrebne dozvole. Ako ste nedavno dopustili pristup mikrofonu, osvježite stranicu da biste pokušali ponovo. Ako problem i dalje postoji, pokušajte koristiti drugi preglednik.",
+		      "microphone": "Mikrofon",
+		      "selectMicrophone": "Odaberite mikrofon",
+		      "chooseMicrophone": "Odaberite mikrofon",
+		      "unknownMicrophone": "Nepoznat mikrofon",
+		      "recordButton": "Pokretanje nove snimke će prebrisati postojeću."
+	    },
+	    "groups": {
+		      "title": "Grupe",
+		      "addNew": "Dodaj novu grupu",
+		      "noGroups": "Nema grupa",
+		      "chooseGroup": "Odaberite grupu",
+		      "delete": "Izbriši grupu",
+		      "editIcon": "Uredi ikonu",
+		      "editName": "Uredi naziv grupe",
+		      "error": "Došlo je do pogreške pri dohvaćanju grupa.",
+		      "noGroup": "Nema grupe",
+		      "chooseGroupForEdit": "Odaberite grupu koju želite urediti."
+	    }
+	  }
+	}
+
 }
