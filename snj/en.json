@@ -1290,6 +1290,7 @@
 		"storage":"Storage",
 		"saveSettings":"Save settings",
 		"deleteAccount":"Delete account",
+		"deleteAccountDescription": "Are you sure you want to delete your account? This action is irreversible, and all your data will be permanently deleted, except for records related to paid subscriptions.",
 		"newPasswordRequired":"New password is required",
 		"newRepeatedPasswordRequired":"New repeated password is required",
 		"passwordRequired":"Password is required",
