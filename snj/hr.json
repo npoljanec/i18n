@@ -369,17 +369,18 @@
     "notFound" : {
         "title": "Ovaj specifični stem ili jam nije pronađen"
     },
-    "dropzone": {
-        "addSingle": "Dodaj novo",
-        "replaceSingle": "Zamijeni s novim",
-        "addMultiple": "Dodaj novo",
-        "addMoreMultiple": "Dodaj više",
-        "replaceMultiple": "Zamijeni s novim",
-        "description":"Lorem ipsum",
-        "linkUpload": "ili učitaj s poveznice",
-        "removeFile":"Ukloni datoteku",
-        "editFileName":"Uredi naziv datoteke"
-    },
+   "dropzone": {
+	"addSingle": "Dodaj novo",
+	"replaceSingle": "Zamijeni novim",
+	"addMultiple": "Dodaj novo",
+	"addMoreMultiple": "Dodaj još",
+	"replaceMultiple": "Zamijeni novim",
+	"description": "Lorem ipsum",
+	"linkUpload": "ili prenesi s poveznice",
+	"removeFile": "Ukloni datoteku",
+	"editFileName": "Uredi naziv datoteke",
+	"captureNotSupported": "Videozapisi snimljeni izravno kamerom nisu podržani. Molimo odaberite datoteke iz vašeg preglednika datoteka ili galerije."
+   },
     "login": {
         "login":"Prijava",
         "logIn":"Prijavi se",
