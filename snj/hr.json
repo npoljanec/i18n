@@ -381,13 +381,6 @@
     },
     "login": {
         "login": "Prijava",
-        "logIn": "Prijavi se",
-        "email": "E-mail",
-        "password": "Lozinka",
-        "includesNumber": "Sadrži broj",
-        "includesLowercase": "Sadrži malo slovo",
-        "includesUppercase": "Sadrži veliko slovo",
-        "passwordLengthRequirement": "Sadrži najmanje 6 znakova",
         "invalidEmail": "Nevažeći email",
         "register": "Ako nemate račun, registrirajte se",
         "registerTitle": "Nemate račun?",
@@ -405,7 +398,6 @@
         "newPassword": "Nova lozinka",
         "confirmNewPassword": "Potvrdite novu lozinku",
         "resetPassword": "Resetiraj lozinku",
-        "passwordsDoNotMatch": "Lozinke se ne podudaraju",
         "invalidPassword": "Vaša lozinka nije dovoljno jaka!",
         "resetPasswordSuccess": "Vaša lozinka je uspješno resetirana. Molimo prijavite se s novom lozinkom.",
         "resetPasswordError": "Došlo je do pogreške prilikom resetiranja lozinke. Molimo pokušajte ponovno."
@@ -1444,7 +1436,6 @@
             "clone": "Kloniraj",
             "separate": "Separiraj",
             "amplifiers": "Pojačala",
-            "effects": "Efekti",
             "focus": "Fokus",
             "error": "Došlo je do problema pri dohvaćanju opcija. Pokušajte ponovo."
         },
@@ -1702,7 +1693,6 @@
         "musicalEffects": "Glazbeni efekti",
         "amplifiers": "Pojačala",
         "instruments": "Instrumenti",
-        "export": "Izvoz",
         "generate": "Generiraj"
     }
 }
