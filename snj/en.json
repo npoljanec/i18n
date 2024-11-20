@@ -457,7 +457,9 @@
 		"formatError": "You need to select a format",
 		"exportAllTooltip": "Export all items (lyrics, tabs, notes, sounds)",
 		"itemWithCount_one": "Selected {{count}} item",
-		"itemWithCount_other": "Selected {{count}} items"
+		"itemWithCount_other": "Selected {{count}} items",
+		"exportError":"This file has already been downloaded. Please check your downloads folder or export again.",
+		"exportErrorExpired":"Download link expired, please export again."
 	},
 	"dataItem": {
 		"musicalNotes": {
