@@ -1646,6 +1646,24 @@
 			"tokenSpend": "Tokens spent",
 			"transactionTime": "Transaction time"
 		}
+	},
+	"subscriptions": {
+		"title": "Subscriptions",
+		"description": "Choose a subscription plan and additional packages that fit your needs.",
+		"annualPlan": "Annual plan",
+		"monthlyPlan": "Monthly plan",
+		"month": "month",
+		"numberOfTokens": "Number of tokens",
+		"storage": "Storage (GB)",
+		"changePlan": "Change plan",
+		"currentPlan": "Current plan",
+		"features": "Features",
+		"sharedWorkspace": "Shared workspace",
+		"musicalEffects": "Musical effects",
+		"amplifiers": "Amplifiers",
+		"instruments": "Instruments",
+		"export": "Export",
+		"generate": "Generate"
 	}
 }
 
