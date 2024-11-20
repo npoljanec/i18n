@@ -745,23 +745,18 @@
 			"description": ""
 		}
 	},
-
-	"actionVersion": {
-		"tiny": {
-			"name": "Minimalan",
-			"description": ""
-		},
-		"small": {
-			"name": "Osnovni",
-			"description": ""
-		},
-		"large": {
-			"name": "Napredni",
-			"description": ""
-		}
-	},
 	
-    	
+	"playlistType": {
+		"personal": {
+			"name": "Osobni popis pjesama",
+			"description": ""
+		},
+		"shared": {
+			"name": "Zajednički popis pjesama",
+			"description": ""
+			}
+	},
+
 	"subscriptionPlan": {
 		"free": {
 			"name": "Besplatno",
@@ -784,6 +779,7 @@
 			"description": ""
 		}
 	},
+
 	"actionGroup": {
 		"export": {
 			"name": "Izvoz",
@@ -806,6 +802,25 @@
 			"description": ""
 		}
 	},
+
+	"actionVersion": {
+		"tiny": {
+			"name": "Minimalan",
+			"description": ""
+		},
+		"small": {
+			"name": "Osnovni",
+			"description": ""
+		},
+		"large": {
+			"name": "Napredni",
+			"description": ""
+		}
+	},
+	
+    	
+	
+	
 
 	 "register": {
 		"accountExists": "Već imate račun?",
