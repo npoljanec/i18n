@@ -818,9 +818,406 @@
 		}
 	},
 	
-    	
-	
-	
+    	"subscriptionAction": {
+		"separation": {
+			"vocals": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"keys": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"bass": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"drums": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"trumpet": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"saxophone": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"guitar": {
+				"electric": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"acoustic": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				}
+			}
+		},
+		"isolation": {
+			"vocals": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"keys": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"bass": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"drums": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"trumpet": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"saxophone": {
+				"basic": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"advance": {
+					"name": "Napredno",
+					"description": ""
+				}
+			},
+			"guitar": {
+				"electric": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"acoustic": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				}
+			}
+		},
+		"transcription": {
+			"vocals": {
+				"midi": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"data": {
+					"lyrics": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					},
+					"notes": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					}
+				}
+			},
+			"keys": {
+				"midi": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					}
+				}
+			},
+			"bass": {
+				"midi": {
+					"name": "Osnovno",
+					"description": ""
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					},
+					"tabs": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					}
+				}
+			},
+			"drums": {
+				"midi": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					}
+				}
+			},
+			"trumpet": {
+				"midi": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					}
+				}
+			},
+			"saxophone": {
+				"midi": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					}
+				}
+			},
+			"guitar": {
+				"acoustic": {
+					"midi": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					},
+					"data": {
+						"notes": {
+							"basic": {
+								"name": "Osnovno",
+								"description": ""
+							},
+							"advance": {
+								"name": "Napredno",
+								"description": ""
+							}
+						},
+						"tabs": {
+							"basic": {
+								"name": "Osnovno",
+								"description": ""
+							},
+							"advance": {
+								"name": "Napredno",
+								"description": ""
+							}
+						}
+					}
+				}
+			},
+			"electric": {
+				"midi": {
+					"basic": {
+						"name": "Osnovno",
+						"description": ""
+					},
+					"advance": {
+						"name": "Napredno",
+						"description": ""
+					}
+				},
+				"data": {
+					"notes": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					},
+					"tabs": {
+						"basic": {
+							"name": "Osnovno",
+							"description": ""
+						},
+						"advance": {
+							"name": "Napredno",
+							"description": ""
+						}
+					}
+				}
+			}
+		}
+	},
 
 	 "register": {
 		"accountExists": "Već imate račun?",
