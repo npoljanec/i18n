@@ -444,11 +444,14 @@
         "confirmDeleteItem":"Potvrdite da želite izbrisati {{item}}."
     },
     "notifications": {
-      "title": "Obavijesti",
-      "noNotifications": "Nema obavijesti",
-      "markAllAsRead": "Označi sve kao pročitano",
-      "failedToLoad": "Učitavanje obavijesti nije uspjelo",
-      "showAll": "Prikaži sve obavijesti"
+        "title": "Obavijesti",
+	"noNotifications": "Nema obavijesti",
+	"markAllAsRead": "Označi sve kao pročitano",
+	"failedToLoad": "Nije uspjelo učitavanje obavijesti",
+	"showAll": "Prikaži sve obavijesti",
+	"initialLoadingText": "Učitavanje obavijesti",
+	"loadingMore": "Učitavanje obavijesti"
+
     },
 	"actionVersion": {
 		"tiny": {
