@@ -604,6 +604,10 @@
             }
         },
         "guitar": {
+             "classic": {
+                "name": "Classic guitar",
+                "description": ""
+            },
             "electric": {
                 "name": "Electric guitar",
                 "description": ""
@@ -657,6 +661,36 @@
                 "description": ""
             }
         },
+         "accordion": {
+            "accordion": {
+                "name": "Accordion",
+                "description": ""
+            }
+        },
+        "metronome": {
+            "metronome": {
+                "name": "Metronome",
+                "description": ""
+            }
+        },
+        "synthesizer": {
+            "bass": {
+                "name": "Bas synth",
+                "description": ""
+            },
+            "lead": {
+                "name": "Lead synth",
+                "description": ""
+            },
+            "pad": {
+                "name": "Pad synth",
+                "description": ""
+            },
+            "pluck": {
+                "name": "Pluck synth",
+                "description": ""
+            }
+        },
         "synth": {
             "lead": {
                 "name": "Synth lead",
@@ -664,6 +698,16 @@
             },
             "pad": {
                 "name": "Synth pad",
+                "description": ""
+            }
+        },
+        "keyboard": {
+            "electricPiano": {
+                "name": "Electric piano",
+                "description": ""
+            },
+            "grandPiano": {
+                "name": "Grand piano",
                 "description": ""
             }
         }
