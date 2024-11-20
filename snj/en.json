@@ -1,1669 +1,1665 @@
 {
-	"general": {
-		"cancel": "Cancel",
-		"confirm": "Confirm",
-		"finish": "Finish",
-		"playlists": "Playlists",
-		"soon": "Soon",
-		"size": "{{size}} MB",
-		"minSecFormat": "{{min}} min {{sec}} sec",
-		"themeSwitch": "Theme switch",
-		"save": "Save",
-		"languageSelector": "Select language",
-		"edit": "Edit",
-		"editName": "Edit name",
-		"add": "Add",
-		"selectAll": "Select all",
-		"deselectAll": "Deselect all",
-		"delete": "Delete",
-		"noData": "Nothing to show here yet",
-		"actions": "Actions",
-		"open": "Open",
-		"goBack": "Go back",
-		"stemWithCount_one": "{{count}} stem",
-		"stemWithCount_other": "{{count}} stems",
-		"token": "Token",
-		"animatedLogo": "Animated logo",
-		"numberOfItems": "Showing {{shown}} of {{total}} items",
-		"noContent": "No content",
-		"noLabel": "No label",
-		"logIn": "Log in",
-		"invalidEmail": "Invalid e-mail",
-		"invalidPassword": "Your password isn't strong enough",
-		"passwordsDoNotMatch": "Passwords do not match",
-		"name": "Name",
-		"lastname": "Last name",
-		"username": "Username",
-		"fieldOfInterest": "Field of interest",
-		"yearOfBirth": "Year of birth",
-		"email": "E-mail",
-		"password": "Password",
-		"repeatPassword": "Repeat password",
-		"repeatedPassword": "Repeated password",
-		"includesNumber": "Includes number",
-		"includesLowercase": "Includes lowercase letter",
-		"includesUppercase": "Includes uppercase letter",
-		"passwordLengthRequirement": "Includes at least 6 characters",
-		"register": "Register",
-		"tryAgain": "Try again",
-		"tokens": "Tokens",
-		"freeSpace": "Free space",
-		"workSpace": "Workspace",
-		"unknownError": "An unknown error occurred",
-		"error": "Error",
-		"forbidden": "Forbidden",
-		"export": "Export",
-		"exportAll": "Export all",
-		"view": "View",
-		"effects": "Effects",
-		"stillProcessing": "Audio item is still being processed",
-		"recording": "Recording",
-		"close": "Close",
-		"details": "Details",
-		"status": "Status",
-		"action": "Action",
-		"downloadExport":"Download manually"
-	},
-	"accountActivation": {
-		"activateSuccess": "Your account is activated. You can now login.",
-		"activateError": "An error occurred while activating your account. Please try again.",
-		"alreadyActivated": "Your account is already activated. You can proceed to login.",
-		"activationResent": "Activation email has been resent. Please check your email.",
-		"activateAccountRequestError": "An error occurred while activating your account. Please try again.",
-		"accountNotActivatedLink": "Your account is not activated. Please check your email for the activation link.",
-		"requestNewActivationEmail": "Request new activation email"
-	},
-	"user": {
-		"group": {
-			"invited": "An invitation has been sent to {{field1}} to join your workspace.",
-			"added": "User email {{field1}} has been successfully added to your workspace."
-		}
-	},
-	"exception": {
-		"authentication": {
-			"unauthorized": "An authentication error occurred. Please check your credentials and try again.",
-			"badCredentials": "Invalid credentials. Please check your username and password and try again.",
-			"password": {
-				"invalid": "Invalid password. Please check your password and try again."
-			},
-			"token": {
-				"expired": "The token has expired. Please log in again to continue.",
-				"malformed": "The token is malformed. Please provide a valid token.",
-				"invalid": "The token is invalid. Please provide a valid token.",
-				"required": "The authorization header is missing. Please include a valid token."
-			},
-			"email": {
-				"notVerified": "Your email is not verified. Please verify your email and try again."
-			}
-		},
-		"authorization": {
-			"denied": {
-				"repository": "You are not the owner of this workspace. Please reach out to the workspace owner for any changes or permissions.",
-				"playlist": "{{field1}} does not have sufficient privileges to access this playlist.",
-				"general": "You are not having the necessary privileges for this action."
-			}
-		},
-		"oauth2": {
-			"invalid": {
-				"state": "Invalid state. Please check the state and try again.",
-				"client": "Invalid client. Please check the client and try again.",
-				"responseType": "Invalid response type. Please check the response type and try again.",
-				"scope": "Invalid scope. Please check the scope and try again.",
-				"request": "Invalid OAuth2 request. Please check your request parameters and try again.",
-				"redirectUri": "Invalid redirectUri. Please check your request parameters and try again.",
-				"token": "The token is invalid. Please provide a valid token.",
-				"grantType": "Invalid grant type. Please check the grant type and try again.",
-				"codeVerifier": "Invalid code verifier. Please check the code verifier and try again."
-			}
-		},
-		"validation": {
-			"field": {
-				"required": {
-					"notNull": "{{field1}} is required and cannot be null.",
-					"notBlank": "{{field1}} is required and cannot be blank.",
-					"notEmpty": "{{field1}} is required and cannot be empty."
-				}
-			},
-			"requestParam": {
-				"required": "The {{field1}} parameter is missing and is required to process your request.",
-				"invalidSort": "The provided sort parameter is invalid. Please use a valid sorting option.",
-				"invalid": "The provided path variable value is invalid. Ensure it matches the expected format."
-			},
-			"entity": {
-				"notFound": "The requested {{field1}} could not be found. Please verify the input and try again."
-			},
-			"section": {
-				"endBeforeStart": "The section's end time cannot be earlier than its start time. Please adjust the timings.",
-				"endExceedsDuration": "The section's end time exceeds the maximum allowed duration. Please review and update it."
-			},
-			"systemInternal": {
-				"invalid": "Invalid system internal parameters."
-			},
-			"orders": {
-				"invalid": "The order of the audio items in the request is invalid. Please verify and adjust the sequence."
-			},
-			"email": "Invalid email. Please provide valid email address."
-		},
-		"file": {
-			"avatar": {
-				"size": {
-					"exceedsLimit": "The uploaded file exceeds the maximum size limit of 1MB. Please select a smaller file."
-				},
-				"type": {
-					"invalid": "The file format is not supported. Please upload a JPG, JPEG, or PNG file."
-				},
-				"processing": {
-					"error": "An error occurred while processing the file. Please try again later."
-				}
-			},
-			"audio": {
-				"size": {
-					"exceedsLimit": "The uploaded file exceeds the maximum size limit of 100MB. Please select a smaller file."
-				}
-			}
-		},
-		"user": {
-			"email": {
-				"exists": "It looks like the email {{field1}} is already in use. Try logging in or use a different email."
-			},
-			"username": {
-				"exists": "Oops! The username {{field1}} is already taken. How about trying another one?"
-			},
-			"workspace": {
-				"cannotLeave": "You’re the owner of this workspace, so you can’t leave it.",
-				"notFound": "We couldn’t find this user in the workspace. Double-check the details and give it another go.",
-				"alreadyMember": "The email {{field1}} is already part of this workspace. No need to add it again!",
-				"deleted": "The account of the person who added you has been deleted.",
-				"notShared": "This workspace isn’t shared with you yet"
-			},
-			"agreement": {
-				"notAccepted": "You need to accept the agreement to continue using the application."
-			}
-		},
-		"action": {
-			"unsupportedType": "The action type you're trying to perform isn't supported. Please check and try again.",
-			"merge": {
-				"failed": "Something went wrong while merging the audio items. Please try again later.",
-				"invalidItems": "The selected audio items are not valid for merging. Please check and select the correct items",
-				"invalidNumber": "You need to select more than one audio item to merge."
-			},
-			"original": {
-				"clone": {
-					"failed": "Cloning of original audio items is not allowed."
-				},
-				"delete": {
-					"failed": "Original audio items cannot be deleted."
-				}
-			}
-		},
-		"amplifier": {
-			"unsupported": "Requested amplifier cannot be applied to this audio item.",
-			"notFound": "Requested amplifier is not available. Please try to apply some of the supported amplifiers."
-		},
-		"effect": {
-			"validation": {
-				"outOfRange": "The value provided is out of range for this parameter. Please check and try again."
-			},
-			"parameter": {
-				"required": "The parameter {{field1}} is required for the effect {{field2}}. Please provide it."
-			},
-			"or": {
-				"param": "You can't send both effects and parameters at the same time. One of them must be left null"
-			},
-			"unsupported": "This musical effect cannot be applied to the selected audio item.",
-			"unsupported": {
-				"numericType": "The numeric type is not supported for this effect"
-			},
-			"complex": {
-				"invalidCount": "Invalid number of simple effect in complex effect",
-				"invalidOrder": "Invalid order of simple effect in complex effect"
-			},
-			"invalid": {
-				"formField": "The form files for this effect are invalid. Please check them.",
-				"type": "The parameter {{field1}} should be a string for the effect {{field2}}. Please review the input."
-			}
-		},
-		"subscription": {
-			"storage": {
-				"insufficient": "Your storage limit has been reached. Please free up some space or upgrade your plan to continue."
-			},
-			"token": {
-				"insufficient": "You do not have enough tokens to perform this action. Please add more tokens or upgrade your plan."
-			},
-			"plan": "Invalid code for subscription plan."
-		},
-		"resource": {
-			"audioProject": {
-				"notFound": "The audio project is not available in the current repository."
-			},
-			"audioItem": {
-				"notFound": "Audio item is not available in the current audio project"
-			}
-		},
-		"error": {
-			"unexpected": "An unexpected error occurred. Please try again later."
-		},
-		"nutcracker": {
-			"internalServerError": "Oops! Something went wrong with the Nutcracker.",
-			"badRequest": "There seems to be an issue with the request sent to the Nutcracker.",
-			"notFound": "The requested resource could not be found in the Nutcracker.",
-			"unprocessableEntity": "The Nutcracker service could not process the request"
-		},
-		"auth": {
-			"intervalServerError": "Oops! Something went wrong with the authentication service. Please try again later.",
-			"badRequest": "There seems to be an issue with your request to the authentication service.",
-			"notFound": "The entity you’re looking for could not be found in the authentication service."
-		},
-		"payment": {
-			"customer": {
-				"creation": {
-					"failed": "Payment customer creation failed."
-				}
-			},
-			"subscription": {
-				"creation": {
-					"failed": "Payment subscription creation failed."
-				},
-				"update": {
-					"failed": "Payment subscription update failed."
-				},
-				"cancellation": {
-					"failed": "Payment subscription cancellation failed."
-				},
-				"creation.or.update": {
-					"failed": "Payment subscription creation or update failed."
-				},
-				"item": {
-					"addition": {
-						"failed": "Payment subscription item addition failed."
-					}
-				}
-			}
-		},
-		"class": {
-			"account": "Account",
-			"amplifier": "Amplifier",
-			"appUser": "User",
-			"audioItem": "Audio item",
-			"audioItemGroup": "Audio item group",
-			"audioFormat": "Audio format",
-			"audioProject": "Audio project",
-			"musicalEffectSimple": "Musical effect simple",
-			"notificationKey": "Notification key",
-			"playlist": "Playlist",
-			"playlistType": "Playlist type",
-			"repository": "Repository",
-			"section": "Section",
-			"storageUsage": "Storage usage",
-			"subscription": "Subscription",
-			"subscriptionActions": "Subscription actions",
-			"subscriptionActionsGroup": "Subscription actions group",
-			"subscriptionExtension": "Subscription extension",
-			"subscriptionPlan": "Subscription plan",
-			"subscriptionUsage": "Subscription usage",
-			"tokenTransactions": "Token transactions",
-			"userGroup": "User group"
-		}
-	},
-	"notification": {
-		"separation": {
-			"done": "{{field1}} has successfully separated {{field2}}.",
-			"error": "Separation failed. Please try again."
-		},
-		"transcription": {
-			"done": "{{field1}} has successfully generated a new data item.",
-			"error": "Transcription failed. Please retry."
-		},
-		"export": {
-			"done": "Export completed successfully. You can download your data now.",
-			"failed": "Export failed. Please try again or check your network connection."
-		},
-		"workspace": {
-			"share": "You've been added to a new repository. Check it out to collaborate.",
-			"expand": "Your storage capacity has been expanded. Enjoy the extra space!",
-			"capacity": {
-				"low": "Your storage or token capacity is running low. Please upgrade or manage your resources"
-			}
-		}
-	},
-	"navigation": {
-		"studio": "Studio",
-		"practice": "Practice",
-		"aiGenerate": "AI Generate",
-		"navigation": "Navigation"
-	},
-	"users": {
-		"tiers": {
-			"free": "Free user"
-		},
-		"hero": {
-			"title": "hero Title"
-		}
-	},
-	"uploadWizard": {
-		"selectChannels": "Select separation stems",
-		"nextStep": "Next step",
-		"previousStep": "Previous step",
-		"spaceRequired": "Space required",
-		"tokenRequired": "Tokens required",
-		"available": "available",
-		"modalTitle": "Cancel upload",
-		"modalText": "Are you sure you want to cancel upload?",
-		"separation": "Separation",
-		"subtraction": "Subtraction",
-		"separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
-		"allInstruments": "All {{instrumentName}} in one stem",
-		"expandAll": "Expand all",
-		"collapseAll": "Collapse all"
-	},
-	"stems": {
-		    "vocals": "Vocals",
-		    "guitar": "Guitar",
-		    "electricGuitar": "Electric Guitar",
-		    "keyboards": "Keyboards",
-		    "drums": "Drums",
-		    "sax": "Saxophone",
-		    "trumpet": "Trumpet"
-	},
-	"notFound": {
-		"title": "This specific Stem or Jam is nowhere to be found"
-	},
-	"dropzone": {
-		"addSingle": "Add new",
-		"replaceSingle": "Replace with new",
-		"addMultiple": "Add new",
-		"addMoreMultiple": "Add more",
-		"replaceMultiple": "Replace with new",
-		"description": "Lorem ipsum",
-		"linkUpload": "or upload from link",
-		"removeFile": "Remove file",
-		"editFileName": "Edit file name",
-		"captureNotSupported":"Directly captured videos from your camera are not supported. Please select files from your file explorer or gallery instead."
-	},
-	"login": {
-		"login": "Login",
-		"logIn": "Log in",
-		"email": "E-mail",
-		"password": "Password",
-		"includesNumber": "Includes number",
-		"includesLowercase": "Includes lowercase letter",
-		"includesUppercase": "Includes uppercase letter",
-		"passwordLengthRequirement": "Includes at least 6 characters",
-		"invalidEmail": "Invalid email",
-		"register": "If you don't have an account, please register",
-		"registerTitle": "You don't have an account?",
-		"loginError": "Something went wrong, email or password may be incorrect",
-		"registerButton": "Register here",
-		"forgotPassword": "Forgot password?",
-		"orSignInWith": "Or sign in with"
-	},
-	"passwordRecovery": {
-		"recoverPassword": "Recover password",
-		"forgotPasswordSuccess": "An email has been sent with instructions on how to reset your password.",
-		"forgotPasswordError": "An error occurred. Please try again"
-	},
-	"resetPassword": {
-		"newPassword": "New password",
-		"confirmNewPassword": "Confirm new password",
-		"resetPassword": "Reset password",
-		"passwordsDoNotMatch": "Passwords do not match",
-		"invalidPassword": "Your password isn't strong enough!",
-		"resetPasswordSuccess": "Your password has been reset successfully. Please login with your new password.",
-		"resetPasswordError": "An error occurred while resetting your password. Please try again."
-	},
-	"playlist": {
-		"createNew": "Create new playlist",
-		"edit": "Edit playlist",
-		"delete": "Delete playlist",
-		"name": "Playlist name",
-		"chooseColor": "Color",
-		"chooseIcon": "Icon",
-		"type": "Playlist type",
-		"personal": "Personal",
-		"shared": "Shared",
-		"editName":"Edit playlist name"
-	},
-	"audioProject": {
-		"search": "Search audio projects",
-		"edit": "Edit audio project",
-		"delete": "Delete audio project",
-		"export": "Export audio project",
-		"includeInPlaylist": "Include in playlist",
-		"numberStem": "{{numberStem}} stems",
-		"bpm": "{{bpm}} bpm",
-		"info": "Audio project info",
-		"numberOfItems": "Showing {{shown}} of {{total}} items",
-		"initialLoadingText": "Loading audio projects",
-		"noChannels": "There are no channels in this audio project"
-	},
-	"confirmationModal": {
-		"title": "Confirm action",
-		"description": "Please confirm your action.",
-		"deleteItem": "Delete {{item}}",
-		"confirmDeleteItem": "Confirm that you want to delete {{item}}."
-	},
-	"notifications": {
-		"title": "Notifications",
-		"noNotifications": "No notifications",
-		"markAllAsRead": "Mark all as read",
-		"failedToLoad": "Failed to load notifications",
-		"showAll": "Show all notifications",
-		"initialLoadingText": "Loading notifications",
-		"loadingMore": "Loading notifications"
-	},
-	"exportComponent": {
-		"choose": "Choose sound format",
-		"exportSelected": "Export selected",
-		"formatError": "You need to select a format",
-		"exportAllTooltip": "Export all items (lyrics, tabs, notes, sounds)",
-		"itemWithCount_one": "Selected {{count}} item",
-		"itemWithCount_other": "Selected {{count}} items",
-		"exportError":"This file has already been downloaded. Please check your downloads folder or export again.",
-		"exportErrorExpired":"Download link expired, please export again."
-	},
-	"dataItem": {
-		"musicalNotes": {
-			"name": "Notes",
-			"description": ""
-		},
-		"tabs": {
-			"name": "Tabs",
-			"description": ""
-		},
-		"lyrics": {
-			"name": "Lyrics",
-			"description": ""
-		},
-		"midi": {
-			"name": "Midi",
-			"description": ""
-		},
-		"format": {
-			"name": "Audio",
-			"description": ""
-		}
-	},
-	"instrumentGroup": {
-		"vocals": {
-			"name": "Vocals",
-			"description": ""
-		},
-		"bass": {
-			"name": "Bass",
-			"description": ""
-		},
-		"drums": {
-			"name": "Drums",
-			"description": ""
-		},
-		"guitars": {
-			"name": "Guitars",
-			"description": ""
-		},
-		"winds": {
-			"name": "Winds",
-			"description": ""
-		},
-		"strings": {
-			"name": "Strings",
-			"description": ""
-		},
-		"accordion": {
-			"name": "Accordion",
-			"description": ""
-		},
-		"metronome": {
-			"name": "Metronome",
-			"description": ""
-		},
-		"synths": {
-			"name": "Synths",
-			"description": ""
-		},
-		"piano": {
-			"name": "Piano",
-			"description": ""
-		}
-	},
-	"instrument": {
-		"vocal": {
-			"lead": {
-				"name": "Lead vocal",
-				"description": ""
-			},
-			"back": {
-				"name": "Back vocal",
-				"description": ""
-			}
-		},
-		"piano": {
-			"electric": {
-				"name": "Electric piano",
-				"description": ""
-			},
-			"grand": {
-				"name": "Grand piano",
-				"description": ""
-			}
-		},
-		"organ": {
-			"electric": {
-				"name": "Electric organ",
-				"description": ""
-			},
-			"classic": {
-				"name": "Organ",
-				"description": ""
-			}
-		},
-		"bass": {
-			"guitar": {
-				"name": "Bass guitar",
-				"description": ""
-			},
-			"synthesizer": {
-				"name": "Synthesizer",
-				"description": ""
-			},
-			"contrabass": {
-				"name": "Contrabass",
-				"description": ""
-			}
-		},
-		"drums": {
-			"cymbal": {
-				"name": "Cymbal",
-				"description": ""
-			},
-			"drumMachine": {
-				"name": "Drum machine",
-				"description": ""
-			},
-			"drumKit": {
-				"name": "Acoustic full drumkit",
-				"description": ""
-			},
-			"hiHat": {
-				"name": "Hi Hat",
-				"description": ""
-			},
-			"kickDrum": {
-				"name": "Kick drum",
-				"description": ""
-			},
-			"overheads": {
-				"name": "Overheads",
-				"description": ""
-			},
-			"snareDrum": {
-				"name": "Snare drum",
-				"description": ""
-			},
-			"toms": {
-				"name": "Toms",
-				"description": ""
-			}
-		},
-		"guitar": {
-			"electric": {
-				"name": "Electric guitar",
-				"description": ""
-			},
-			"electricDistorted": {
-				"name": "Electric distorted guitar",
-				"description": ""
-			},
-			"acoustic": {
-				"name": "Acoustic guitar",
-				"description": ""
-			}
-		},
-		"wind": {
-			"sax": {
-				"name": "Sax",
-				"description": ""
-			},
-			"trumpet": {
-				"name": "Trumpet",
-				"description": ""
-			},
-			"trombone": {
-				"name": "Trombone",
-				"description": ""
-			},
-			"saxophone": {
-				"name": "Saxophone",
-				"description": ""
-			},
-			"clarinet": {
-				"name": "Clarinet",
-				"description": ""
-			},
-			"flute": {
-				"name": "Flute",
-				"description": ""
-			}
-		},
-		"string": {
-			"viola": {
-				"name": "Viola",
-				"description": ""
-			},
-			"violin": {
-				"name": "Violin",
-				"description": ""
-			},
-			"cello": {
-				"name": "Cello",
-				"description": ""
-			}
-		},
-		"synth": {
-			"lead": {
-				"name": "Synth lead",
-				"description": ""
-			},
-			"pad": {
-				"name": "Synth pad",
-				"description": ""
-			}
-		}
-	},
-	"audioFormat": {
-		"mp3": {
-			"name": "MP3",
-			"description": ""
-		},
-		"wav": {
-			"name": "Wav",
-			"description": ""
-		},
-		"flac": {
-			"name": "Flac",
-			"description": ""
-		},
-		"numPy": {
-			"name": "NumPy",
-			"description": ""
-		},
-		"m4a": {
-			"m4a": "M4A",
-			"description": ""
-		}
-	},
-	"audioItem": {
-		"option": {
-			"clone": {
-				"name": "Clone"
-			},
-			"separate": {
-				"name": "Separate"
-			},
-			"delete": {
-				"name": "Delete"
-			},
-			"amplifier": {
-				"name": "Amplifier"
-			},
-			"effect": {
-				"name": "Effect"
-			}
-		}
-	},
-	"audioItemType": {
-		"original": {
-			"name": "Original",
-			"description": ""
-		},
-		"stem": {
-			"name": "Stem",
-			"description": ""
-		},
-		"mix": {
-			"name": "Mix",
-			"description": ""
-		},
-		"other": {
-			"name": "Other",
-			"description": ""
-		}
-	},
-	"playlistType": {
-		"personal": {
-			"name": "Personal playlist",
-			"description": ""
-		},
-		"shared": {
-			"name": "Shared playlist",
-			"description": ""
-		}
-	},
-	"subscriptionPlan": {
-		"free": {
-			"name": "Free",
-			"description": ""
-		},
-		"freePlus": {
-			"name": "Free plus",
-			"description": ""
-		},
-		"advance": {
-			"name": "Advance",
-			"description": ""
-		},
-		"pro": {
-			"name": "Pro",
-			"description": ""
-		},
-		"premium": {
-			"name": "Premium",
-			"description": ""
-		}
-	},
-	"actionGroup": {
-		"export": {
-			"name": "Export",
-			"description": ""
-		},
-		"separation": {
-			"name": "Separation",
-			"description": ""
-		},
-		"detection": {
-			"name": "Detection",
-			"description": ""
-		},
-		"transcription": {
-			"name": "Transcription",
-			"description": ""
-		},
-		"general": {
-			"name": "General",
-			"description": ""
-		}
-	},
-	"actionVersion": {
-		"tiny": {
-			"name": "Minimal",
-			"description": ""
-		},
-		"small": {
-			"name": "Basic",
-			"description": ""
-		},
-		"large": {
-			"name": "Advanced",
-			"description": ""
-		}
-	},
-	"subscriptionAction": {
-		"separation": {
-			"vocals": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"keys": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"bass": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"drums": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"trumpet": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"saxophone": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"guitar": {
-				"electric": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"acoustic": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				}
-			}
-		},
-		"isolation": {
-			"vocals": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"keys": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"bass": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"drums": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"trumpet": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"saxophone": {
-				"basic": {
-					"name": "Basic",
-					"description": ""
-				},
-				"advance": {
-					"name": "Advance",
-					"description": ""
-				}
-			},
-			"guitar": {
-				"electric": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"acoustic": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				}
-			}
-		},
-		"transcription": {
-			"vocals": {
-				"midi": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"data": {
-					"lyrics": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					},
-					"notes": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					}
-				}
-			},
-			"keys": {
-				"midi": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					}
-				}
-			},
-			"bass": {
-				"midi": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					},
-					"tabs": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					}
-				}
-			},
-			"drums": {
-				"midi": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					}
-				}
-			},
-			"trumpet": {
-				"midi": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					}
-				}
-			},
-			"saxophone": {
-				"midi": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					}
-				}
-			},
-			"guitar": {
-				"acoustic": {
-					"midi": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					},
-					"data": {
-						"notes": {
-							"basic": {
-								"name": "Basic",
-								"description": ""
-							},
-							"advance": {
-								"name": "Advance",
-								"description": ""
-							}
-						},
-						"tabs": {
-							"basic": {
-								"name": "Basic",
-								"description": ""
-							},
-							"advance": {
-								"name": "Advance",
-								"description": ""
-							}
-						}
-					}
-				}
-			},
-			"electric": {
-				"midi": {
-					"basic": {
-						"name": "Basic",
-						"description": ""
-					},
-					"advance": {
-						"name": "Advance",
-						"description": ""
-					}
-				},
-				"data": {
-					"notes": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					},
-					"tabs": {
-						"basic": {
-							"name": "Basic",
-							"description": ""
-						},
-						"advance": {
-							"name": "Advance",
-							"description": ""
-						}
-					}
-				}
-			}
-		},
-		"export": {
-			"midi": {
-				"name": "Export midi",
-				"description": ""
-			},
-			"data": {
-				"notes": {
-					"name": "Export notes",
-					"description": ""
-				},
-				"tabs": {
-					"name": "Export tabs",
-					"description": ""
-				},
-				"lyrics": {
-					"name": "Export lyrics",
-					"description": ""
-				}
-			},
-			"format": {
-				"mp3": {
-					"name": "Export in mp3 format",
-					"description": ""
-				},
-				"wav": {
-					"name": "Export in wav format",
-					"description": ""
-				},
-				"flac": {
-					"name": "Export in flac format",
-					"description": ""
-				},
-				"m4a": {
-					"name": "Export in m4a format",
-					"description": ""
-				},
-				"numpy": {
-					"name": "Export in numPy format",
-					"description": ""
-				}
-			}
-		}
-	},
-	"userDropdown": {
-		"userSettings": "My settings",
-		"logout": "Log Out",
-		"repository": "My repository",
-		"subscription": "My subscription"
-	},
-	"register": {
-		"accountExists": "Already have an account?",
-		"registerWith": "Register with",
-		"googleRegistration": "Google",
-		"facebookRegistration": "Facebook",
-		"appleRegistration": "Apple ID",
-		"loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		"registerWithEmail": "Register with e-mail",
-		"termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
-	},
-	"createAccount": {
-		"goBackTitle": "Are you sure you want to go back?",
-		"unsavedChanges": "All unsaved changes will be lost.",
-		"basicInfo": "Basic info",
-		"securityInfo": "Security info",
-		"validations": {
-			"nameRequired": "Name is required",
-			"lastNameRequired": "Last name is required",
-			"usernameRequired": "Username is required",
-			"emailRequired": "E-mail is required",
-			"yearOfBirthRequired": "Year of birth is required",
-			"invalidYearOfBirthFormat": "Invalid format",
-			"invalidYearOfBirth": "Invalid year of birth",
-			"passwordRequired": "Password is required",
-			"repeatedPasswordRequired": "Repeated password is required",
-			"emailTaken": "E-mail already taken",
-			"usernameTaken": "Username is already taken"
-		}
-	},
-	"userSettings":{
-		"userSettings":"User settings",
-		"changeProfilePicture":"Change profile picture",
-		"changePassword":"Change password",
-		"oldPassword":"Old password",
-		"newPassword":"New password",
-		"repeatNewPassword":"Repeat new password",
-		"socialMediaConnections":"Social Media Connections",
-		"storage":"Storage",
-		"saveSettings":"Save settings",
-		"deleteAccount":"Delete account",
-		"deleteAccountDescription": "Are you sure you want to delete your account? This action is irreversible, and all your data will be permanently deleted, except for records related to paid subscriptions.",
-		"newPasswordRequired":"New password is required",
-		"newRepeatedPasswordRequired":"New repeated password is required",
-		"passwordRequired":"Password is required",
-		"oldPasswordRequired":"Old password is required",
-		"defaultLanguage":"Default language",
-		"deleteProfilePicture":"Delete profile picture",
-		"defaultLanguageRequired":"Default language is required",
-		"connection":"connection",
-		"connected":"connected"
-	},
-  	"stemEditor":{
-		"mute":"Mute",
-		"solo":"Solo",
-		"changeColor":"Change color",
-		"changeIcon":"Change icon",
-		"loading": "Loading audio project",
-		"collapse": "Collapse channels",
-		"show": "Show channels",
-		"errorAudio": "There was a problem loading stem audio, please try again.",
-		"generateMetronome": "Generate metronome",
-		"moreOptions": "More options",
-		"volume": "Volume",
-		"record": "Record",
-		"unsavedRecordingTitle": "Are you sure you want to leave?",
-		"unsavedRecordingDescription": "You have an unsaved recording. If you leave now, the recording will be lost. Please save it if you want to keep it.",
-		"editAudioProject": "Edit audio project",
-		"loop": "Loop",
-		"stop": "Stop",
-		"sections":{
-			"title": "Sections",
-			"openDrawer": "Open sections",
-			"closeDrawer": "Close sections",
-			"noSections": "To add sections, click 'Add new section'",
-			"clearPreview": "Clear preview",
-			"addNew": "Add new section",
-			"edit": "Edit section {{section}}",
-			"delete": "Delete section {{section}}",
-			"open": "Open sections",
-			"form":{
-				"name": "Section name",
-				"namePlaceholder": "Enter section name",
-				"description": "Section description",
-				"descriptionPlaceholder": "Enter section description",
-				"startTime" : "Start time",
-				"endTime" : "End time",
-				"min": "min",
-				"sec": "sec",
-				"color": "Section color",
-				"namePrefill": "Section {{number}}",
-				"autocomplete": {
-				  "intro": "Intro",
-				  "verse": "Verse",
-				  "preChorus": "Pre-chorus",
-				  "chorus": "Chorus",
-				  "bridge": "Bridge",
-				  "solo": "Solo",
-				  "outro": "Outro",
-				  "hook": "Hook"
-				},
-				"errors":{
-				"nameRequired": "Section name is required",
-					"startGtEnd": "Start time must be less than end time",
-					"startSecondsTooLong": "Start seconds must be less than 60",
-					"endSecondsTooLong": "End seconds must be less than 60",
-					"startTimeRequired": "Start time is required",
-					"endTimeRequired": "End time is required",
-					"nameDuplicate": "Section name must be unique"
-				}
-			}
-		},
-		"actionNotification": {
-			"generate-metronome": {
-				"title": "Generating metronome",
-				"success": "Metronome generated",
-				"error": "Metronome generation failed"
-			},
-			"action-merged": {
-				"title": "Merging",
-				"success": "Merge successful",
-				"error": "Merge failed"
-			},
-			"export-done": {
-				"title": "Exporting",
-				"success": "Export successful",
-				"error": "Export failed"
-			},
-			"effects-apply": {
-				"title": "Applying effect",
-				"success": "Effect applied",
-				"error": "Effect failed"
-			},
-			"clone": {
-				"title": "Cloning",
-				"success": "Clone successful",
-				"error": "Clone failed"
-			},
-			"action-separation": {
-				"title": "Separating",
-				"success": "Separation successful",
-				"error": "Separation failed"
-			},
-			"upload-record": {
-				"title": "Uploading record",
-				"success": "Record uploaded",
-				"error": "Uploading record failed"
-			}
-		},
-		"channelOptions": {
-			"clone": "Clone",
-			"separate": "Separate",
-			"amplifiers": "Amplifiers",
-			"effects": "Effects",
-			"focus": "Focus",
-			"error": "There was an issue getting options. Please try again."
-		},
-		"modes": {
-			"merge": "Merge",
-			"group": "Group",
-			"reorder": "Reorder",
-			"placeholder": "Choose action",
-			"mergeItems": "Merge items",
-			"mergeItemsError":"Channels of type metronome and others can not be merged"
-		},
-		"playControl": {
-			"microphoneUnavailable": "Microphone unavailable",
-			"microphoneUnavailableMessage": "We couldn't access your microphone. Please check your device settings to ensure the microphone is connected and that this application has the necessary permissions. If you've recently allowed microphone access, please refresh the page to try again. If the issue persists, try using a different browser.",
-			"microphone": "Microphone",
-			"selectMicrophone": "Select microphone",
-			"chooseMicrophone": "Choose microphone",
-			"unknownMicrophone": "Unknown microphone",
-			"recordButton": "Starting a new recording will overwrite the existing one."
-		},
-		"groups": {
-			"title": "Groups",
-			"addNew": "Add new group",
-			"noGroups": "No groups",
-			"chooseGroup": "Choose group",
-			"delete": "Delete group",
-			"editIcon": "Edit icon",
-			"editName": "Edit group name",
-			"error": "There was an error fetching groups.",
-			"noGroup": "No group",
-			"chooseGroupForEdit": "Choose group you want to edit."
-		}
-		
-  	},
-	"effect": {
-		"simple": {
-			"name": "Simple",
-			"lowpass": {
-				"name": "Lowpass",
-				"description": "A low-pass filter allows frequencies below a certain cutoff point to pass while reducing higher frequencies, giving sounds a smoother, muted quality."
-			},
-			"highpass": {
-				"name": "Highpass",
-				"description": "A high-pass filter allows frequencies above a certain cutoff point to pass while reducing lower frequencies, adding clarity to higher tones."
-			},
-			"reverb": {
-				"name": "Reverb",
-				"description": "Reverb simulates the effect of sound reflections in an enclosed space, creating a sense of ambiance and depth as sound gradually fades."
-			},
-			"delay": {
-				"name": "Delay",
-				"description": "Delay records the input sound and plays it back after a set time, creating an echo effect that can be repeated for rhythmic or spatial effect."
-			},
-			"compressor": {
-				"name": "Compressor",
-				"description": "A compressor reduces the volume of louder sounds and amplifies quieter ones, balancing the overall sound dynamics."
-			},
-			"bandpass": {
-				"name": "Bandpass",
-				"description": "A band-pass filter lets through frequencies within a specific range and reduces others, highlighting certain frequency bands."
-			},
-			"chorus": {
-				"name": "Chorus",
-				"description": "Chorus creates the effect of multiple voices or instruments by blending the original sound with delayed, pitch-modulated copies."
-			},
-			"phaser": {
-				"name": "Phaser",
-				"description": "A phaser shifts sound phases, creating sweeping peaks and dips in the frequency spectrum for a swirling effect."
-			},
-			"highShelfFilter": {
-				"name": "Highshelf filter",
-				"description": "A high-shelf filter boosts or reduces frequencies above a certain cutoff, brightening or softening high frequencies."
-			},
-			"lowShelfFilter": {
-				"name": "Lowshelf filter",
-				"description": "A low-shelf filter boosts or reduces frequencies below a certain cutoff, adding depth or clarity to low frequencies."
-			},
-			"peakFilter": {
-				"name": "Peak filter",
-				"description": "A peak filter boosts or reduces a narrow band of frequencies around a central frequency, allowing targeted adjustments."
-			}
-		},
-		"complex": {
-			"name": "Complex",
-			"distantSource": {
-				"name": "Distant source",
-				"description": "This effect simulates a sound source positioned far from the listener, resulting in a softer, less direct sound."
-			},
-			"distantSourceEnhancedReverb": {
-				"name": "Distant source enhanced reverb",
-				"description": "A distant source effect with enhanced reverb to create an echoey, immersive soundscape that feels farther away."
-			},
-			"closeSource": {
-				"name": "Close source",
-				"description": "Close source effect simulates a sound source positioned near the listener, delivering a more direct, intimate sound."
-			},
-			"distantAlteredSource": {
-				"name": "Distant altered source",
-				"description": "This effect positions the sound further away with subtle alterations, creating a unique distant and modified tone."
-			},
-			"stereoSpread": {
-				"name": "Stereo spread",
-				"description": "Stereo spread widens the perceived stereo image, giving sounds a broader spatial presence."
-			},
-			"enhancedStereoSpread": {
-				"name": "Enhanced stereo spread",
-				"description": "An expanded version of stereo spread, providing a wider soundstage with more depth and separation."
-			},
-			"expansiveStereoSpread": {
-				"name": "Expansive stereo spread",
-				"description": "A more immersive stereo spread effect that provides a dramatic sense of space and width in the audio."
-			},
-			"brightSpread": {
-				"name": "Bright spread",
-				"description": "Bright spread enhances higher frequencies while broadening the stereo image for a crisp, spacious sound."
-			},
-			"brightReverbSpread": {
-				"name": "Bright reverb spread",
-				"description": "A bright spread effect with reverb, giving the sound a lively, expansive character with shimmering echoes."
-			},
-			"phasedBrightness": {
-				"name": "Phased brightness",
-				"description": "Phased brightness introduces phasing for a sweeping, bright effect, adding movement and complexity to the sound."
-			},
-			"echoedPhasedBrightness": {
-				"name": "Echoed phased brightness",
-				"description": "This effect combines echoes with phased brightness, creating layered, shimmering repetitions in the sound."
-			},
-			"dynamicPhasedEcho": {
-				"name": "Dynamic phased echo",
-				"description": "A phased echo effect with dynamic modulation, creating a sound that shifts and evolves over time."
-			},
-			"distantSourceAlternate": {
-				"name": "Distant source alternate",
-				"description": "An alternate distant source effect, creating a sense of distance with unique timbre and tonal variations."
-			}
-		},
-		"control": {
-			"cutoff_frequency_hz": "Cutoff frequency",
-			"room_size": "Room size",
-			"damping": "Damping",
-			"wet_level": "Wet level",
-			"dry_level": "Dry level",
-			"width": "Width",
-			"freeze_mode": "Freeze mode",
-			"delay_seconds": "Delay",
-			"feedback": "Feedback",
-			"mix": "Mix",
-			"threshold_db": "Threshold",
-			"ratio": "Ratio",
-			"attack_ms": "Attack",
-			"release_ms": "Release",
-			"cutoff_frequency_hz_lowpass": "Cutoff frequency lowpass",
-			"cutoff_frequency_hz_highpass": "Cutoff frequency highpass",
-			"rate_hz": "Rate",
-			"depth": "Depth",
-			"centre_delay_ms": "Centre delay",
-			"centre_frequency_hz": "Centre frequency",
-			"cutoff_frequency_hz_highshelf": "Cutoff frequency",
-			"cutoff_frequency_hz_lowshelf": "Cutoff frequency",
-			"gain_db": "Gain",
-			"q": "Q"
-		},
-		"unit": {
-			"hertz": {
-				"name": "Hz"
-			},
-			"seconds": {
-				"name": "s"
-			},
-			"milliseconds": {
-				"name": "ms"
-			},
-			"decibel": {
-				"name": "dB"
-			},
-			"ratio": {
-				"name": ":1"
-			}
-		},
-		"effectStates": {
-			"loading": "Loading effect...",
-			"error": "There was an issue getting effect. Please try again.",
-			"noEffect": "No effect data available.",
-			"noSimple": "No parameters available for this simple effect.",
-			"noComplex": "No parameters available for this complex effect.",
-			"applying": "Applying effects...",
-			"apply": "Apply effects"
-		}
-	},
-	"amplifier": {
-		"name": "Amplifiers",
-		"marshall": {
-			"1959hw": {
-				"bass": {
-					"name": "Marshall 1959HW Bass",
-					"description": "The Marshall 1959HW Bass is a bass amplifier that is known for its warm and punchy sound. It is a great choice for bass players who want a classic rock sound."
-				}
-			}
-		},
-		"fender": {
-			"twinverb": {
-				"vibrato": {
-					"bright": {
-						"name": "Fender Twin Reverb Vibrato Bright",
-						"description": "It is a variant of the Fender Twin Reverb amplifier that has a bright switch and a vibrato effect. It is known for its clean and bright sound, making it a popular choice for guitarists who play clean or country music."
-					}
-				}
-			}
-		},
-		"dc": {
-			"krankenstein": {
-				"name": "Dimebag Darrell Krankenstein",
-				"description": "The Dimebag Darrell Krankenstein is a signature amplifier that was designed for the late Dimebag Darrell of Pantera. It is known for its high-gain sound and aggressive tone, making it a popular choice for metal guitarists."
-			}
-		}
-	},
-	
-	"repository": {
-		"joinDate": "Joining date",
-		"tokensSpent": "Token spent",
-		"sharedRepositoriesTitle": "List of repositories shared with you",
-		"sharedRepositoriesError": "There was an error fetching repositories, please try again.",
-		"userGroup": "User group",
-		"userGroupDescription": "Manage other users that have access to your workspace and audio projects",
-		"searchUsers": "Search users",
-		"addUser": "Add user",
-		"leaveRepositoryTitle": "Leave {{item}}",
-		"leaveRepositoryDescription": "Confirm that you want to leave {{item}}.",
-		"removeFromRepositoryTitle": "Remove {{item}} from your repository",
-		"removeFromRepositoryDescription": "Confirm that you want to remove {{item}} from your repository.",
-		"leave": "Leave",
-		"remove": "Remove",
-		"addUserTitle": "Add user to your repository",
-		"addUserDescription": "Enter the email of the user you wish to add to your repository.",
-		"details": {
-			"actionType": "Action type",
-			"tokenHistory": "Token transaction history",
-			"actionsLog": "Actions log",
-			"repositoryDetails": "Repository details",
-			"tokenSpend": "Tokens spent",
-			"transactionTime": "Transaction time"
-		}
-	},
-	"subscriptions": {
-		"title": "Subscriptions",
-		"description": "Choose a subscription plan and additional packages that fit your needs.",
-		"annualPlan": "Annual plan",
-		"monthlyPlan": "Monthly plan",
-		"month": "month",
-		"numberOfTokens": "Number of tokens",
-		"storage": "Storage (GB)",
-		"changePlan": "Change plan",
-		"currentPlan": "Current plan",
-		"features": "Features",
-		"sharedWorkspace": "Shared workspace",
-		"musicalEffects": "Musical effects",
-		"amplifiers": "Amplifiers",
-		"instruments": "Instruments",
-		"export": "Export",
-		"generate": "Generate"
-	}
+    "general": {
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "finish": "Finish",
+        "playlists": "Playlists",
+        "soon": "Soon",
+        "size": "{{size}} MB",
+        "minSecFormat": "{{min}} min {{sec}} sec",
+        "themeSwitch": "Theme switch",
+        "save": "Save",
+        "languageSelector": "Select language",
+        "edit": "Edit",
+        "editName": "Edit name",
+        "add": "Add",
+        "selectAll": "Select all",
+        "deselectAll": "Deselect all",
+        "delete": "Delete",
+        "noData": "Nothing to show here yet",
+        "actions": "Actions",
+        "open": "Open",
+        "goBack": "Go back",
+        "stemWithCount_one": "{{count}} stem",
+        "stemWithCount_other": "{{count}} stems",
+        "token": "Token",
+        "animatedLogo": "Animated logo",
+        "numberOfItems": "Showing {{shown}} of {{total}} items",
+        "noContent": "No content",
+        "noLabel": "No label",
+        "logIn": "Log in",
+        "invalidEmail": "Invalid e-mail",
+        "invalidPassword": "Your password isn't strong enough",
+        "passwordsDoNotMatch": "Passwords do not match",
+        "name": "Name",
+        "lastname": "Last name",
+        "username": "Username",
+        "fieldOfInterest": "Field of interest",
+        "yearOfBirth": "Year of birth",
+        "email": "E-mail",
+        "password": "Password",
+        "repeatPassword": "Repeat password",
+        "repeatedPassword": "Repeated password",
+        "includesNumber": "Includes number",
+        "includesLowercase": "Includes lowercase letter",
+        "includesUppercase": "Includes uppercase letter",
+        "passwordLengthRequirement": "Includes at least 6 characters",
+        "register": "Register",
+        "tryAgain": "Try again",
+        "tokens": "Tokens",
+        "freeSpace": "Free space",
+        "workSpace": "Workspace",
+        "unknownError": "An unknown error occurred",
+        "error": "Error",
+        "forbidden": "Forbidden",
+        "export": "Export",
+        "exportAll": "Export all",
+        "view": "View",
+        "effects": "Effects",
+        "stillProcessing": "Audio item is still being processed",
+        "recording": "Recording",
+        "close": "Close",
+        "details": "Details",
+        "status": "Status",
+        "action": "Action",
+        "downloadExport": "Download manually"
+    },
+    "accountActivation": {
+        "activateSuccess": "Your account is activated. You can now login.",
+        "activateError": "An error occurred while activating your account. Please try again.",
+        "alreadyActivated": "Your account is already activated. You can proceed to login.",
+        "activationResent": "Activation email has been resent. Please check your email.",
+        "activateAccountRequestError": "An error occurred while activating your account. Please try again.",
+        "accountNotActivatedLink": "Your account is not activated. Please check your email for the activation link.",
+        "requestNewActivationEmail": "Request new activation email"
+    },
+    "user": {
+        "group": {
+            "invited": "An invitation has been sent to {{field1}} to join your workspace.",
+            "added": "User email {{field1}} has been successfully added to your workspace."
+        }
+    },
+    "exception": {
+        "authentication": {
+            "unauthorized": "An authentication error occurred. Please check your credentials and try again.",
+            "badCredentials": "Invalid credentials. Please check your username and password and try again.",
+            "password": {
+                "invalid": "Invalid password. Please check your password and try again."
+            },
+            "token": {
+                "expired": "The token has expired. Please log in again to continue.",
+                "malformed": "The token is malformed. Please provide a valid token.",
+                "invalid": "The token is invalid. Please provide a valid token.",
+                "required": "The authorization header is missing. Please include a valid token."
+            },
+            "email": {
+                "notVerified": "Your email is not verified. Please verify your email and try again."
+            }
+        },
+        "authorization": {
+            "denied": {
+                "repository": "You are not the owner of this workspace. Please reach out to the workspace owner for any changes or permissions.",
+                "playlist": "{{field1}} does not have sufficient privileges to access this playlist.",
+                "general": "You are not having the necessary privileges for this action."
+            }
+        },
+        "oauth2": {
+            "invalid": {
+                "state": "Invalid state. Please check the state and try again.",
+                "client": "Invalid client. Please check the client and try again.",
+                "responseType": "Invalid response type. Please check the response type and try again.",
+                "scope": "Invalid scope. Please check the scope and try again.",
+                "request": "Invalid OAuth2 request. Please check your request parameters and try again.",
+                "redirectUri": "Invalid redirectUri. Please check your request parameters and try again.",
+                "token": "The token is invalid. Please provide a valid token.",
+                "grantType": "Invalid grant type. Please check the grant type and try again.",
+                "codeVerifier": "Invalid code verifier. Please check the code verifier and try again."
+            }
+        },
+        "validation": {
+            "field": {
+                "required": {
+                    "notNull": "{{field1}} is required and cannot be null.",
+                    "notBlank": "{{field1}} is required and cannot be blank.",
+                    "notEmpty": "{{field1}} is required and cannot be empty."
+                }
+            },
+            "requestParam": {
+                "required": "The {{field1}} parameter is missing and is required to process your request.",
+                "invalidSort": "The provided sort parameter is invalid. Please use a valid sorting option.",
+                "invalid": "The provided path variable value is invalid. Ensure it matches the expected format."
+            },
+            "entity": {
+                "notFound": "The requested {{field1}} could not be found. Please verify the input and try again."
+            },
+            "section": {
+                "endBeforeStart": "The section's end time cannot be earlier than its start time. Please adjust the timings.",
+                "endExceedsDuration": "The section's end time exceeds the maximum allowed duration. Please review and update it."
+            },
+            "systemInternal": {
+                "invalid": "Invalid system internal parameters."
+            },
+            "orders": {
+                "invalid": "The order of the audio items in the request is invalid. Please verify and adjust the sequence."
+            },
+            "email": "Invalid email. Please provide valid email address."
+        },
+        "file": {
+            "avatar": {
+                "size": {
+                    "exceedsLimit": "The uploaded file exceeds the maximum size limit of 1MB. Please select a smaller file."
+                },
+                "type": {
+                    "invalid": "The file format is not supported. Please upload a JPG, JPEG, or PNG file."
+                },
+                "processing": {
+                    "error": "An error occurred while processing the file. Please try again later."
+                }
+            },
+            "audio": {
+                "size": {
+                    "exceedsLimit": "The uploaded file exceeds the maximum size limit of 100MB. Please select a smaller file."
+                }
+            }
+        },
+        "user": {
+            "email": {
+                "exists": "It looks like the email {{field1}} is already in use. Try logging in or use a different email."
+            },
+            "username": {
+                "exists": "Oops! The username {{field1}} is already taken. How about trying another one?"
+            },
+            "workspace": {
+                "cannotLeave": "You’re the owner of this workspace, so you can’t leave it.",
+                "notFound": "We couldn’t find this user in the workspace. Double-check the details and give it another go.",
+                "alreadyMember": "The email {{field1}} is already part of this workspace. No need to add it again!",
+                "deleted": "The account of the person who added you has been deleted.",
+                "notShared": "This workspace isn’t shared with you yet"
+            },
+            "agreement": {
+                "notAccepted": "You need to accept the agreement to continue using the application."
+            }
+        },
+        "action": {
+            "unsupportedType": "The action type you're trying to perform isn't supported. Please check and try again.",
+            "merge": {
+                "failed": "Something went wrong while merging the audio items. Please try again later.",
+                "invalidItems": "The selected audio items are not valid for merging. Please check and select the correct items",
+                "invalidNumber": "You need to select more than one audio item to merge."
+            },
+            "original": {
+                "clone": {
+                    "failed": "Cloning of original audio items is not allowed."
+                },
+                "delete": {
+                    "failed": "Original audio items cannot be deleted."
+                }
+            }
+        },
+        "amplifier": {
+            "unsupported": "Requested amplifier cannot be applied to this audio item.",
+            "notFound": "Requested amplifier is not available. Please try to apply some of the supported amplifiers."
+        },
+        "effect": {
+            "validation": {
+                "outOfRange": "The value provided is out of range for this parameter. Please check and try again."
+            },
+            "parameter": {
+                "required": "The parameter {{field1}} is required for the effect {{field2}}. Please provide it."
+            },
+            "or": {
+                "param": "You can't send both effects and parameters at the same time. One of them must be left null"
+            },
+            "unsupported": {
+                "numericType": "The numeric type is not supported for this effect"
+            },
+            "complex": {
+                "invalidCount": "Invalid number of simple effect in complex effect",
+                "invalidOrder": "Invalid order of simple effect in complex effect"
+            },
+            "invalid": {
+                "formField": "The form files for this effect are invalid. Please check them.",
+                "type": "The parameter {{field1}} should be a string for the effect {{field2}}. Please review the input."
+            }
+        },
+        "subscription": {
+            "storage": {
+                "insufficient": "Your storage limit has been reached. Please free up some space or upgrade your plan to continue."
+            },
+            "token": {
+                "insufficient": "You do not have enough tokens to perform this action. Please add more tokens or upgrade your plan."
+            },
+            "plan": "Invalid code for subscription plan."
+        },
+        "resource": {
+            "audioProject": {
+                "notFound": "The audio project is not available in the current repository."
+            },
+            "audioItem": {
+                "notFound": "Audio item is not available in the current audio project"
+            }
+        },
+        "error": {
+            "unexpected": "An unexpected error occurred. Please try again later."
+        },
+        "nutcracker": {
+            "internalServerError": "Oops! Something went wrong with the Nutcracker.",
+            "badRequest": "There seems to be an issue with the request sent to the Nutcracker.",
+            "notFound": "The requested resource could not be found in the Nutcracker.",
+            "unprocessableEntity": "The Nutcracker service could not process the request"
+        },
+        "auth": {
+            "intervalServerError": "Oops! Something went wrong with the authentication service. Please try again later.",
+            "badRequest": "There seems to be an issue with your request to the authentication service.",
+            "notFound": "The entity you’re looking for could not be found in the authentication service."
+        },
+        "payment": {
+            "customer": {
+                "creation": {
+                    "failed": "Payment customer creation failed."
+                }
+            },
+            "subscription": {
+                "creation": {
+                    "failed": "Payment subscription creation failed."
+                },
+                "update": {
+                    "failed": "Payment subscription update failed."
+                },
+                "cancellation": {
+                    "failed": "Payment subscription cancellation failed."
+                },
+                "creation.or.update": {
+                    "failed": "Payment subscription creation or update failed."
+                },
+                "item": {
+                    "addition": {
+                        "failed": "Payment subscription item addition failed."
+                    }
+                }
+            }
+        },
+        "class": {
+            "account": "Account",
+            "amplifier": "Amplifier",
+            "appUser": "User",
+            "audioItem": "Audio item",
+            "audioItemGroup": "Audio item group",
+            "audioFormat": "Audio format",
+            "audioProject": "Audio project",
+            "musicalEffectSimple": "Musical effect simple",
+            "notificationKey": "Notification key",
+            "playlist": "Playlist",
+            "playlistType": "Playlist type",
+            "repository": "Repository",
+            "section": "Section",
+            "storageUsage": "Storage usage",
+            "subscription": "Subscription",
+            "subscriptionActions": "Subscription actions",
+            "subscriptionActionsGroup": "Subscription actions group",
+            "subscriptionExtension": "Subscription extension",
+            "subscriptionPlan": "Subscription plan",
+            "subscriptionUsage": "Subscription usage",
+            "tokenTransactions": "Token transactions",
+            "userGroup": "User group"
+        }
+    },
+    "notification": {
+        "separation": {
+            "done": "{{field1}} has successfully separated {{field2}}.",
+            "error": "Separation failed. Please try again."
+        },
+        "transcription": {
+            "done": "{{field1}} has successfully generated a new data item.",
+            "error": "Transcription failed. Please retry."
+        },
+        "export": {
+            "done": "Export completed successfully. You can download your data now.",
+            "failed": "Export failed. Please try again or check your network connection."
+        },
+        "workspace": {
+            "share": "You've been added to a new repository. Check it out to collaborate.",
+            "expand": "Your storage capacity has been expanded. Enjoy the extra space!",
+            "capacity": {
+                "low": "Your storage or token capacity is running low. Please upgrade or manage your resources"
+            }
+        }
+    },
+    "navigation": {
+        "studio": "Studio",
+        "practice": "Practice",
+        "aiGenerate": "AI Generate",
+        "navigation": "Navigation"
+    },
+    "users": {
+        "tiers": {
+            "free": "Free user"
+        },
+        "hero": {
+            "title": "hero Title"
+        }
+    },
+    "uploadWizard": {
+        "selectChannels": "Select separation stems",
+        "nextStep": "Next step",
+        "previousStep": "Previous step",
+        "spaceRequired": "Space required",
+        "tokenRequired": "Tokens required",
+        "available": "available",
+        "modalTitle": "Cancel upload",
+        "modalText": "Are you sure you want to cancel upload?",
+        "separation": "Separation",
+        "subtraction": "Subtraction",
+        "separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
+        "allInstruments": "All {{instrumentName}} in one stem",
+        "expandAll": "Expand all",
+        "collapseAll": "Collapse all"
+    },
+    "stems": {
+        "vocals": "Vocals",
+        "guitar": "Guitar",
+        "electricGuitar": "Electric Guitar",
+        "keyboards": "Keyboards",
+        "drums": "Drums",
+        "sax": "Saxophone",
+        "trumpet": "Trumpet"
+    },
+    "notFound": {
+        "title": "This specific Stem or Jam is nowhere to be found"
+    },
+    "dropzone": {
+        "addSingle": "Add new",
+        "replaceSingle": "Replace with new",
+        "addMultiple": "Add new",
+        "addMoreMultiple": "Add more",
+        "replaceMultiple": "Replace with new",
+        "description": "Lorem ipsum",
+        "linkUpload": "or upload from link",
+        "removeFile": "Remove file",
+        "editFileName": "Edit file name",
+        "captureNotSupported": "Directly captured videos from your camera are not supported. Please select files from your file explorer or gallery instead."
+    },
+    "login": {
+        "login": "Login",
+        "logIn": "Log in",
+        "email": "E-mail",
+        "password": "Password",
+        "includesNumber": "Includes number",
+        "includesLowercase": "Includes lowercase letter",
+        "includesUppercase": "Includes uppercase letter",
+        "passwordLengthRequirement": "Includes at least 6 characters",
+        "invalidEmail": "Invalid email",
+        "register": "If you don't have an account, please register",
+        "registerTitle": "You don't have an account?",
+        "loginError": "Something went wrong, email or password may be incorrect",
+        "registerButton": "Register here",
+        "forgotPassword": "Forgot password?",
+        "orSignInWith": "Or sign in with"
+    },
+    "passwordRecovery": {
+        "recoverPassword": "Recover password",
+        "forgotPasswordSuccess": "An email has been sent with instructions on how to reset your password.",
+        "forgotPasswordError": "An error occurred. Please try again"
+    },
+    "resetPassword": {
+        "newPassword": "New password",
+        "confirmNewPassword": "Confirm new password",
+        "resetPassword": "Reset password",
+        "passwordsDoNotMatch": "Passwords do not match",
+        "invalidPassword": "Your password isn't strong enough!",
+        "resetPasswordSuccess": "Your password has been reset successfully. Please login with your new password.",
+        "resetPasswordError": "An error occurred while resetting your password. Please try again."
+    },
+    "playlist": {
+        "createNew": "Create new playlist",
+        "edit": "Edit playlist",
+        "delete": "Delete playlist",
+        "name": "Playlist name",
+        "chooseColor": "Color",
+        "chooseIcon": "Icon",
+        "type": "Playlist type",
+        "personal": "Personal",
+        "shared": "Shared",
+        "editName": "Edit playlist name"
+    },
+    "audioProject": {
+        "search": "Search audio projects",
+        "edit": "Edit audio project",
+        "delete": "Delete audio project",
+        "export": "Export audio project",
+        "includeInPlaylist": "Include in playlist",
+        "numberStem": "{{numberStem}} stems",
+        "bpm": "{{bpm}} bpm",
+        "info": "Audio project info",
+        "numberOfItems": "Showing {{shown}} of {{total}} items",
+        "initialLoadingText": "Loading audio projects",
+        "noChannels": "There are no channels in this audio project"
+    },
+    "confirmationModal": {
+        "title": "Confirm action",
+        "description": "Please confirm your action.",
+        "deleteItem": "Delete {{item}}",
+        "confirmDeleteItem": "Confirm that you want to delete {{item}}."
+    },
+    "notifications": {
+        "title": "Notifications",
+        "noNotifications": "No notifications",
+        "markAllAsRead": "Mark all as read",
+        "failedToLoad": "Failed to load notifications",
+        "showAll": "Show all notifications",
+        "initialLoadingText": "Loading notifications",
+        "loadingMore": "Loading notifications"
+    },
+    "exportComponent": {
+        "choose": "Choose sound format",
+        "exportSelected": "Export selected",
+        "formatError": "You need to select a format",
+        "exportAllTooltip": "Export all items (lyrics, tabs, notes, sounds)",
+        "itemWithCount_one": "Selected {{count}} item",
+        "itemWithCount_other": "Selected {{count}} items",
+        "exportError": "This file has already been downloaded. Please check your downloads folder or export again.",
+        "exportErrorExpired": "Download link expired, please export again."
+    },
+    "dataItem": {
+        "musicalNotes": {
+            "name": "Notes",
+            "description": ""
+        },
+        "tabs": {
+            "name": "Tabs",
+            "description": ""
+        },
+        "lyrics": {
+            "name": "Lyrics",
+            "description": ""
+        },
+        "midi": {
+            "name": "Midi",
+            "description": ""
+        },
+        "format": {
+            "name": "Audio",
+            "description": ""
+        }
+    },
+    "instrumentGroup": {
+        "vocals": {
+            "name": "Vocals",
+            "description": ""
+        },
+        "bass": {
+            "name": "Bass",
+            "description": ""
+        },
+        "drums": {
+            "name": "Drums",
+            "description": ""
+        },
+        "guitars": {
+            "name": "Guitars",
+            "description": ""
+        },
+        "winds": {
+            "name": "Winds",
+            "description": ""
+        },
+        "strings": {
+            "name": "Strings",
+            "description": ""
+        },
+        "accordion": {
+            "name": "Accordion",
+            "description": ""
+        },
+        "metronome": {
+            "name": "Metronome",
+            "description": ""
+        },
+        "synths": {
+            "name": "Synths",
+            "description": ""
+        },
+        "piano": {
+            "name": "Piano",
+            "description": ""
+        }
+    },
+    "instrument": {
+        "vocal": {
+            "lead": {
+                "name": "Lead vocal",
+                "description": ""
+            },
+            "back": {
+                "name": "Back vocal",
+                "description": ""
+            }
+        },
+        "piano": {
+            "electric": {
+                "name": "Electric piano",
+                "description": ""
+            },
+            "grand": {
+                "name": "Grand piano",
+                "description": ""
+            }
+        },
+        "organ": {
+            "electric": {
+                "name": "Electric organ",
+                "description": ""
+            },
+            "classic": {
+                "name": "Organ",
+                "description": ""
+            }
+        },
+        "bass": {
+            "guitar": {
+                "name": "Bass guitar",
+                "description": ""
+            },
+            "synthesizer": {
+                "name": "Synthesizer",
+                "description": ""
+            },
+            "contrabass": {
+                "name": "Contrabass",
+                "description": ""
+            }
+        },
+        "drums": {
+            "cymbal": {
+                "name": "Cymbal",
+                "description": ""
+            },
+            "drumMachine": {
+                "name": "Drum machine",
+                "description": ""
+            },
+            "drumKit": {
+                "name": "Acoustic full drumkit",
+                "description": ""
+            },
+            "hiHat": {
+                "name": "Hi Hat",
+                "description": ""
+            },
+            "kickDrum": {
+                "name": "Kick drum",
+                "description": ""
+            },
+            "overheads": {
+                "name": "Overheads",
+                "description": ""
+            },
+            "snareDrum": {
+                "name": "Snare drum",
+                "description": ""
+            },
+            "toms": {
+                "name": "Toms",
+                "description": ""
+            }
+        },
+        "guitar": {
+            "electric": {
+                "name": "Electric guitar",
+                "description": ""
+            },
+            "electricDistorted": {
+                "name": "Electric distorted guitar",
+                "description": ""
+            },
+            "acoustic": {
+                "name": "Acoustic guitar",
+                "description": ""
+            }
+        },
+        "wind": {
+            "sax": {
+                "name": "Sax",
+                "description": ""
+            },
+            "trumpet": {
+                "name": "Trumpet",
+                "description": ""
+            },
+            "trombone": {
+                "name": "Trombone",
+                "description": ""
+            },
+            "saxophone": {
+                "name": "Saxophone",
+                "description": ""
+            },
+            "clarinet": {
+                "name": "Clarinet",
+                "description": ""
+            },
+            "flute": {
+                "name": "Flute",
+                "description": ""
+            }
+        },
+        "string": {
+            "viola": {
+                "name": "Viola",
+                "description": ""
+            },
+            "violin": {
+                "name": "Violin",
+                "description": ""
+            },
+            "cello": {
+                "name": "Cello",
+                "description": ""
+            }
+        },
+        "synth": {
+            "lead": {
+                "name": "Synth lead",
+                "description": ""
+            },
+            "pad": {
+                "name": "Synth pad",
+                "description": ""
+            }
+        }
+    },
+    "audioFormat": {
+        "mp3": {
+            "name": "MP3",
+            "description": ""
+        },
+        "wav": {
+            "name": "Wav",
+            "description": ""
+        },
+        "flac": {
+            "name": "Flac",
+            "description": ""
+        },
+        "numPy": {
+            "name": "NumPy",
+            "description": ""
+        },
+        "m4a": {
+            "m4a": "M4A",
+            "description": ""
+        }
+    },
+    "audioItem": {
+        "option": {
+            "clone": {
+                "name": "Clone"
+            },
+            "separate": {
+                "name": "Separate"
+            },
+            "delete": {
+                "name": "Delete"
+            },
+            "amplifier": {
+                "name": "Amplifier"
+            },
+            "effect": {
+                "name": "Effect"
+            }
+        }
+    },
+    "audioItemType": {
+        "original": {
+            "name": "Original",
+            "description": ""
+        },
+        "stem": {
+            "name": "Stem",
+            "description": ""
+        },
+        "mix": {
+            "name": "Mix",
+            "description": ""
+        },
+        "other": {
+            "name": "Other",
+            "description": ""
+        }
+    },
+    "playlistType": {
+        "personal": {
+            "name": "Personal playlist",
+            "description": ""
+        },
+        "shared": {
+            "name": "Shared playlist",
+            "description": ""
+        }
+    },
+    "subscriptionPlan": {
+        "free": {
+            "name": "Free",
+            "description": ""
+        },
+        "freePlus": {
+            "name": "Free plus",
+            "description": ""
+        },
+        "advance": {
+            "name": "Advance",
+            "description": ""
+        },
+        "pro": {
+            "name": "Pro",
+            "description": ""
+        },
+        "premium": {
+            "name": "Premium",
+            "description": ""
+        }
+    },
+    "actionGroup": {
+        "export": {
+            "name": "Export",
+            "description": ""
+        },
+        "separation": {
+            "name": "Separation",
+            "description": ""
+        },
+        "detection": {
+            "name": "Detection",
+            "description": ""
+        },
+        "transcription": {
+            "name": "Transcription",
+            "description": ""
+        },
+        "general": {
+            "name": "General",
+            "description": ""
+        }
+    },
+    "actionVersion": {
+        "tiny": {
+            "name": "Minimal",
+            "description": ""
+        },
+        "small": {
+            "name": "Basic",
+            "description": ""
+        },
+        "large": {
+            "name": "Advanced",
+            "description": ""
+        }
+    },
+    "subscriptionAction": {
+        "separation": {
+            "vocals": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "keys": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "bass": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "drums": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "trumpet": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "saxophone": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "guitar": {
+                "electric": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "acoustic": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "isolation": {
+            "vocals": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "keys": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "bass": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "drums": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "trumpet": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "saxophone": {
+                "basic": {
+                    "name": "Basic",
+                    "description": ""
+                },
+                "advance": {
+                    "name": "Advance",
+                    "description": ""
+                }
+            },
+            "guitar": {
+                "electric": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "acoustic": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "transcription": {
+            "vocals": {
+                "midi": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "lyrics": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    },
+                    "notes": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "keys": {
+                "midi": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "bass": {
+                "midi": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    },
+                    "tabs": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "drums": {
+                "midi": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "trumpet": {
+                "midi": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "saxophone": {
+                "midi": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "guitar": {
+                "acoustic": {
+                    "midi": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    },
+                    "data": {
+                        "notes": {
+                            "basic": {
+                                "name": "Basic",
+                                "description": ""
+                            },
+                            "advance": {
+                                "name": "Advance",
+                                "description": ""
+                            }
+                        },
+                        "tabs": {
+                            "basic": {
+                                "name": "Basic",
+                                "description": ""
+                            },
+                            "advance": {
+                                "name": "Advance",
+                                "description": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "electric": {
+                "midi": {
+                    "basic": {
+                        "name": "Basic",
+                        "description": ""
+                    },
+                    "advance": {
+                        "name": "Advance",
+                        "description": ""
+                    }
+                },
+                "data": {
+                    "notes": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    },
+                    "tabs": {
+                        "basic": {
+                            "name": "Basic",
+                            "description": ""
+                        },
+                        "advance": {
+                            "name": "Advance",
+                            "description": ""
+                        }
+                    }
+                }
+            }
+        },
+        "export": {
+            "midi": {
+                "name": "Export midi",
+                "description": ""
+            },
+            "data": {
+                "notes": {
+                    "name": "Export notes",
+                    "description": ""
+                },
+                "tabs": {
+                    "name": "Export tabs",
+                    "description": ""
+                },
+                "lyrics": {
+                    "name": "Export lyrics",
+                    "description": ""
+                }
+            },
+            "format": {
+                "mp3": {
+                    "name": "Export in mp3 format",
+                    "description": ""
+                },
+                "wav": {
+                    "name": "Export in wav format",
+                    "description": ""
+                },
+                "flac": {
+                    "name": "Export in flac format",
+                    "description": ""
+                },
+                "m4a": {
+                    "name": "Export in m4a format",
+                    "description": ""
+                },
+                "numpy": {
+                    "name": "Export in numPy format",
+                    "description": ""
+                }
+            }
+        }
+    },
+    "userDropdown": {
+        "userSettings": "My settings",
+        "logout": "Log Out",
+        "repository": "My repository",
+        "subscription": "My subscription"
+    },
+    "register": {
+        "accountExists": "Already have an account?",
+        "registerWith": "Register with",
+        "googleRegistration": "Google",
+        "facebookRegistration": "Facebook",
+        "appleRegistration": "Apple ID",
+        "loginDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "registerWithEmail": "Register with e-mail",
+        "termsAndConditions": "By continuing, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
+    },
+    "createAccount": {
+        "goBackTitle": "Are you sure you want to go back?",
+        "unsavedChanges": "All unsaved changes will be lost.",
+        "basicInfo": "Basic info",
+        "securityInfo": "Security info",
+        "validations": {
+            "nameRequired": "Name is required",
+            "lastNameRequired": "Last name is required",
+            "usernameRequired": "Username is required",
+            "emailRequired": "E-mail is required",
+            "yearOfBirthRequired": "Year of birth is required",
+            "invalidYearOfBirthFormat": "Invalid format",
+            "invalidYearOfBirth": "Invalid year of birth",
+            "passwordRequired": "Password is required",
+            "repeatedPasswordRequired": "Repeated password is required",
+            "emailTaken": "E-mail already taken",
+            "usernameTaken": "Username is already taken"
+        }
+    },
+    "userSettings": {
+        "userSettings": "User settings",
+        "changeProfilePicture": "Change profile picture",
+        "changePassword": "Change password",
+        "oldPassword": "Old password",
+        "newPassword": "New password",
+        "repeatNewPassword": "Repeat new password",
+        "socialMediaConnections": "Social Media Connections",
+        "storage": "Storage",
+        "saveSettings": "Save settings",
+        "deleteAccount": "Delete account",
+        "deleteAccountDescription": "Are you sure you want to delete your account? This action is irreversible, and all your data will be permanently deleted, except for records related to paid subscriptions.",
+        "newPasswordRequired": "New password is required",
+        "newRepeatedPasswordRequired": "New repeated password is required",
+        "passwordRequired": "Password is required",
+        "oldPasswordRequired": "Old password is required",
+        "defaultLanguage": "Default language",
+        "deleteProfilePicture": "Delete profile picture",
+        "defaultLanguageRequired": "Default language is required",
+        "connection": "connection",
+        "connected": "connected"
+    },
+    "stemEditor": {
+        "mute": "Mute",
+        "solo": "Solo",
+        "changeColor": "Change color",
+        "changeIcon": "Change icon",
+        "loading": "Loading audio project",
+        "collapse": "Collapse channels",
+        "show": "Show channels",
+        "errorAudio": "There was a problem loading stem audio, please try again.",
+        "generateMetronome": "Generate metronome",
+        "moreOptions": "More options",
+        "volume": "Volume",
+        "record": "Record",
+        "unsavedRecordingTitle": "Are you sure you want to leave?",
+        "unsavedRecordingDescription": "You have an unsaved recording. If you leave now, the recording will be lost. Please save it if you want to keep it.",
+        "editAudioProject": "Edit audio project",
+        "loop": "Loop",
+        "stop": "Stop",
+        "sections": {
+            "title": "Sections",
+            "openDrawer": "Open sections",
+            "closeDrawer": "Close sections",
+            "noSections": "To add sections, click 'Add new section'",
+            "clearPreview": "Clear preview",
+            "addNew": "Add new section",
+            "edit": "Edit section {{section}}",
+            "delete": "Delete section {{section}}",
+            "open": "Open sections",
+            "form": {
+                "name": "Section name",
+                "namePlaceholder": "Enter section name",
+                "description": "Section description",
+                "descriptionPlaceholder": "Enter section description",
+                "startTime": "Start time",
+                "endTime": "End time",
+                "min": "min",
+                "sec": "sec",
+                "color": "Section color",
+                "namePrefill": "Section {{number}}",
+                "autocomplete": {
+                    "intro": "Intro",
+                    "verse": "Verse",
+                    "preChorus": "Pre-chorus",
+                    "chorus": "Chorus",
+                    "bridge": "Bridge",
+                    "solo": "Solo",
+                    "outro": "Outro",
+                    "hook": "Hook"
+                },
+                "errors": {
+                    "nameRequired": "Section name is required",
+                    "startGtEnd": "Start time must be less than end time",
+                    "startSecondsTooLong": "Start seconds must be less than 60",
+                    "endSecondsTooLong": "End seconds must be less than 60",
+                    "startTimeRequired": "Start time is required",
+                    "endTimeRequired": "End time is required",
+                    "nameDuplicate": "Section name must be unique"
+                }
+            }
+        },
+        "actionNotification": {
+            "generate-metronome": {
+                "title": "Generating metronome",
+                "success": "Metronome generated",
+                "error": "Metronome generation failed"
+            },
+            "action-merged": {
+                "title": "Merging",
+                "success": "Merge successful",
+                "error": "Merge failed"
+            },
+            "export-done": {
+                "title": "Exporting",
+                "success": "Export successful",
+                "error": "Export failed"
+            },
+            "effects-apply": {
+                "title": "Applying effect",
+                "success": "Effect applied",
+                "error": "Effect failed"
+            },
+            "clone": {
+                "title": "Cloning",
+                "success": "Clone successful",
+                "error": "Clone failed"
+            },
+            "action-separation": {
+                "title": "Separating",
+                "success": "Separation successful",
+                "error": "Separation failed"
+            },
+            "upload-record": {
+                "title": "Uploading record",
+                "success": "Record uploaded",
+                "error": "Uploading record failed"
+            }
+        },
+        "channelOptions": {
+            "clone": "Clone",
+            "separate": "Separate",
+            "amplifiers": "Amplifiers",
+            "effects": "Effects",
+            "focus": "Focus",
+            "error": "There was an issue getting options. Please try again."
+        },
+        "modes": {
+            "merge": "Merge",
+            "group": "Group",
+            "reorder": "Reorder",
+            "placeholder": "Choose action",
+            "mergeItems": "Merge items",
+            "mergeItemsError": "Channels of type metronome and others can not be merged"
+        },
+        "playControl": {
+            "microphoneUnavailable": "Microphone unavailable",
+            "microphoneUnavailableMessage": "We couldn't access your microphone. Please check your device settings to ensure the microphone is connected and that this application has the necessary permissions. If you've recently allowed microphone access, please refresh the page to try again. If the issue persists, try using a different browser.",
+            "microphone": "Microphone",
+            "selectMicrophone": "Select microphone",
+            "chooseMicrophone": "Choose microphone",
+            "unknownMicrophone": "Unknown microphone",
+            "recordButton": "Starting a new recording will overwrite the existing one."
+        },
+        "groups": {
+            "title": "Groups",
+            "addNew": "Add new group",
+            "noGroups": "No groups",
+            "chooseGroup": "Choose group",
+            "delete": "Delete group",
+            "editIcon": "Edit icon",
+            "editName": "Edit group name",
+            "error": "There was an error fetching groups.",
+            "noGroup": "No group",
+            "chooseGroupForEdit": "Choose group you want to edit."
+        }
+    },
+    "effect": {
+        "simple": {
+            "name": "Simple",
+            "lowpass": {
+                "name": "Lowpass",
+                "description": "A low-pass filter allows frequencies below a certain cutoff point to pass while reducing higher frequencies, giving sounds a smoother, muted quality."
+            },
+            "highpass": {
+                "name": "Highpass",
+                "description": "A high-pass filter allows frequencies above a certain cutoff point to pass while reducing lower frequencies, adding clarity to higher tones."
+            },
+            "reverb": {
+                "name": "Reverb",
+                "description": "Reverb simulates the effect of sound reflections in an enclosed space, creating a sense of ambiance and depth as sound gradually fades."
+            },
+            "delay": {
+                "name": "Delay",
+                "description": "Delay records the input sound and plays it back after a set time, creating an echo effect that can be repeated for rhythmic or spatial effect."
+            },
+            "compressor": {
+                "name": "Compressor",
+                "description": "A compressor reduces the volume of louder sounds and amplifies quieter ones, balancing the overall sound dynamics."
+            },
+            "bandpass": {
+                "name": "Bandpass",
+                "description": "A band-pass filter lets through frequencies within a specific range and reduces others, highlighting certain frequency bands."
+            },
+            "chorus": {
+                "name": "Chorus",
+                "description": "Chorus creates the effect of multiple voices or instruments by blending the original sound with delayed, pitch-modulated copies."
+            },
+            "phaser": {
+                "name": "Phaser",
+                "description": "A phaser shifts sound phases, creating sweeping peaks and dips in the frequency spectrum for a swirling effect."
+            },
+            "highShelfFilter": {
+                "name": "Highshelf filter",
+                "description": "A high-shelf filter boosts or reduces frequencies above a certain cutoff, brightening or softening high frequencies."
+            },
+            "lowShelfFilter": {
+                "name": "Lowshelf filter",
+                "description": "A low-shelf filter boosts or reduces frequencies below a certain cutoff, adding depth or clarity to low frequencies."
+            },
+            "peakFilter": {
+                "name": "Peak filter",
+                "description": "A peak filter boosts or reduces a narrow band of frequencies around a central frequency, allowing targeted adjustments."
+            }
+        },
+        "complex": {
+            "name": "Complex",
+            "distantSource": {
+                "name": "Distant source",
+                "description": "This effect simulates a sound source positioned far from the listener, resulting in a softer, less direct sound."
+            },
+            "distantSourceEnhancedReverb": {
+                "name": "Distant source enhanced reverb",
+                "description": "A distant source effect with enhanced reverb to create an echoey, immersive soundscape that feels farther away."
+            },
+            "closeSource": {
+                "name": "Close source",
+                "description": "Close source effect simulates a sound source positioned near the listener, delivering a more direct, intimate sound."
+            },
+            "distantAlteredSource": {
+                "name": "Distant altered source",
+                "description": "This effect positions the sound further away with subtle alterations, creating a unique distant and modified tone."
+            },
+            "stereoSpread": {
+                "name": "Stereo spread",
+                "description": "Stereo spread widens the perceived stereo image, giving sounds a broader spatial presence."
+            },
+            "enhancedStereoSpread": {
+                "name": "Enhanced stereo spread",
+                "description": "An expanded version of stereo spread, providing a wider soundstage with more depth and separation."
+            },
+            "expansiveStereoSpread": {
+                "name": "Expansive stereo spread",
+                "description": "A more immersive stereo spread effect that provides a dramatic sense of space and width in the audio."
+            },
+            "brightSpread": {
+                "name": "Bright spread",
+                "description": "Bright spread enhances higher frequencies while broadening the stereo image for a crisp, spacious sound."
+            },
+            "brightReverbSpread": {
+                "name": "Bright reverb spread",
+                "description": "A bright spread effect with reverb, giving the sound a lively, expansive character with shimmering echoes."
+            },
+            "phasedBrightness": {
+                "name": "Phased brightness",
+                "description": "Phased brightness introduces phasing for a sweeping, bright effect, adding movement and complexity to the sound."
+            },
+            "echoedPhasedBrightness": {
+                "name": "Echoed phased brightness",
+                "description": "This effect combines echoes with phased brightness, creating layered, shimmering repetitions in the sound."
+            },
+            "dynamicPhasedEcho": {
+                "name": "Dynamic phased echo",
+                "description": "A phased echo effect with dynamic modulation, creating a sound that shifts and evolves over time."
+            },
+            "distantSourceAlternate": {
+                "name": "Distant source alternate",
+                "description": "An alternate distant source effect, creating a sense of distance with unique timbre and tonal variations."
+            }
+        },
+        "control": {
+            "cutoff_frequency_hz": "Cutoff frequency",
+            "room_size": "Room size",
+            "damping": "Damping",
+            "wet_level": "Wet level",
+            "dry_level": "Dry level",
+            "width": "Width",
+            "freeze_mode": "Freeze mode",
+            "delay_seconds": "Delay",
+            "feedback": "Feedback",
+            "mix": "Mix",
+            "threshold_db": "Threshold",
+            "ratio": "Ratio",
+            "attack_ms": "Attack",
+            "release_ms": "Release",
+            "cutoff_frequency_hz_lowpass": "Cutoff frequency lowpass",
+            "cutoff_frequency_hz_highpass": "Cutoff frequency highpass",
+            "rate_hz": "Rate",
+            "depth": "Depth",
+            "centre_delay_ms": "Centre delay",
+            "centre_frequency_hz": "Centre frequency",
+            "cutoff_frequency_hz_highshelf": "Cutoff frequency",
+            "cutoff_frequency_hz_lowshelf": "Cutoff frequency",
+            "gain_db": "Gain",
+            "q": "Q"
+        },
+        "unit": {
+            "hertz": {
+                "name": "Hz"
+            },
+            "seconds": {
+                "name": "s"
+            },
+            "milliseconds": {
+                "name": "ms"
+            },
+            "decibel": {
+                "name": "dB"
+            },
+            "ratio": {
+                "name": ":1"
+            }
+        },
+        "effectStates": {
+            "loading": "Loading effect...",
+            "error": "There was an issue getting effect. Please try again.",
+            "noEffect": "No effect data available.",
+            "noSimple": "No parameters available for this simple effect.",
+            "noComplex": "No parameters available for this complex effect.",
+            "applying": "Applying effects...",
+            "apply": "Apply effects"
+        }
+    },
+    "amplifier": {
+        "name": "Amplifiers",
+        "marshall": {
+            "1959hw": {
+                "bass": {
+                    "name": "Marshall 1959HW Bass",
+                    "description": "The Marshall 1959HW Bass is a bass amplifier that is known for its warm and punchy sound. It is a great choice for bass players who want a classic rock sound."
+                }
+            }
+        },
+        "fender": {
+            "twinverb": {
+                "vibrato": {
+                    "bright": {
+                        "name": "Fender Twin Reverb Vibrato Bright",
+                        "description": "It is a variant of the Fender Twin Reverb amplifier that has a bright switch and a vibrato effect. It is known for its clean and bright sound, making it a popular choice for guitarists who play clean or country music."
+                    }
+                }
+            }
+        },
+        "dc": {
+            "krankenstein": {
+                "name": "Dimebag Darrell Krankenstein",
+                "description": "The Dimebag Darrell Krankenstein is a signature amplifier that was designed for the late Dimebag Darrell of Pantera. It is known for its high-gain sound and aggressive tone, making it a popular choice for metal guitarists."
+            }
+        }
+    },
+    "repository": {
+        "joinDate": "Joining date",
+        "tokensSpent": "Token spent",
+        "sharedRepositoriesTitle": "List of repositories shared with you",
+        "sharedRepositoriesError": "There was an error fetching repositories, please try again.",
+        "userGroup": "User group",
+        "userGroupDescription": "Manage other users that have access to your workspace and audio projects",
+        "searchUsers": "Search users",
+        "addUser": "Add user",
+        "leaveRepositoryTitle": "Leave {{item}}",
+        "leaveRepositoryDescription": "Confirm that you want to leave {{item}}.",
+        "removeFromRepositoryTitle": "Remove {{item}} from your repository",
+        "removeFromRepositoryDescription": "Confirm that you want to remove {{item}} from your repository.",
+        "leave": "Leave",
+        "remove": "Remove",
+        "addUserTitle": "Add user to your repository",
+        "addUserDescription": "Enter the email of the user you wish to add to your repository.",
+        "details": {
+            "actionType": "Action type",
+            "tokenHistory": "Token transaction history",
+            "actionsLog": "Actions log",
+            "repositoryDetails": "Repository details",
+            "tokenSpend": "Tokens spent",
+            "transactionTime": "Transaction time"
+        }
+    },
+    "subscriptions": {
+        "title": "Subscriptions",
+        "description": "Choose a subscription plan and additional packages that fit your needs.",
+        "annualPlan": "Annual plan",
+        "monthlyPlan": "Monthly plan",
+        "month": "month",
+        "numberOfTokens": "Number of tokens",
+        "storage": "Storage (GB)",
+        "changePlan": "Change plan",
+        "currentPlan": "Current plan",
+        "features": "Features",
+        "sharedWorkspace": "Shared workspace",
+        "musicalEffects": "Musical effects",
+        "amplifiers": "Amplifiers",
+        "instruments": "Instruments",
+        "export": "Export",
+        "generate": "Generate"
+    }
 }
-
