@@ -420,7 +420,8 @@
 		"chooseIcon": "Icon",
 		"type": "Playlist type",
 		"personal": "Personal",
-		"shared": "Shared"
+		"shared": "Shared",
+		"editName":"Edit playlist name"
 	},
 	"audioProject": {
 		"search": "Search audio projects",
