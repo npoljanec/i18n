@@ -1410,7 +1410,164 @@
 		      "noGroup": "Nema grupe",
 		      "chooseGroupForEdit": "Odaberite grupu koju želite urediti."
 	    }
-	  }
+	  },
+	"effect": {
+	"simple": {
+		"name": "Jednostavno",
+		"lowpass": {
+			"name": "Lowpass",
+			"description": "Low-pass filtrat dopušta prolazak frekvencija ispod određenog cutoff frekvencijskog praga dok smanjuje više frekvencije, dajući zvukovima glatkiji, prigušeniji kvalitet."
+		},
+		"highpass": {
+			"name": "Highpass",
+			"description": "High-pass filtrat dopušta prolazak frekvencija iznad određenog cutoff frekvencijskog praga dok smanjuje niže frekvencije, dodajući jasnoću višim tonovima."
+		},
+		"reverb": {
+			"name": "Reverb",
+			"description": "Reverb simulira učinak odjeka zvuka u zatvorenom prostoru, stvarajući dojam ambijenta i dubine dok zvuk postupno izblijedi."
+		},
+		"delay": {
+			"name": "Delay",
+			"description": "Delay snima ulazni zvuk i reproducira ga nakon određenog vremena, stvarajući efekt odjeka koji se može ponoviti za ritmički ili prostorni efekt."
+		},
+		"compressor": {
+			"name": "Kompressor",
+			"description": "Kompressor smanjuje volumen glasnijih zvukova i pojačava tiše, balansirajući ukupnu dinamiku zvuka."
+		},
+		"bandpass": {
+			"name": "Bandpass",
+			"description": "Band-pass filtrat dopušta prolazak frekvencija unutar određenog raspona i smanjuje druge, naglašavajući određene frekvencijske opsege."
+		},
+		"chorus": {
+			"name": "Chorus",
+			"description": "Chorus stvara efekt više glasova ili instrumenata miješajući izvorni zvuk s kašnjenim, pitch-moduliranim kopijama."
+		},
+		"phaser": {
+			"name": "Phaser",
+			"description": "Phaser pomiče faze zvuka, stvarajući talasaste vrhove i udubljenja u frekvencijskom spektru za vrtložni efekt."
+		},
+		"highShelfFilter": {
+			"name": "Highshelf filtrat",
+			"description": "High-shelf filtrat pojačava ili smanjuje frekvencije iznad određenog cutoff praga, posvjetljujući ili ublažujući visoke frekvencije."
+		},
+		"lowShelfFilter": {
+			"name": "Lowshelf filtrat",
+			"description": "Low-shelf filtrat pojačava ili smanjuje frekvencije ispod određenog cutoff praga, dodajući dubinu ili jasnoću niskim frekvencijama."
+		},
+		"peakFilter": {
+			"name": "Peak filtrat",
+			"description": "Peak filtrat pojačava ili smanjuje uski opseg frekvencija oko središnje frekvencije, omogućujući ciljana podešavanja."
+		}
+	},
+	"complex": {
+		"name": "Složeno",
+		"distantSource": {
+			"name": "Daleki izvor",
+			"description": "Ovaj efekt simulira izvor zvuka koji je smješten daleko od slušatelja, rezultirajući mekšim, manje izravnim zvukom."
+		},
+		"distantSourceEnhancedReverb": {
+			"name": "Daleki izvor s pojačanim reverberacijama",
+			"description": "Daleki izvor efekt s pojačanim reverberacijama stvara odjekujući, uranjajući zvučni ambijent koji zvuči udaljenije."
+		},
+		"closeSource": {
+			"name": "Blizak izvor",
+			"description": "Blizak izvor efekt simulira izvor zvuka koji je smješten blizu slušatelja, pružajući izravniji, intimniji zvuk."
+		},
+		"distantAlteredSource": {
+			"name": "Daleki modificirani izvor",
+			"description": "Ovaj efekt smješta zvuk dalje s suptilnim promjenama, stvarajući jedinstveni daleki i modificirani ton."
+		},
+		"stereoSpread": {
+			"name": "Stereo širenje",
+			"description": "Stereo širenje proširuje percipiranu stereo sliku, dajući zvukovima širu prostornu prisutnost."
+		},
+		"enhancedStereoSpread": {
+			"name": "Pojačano stereo širenje",
+			"description": "Proširena verzija stereo širenja, pružajući širu zvučnu scenu s većom dubinom i odvojenosti."
+		},
+		"expansiveStereoSpread": {
+			"name": "Ekspansivno stereo širenje",
+			"description": "Imersivniji stereo širenje efekt koji pruža dramatičan osjećaj prostora i širine u zvuku."
+		},
+		"brightSpread": {
+			"name": "Svijetlo širenje",
+			"description": "Bright spread poboljšava više frekvencije dok širi stereo sliku za oštar, prostoran zvuk."
+		},
+		"brightReverbSpread": {
+			"name": "Svijetlo reverberacijsko širenje",
+			"description": "Svijetlo širenje efekt s reverberacijom, dajući zvuku živahni, prostorni karakter s sjajnim odjecima."
+		},
+		"phasedBrightness": {
+			"name": "Phased svjetlost",
+			"description": "Phased brightness uvodi faznu modulaciju za talasasti, svijetli efekt, dodajući pokret i složenost zvuku."
+		},
+		"echoedPhasedBrightness": {
+			"name": "Echoed phased brightness",
+			"description": "Ovaj efekt kombinira odjeke s phased brightness, stvarajući slojevite, svjetlucave ponavljanja u zvuku."
+		},
+		"dynamicPhasedEcho": {
+			"name": "Dinamični phased echo",
+			"description": "Phased echo efekt s dinamičkom modulacijom, stvarajući zvuk koji se pomiče i razvija tijekom vremena."
+		},
+		"distantSourceAlternate": {
+			"name": "Alternativni daleki izvor",
+			"description": "Alternativni daleki izvor efekt, stvarajući osjećaj udaljenosti s jedinstvenim timbrama i tonalnim varijacijama."
+		}
+	},
+	"control": {
+		"cutoff_frequency_hz": "Cutoff frekvencija",
+		"room_size": "Veličina sobe",
+		"damping": "Damping",
+		"wet_level": "Wet level",
+		"dry_level": "Dry level",
+		"width": "Širina",
+		"freeze_mode": "Freeze mode",
+		"delay_seconds": "Delay",
+		"feedback": "Feedback",
+		"mix": "Mix",
+		"threshold_db": "Threshold",
+		"ratio": "Ratio",
+		"attack_ms": "Attack",
+		"release_ms": "Release",
+		"cutoff_frequency_hz_lowpass": "Cutoff frekvencija lowpass",
+		"cutoff_frequency_hz_highpass": "Cutoff frekvencija highpass",
+		"rate_hz": "Rate",
+		"depth": "Dubina",
+		"centre_delay_ms": "Centre delay",
+		"centre_frequency_hz": "Centre frequency",
+		"cutoff_frequency_hz_highshelf": "Cutoff frekvencija",
+		"cutoff_frequency_hz_lowshelf": "Cutoff frekvencija",
+		"gain_db": "Gain",
+		"q": "Q"
+	},
+	"unit": {
+		"hertz": {
+			"name": "Hz"
+		},
+		"seconds": {
+			"name": "s"
+		},
+		"milliseconds": {
+			"name": "ms"
+		},
+		"decibel": {
+			"name": "dB"
+		},
+		"ratio": {
+			"name": ":1"
+		}
+	},
+	"effectStates": {
+		"loading": "Učitavanje efekta...",
+		"error": "Došlo je do problema pri preuzimanju efekta. Pokušajte ponovo.",
+		"noEffect": "Nema podataka o efektu.",
+		"noSimple": "Nema parametara dostupnih za ovaj jednostavni efekt.",
+		"noComplex": "Nema parametara dostupnih za ovaj složeni efekt.",
+		"applying": "Primjena efekta...",
+		"apply": "Primijeni efekte"
+	}
+}
+
 	
 
 }
