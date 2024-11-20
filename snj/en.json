@@ -1439,103 +1439,105 @@
   	},
 	"effect": {
 		"simple": {
+			"name": "Simple",
 			"lowpass": {
 				"name": "Lowpass",
-				"description": "A low-pass filter is a filter that passes signals with a frequency lower than a certain cutoff frequency and attenuates signals with frequencies higher than the cutoff frequency."
+				"description": "A low-pass filter allows frequencies below a certain cutoff point to pass while reducing higher frequencies, giving sounds a smoother, muted quality."
 			},
 			"highpass": {
 				"name": "Highpass",
-				"description": "A high-pass filter is a filter that passes signals with a frequency higher than a certain cutoff frequency and attenuates signals with frequencies lower than the cutoff frequency."
+				"description": "A high-pass filter allows frequencies above a certain cutoff point to pass while reducing lower frequencies, adding clarity to higher tones."
 			},
 			"reverb": {
 				"name": "Reverb",
-				"description": "Reverb is the persistence of sound after the sound is produced. A reverberation, or reverb, is created when a sound or signal is reflected causing a large number of reflections to build up and then decay as the sound is absorbed by the surfaces of objects in the space – which could include furniture, people, and air."
+				"description": "Reverb simulates the effect of sound reflections in an enclosed space, creating a sense of ambiance and depth as sound gradually fades."
 			},
 			"delay": {
 				"name": "Delay",
-				"description": "Delay is an audio effect which records an input signal to an audio storage medium, and then plays it back after a period of time. The delayed signal may either be played back multiple times, or played back into the recording again, to create the sound of a repeating, decaying echo."
+				"description": "Delay records the input sound and plays it back after a set time, creating an echo effect that can be repeated for rhythmic or spatial effect."
 			},
 			"compressor": {
 				"name": "Compressor",
-				"description": "A compressor is an audio signal processing unit that reduces the dynamic range of an audio signal. This is done by bringing down the level of the loudest parts of the signal while leaving the quieter parts untouched."
+				"description": "A compressor reduces the volume of louder sounds and amplifies quieter ones, balancing the overall sound dynamics."
 			},
 			"bandpass": {
 				"name": "Bandpass",
-				"description": "A band-pass filter is a device that passes frequencies within a certain range and rejects (attenuates) frequencies outside that range."
+				"description": "A band-pass filter lets through frequencies within a specific range and reduces others, highlighting certain frequency bands."
 			},
 			"chorus": {
 				"name": "Chorus",
-				"description": "Chorus is an audio effect that takes a single audio input and mixes it with one or more delayed, pitch-modulated copies of the original signal. The pitch of the added voices is typically modulated by an LFO."
+				"description": "Chorus creates the effect of multiple voices or instruments by blending the original sound with delayed, pitch-modulated copies."
 			},
 			"phaser": {
 				"name": "Phaser",
-				"description": "A phaser is an electronic sound processor used to filter a signal by creating a series of peaks and troughs in the frequency spectrum."
+				"description": "A phaser shifts sound phases, creating sweeping peaks and dips in the frequency spectrum for a swirling effect."
 			},
 			"highShelfFilter": {
 				"name": "Highshelf filter",
-				"description": "A high-shelf filter is a filter that passes signals with a frequency higher than a certain cutoff frequency and attenuates signals with frequencies lower than the cutoff frequency."
+				"description": "A high-shelf filter boosts or reduces frequencies above a certain cutoff, brightening or softening high frequencies."
 			},
 			"lowShelfFilter": {
 				"name": "Lowshelf filter",
-				"description": "A low-shelf filter is a filter that passes signals with a frequency lower than a certain cutoff frequency and attenuates signals with frequencies higher than the cutoff frequency."
+				"description": "A low-shelf filter boosts or reduces frequencies below a certain cutoff, adding depth or clarity to low frequencies."
 			},
 			"peakFilter": {
 				"name": "Peak filter",
-				"description": "A peak filter is a filter that passes signals with a frequency higher or lower than a certain cutoff frequency and attenuates signals with frequencies around the cutoff frequency."
+				"description": "A peak filter boosts or reduces a narrow band of frequencies around a central frequency, allowing targeted adjustments."
 			}
 		},
 		"complex": {
+			"name": "Complex",
 			"distantSource": {
 				"name": "Distant source",
-				"description": "Distant source effect is a sound effect that makes the sound source appear to be further away from the listener."
+				"description": "This effect simulates a sound source positioned far from the listener, resulting in a softer, less direct sound."
 			},
 			"distantSourceEnhancedReverb": {
 				"name": "Distant source enhanced reverb",
-				"description": "Distant source enhanced reverb effect is a sound effect that makes the sound source appear to be further away from the listener with enhanced reverb."
+				"description": "A distant source effect with enhanced reverb to create an echoey, immersive soundscape that feels farther away."
 			},
 			"closeSource": {
 				"name": "Close source",
-				"description": "Close source effect is a sound effect that makes the sound source appear to be closer to the listener."
+				"description": "Close source effect simulates a sound source positioned near the listener, delivering a more direct, intimate sound."
 			},
 			"distantAlteredSource": {
 				"name": "Distant altered source",
-				"description": "Distant altered source effect is a sound effect that makes the sound source appear to be further away from the listener with altered sound."
+				"description": "This effect positions the sound further away with subtle alterations, creating a unique distant and modified tone."
 			},
 			"stereoSpread": {
 				"name": "Stereo spread",
-				"description": "Stereo spread effect is a sound effect that makes the sound source appear to be wider."
+				"description": "Stereo spread widens the perceived stereo image, giving sounds a broader spatial presence."
 			},
 			"enhancedStereoSpread": {
 				"name": "Enhanced stereo spread",
-				"description": "Enhanced stereo spread effect is a sound effect that makes the sound source appear to be wider with enhanced sound."
+				"description": "An expanded version of stereo spread, providing a wider soundstage with more depth and separation."
 			},
 			"expansiveStereoSpread": {
 				"name": "Expansive stereo spread",
-				"description": "Expansive stereo spread effect is a sound effect that makes the sound source appear to be wider with expansive sound."
+				"description": "A more immersive stereo spread effect that provides a dramatic sense of space and width in the audio."
 			},
 			"brightSpread": {
 				"name": "Bright spread",
-				"description": "Bright spread effect is a sound effect that makes the sound source appear to be wider with bright sound."
+				"description": "Bright spread enhances higher frequencies while broadening the stereo image for a crisp, spacious sound."
 			},
 			"brightReverbSpread": {
 				"name": "Bright reverb spread",
-				"description": "Bright reverb spread effect is a sound effect that makes the sound source appear to be wider with bright sound and reverb."
+				"description": "A bright spread effect with reverb, giving the sound a lively, expansive character with shimmering echoes."
 			},
 			"phasedBrightness": {
 				"name": "Phased brightness",
-				"description": "Phased brightness effect is a sound effect that makes the sound source appear to be brighter with phased sound."
+				"description": "Phased brightness introduces phasing for a sweeping, bright effect, adding movement and complexity to the sound."
 			},
 			"echoedPhasedBrightness": {
 				"name": "Echoed phased brightness",
-				"description": "Echoed phased brightness effect is a sound effect that makes the sound source appear to be brighter with echoed phased sound."
+				"description": "This effect combines echoes with phased brightness, creating layered, shimmering repetitions in the sound."
 			},
 			"dynamicPhasedEcho": {
 				"name": "Dynamic phased echo",
-				"description": "Dynamic phased echo effect is a sound effect that makes the sound source appear to be brighter with dynamic phased echo."
+				"description": "A phased echo effect with dynamic modulation, creating a sound that shifts and evolves over time."
 			},
 			"distantSourceAlternate": {
 				"name": "Distant source alternate",
-				"description": "Distant source alternate v1 effect is a sound effect that makes the sound source appear to be further away from the listener with alternate sound."
+				"description": "An alternate distant source effect, creating a sense of distance with unique timbre and tonal variations."
 			}
 		},
 		"control": {
@@ -1587,25 +1589,39 @@
 			"noEffect": "No effect data available.",
 			"noSimple": "No parameters available for this simple effect.",
 			"noComplex": "No parameters available for this complex effect.",
-			"applying": "Applying Effects...",
-			"apply": "Apply Effects"
+			"applying": "Applying effects...",
+			"apply": "Apply effects"
+		}
+	},
+	"amplifier": {
+		"name": "Amplifiers",
+		"marshall": {
+			"1959hw": {
+				"bass": {
+					"name": "Marshall 1959HW Bass",
+					"description": "The Marshall 1959HW Bass is a bass amplifier that is known for its warm and punchy sound. It is a great choice for bass players who want a classic rock sound."
+				}
+			}
+		},
+		"fender": {
+			"twinverb": {
+				"vibrato": {
+					"bright": {
+						"name": "Fender Twin Reverb Vibrato Bright",
+						"description": "It is a variant of the Fender Twin Reverb amplifier that has a bright switch and a vibrato effect. It is known for its clean and bright sound, making it a popular choice for guitarists who play clean or country music."
+					}
+				}
+			}
+		},
+		"dc": {
+			"krankenstein": {
+				"name": "Dimebag Darrell Krankenstein",
+				"description": "The Dimebag Darrell Krankenstein is a signature amplifier that was designed for the late Dimebag Darrell of Pantera. It is known for its high-gain sound and aggressive tone, making it a popular choice for metal guitarists."
+			}
 		}
 	},
 	
 	
-	
-	"groups": {
-		"title": "Groups",
-		"addNew": "Add new group",
-		"noGroups": "No groups",
-		"chooseGroup": "Choose group",
-		"delete": "Delete group",
-		"editIcon": "Edit icon",
-		"editName": "Edit group name",
-		"error": "There was an error fetching groups.",
-		"noGroup": "No group",
-		"chooseGroupForEdit": "Choose group you want to edit."
-	},
 	"repository":{
 		"joinDate":"Joining date",
 		"tokensSpent":"Token spent",
