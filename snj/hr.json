@@ -1619,8 +1619,25 @@
 			"tokenSpend": "Potrošeni tokeni",
 			"transactionTime": "Vrijeme transakcije"
 		}
+	},
+	"subscriptions": {
+		"title": "Pretplate",
+		"description": "Odaberite plan pretplate i dodatne pakete koji odgovaraju vašim potrebama.",
+		"annualPlan": "Godišnji plan",
+		"monthlyPlan": "Mjesečni plan",
+		"month": "mjesec",
+		"numberOfTokens": "Broj tokena",
+		"storage": "Pohrana (GB)",
+		"changePlan": "Promijeni plan",
+		"currentPlan": "Trenutni plan",
+		"features": "Značajke",
+		"sharedWorkspace": "Zajednički radni prostor",
+		"musicalEffects": "Glazbeni efekti",
+		"amplifiers": "Pojačala",
+		"instruments": "Instrumenti",
+		"export": "Izvoz",
+		"generate": "Generiraj"
 	}
-
 	
 
 }
