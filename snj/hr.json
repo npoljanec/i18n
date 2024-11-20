@@ -403,13 +403,15 @@
 	"forgotPasswordSuccess": "Poslan je e-mail s uputama za ponovno postavljanje lozinke.",
 	"forgotPasswordError": "Došlo je do pogreške. Molimo pokušajte ponovno."
  },
-    "resetPassword":{
-        "newPassword":"Nova lozinka",
-        "confirmNewPassword":"Potvrdi novu lozinku",
-        "resetPassword":"Obnovi lozinku",
-        "passwordsDoNotMatch":"Lozinke se ne podudaraju",
-        "invalidPassword": "Vaša lozinka nije dovoljno jaka!"
-    },
+   "resetPassword": {
+	"newPassword": "Nova lozinka",
+	"confirmNewPassword": "Potvrdite novu lozinku",
+	"resetPassword": "Resetiraj lozinku",
+	"passwordsDoNotMatch": "Lozinke se ne podudaraju",
+	"invalidPassword": "Vaša lozinka nije dovoljno jaka!",
+	"resetPasswordSuccess": "Vaša lozinka je uspješno resetirana. Molimo prijavite se s novom lozinkom.",
+	"resetPasswordError": "Došlo je do pogreške prilikom resetiranja lozinke. Molimo pokušajte ponovno."
+},
     "playlist": {
         "createNew": "Kreiraj novi popis pjesama",
         "edit":"Uredi popis pjesama",
