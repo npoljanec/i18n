@@ -1267,7 +1267,7 @@
 		"securityInfo": "Security info",
 		"validations": {
 			"nameRequired": "Name is required",
-			"surnameRequired": "Surname is required",
+			"lastNameRequired": "Last name is required",
 			"usernameRequired": "Username is required",
 			"emailRequired": "E-mail is required",
 			"yearOfBirthRequired": "Year of birth is required",
