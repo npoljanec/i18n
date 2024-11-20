@@ -434,7 +434,8 @@
         "bpm":"{{bpm}} bpm",
         "info": "Informacije o audio projektu",
         "numberOfItems":"Prikazano {{shown}} od {{total}} stavki",
-        "initialLoadingText":"Učitavanje audio projekata"
+        "initialLoadingText":"Učitavanje audio projekata",
+	"noChannels": "Nema kanala u ovom audio projektu"
     },
     "confirmationModal": {
         "title": "Potvrdi radnju",
