@@ -453,6 +453,16 @@
 	"loadingMore": "Učitavanje obavijesti"
 
     },
+	"exportComponent": {
+		"choose": "Odaberi format zvuka",
+		"exportSelected": "Izvezi odabrano",
+		"formatError": "Morate odabrati format",
+		"exportAllTooltip": "Izvezi sve stavke (tekstove, tabove, bilješke, zvukove)",
+		"itemWithCount_one": "Odabrana {{count}} stavka",
+		"itemWithCount_other": "Odabrano {{count}} stavki",
+		"exportError": "Ova datoteka je već preuzeta. Provjerite mapu za preuzimanja ili ponovno izvezite.",
+		"exportErrorExpired": "Link za preuzimanje je istekao, molimo ponovno izvezite."
+	},
 	"actionVersion": {
 		"tiny": {
 			"name": "Minimalan",
