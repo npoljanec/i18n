@@ -1235,20 +1235,22 @@
 		"termsAndConditions": "Nastavljanjem prihvaćate naše <0>Uvjete korištenja</0> i <1>Pravila privatnosti</1>."
 	},
 	"createAccount": {
-		"goBackTitle": "Jeste li sigurni da se želite vratiti na prethodnu stranicu?",
+		"goBackTitle": "Jeste li sigurni da se želite vratiti?",
 		"unsavedChanges": "Sve nespremljene promjene bit će izgubljene.",
 		"basicInfo": "Osnovne informacije",
 		"securityInfo": "Sigurnosne informacije",
 		"validations": {
 			"nameRequired": "Ime je obavezno",
-      			"surnameRequired": "Prezime je obavezno",
+			"lastNameRequired": "Prezime je obavezno",
 			"usernameRequired": "Korisničko ime je obavezno",
-			"emailRequired": "E-pošta je obavezna",
+			"emailRequired": "E-mail je obavezan",
 			"yearOfBirthRequired": "Godina rođenja je obavezna",
-			"invalidYearOfBirthFormat": "Neispravan format",
-			"invalidYearOfBirth": "Neispravna godina rođenja",
+			"invalidYearOfBirthFormat": "Nevažeći format",
+			"invalidYearOfBirth": "Nevažeća godina rođenja",
 			"passwordRequired": "Lozinka je obavezna",
-			"repeatedPasswordRequired": "Ponovljena lozinka je obavezna"
+			"repeatedPasswordRequired": "Ponovljena lozinka je obavezna",
+			"emailTaken": "E-mail je već zauzet",
+			"usernameTaken": "Korisničko ime je već zauzeto"
 		}
 	},
 	"stemEditor":{
