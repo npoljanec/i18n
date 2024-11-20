@@ -1621,24 +1621,31 @@
 		}
 	},
 	
-	
-	"repository":{
-		"joinDate":"Joining date",
-		"tokensSpent":"Token spent",
+	"repository": {
+		"joinDate": "Joining date",
+		"tokensSpent": "Token spent",
 		"sharedRepositoriesTitle": "List of repositories shared with you",
 		"sharedRepositoriesError": "There was an error fetching repositories, please try again.",
-		"userGroup":"User group",
-		"userGroupDescription":"Manage other users that have access to your workspace and audio projects",
-		"searchUsers":"Search users",
-		"addUser":"Add user",
+		"userGroup": "User group",
+		"userGroupDescription": "Manage other users that have access to your workspace and audio projects",
+		"searchUsers": "Search users",
+		"addUser": "Add user",
 		"leaveRepositoryTitle": "Leave {{item}}",
 		"leaveRepositoryDescription": "Confirm that you want to leave {{item}}.",
 		"removeFromRepositoryTitle": "Remove {{item}} from your repository",
 		"removeFromRepositoryDescription": "Confirm that you want to remove {{item}} from your repository.",
-		"leave":"Leave",
-		"remove":"Remove",
-		"addUserTitle":"Add user to your repository",
-		"addUserDescription":"Enter the email of the user you wish to add to your repository."
+		"leave": "Leave",
+		"remove": "Remove",
+		"addUserTitle": "Add user to your repository",
+		"addUserDescription": "Enter the email of the user you wish to add to your repository.",
+		"details": {
+			"actionType": "Action type",
+			"tokenHistory": "Token transaction history",
+			"actionsLog": "Actions log",
+			"repositoryDetails": "Repository details",
+			"tokenSpend": "Tokens spent",
+			"transactionTime": "Transaction time"
+		}
 	}
 }
 
