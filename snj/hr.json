@@ -1593,7 +1593,34 @@
 				"description": "Dimebag Darrell Krankenstein je pojačalo sa potpisom koje je dizajnirano za pokojnog Dimebaga Darrella iz Pantere. Poznato je po svom visokogainskom zvuku i agresivnoj tonalnosti, što ga čini popularnim izborom među metal gitaristima."
 			}
 		}
+	},
+	"repository": {
+		"joinDate": "Datum pridruživanja",
+		"tokensSpent": "Utrošeni tokeni",
+		"sharedRepositoriesTitle": "Popis repozitorija podijeljenih s vama",
+		"sharedRepositoriesError": "Došlo je do pogreške prilikom dohvaćanja repozitorija, pokušajte ponovo.",
+		"userGroup": "Korisnička grupa",
+		"userGroupDescription": "Upravljajte drugim korisnicima koji imaju pristup vašem radnom prostoru i audio projektima",
+		"searchUsers": "Pretraži korisnike",
+		"addUser": "Dodaj korisnika",
+		"leaveRepositoryTitle": "Napusti {{item}}",
+		"leaveRepositoryDescription": "Potvrdite da želite napustiti {{item}}.",
+		"removeFromRepositoryTitle": "Ukloni {{item}} iz vašeg repozitorija",
+		"removeFromRepositoryDescription": "Potvrdite da želite ukloniti {{item}} iz vašeg repozitorija.",
+		"leave": "Napusti",
+		"remove": "Ukloni",
+		"addUserTitle": "Dodaj korisnika u svoj repozitorij",
+		"addUserDescription": "Unesite email korisnika kojeg želite dodati u svoj repozitorij.",
+		"details": {
+			"actionType": "Vrsta akcije",
+			"tokenHistory": "Povijest transakcija tokena",
+			"actionsLog": "Dnevnik akcija",
+			"repositoryDetails": "Detalji repozitorija",
+			"tokenSpend": "Potrošeni tokeni",
+			"transactionTime": "Vrijeme transakcije"
+		}
 	}
+
 	
 
 }
