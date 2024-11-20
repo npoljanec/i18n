@@ -727,8 +727,25 @@
 			}
 		}
 	},
+	"audioItemType": {
+		"original": {
+			"name": "Original",
+			"description": ""
+		},
+		"stem": {
+			"name": "Stem",
+			"description": ""
+		},
+		"mix": {
+			"name": "Miks",
+			"description": ""
+		},
+		"other": {
+			"name": "Ostalo",
+			"description": ""
+		}
+	},
 
-	
 	"actionVersion": {
 		"tiny": {
 			"name": "Minimalan",
