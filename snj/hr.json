@@ -1566,8 +1566,34 @@
 		"applying": "Primjena efekta...",
 		"apply": "Primijeni efekte"
 	}
-}
-
+},
+	"amplifier": {
+		"name": "Pojačala",
+		"marshall": {
+			"1959hw": {
+				"bass": {
+					"name": "Marshall 1959HW Bass",
+					"description": "Marshall 1959HW Bass je pojačalo za bas gitaru poznato po svom toplom i udarnom zvuku. Idealno je za basiste koji žele klasičan rock zvuk."
+				}
+			}
+		},
+		"fender": {
+			"twinverb": {
+				"vibrato": {
+					"bright": {
+						"name": "Fender Twin Reverb Vibrato Bright",
+						"description": "Ovo je varijanta Fender Twin Reverb pojačala koja ima bright switch i vibrato efekt. Poznato je po svom čistom i svijetlom zvuku, što ga čini popularnim među gitaristima koji sviraju čisti ili country zvuk."
+					}
+				}
+			}
+		},
+		"dc": {
+			"krankenstein": {
+				"name": "Dimebag Darrell Krankenstein",
+				"description": "Dimebag Darrell Krankenstein je pojačalo sa potpisom koje je dizajnirano za pokojnog Dimebaga Darrella iz Pantere. Poznato je po svom visokogainskom zvuku i agresivnoj tonalnosti, što ga čini popularnim izborom među metal gitaristima."
+			}
+		}
+	}
 	
 
 }
