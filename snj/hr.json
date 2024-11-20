@@ -463,6 +463,28 @@
 		"exportError": "Ova datoteka je već preuzeta. Provjerite mapu za preuzimanja ili ponovno izvezite.",
 		"exportErrorExpired": "Link za preuzimanje je istekao, molimo ponovno izvezite."
 	},
+	 "dataItem": {
+		"musicalNotes": {
+			"name": "Glazbene note",
+			"description": ""
+		},
+		"tabs": {
+			"name": "Tabovi",
+			"description": ""
+		},
+		"lyrics": {
+			"name": "Stihovi",
+			"description": ""
+		},
+		"midi": {
+			"name": "Midi",
+			"description": ""
+		},
+		"format": {
+			"name": "Audio",
+			"description": ""
+		}
+	},
 	"actionVersion": {
 		"tiny": {
 			"name": "Minimalan",
@@ -496,28 +518,7 @@
 			}
 		}
 	},
-    "dataItem": {
-		"musicalNotes": {
-			"name": "Glazbene note",
-			"description": ""
-		},
-		"tabs": {
-			"name": "Tabovi",
-			"description": ""
-		},
-		"lyrics": {
-			"name": "Stihovi",
-			"description": ""
-		},
-		"midi": {
-			"name": "Midi",
-			"description": ""
-		},
-		"format": {
-			"name": "Audio",
-			"description": ""
-		}
-	},
+   
 	"instrumentGroup": {
 		"vocals": {
 			"name": "Vokali",
