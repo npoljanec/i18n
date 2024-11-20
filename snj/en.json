@@ -356,6 +356,15 @@
 		"expandAll": "Expand all",
 		"collapseAll": "Collapse all"
 	},
+	"stems": {
+		    "vocals": "Vocals",
+		    "guitar": "Guitar",
+		    "electricGuitar": "Electric Guitar",
+		    "keyboards": "Keyboards",
+		    "drums": "Drums",
+		    "sax": "Saxophone",
+		    "trumpet": "Trumpet"
+	},
 	"notFound": {
 		"title": "This specific Stem or Jam is nowhere to be found"
 	},
