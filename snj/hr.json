@@ -341,15 +341,21 @@
             "title": "Naslov"
         }
     },
-    "uploadWizard": {
-        "selectChannels"  : "Odaberi kanale za razdvajanje",
-        "nextStep": "Sljedeći korak",
-        "previousStep": "Prethodni korak",
-        "spaceRequired": "Potrebni prostor",
-        "tokenRequired": "Potrebni tokeni",
-        "available": "dostupno",
-        "modalTitle": "Odustani od učitavanja",
-        "modalText": "Jeste li sigurni da želite odustati od učitavanja?"
+   "uploadWizard": {
+	"selectChannels": "Odaberite stemove za separaciju",
+	"nextStep": "Sljedeći korak",
+	"previousStep": "Prethodni korak",
+	"spaceRequired": "Potreban prostor",
+	"tokenRequired": "Potrebni tokeni",
+	"available": "dostupno",
+	"modalTitle": "Otkaži prijenos",
+	"modalText": "Jeste li sigurni da želite otkazati prijenos?",
+	"separation": "Separacija",
+	"subtraction": "Oduzimanje",
+	"separationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
+	"allInstruments": "Svi {{instrumentName}} u jednom stemu",
+	"expandAll": "Proširi sve",
+	"collapseAll": "Sakrij sve"
     },
     "stems": {
         "vocals": "Vokali",
