@@ -1275,7 +1275,7 @@
 		"connection": "povezivanje",
 		"connected": "povezano"
 	},
-	
+	{
   "stemEditor": {
 	    "mute": "Utišaj",
 	    "solo": "Solo",
@@ -1411,6 +1411,6 @@
 		      "chooseGroupForEdit": "Odaberite grupu koju želite urediti."
 	    }
 	  }
-	
+	}
 
 }
