@@ -199,8 +199,8 @@
             }
         },
         "amplifier": {
-            "unsupported": "Zatraženi pojačavač ne može se primijeniti na ovu audio stavku.",
-            "notFound": "Zatraženi pojačavač nije dostupan. Odaberite podržani pojačavač."
+            "unsupported": "Zatraženo pojačalo ne može se primijeniti na ovu audio stavku.",
+            "notFound": "Zatraženo pojačalo nije dostupno. Odaberite podržano pojačalo."
         },
         "effect": {
             "validation": {
@@ -509,7 +509,7 @@
             "description": ""
         },
         "synths": {
-            "name": "Sintisajzeri",
+            "name": "Sintesajzeri",
             "description": ""
         },
         "piano": {
@@ -1508,7 +1508,7 @@
             },
             "phaser": {
                 "name": "Phaser",
-                "description": "Phaser pomiče faze zvuka, stvarajući talasaste vrhove i udubljenja u frekvencijskom spektru za vrtložni efekt."
+                "description": "Phaser pomiče faze zvuka, stvarajući valovite vrhove i udubljenja u frekvencijskom spektru za vrtložni efekt."
             },
             "highShelfFilter": {
                 "name": "Highshelf filter",
@@ -1563,7 +1563,7 @@
             },
             "phasedBrightness": {
                 "name": "Phased svjetlost",
-                "description": "Phased svjetlost efekt uvodi faznu modulaciju za talasasti, svijetli efekt, dodajući pokret i složenost zvuku."
+                "description": "Phased svjetlost efekt uvodi faznu modulaciju za valoviti, svijetli efekt, dodajući pokret i složenost zvuku."
             },
             "echoedPhasedBrightness": {
                 "name": "Echoed phased brightness",
@@ -1654,7 +1654,7 @@
         "dc": {
             "krankenstein": {
                 "name": "Dimebag Darrell Krankenstein",
-                "description": "Dimebag Darrell Krankenstein je pojačalo sa potpisom koje je dizajnirano za pokojnog Dimebaga Darrella iz Pantere. Poznato je po svom visokogainskom zvuku i agresivnoj tonalnosti, što ga čini popularnim izborom među metal gitaristima."
+                "description": "Dimebag Darrell Krankenstein je pojačalo sa potpisom koje je dizajnirano za pokojnog Dimebaga Darrella iz Pantere. Poznato je po svom glasnom zvuku i agresivnoj tonalnosti, što ga čini popularnim izborom među metal gitaristima."
             }
         }
     },
