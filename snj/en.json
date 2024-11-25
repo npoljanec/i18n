@@ -6,6 +6,7 @@
         "playlists": "Playlists",
         "soon": "Soon",
         "size": "{{size}} MB",
+        "sizeText": "Size",
         "minSecFormat": "{{min}} min {{sec}} sec",
         "themeSwitch": "Theme switch",
         "save": "Save",
@@ -62,7 +63,8 @@
         "details": "Details",
         "status": "Status",
         "action": "Action",
-        "downloadExport": "Download manually"
+        "downloadExport": "Download manually",
+        "info": "Info"
     },
     "accountActivation": {
         "activateSuccess": "Your account is activated. You can now login.",
@@ -512,6 +514,10 @@
         },
         "piano": {
             "name": "Piano",
+            "description": ""
+        },
+        "others": {
+            "name": "Others",
             "description": ""
         }
     },
