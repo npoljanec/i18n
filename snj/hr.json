@@ -6,6 +6,7 @@
         "playlists": "Popisi pjesama",
         "soon": "Uskoro",
         "size": "{{size}} MB",
+        "sizeText": "Veličina",
         "minSecFormat": "{{min}} min {{sec}} sek",
         "themeSwitch": "Promjena teme",
         "save": "Spremi",
@@ -62,7 +63,8 @@
         "details": "Detalji",
         "status": "Status",
         "action": "Radnja",
-        "downloadExport": "Preuzmi ručno"
+        "downloadExport": "Preuzmi ručno",
+        "info": "Info",
     },
     "accountActivation": {
         "activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti.",
@@ -512,6 +514,10 @@
         },
         "piano": {
             "name": "Klavijature",
+            "description": ""
+        },
+        "others": {
+            "name": "Ostali",
             "description": ""
         }
     },
