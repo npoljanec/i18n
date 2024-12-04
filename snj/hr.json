@@ -64,7 +64,7 @@
         "status": "Status",
         "action": "Radnja",
         "downloadExport": "Preuzmi ručno",
-        "info": "Info",
+        "info": "Info"
     },
     "accountActivation": {
         "activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti.",
