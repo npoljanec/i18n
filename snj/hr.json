@@ -64,7 +64,8 @@
         "status": "Status",
         "action": "Radnja",
         "downloadExport": "Preuzmi ručno",
-        "info": "Info"
+        "info": "Info",
+        "copyOf": "Copy of {{name}}"
     },
     "accountActivation": {
         "activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti.",
@@ -518,6 +519,10 @@
         },
         "others": {
             "name": "Ostali",
+            "description": ""
+        },
+        "recording": {
+            "name": "Recording",
             "description": ""
         }
     },
