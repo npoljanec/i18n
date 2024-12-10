@@ -64,7 +64,8 @@
         "status": "Status",
         "action": "Action",
         "downloadExport": "Download manually",
-        "info": "Info"
+        "info": "Info",
+        "copyOf": "Copy of {{name}}"
     },
     "accountActivation": {
         "activateSuccess": "Your account is activated. You can now login.",
@@ -518,6 +519,10 @@
         },
         "others": {
             "name": "Others",
+            "description": ""
+        },
+         "recording": {
+            "name": "Recording",
             "description": ""
         }
     },
