@@ -65,7 +65,7 @@
         "action": "Action",
         "downloadExport": "Download manually",
         "info": "Info",
-        "copyOf": "Copy of {{name}}"
+        "copyOf": "Copyl of {{name}}"
     },
     "accountActivation": {
         "activateSuccess": "Your account is activated. You can now login.",
