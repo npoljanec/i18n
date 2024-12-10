@@ -65,7 +65,7 @@
         "action": "Radnja",
         "downloadExport": "Preuzmi ručno",
         "info": "Info",
-        "copyOf": "Copy of {{name}}"
+        "copyOf": "{{name}} - kopija"
     },
     "accountActivation": {
         "activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti.",
@@ -522,7 +522,7 @@
             "description": ""
         },
         "recording": {
-            "name": "Recording",
+            "name": "Snimka",
             "description": ""
         }
     },
