@@ -57,6 +57,7 @@
         "exportAll": "Izvezi sve",
         "view": "Prikaži",
         "effects": "Efekti",
+        "noEffects": "Nema efekata",
         "stillProcessing": "Audio stavka se još obrađuje",
         "recording": "Snimanje",
         "close": "Zatvori",
@@ -64,8 +65,7 @@
         "status": "Status",
         "action": "Radnja",
         "downloadExport": "Preuzmi ručno",
-        "info": "Info",
-        "copyOf": "{{name}} - kopija"
+        "info": "Info"
     },
     "accountActivation": {
         "activateSuccess": "Vaš račun je aktiviran. Sada se možete prijaviti.",
@@ -520,10 +520,6 @@
         "others": {
             "name": "Ostali",
             "description": ""
-        },
-        "recording": {
-            "name": "Snimka",
-            "description": ""
         }
     },
     "instrument": {
@@ -753,6 +749,22 @@
             "effect": {
                 "name": "Efekti"
             }
+        },
+         "record": {
+            "name": "Snimka",
+            "description": ""
+        },
+        "merged": {
+            "name": "Spojeno",
+            "description": ""
+        },
+        "metronome": {
+            "name": "Metronom",
+            "description": ""
+        },
+         "cloned": {
+            "name": "kopija",
+            "description": ""
         }
     },
     "audioItemType": {
