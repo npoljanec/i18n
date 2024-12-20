@@ -57,6 +57,7 @@
         "exportAll": "Export all",
         "view": "View",
         "effects": "Effects",
+        "noEffects": "No effects",
         "stillProcessing": "Audio item is still being processed",
         "recording": "Recording",
         "close": "Close",
@@ -64,8 +65,7 @@
         "status": "Status",
         "action": "Action",
         "downloadExport": "Download manually",
-        "info": "Info",
-        "copyOf": "Copy of {{name}}"
+        "info": "Info"
     },
     "accountActivation": {
         "activateSuccess": "Your account is activated. You can now login.",
@@ -520,10 +520,6 @@
         "others": {
             "name": "Others",
             "description": ""
-        },
-         "recording": {
-            "name": "Recording",
-            "description": ""
         }
     },
     "instrument": {
@@ -753,6 +749,22 @@
             "effect": {
                 "name": "Effect"
             }
+        },
+         "record": {
+            "name": "Recording",
+            "description": ""
+        },
+        "merged": {
+            "name": "Merged",
+            "description": ""
+        },
+        "metronome": {
+            "name": "Metronome",
+            "description": ""
+        },
+        "cloned": {
+            "name": "cloned",
+            "description": ""
         }
     },
     "audioItemType": {
