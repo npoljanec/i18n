@@ -442,7 +442,8 @@
         "failedToLoad": "Učitavanje obavijesti nije uspjelo",
         "showAll": "Prikaži sve obavijesti",
         "initialLoadingText": "Učitavanje obavijesti",
-        "loadingMore": "Učitavanje obavijesti"
+        "loadingMore": "Učitavanje obavijesti",
+        "readAll": "Pročitaj sve"
     },
     "exportComponent": {
         "choose": "Odaberi format zvuka",
