@@ -1477,7 +1477,9 @@
             "selectMicrophone": "Select microphone",
             "chooseMicrophone": "Choose microphone",
             "unknownMicrophone": "Unknown microphone",
-            "recordButton": "Starting a new recording will overwrite the existing one."
+            "recordButton": "Starting a new recording will overwrite the existing one.",
+            "bpm": "Beats per minute",
+            "pitch": "Pitch"
         },
         "groups": {
             "title": "Groups",
