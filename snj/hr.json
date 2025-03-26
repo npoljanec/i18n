@@ -1478,7 +1478,9 @@
             "selectMicrophone": "Odaberite mikrofon",
             "chooseMicrophone": "Odaberite mikrofon",
             "unknownMicrophone": "Nepoznat mikrofon",
-            "recordButton": "Pokretanje nove snimke će prebrisati postojeću."
+            "recordButton": "Pokretanje nove snimke će prebrisati postojeću.",
+            "bpm": "Tempo",
+            "pitch": "Visina tona"
         },
         "groups": {
             "title": "Grupe",
