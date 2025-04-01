@@ -1480,7 +1480,10 @@
             "unknownMicrophone": "Nepoznat mikrofon",
             "recordButton": "Pokretanje nove snimke će prebrisati postojeću.",
             "bpm": "Tempo",
-            "pitch": "Visina tona"
+            "pitch": "Visina tona",
+            "countdownNever": "Bez odbrojavanja",
+            "countdownOnce": "Odbroji jednom",
+            "countdownAlways": "Odbroji svaki put"
         },
         "groups": {
             "title": "Grupe",
