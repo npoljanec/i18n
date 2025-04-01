@@ -1479,7 +1479,10 @@
             "unknownMicrophone": "Unknown microphone",
             "recordButton": "Starting a new recording will overwrite the existing one.",
             "bpm": "Beats per minute",
-            "pitch": "Pitch"
+            "pitch": "Pitch",
+            "countdownNever": "No countdown",
+            "countdownOnce": "Countdown once",
+            "countdownAlways": "Countdown every time"
         },
         "groups": {
             "title": "Groups",
